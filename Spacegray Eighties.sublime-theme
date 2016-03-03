@@ -1027,7 +1027,7 @@
         "class": "disclosure_button_control",
         "settings": ["spacegray_color_expanded_folder"],
         "attributes": ["expanded"],
-        "layer0.tint": [254, 204, 102] // 0A
+        "layer0.tint": [255, 145, 77] // 0A
     },
 
 //
