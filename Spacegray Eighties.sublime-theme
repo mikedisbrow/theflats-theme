@@ -512,7 +512,7 @@
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [79, 91, 102] // 03
+        "color": [101, 101, 101] // 03
     },
     {
         "class": "sidebar_label",
@@ -538,7 +538,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable"]}],
-        "color": [255, 203, 10] // 03
+        "color": [255, 203, 107] // 03
     },
     {
         "class": "sidebar_label",
@@ -741,9 +741,9 @@
     {
         "class": "quick_panel_label",
         "fg": [178, 204, 214], // 04
-        "match_fg": [29, 233, 182, 255], // 05
+        "match_fg": [255, 203, 107, 255], // 05
         "selected_fg": [178, 204, 214, 255], // 05
-        "selected_match_fg": [29, 233, 182, 255] // 07
+        "selected_match_fg": [255, 203, 107, 255] // 07
     },
     {
         "class": "quick_panel_path_label",
@@ -754,8 +754,8 @@
     },
     {
         "class": "quick_panel_score_label",
-        "fg": [29, 233, 182, 255], // 03
-        "selected_fg": [29, 233, 182, 255] // 03
+        "fg": [255, 203, 107, 255], // 03
+        "selected_fg": [255, 203, 107, 255] // 03
     },
 
 //
@@ -792,9 +792,9 @@
     {
         "class": "auto_complete_label",
         "fg": [178, 204, 214], // 04
-        "match_fg": [29, 233, 182, 255], // 05
+        "match_fg": [255, 203, 107, 255], // 05
         "selected_fg": [178, 204, 214, 255], // 05
-        "selected_match_fg": [29, 233, 182, 255] // 07
+        "selected_match_fg": [255, 203, 107, 255] // 07
     },
     {
         "class": "table_row",
@@ -881,7 +881,7 @@
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [29, 233, 182] // 07
+        "layer0.tint": [255, 203, 107] // 07
     },
     // Case sensitive search button
     {
@@ -894,7 +894,7 @@
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [29, 233, 182] // 07
+        "layer0.tint": [255, 203, 107] // 07
     },
     // Match whole word search button
     {
@@ -907,7 +907,7 @@
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [29, 233, 182] // 07
+        "layer0.tint": [255, 203, 107] // 07
     },
 
 //
@@ -925,7 +925,7 @@
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [29, 233, 182] // 07
+        "layer0.tint": [255, 203, 107] // 07
     },
     // Use search buffer
     {
@@ -938,7 +938,7 @@
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [29, 233, 182] // 07
+        "layer0.tint": [255, 203, 107] // 07
     },
 
 //
@@ -955,7 +955,7 @@
     {
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [29, 233, 182] // 07
+        "layer0.tint": [255, 203, 107] // 07
     },
     // Search wrap button
     {
@@ -968,7 +968,7 @@
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [29, 233, 182] // 07
+        "layer0.tint": [255, 203, 107] // 07
     },
     // Search in selection button
     {
@@ -981,7 +981,7 @@
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [29, 233, 182] // 07
+        "layer0.tint": [255, 203, 107] // 07
     },
 
 //
@@ -999,7 +999,7 @@
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [29, 233, 182] // 07
+        "layer0.tint": [255, 203, 107] // 07
     },
 
 //
@@ -1017,7 +1017,7 @@
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [29, 233, 182] // 07
+        "layer0.tint": [255, 203, 107] // 07
     },
 
 //
@@ -1027,7 +1027,7 @@
         "class": "disclosure_button_control",
         "settings": ["spacegray_color_expanded_folder"],
         "attributes": ["expanded"],
-        "layer0.tint": [29, 233, 182] // 0A
+        "layer0.tint": [255, 203, 107] // 0A
     },
 
 //
