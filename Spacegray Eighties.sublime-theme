@@ -12,10 +12,10 @@
         "layer0.inner_margin": 0,
         "layer0.opacity": 1,
         "content_margin": 0,
-        "tab_overlap": 0,
-        "tab_width": 128,
-        "tab_min_width": 48,
-        "tab_height": 26,
+        "tab_overlap": 1,
+        "tab_width": 200,
+        "tab_min_width": 100,
+        "tab_height": 35,
         "mouse_wheel_switch": false
     },
     {
@@ -153,6 +153,8 @@
     {
         "class": "tab_label",
         "fade": true,
+        "font.size": 12,
+        "font.bold": true,
         "fg": [101, 101, 101] // 03
     },
     {
@@ -174,23 +176,80 @@
     // Tab Labels font size
     {
         "class": "tab_label",
-        "settings": ["spacegray_tabs_font_small"],
+        "settings": ["spacegray_tabs_font_10"],
         "font.size": 10.0
     },
     {
         "class": "tab_label",
-        "settings": ["spacegray_tabs_font_normal"],
+        "settings": ["spacegray_tabs_font_11"],
         "font.size": 11.0
     },
     {
         "class": "tab_label",
-        "settings": ["spacegray_tabs_font_large"],
-        "font.size": 12.0
+        "settings": ["spacegray_tabs_font_14"],
+        "font.size": 14.0
+    },
+
+//
+// TAB SCROLLING
+//
+
+    // Tab dropdown
+    {
+        "class": "show_tabs_dropdown_button",
+        "content_margin": [12,10],
+        "layer0.texture": "Theme - Spacegray/other_icons/tabset-list-hover@2x.png",
+        "layer0.opacity": 1,
+        "layer0.inner_margin": [5,0,5,0]
     },
     {
-        "class": "tab_label",
-        "settings": ["spacegray_tabs_font_xlarge"],
-        "font.size": 14.0
+        "class": "show_tabs_dropdown_button",
+        "attributes": ["hover"],
+        "layer0.texture": "Theme - Spacegray/other_icons/tabset-list@2x.png",
+        "layer0.opacity": 1
+    },
+    // Tab scroll left
+    {
+        "class": "scroll_tabs_left_button",
+        "content_margin": [9, 7, 8, 6],
+        "layer0.texture": "Theme - Spacegray/other_icons/tabset-left-hover@2x.png",
+        "layer0.opacity": 1
+    },
+    {
+        "class": "scroll_tabs_left_button",
+        "attributes": ["hover"],
+        "layer0.texture": "Theme - Spacegray/other_icons/tabset-left@2x.png",
+        "layer0.opacity": 1
+    },
+    // Tab scroll right
+    {
+        "class": "scroll_tabs_right_button",
+        "content_margin": [9, 7, 8, 6],
+        "layer0.texture": "Theme - Spacegray/other_icons/tabset-right-hover@2x.png",
+        "layer0.opacity": 1
+    },
+    {
+        "class": "scroll_tabs_right_button",
+        "attributes": ["hover"],
+        "layer0.texture": "Theme - Spacegray/other_icons/tabset-right@2x.png",
+        "layer0.opacity": 1
+    },
+    // options
+    {
+        "class": "show_tabs_dropdown_button",
+        "settings": ["Spacegray_no_tab_scroll_icons"],
+        "content_margin": 0,
+        "layer0.inner_margin": 0
+    },
+    {
+        "class": "scroll_tabs_right_button",
+        "settings": ["Spacegray_no_tab_scroll_icons"],
+        "content_margin": 0
+    },
+    {
+        "class": "scroll_tabs_left_button",
+        "settings": ["Spacegray_no_tab_scroll_icons"],
+        "content_margin": 0
     },
 
 //
