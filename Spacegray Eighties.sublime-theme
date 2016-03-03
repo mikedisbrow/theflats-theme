@@ -348,7 +348,7 @@
 
     {
         "class": "sheet_container_control",
-        "layer0.tint": [45, 45, 45],
+        "layer0.tint": [33, 33, 33],
         "layer0.opacity": 1
     },
 
@@ -359,7 +359,7 @@
     {
         "class": "grid_layout_control",
         "border_size": 1,
-        "border_color": [30, 30, 30] // -00
+        "border_color": [33, 33, 33] // -00
     },
 
 //
@@ -368,7 +368,7 @@
 
     {
         "class": "minimap_control",
-        "viewport_color": [255,255,255,15]
+        "viewport_color": [178, 204, 214, 15]
     },
 
 //
