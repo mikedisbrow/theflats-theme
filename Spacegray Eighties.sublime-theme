@@ -1,5 +1,4 @@
 [
-
 //
 // TABS (REGULAR)
 //
@@ -69,7 +68,7 @@
         "class": "tab_close_button",
         "layer0.texture": "Theme - Spacegray/Spacegray/close.png",
         "layer0.opacity": 0,
-        "layer0.tint": [101, 101, 101] // 03
+        "layer0.tint": [101, 115, 126] // 03
     },
     {
         "class": "tab_close_button",
@@ -87,7 +86,7 @@
         "parents": [{"class": "tab_control"}],
         "attributes": ["hover"],
         "layer0.opacity": 1,
-        "layer0.tint": [178, 204, 214] // 08
+        "layer0.tint": [205, 211, 222] // 08
     },
     {
         "class": "tab_close_button",
@@ -99,7 +98,7 @@
         "class": "tab_close_button",
         "parents": [{"class": "tab_control","attributes": ["dirty"]}],
         "layer0.texture": "Theme - Spacegray/Spacegray/circle.png",
-        "layer0.tint": [255, 145, 77], // 0A
+        "layer0.tint": [255, 203, 107], // 0A
         "layer0.opacity": 1
     },
     {
@@ -115,7 +114,7 @@
         "layer0.texture": "Theme - Spacegray/Spacegray/close.png",
         "attributes": ["hover"],
         "layer0.opacity": 1,
-        "layer0.tint": [255, 145, 77] // 08
+        "layer0.tint": [255, 203, 107] // 08
     },
     {
         "class": "tab_close_button",
@@ -153,19 +152,17 @@
     {
         "class": "tab_label",
         "fade": true,
-        "font.size": 12,
-        "font.bold": true,
-        "fg": [101, 101, 101] // 03
+        "fg": [101, 115, 126] // 03
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control","attributes": ["hover"]}],
-        "fg": [178, 204, 214] // 05
+        "fg": [167, 173, 186] // 05
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control","attributes": ["selected"]}],
-        "fg": [238, 255, 255] // 06
+        "fg": [205, 211, 222] // 06
     },
     {
         "class": "tab_label",
@@ -183,6 +180,11 @@
         "class": "tab_label",
         "settings": ["spacegray_tabs_font_11"],
         "font.size": 11.0
+    },
+    {
+        "class": "tab_label",
+        "settings": ["spacegray_tabs_font_12"],
+        "font.size": 12.0
     },
     {
         "class": "tab_label",
@@ -259,7 +261,7 @@
     {
         "class": "fold_button_control",
         "layer0.texture": "Theme - Spacegray/Spacegray/folder-closed.png",
-        "layer0.tint": [178, 204, 214], // 04
+        "layer0.tint": [205, 211, 222], // 04
         "layer0.opacity": 0.5,
         "layer0.inner_margin": 0,
         "content_margin": [8,8]
@@ -287,7 +289,7 @@
     {
         "class": "scroll_bar_control",
         "layer0.texture": "",
-        "layer0.tint": [33, 33, 33], // -01
+        "layer0.tint": [28, 28, 28], // -01
         "layer0.opacity": 1,
         "layer0.inner_margin": [0,0],
         "blur": true
@@ -297,7 +299,7 @@
         "class": "scroll_bar_control",
         "attributes": ["horizontal"],
         "layer0.texture": "",
-        "layer0.tint": [33, 33, 33], // -01
+        "layer0.tint": [28, 28, 28], // -01
         "layer0.inner_margin": [0,0],
         "blur": true
     },
@@ -305,7 +307,7 @@
     {
         "class": "scroll_corner_control",
         "layer0.texture": "",
-        "layer0.tint": [33, 33, 33], // -01
+        "layer0.tint": [28, 28, 28], // -01
         "layer0.inner_margin": [0,0],
         "layer0.opacity": 1
     },
@@ -313,7 +315,7 @@
     {
         "class": "puck_control",
         "layer0.texture": "",
-        "layer0.tint": [178, 204, 214],
+        "layer0.tint": [167, 173, 186],
         "layer0.opacity": 1,
         "layer0.inner_margin": [0,0],
         "content_margin": [6,0],
@@ -324,7 +326,7 @@
         "class": "puck_control",
         "attributes": ["horizontal"],
         // "layer0.texture": "",
-        "layer0.tint": [178, 204, 214], // 01
+        "layer0.tint": [167, 173, 186], // 01
         "layer0.inner_margin": [0,0],
         "content_margin": [12,6],
         "blur": false
@@ -350,7 +352,7 @@
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
         // "layer0.texture": "",
-        "layer0.tint": [33, 33, 33], // 00
+        "layer0.tint": [28, 28, 28], // 00
         "layer0.inner_margin": [0,5],
         "layer0.opacity": 0,
         "blur": false
@@ -389,7 +391,7 @@
         "settings": ["overlay_scroll_bars"],
         "attributes": ["dark"],
         // "layer0.texture": "",
-        "layer0.tint": [178, 204, 214] // 02
+        "layer0.tint": [167, 173, 186] // 02
 
     },
     // Overlay light horizontal puck (for dark content)
@@ -398,7 +400,7 @@
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal","dark"],
         // "layer0.texture": "",
-        "layer0.tint": [178, 204, 214] // 02
+        "layer0.tint": [167, 173, 186] // 02
     },
 
 //
@@ -427,7 +429,7 @@
 
     {
         "class": "minimap_control",
-        "viewport_color": [178, 204, 214, 15]
+        "viewport_color": [167, 173, 186, 15]
     },
 
 //
@@ -437,7 +439,7 @@
     // General labels
     {
         "class": "label_control",
-        "color": [178, 204, 214] // 03
+        "color": [167, 173, 186] // 03
     },
     // Text field labels
     {
@@ -449,7 +451,7 @@
         "class": "label_control",
         "parents": [{"class": "button_control"}],
         "font.bold": true,
-        "color": [255, 203, 107] // 0C
+        "color": [128, 203, 196] // 0C
     },
 
 //
@@ -460,7 +462,7 @@
     {
         "class": "tool_tip_control",
         // "layer0.texture": "",
-        "layer0.tint": [66, 66, 66], // 02
+        "layer0.tint": [28, 28, 28], // 02
         "layer0.inner_margin": [1,1],
         "layer0.opacity": 1,
         "content_margin": [4,4]
@@ -468,7 +470,7 @@
     // Tooltip content
     {
         "class": "tool_tip_label_control",
-        "color": [238, 255, 255] // 07
+        "color": [167, 173, 186] // 07
     },
 
 //
@@ -492,7 +494,7 @@
     {
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
-        "color": [167, 173, 186] // 02
+        "color": [101, 115, 126] // 02
     },
 
 //
@@ -575,29 +577,29 @@
     },
     {
         "class": "sidebar_label",
-        "settings": ["spacegray_sidebar_font_small"],
+        "settings": ["spacegray_sidebar_font_10"],
         "font.size": 10.0
     },
     {
         "class": "sidebar_label",
-        "settings": ["spacegray_sidebar_font_normal"],
+        "settings": ["spacegray_sidebar_font_11"],
         "font.size": 11.0
     },
     {
         "class": "sidebar_label",
-        "settings": ["spacegray_sidebar_font_large"],
+        "settings": ["spacegray_sidebar_font_12"],
         "font.size": 12.0
     },
     {
         "class": "sidebar_label",
-        "settings": ["spacegray_sidebar_font_xlarge"],
+        "settings": ["spacegray_sidebar_font_14"],
         "font.size": 14.0
     },
     // Sidebar folder entry
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable"]}],
-        "color": [255, 203, 107] // 03
+        "color": [101, 115, 126] // 03
     },
     {
         "class": "sidebar_label",
@@ -614,7 +616,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "color": [205, 211, 222] // 06
+        "color": [128, 203, 196] // 06
     },
 
 //
@@ -646,7 +648,7 @@
         "attributes": ["dirty"],
         "layer0.texture": "Theme - Spacegray/Spacegray/circle.png",
         "layer0.opacity": 1,
-        "layer0.tint": [255, 145, 77] // 0A
+        "layer0.tint": [255, 203, 107] // 0A
     },
     {
         "class": "close_button",
@@ -665,7 +667,7 @@
         "attributes": ["dirty", "hover"],
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
         "layer0.texture": "Theme - Spacegray/Spacegray/close.png",
-        "layer0.tint": [255, 145, 77] // 08
+        "layer0.tint": [255, 203, 107] // 08
     },
 
 //
@@ -677,14 +679,14 @@
         "class": "disclosure_button_control",
         "content_margin": [8,8],
         "layer0.texture": "Theme - Spacegray/Spacegray/folder-closed.png",
-        "layer0.tint": [255, 203, 107], // 02
+        "layer0.tint": [79, 126, 122], // 02
         "layer0.opacity": 1,
         "layer0.inner_margin": 0
     },
     {
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.tint": [255, 235, 149] // 04
+        "layer0.tint": [128, 203, 196] // 04
     },
     {
         "class": "disclosure_button_control",
@@ -719,7 +721,7 @@
         "min_size": [64,0],
         "layer0.texture": "",
         "layer0.opacity": 1,
-        "layer0.tint": [33, 33, 33], // -00
+        "layer0.tint": [28, 28, 28], // -00
         "layer0.inner_margin": [8,8]
     },
     // Hover button state
@@ -727,14 +729,14 @@
         "class": "button_control",
         "attributes": ["hover"],
         "layer0.texture": "",
-        "layer0.tint": [66, 66, 66] // -01
+        "layer0.tint": [33, 33, 33] // -01
     },
     // Pressed button state
     {
         "class": "button_control",
         "attributes": ["pressed"],
         "layer0.texture": "",
-        "layer0.tint": [33, 33, 33] // -00
+        "layer0.tint": [28, 28, 28] // -00
     },
 //
 // TEXT INPUT FIELD
@@ -759,7 +761,7 @@
         "layer0.texture": "",
         "layer0.inner_margin": [0,0],
         "layer0.opacity": 1,
-        "layer0.tint": [33, 33, 33], // -00
+        "layer0.tint": [28, 28, 28], // -00
         "content_margin": 0
     },
     // Quick panel background
@@ -767,7 +769,7 @@
         "class": "overlay_control",
         "layer0.opacity": 1,
         "layer1.texture": "",
-        "layer1.tint": [33, 33, 33], // 01
+        "layer1.tint": [28, 28, 28], // 01
         "layer1.inner_margin": [0,0,0,0],
         "layer1.opacity": 1,
         "content_margin": 0
