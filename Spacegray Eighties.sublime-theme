@@ -782,7 +782,7 @@
     {
         "class": "popup_control",
         "content_margin": [0,0],
-        "layer0.tint": [57, 57, 57], // 01
+        "layer0.tint": [33, 33, 33], // 01
         "layer0.opacity": 1
     },
     {
@@ -791,15 +791,15 @@
     },
     {
         "class": "auto_complete_label",
-        "fg": [116, 115, 105, 255], // 03
-        "match_fg": [211, 208, 200, 255], // 05
-        "selected_fg": [116, 115, 105, 255], // 03
-        "selected_match_fg": [211, 208, 200, 255] // 05
+        "fg": [178, 204, 214], // 04
+        "match_fg": [255, 145, 77, 255], // 05
+        "selected_fg": [178, 204, 214, 255], // 05
+        "selected_match_fg": [255, 145, 77, 255] // 07
     },
     {
         "class": "table_row",
         "layer0.texture": "",
-        "layer0.tint": [81, 81, 81], // 02
+        "layer0.tint": [33, 33, 33], // 02
         "layer0.opacity": 0,
         "layer0.inner_margin": [3,1]
     },
