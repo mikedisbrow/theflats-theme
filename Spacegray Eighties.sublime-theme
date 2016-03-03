@@ -445,7 +445,7 @@
         "class": "sidebar_container",
         // "layer0.texture": "",
         "layer0.opacity": 1,
-        "layer0.tint": [38, 38, 38], // -01
+        "layer0.tint": [33, 33, 33], // -01
         "layer0.inner_margin": [1,5,2,1],
         "content_margin": [0,4,0,0]
     },
@@ -462,7 +462,7 @@
     {
         "class": "tree_row",
         // "layer0.texture": "",
-        "layer0.tint": [57, 57, 57], // 01
+        "layer0.tint": [178, 204, 214], // 01
         "layer0.opacity": 0,
         "layer0.inner_margin": [1,1]
     },
@@ -475,7 +475,7 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [81, 81, 81], // 02
+        "color": [238, 255, 255], // 02
         "font.bold": true
     },
     {
@@ -512,7 +512,7 @@
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [116, 115, 105] // 03
+        "color": [178, 204, 214] // 03
     },
     {
         "class": "sidebar_label",
@@ -538,12 +538,12 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable"]}],
-        "color": [116, 115, 105] // 03
+        "color": [255, 145, 77] // 03
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "color": [211, 208, 200] // 05
+        "color": [178, 204, 214] // 05
     },
     {
         "class": "sidebar_label",
@@ -555,7 +555,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "color": [232, 230, 223] // 06
+        "color": [255, 145, 77] // 06
     },
 
 //
