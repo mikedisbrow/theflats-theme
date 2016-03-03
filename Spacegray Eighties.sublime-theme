@@ -462,7 +462,7 @@
     {
         "class": "tree_row",
         // "layer0.texture": "",
-        "layer0.tint": [178, 204, 214], // 01
+        "layer0.tint": [21, 21, 21], // 01
         "layer0.opacity": 0,
         "layer0.inner_margin": [1,1]
     },
