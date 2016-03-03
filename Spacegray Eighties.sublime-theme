@@ -8,7 +8,7 @@
     {
         "class": "tabset_control",
         "layer0.texture": "",
-        "layer0.tint": [33, 33, 33], // -00
+        "layer0.tint": [21, 21, 21], // -00
         "layer0.inner_margin": 0,
         "layer0.opacity": 1,
         "content_margin": 0,
@@ -462,7 +462,7 @@
     {
         "class": "tree_row",
         // "layer0.texture": "",
-        "layer0.tint": [21, 21, 21], // 01
+        "layer0.tint": [33, 33, 33], // 01
         "layer0.opacity": 0,
         "layer0.inner_margin": [1,1]
     },
@@ -512,7 +512,7 @@
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [178, 204, 214] // 03
+        "color": [79, 91, 102] // 03
     },
     {
         "class": "sidebar_label",
@@ -538,12 +538,12 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable"]}],
-        "color": [178, 204, 214] // 03
+        "color": [255, 203, 10] // 03
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "color": [178, 204, 214] // 05
+        "color": [255, 235, 149] // 05
     },
     {
         "class": "sidebar_label",
@@ -555,7 +555,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "color": [29, 233, 182] // 06
+        "color": [178, 204, 214] // 06
     },
 
 //
@@ -618,14 +618,14 @@
         "class": "disclosure_button_control",
         "content_margin": [8,8],
         "layer0.texture": "Theme - Spacegray/Spacegray/folder-closed.png",
-        "layer0.tint": [178, 204, 214], // 02
+        "layer0.tint": [255, 203, 107], // 02
         "layer0.opacity": 1,
         "layer0.inner_margin": 0
     },
     {
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.tint": [178, 204, 214] // 04
+        "layer0.tint": [255, 235, 149] // 04
     },
     {
         "class": "disclosure_button_control",
