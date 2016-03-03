@@ -700,7 +700,7 @@
         "layer0.texture": "",
         "layer0.inner_margin": [0,0],
         "layer0.opacity": 1,
-        "layer0.tint": [30, 30, 30], // -00
+        "layer0.tint": [33, 33, 33], // -00
         "content_margin": 0
     },
     // Quick panel background
@@ -708,7 +708,7 @@
         "class": "overlay_control",
         "layer0.opacity": 1,
         "layer1.texture": "",
-        "layer1.tint": [57, 57, 57], // 01
+        "layer1.tint": [33, 33, 33], // 01
         "layer1.inner_margin": [0,0,0,0],
         "layer1.opacity": 1,
         "content_margin": 0
@@ -721,14 +721,14 @@
     {
         "class": "quick_panel",
         "row_padding": 8,
-        "layer0.tint": [57, 57, 57],
+        "layer0.tint": [33, 33, 33],
         "layer0.opacity": 1,
         "dark_content": true
     },
     {
         "class": "quick_panel_row",
         "layer0.texture": "",
-        "layer0.tint": [57, 57, 57], // 01
+        "layer0.tint": [33, 33, 33], // 01
         "layer0.inner_margin": 8,
         "layer0.opacity": 1
     },
@@ -736,26 +736,26 @@
         "class": "quick_panel_row",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [38, 38, 38] // -01
+        "layer0.tint": [21, 21, 21] // -01
     },
     {
         "class": "quick_panel_label",
-        "fg": [160, 159, 147, 255], // 04
-        "match_fg": [211, 208, 200, 255], // 05
-        "selected_fg": [211, 208, 200, 255], // 05
-        "selected_match_fg": [242, 240, 236, 255] // 07
+        "fg": [178, 204, 214], // 04
+        "match_fg": [255, 145, 77, 255], // 05
+        "selected_fg": [178, 204, 214, 255], // 05
+        "selected_match_fg": [255, 145, 77, 255] // 07
     },
     {
         "class": "quick_panel_path_label",
-        "fg": [116, 115, 105, 255], // 03
-        "match_fg": [160, 159, 147, 255], // 04
-        "selected_fg": [116, 115, 105, 255], // 03
-        "selected_match_fg": [160, 159, 147, 255] // 04
+        "fg": [101, 101, 101, 255], // 03
+        "match_fg": [178, 204, 214, 255], // 04
+        "selected_fg": [101, 101, 101, 255], // 03
+        "selected_match_fg": [178, 204, 214, 255] // 04
     },
     {
         "class": "quick_panel_score_label",
-        "fg": [116, 115, 105, 255], // 03
-        "selected_fg": [116, 115, 105, 255] // 03
+        "fg": [255, 145, 77, 255], // 03
+        "selected_fg": [255, 145, 77, 255] // 03
     },
 
 //
@@ -765,14 +765,14 @@
     {
         "class": "mini_quick_panel_row",
         "layer0.texture": "",
-        "layer0.tint": [57, 57, 57], // 01
+        "layer0.tint": [33, 33, 33], // 01
         "layer0.opacity": 1
     },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [38, 38, 38] // -01
+        "layer0.tint": [21, 21, 21] // -01
     },
 
 //
