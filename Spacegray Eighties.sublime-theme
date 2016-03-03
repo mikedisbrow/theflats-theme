@@ -191,6 +191,22 @@
         "settings": ["spacegray_tabs_font_14"],
         "font.size": 14.0
     },
+    // Tab Labels font family
+    {
+        "class": "tab_label",
+        "settings": ["spacegray_tabs_Fira"],
+        "font.face": "Fira Mono"
+    },
+    {
+        "class": "tab_label",
+        "settings": ["spacegray_tabs_Hack"],
+        "font.face": "Hack"
+    },
+    {
+        "class": "tab_label",
+        "settings": ["spacegray_tabs_Source"],
+        "font.face": "Source Code Pro"
+    },
 
 //
 // TAB SCROLLING
