@@ -359,7 +359,7 @@
     {
         "class": "grid_layout_control",
         "border_size": 1,
-        "border_color": [33, 33, 33] // -00
+        "border_color": [21, 21, 21] // -00
     },
 
 //
@@ -390,7 +390,7 @@
         "class": "label_control",
         "parents": [{"class": "button_control"}],
         "font.bold": true,
-        "color": [29, 233, 182] // 0C
+        "color": [255, 203, 107] // 0C
     },
 
 //
