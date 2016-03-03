@@ -611,6 +611,22 @@
         "settings": ["spacegray_sidebar_font_14"],
         "font.size": 14.0
     },
+    // Sidebar Label Font Family
+    {
+        "class": "sidebar_label",
+        "settings": ["spacegray_sidebar_font_Fira"],
+        "font.face": "Fira Mono"
+    },
+    {
+        "class": "sidebar_label",
+        "settings": ["spacegray_sidebar_font_Hack"],
+        "font.face": "Hack"
+    },
+    {
+        "class": "sidebar_label",
+        "settings": ["spacegray_sidebar_font_Source"],
+        "font.face": "Source Code Pro"
+    },
     // Sidebar folder entry
     {
         "class": "sidebar_label",
