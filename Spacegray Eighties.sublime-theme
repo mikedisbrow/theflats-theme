@@ -599,7 +599,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable"]}],
-        "color": [101, 115, 126] // 03
+        "color": [79, 126, 122] // 03
     },
     {
         "class": "sidebar_label",
