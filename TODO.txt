@@ -1,0 +1,7 @@
+TODO
+
+Add File Icons
+Center Labels in Tabs
+Add Shadows             ?????
+1px Border in Command Palette
+Rounded scrollbars      ?????

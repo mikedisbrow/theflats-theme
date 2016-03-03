@@ -8,7 +8,7 @@
     {
         "class": "tabset_control",
         "layer0.texture": "",
-        "layer0.tint": [21, 21, 21], // -00
+        "layer0.tint": [28, 28, 28], // -00
         "layer0.inner_margin": 0,
         "layer0.opacity": 1,
         "content_margin": 0,
@@ -30,7 +30,7 @@
         "max_margin_trim": 0,
         "hit_test_level": 0,
         "layer0.texture": "",
-        "layer0.tint": [21, 21, 21], // -00
+        "layer0.tint": [28, 28, 28], // -00
         "layer0.inner_margin": [5,5],
         "layer0.opacity": 1
     },
@@ -418,7 +418,7 @@
     {
         "class": "grid_layout_control",
         "border_size": 1,
-        "border_color": [21, 21, 21] // -00
+        "border_color": [28, 28, 28] // -00
     },
 
 //
@@ -479,7 +479,7 @@
     {
         "class": "status_bar",
         "layer0.texture": "",
-        "layer0.tint": [33, 33, 33], // -00
+        "layer0.tint": [28, 28, 28], // -00
         "layer0.opacity": 1,
         "content_margin": 4
     },
@@ -492,7 +492,7 @@
     {
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
-        "color": [178, 204, 214] // 02
+        "color": [167, 173, 186] // 02
     },
 
 //
@@ -504,7 +504,7 @@
         "class": "sidebar_container",
         // "layer0.texture": "",
         "layer0.opacity": 1,
-        "layer0.tint": [33, 33, 33], // -01
+        "layer0.tint": [28, 28, 28], // -01
         "layer0.inner_margin": [1,5,2,1],
         "content_margin": [0,4,0,0]
     },
@@ -534,7 +534,7 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [238, 255, 255], // 02
+        "color": [205, 211, 222], // 02
         "font.bold": true
     },
     {
@@ -571,7 +571,7 @@
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [101, 101, 101] // 03
+        "color": [101, 115, 126] // 03
     },
     {
         "class": "sidebar_label",
@@ -614,7 +614,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "color": [178, 204, 214] // 06
+        "color": [205, 211, 222] // 06
     },
 
 //
@@ -627,7 +627,7 @@
         "layer0.texture": "Theme - Spacegray/Spacegray/close.png",
         "layer0.opacity": 0,
         "layer0.inner_margin": 0,
-        "layer0.tint": [101, 101, 101], // 02
+        "layer0.tint": [101, 115, 126], // 02
         "content_margin": [8,8]
     },
     {
@@ -658,7 +658,7 @@
     {
         "class": "close_button",
         "attributes": ["hover"],
-        "layer0.tint": [178, 204, 214] // 08
+        "layer0.tint": [205, 211, 222] // 08
     },
     {
         "class": "close_button",
@@ -795,21 +795,21 @@
         "class": "quick_panel_row",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [21, 21, 21] // -01
+        "layer0.tint": [28, 28, 28] // -01
     },
     {
         "class": "quick_panel_label",
-        "fg": [178, 204, 214], // 04
+        "fg": [205, 211, 222, 255], // 04
         "match_fg": [255, 203, 107, 255], // 05
-        "selected_fg": [178, 204, 214, 255], // 05
+        "selected_fg": [205, 211, 222, 255], // 05
         "selected_match_fg": [255, 203, 107, 255] // 07
     },
     {
         "class": "quick_panel_path_label",
-        "fg": [101, 101, 101, 255], // 03
-        "match_fg": [178, 204, 214, 255], // 04
-        "selected_fg": [101, 101, 101, 255], // 03
-        "selected_match_fg": [178, 204, 214, 255] // 04
+        "fg": [101, 115, 126, 255], // 03
+        "match_fg": [205, 211, 222, 255], // 04
+        "selected_fg": [101, 115, 126, 255], // 03
+        "selected_match_fg": [205, 211, 222, 255] // 04
     },
     {
         "class": "quick_panel_score_label",
@@ -831,7 +831,7 @@
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [21, 21, 21] // -01
+        "layer0.tint": [28, 28, 28] // -01
     },
 
 //
@@ -932,7 +932,7 @@
     {
         "class": "icon_regex",
         "layer0.texture": "Theme - Spacegray/Spacegray/regex.png",
-        "layer0.tint": [101, 101, 101], // 02
+        "layer0.tint": [101, 115, 126], // 02
         "layer0.opacity": 1,
         "content_margin": 8
 
@@ -946,7 +946,7 @@
     {
         "class": "icon_case",
         "layer0.texture": "Theme - Spacegray/Spacegray/casesens.png",
-        "layer0.tint": [101, 101, 101], // 02
+        "layer0.tint": [101, 115, 126], // 02
         "layer0.opacity": 1,
         "content_margin": 8
     },
@@ -959,7 +959,7 @@
     {
         "class": "icon_whole_word",
         "layer0.texture": "Theme - Spacegray/Spacegray/wholeword.png",
-        "layer0.tint": [101, 101, 101], // 02
+        "layer0.tint": [101, 115, 126], // 02
         "layer0.opacity": 1,
         "content_margin": 8
     },
@@ -977,7 +977,7 @@
     {
         "class": "icon_context",
         "layer0.texture": "Theme - Spacegray/Spacegray/context.png",
-        "layer0.tint": [101, 101, 101], // 02
+        "layer0.tint": [101, 115, 126], // 02
         "layer0.opacity": 1,
         "content_margin": 8
     },
@@ -990,7 +990,7 @@
     {
         "class": "icon_use_buffer",
         "layer0.texture": "Theme - Spacegray/Spacegray/buffer.png",
-        "layer0.tint": [101, 101, 101], // 02
+        "layer0.tint": [101, 115, 126], // 02
         "layer0.opacity": 1,
         "content_margin": 8
     },
@@ -1007,7 +1007,7 @@
     {
         "class": "icon_reverse",
         "layer0.texture": "Theme - Spacegray/Spacegray/reverse.png",
-        "layer0.tint": [101, 101, 101], // 02
+        "layer0.tint": [101, 115, 126], // 02
         "layer0.opacity": 1,
         "content_margin": 8
     },
@@ -1020,7 +1020,7 @@
     {
         "class": "icon_wrap",
         "layer0.texture": "Theme - Spacegray/Spacegray/wrap.png",
-        "layer0.tint": [101, 101, 101], // 02
+        "layer0.tint": [101, 115, 126], // 02
         "layer0.opacity": 1,
         "content_margin": 8
     },
@@ -1033,7 +1033,7 @@
     {
         "class": "icon_in_selection",
         "layer0.texture": "Theme - Spacegray/Spacegray/selection.png",
-        "layer0.tint": [101, 101, 101], // 02
+        "layer0.tint": [101, 115, 126], // 02
         "layer0.opacity": 1,
         "content_margin": 8
     },
@@ -1051,7 +1051,7 @@
     {
         "class": "icon_preserve_case",
         "layer0.texture": "Theme - Spacegray/Spacegray/lock.png",
-        "layer0.tint": [101, 101, 101], // 02
+        "layer0.tint": [101, 115, 126], // 02
         "layer0.opacity": 1,
         "content_margin": 8
     },
@@ -1069,7 +1069,7 @@
     {
         "class": "icon_highlight",
         "layer0.texture": "Theme - Spacegray/Spacegray/highlight.png",
-        "layer0.tint": [101, 101, 101], // 02
+        "layer0.tint": [101, 115, 126], // 02
         "layer0.opacity": 1,
         "content_margin": 8
     },
@@ -1101,22 +1101,22 @@
     },
     {
         "class": "tabset_control",
-        "settings": ["spacegray_tabs_small"],
+        "settings": ["spacegray_tabs_xsmall"],
         "tab_height": 22
     },
     {
         "class": "tabset_control",
-        "settings": ["spacegray_tabs_normal"],
+        "settings": ["spacegray_tabs_small"],
         "tab_height": 26
     },
     {
         "class": "tabset_control",
-        "settings": ["spacegray_tabs_large"],
-        "tab_height": 34
+        "settings": ["spacegray_tabs_normal"],
+        "tab_height": 35
     },
     {
         "class": "tabset_control",
-        "settings": ["spacegray_tabs_xlarge"],
+        "settings": ["spacegray_tabs_large"],
         "tab_height": 40
     },
 
