@@ -30,7 +30,7 @@
         "max_margin_trim": 0,
         "hit_test_level": 0,
         "layer0.texture": "",
-        "layer0.tint": [30, 30, 30], // -00
+        "layer0.tint": [21, 21, 21], // -00
         "layer0.inner_margin": [5,5],
         "layer0.opacity": 1
     },
@@ -50,7 +50,7 @@
         "class": "tab_control",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [45, 45, 45] // 00
+        "layer0.tint": [33, 33, 33] // 00
     },
     // Tab dirty state (close button hidden)
     {
