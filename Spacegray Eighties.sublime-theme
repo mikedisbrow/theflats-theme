@@ -789,7 +789,7 @@
     {
         "class": "quick_panel_row",
         "layer0.texture": "",
-        "layer0.tint": [33, 33, 33], // 01
+        "layer0.tint": [28, 28, 28], // 01
         "layer0.inner_margin": 8,
         "layer0.opacity": 1
     },
@@ -801,8 +801,8 @@
     },
     {
         "class": "quick_panel_label",
-        "fg": [205, 211, 222, 255], // 04
-        "match_fg": [128, 203, 196, 255], // 05
+        "fg": [167, 173, 186, 255], // 04
+        "match_fg": [79, 126, 122, 255], // 05
         "selected_fg": [205, 211, 222, 255], // 05
         "selected_match_fg": [128, 203, 196, 255] // 07
     },
@@ -816,7 +816,7 @@
     {
         "class": "quick_panel_score_label",
         "fg": [79, 126, 122, 255], // 03
-        "selected_fg": [79, 126, 122, 255] // 03
+        "selected_fg": [128, 203, 196, 255] // 03
     },
 
 //
