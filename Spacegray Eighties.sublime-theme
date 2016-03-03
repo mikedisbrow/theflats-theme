@@ -420,7 +420,7 @@
     {
         "class": "status_bar",
         "layer0.texture": "",
-        "layer0.tint": [30, 30, 30], // -00
+        "layer0.tint": [33, 33, 33], // -00
         "layer0.opacity": 1,
         "content_margin": 4
     },
@@ -433,7 +433,7 @@
     {
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
-        "color": [81, 81, 81] // 02
+        "color": [178, 204, 214] // 02
     },
 
 //
