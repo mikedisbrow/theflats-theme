@@ -782,7 +782,7 @@
     {
         "class": "quick_panel",
         "row_padding": 8,
-        "layer0.tint": [33, 33, 33],
+        "layer0.tint": [28, 28, 28],
         "layer0.opacity": 1,
         "dark_content": true
     },
@@ -797,26 +797,26 @@
         "class": "quick_panel_row",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [28, 28, 28] // -01
+        "layer0.tint": [33, 33, 33] // -01
     },
     {
         "class": "quick_panel_label",
         "fg": [205, 211, 222, 255], // 04
-        "match_fg": [255, 203, 107, 255], // 05
+        "match_fg": [128, 203, 196, 255], // 05
         "selected_fg": [205, 211, 222, 255], // 05
-        "selected_match_fg": [255, 203, 107, 255] // 07
+        "selected_match_fg": [128, 203, 196, 255] // 07
     },
     {
         "class": "quick_panel_path_label",
         "fg": [101, 115, 126, 255], // 03
-        "match_fg": [205, 211, 222, 255], // 04
+        "match_fg": [79, 126, 122, 255], // 04
         "selected_fg": [101, 115, 126, 255], // 03
-        "selected_match_fg": [205, 211, 222, 255] // 04
+        "selected_match_fg": [79, 126, 122, 255] // 04
     },
     {
         "class": "quick_panel_score_label",
-        "fg": [255, 203, 107, 255], // 03
-        "selected_fg": [255, 203, 107, 255] // 03
+        "fg": [79, 126, 122, 255], // 03
+        "selected_fg": [79, 126, 122, 255] // 03
     },
 
 //
@@ -826,14 +826,14 @@
     {
         "class": "mini_quick_panel_row",
         "layer0.texture": "",
-        "layer0.tint": [33, 33, 33], // 01
+        "layer0.tint": [28, 28, 28], // 01
         "layer0.opacity": 1
     },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [28, 28, 28] // -01
+        "layer0.tint": [33, 33, 33] // -01
     },
 
 //
@@ -843,7 +843,7 @@
     {
         "class": "popup_control",
         "content_margin": [0,0],
-        "layer0.tint": [33, 33, 33], // 01
+        "layer0.tint": [28, 28, 28], // 01
         "layer0.opacity": 1
     },
     {
@@ -852,10 +852,10 @@
     },
     {
         "class": "auto_complete_label",
-        "fg": [178, 204, 214], // 04
-        "match_fg": [255, 203, 107, 255], // 05
-        "selected_fg": [178, 204, 214, 255], // 05
-        "selected_match_fg": [255, 203, 107, 255] // 07
+        "fg": [101, 115, 126, 255], // 04
+        "match_fg": [79, 126, 122, 255], // 05
+        "selected_fg": [167, 173, 186, 255], // 05
+        "selected_match_fg": [128, 203, 196, 255] // 07
     },
     {
         "class": "table_row",
@@ -942,7 +942,7 @@
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [255, 203, 107] // 07
+        "layer0.tint": [128, 203, 196] // 07
     },
     // Case sensitive search button
     {
@@ -955,7 +955,7 @@
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [255, 203, 107] // 07
+        "layer0.tint": [128, 203, 196] // 07
     },
     // Match whole word search button
     {
@@ -968,7 +968,7 @@
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [255, 203, 107] // 07
+        "layer0.tint": [128, 203, 196] // 07
     },
 
 //
@@ -986,7 +986,7 @@
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [255, 203, 107] // 07
+        "layer0.tint": [128, 203, 196] // 07
     },
     // Use search buffer
     {
@@ -999,7 +999,7 @@
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [255, 203, 107] // 07
+        "layer0.tint": [128, 203, 196] // 07
     },
 
 //
@@ -1016,7 +1016,7 @@
     {
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [255, 203, 107] // 07
+        "layer0.tint": [128, 203, 196] // 07
     },
     // Search wrap button
     {
@@ -1029,7 +1029,7 @@
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [255, 203, 107] // 07
+        "layer0.tint": [128, 203, 196] // 07
     },
     // Search in selection button
     {
@@ -1042,7 +1042,7 @@
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [255, 203, 107] // 07
+        "layer0.tint": [128, 203, 196] // 07
     },
 
 //
@@ -1060,7 +1060,7 @@
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [255, 203, 107] // 07
+        "layer0.tint": [128, 203, 196] // 07
     },
 
 //
@@ -1078,7 +1078,7 @@
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [255, 203, 107] // 07
+        "layer0.tint": [128, 203, 196] // 07
     },
 
 //
@@ -1088,7 +1088,7 @@
         "class": "disclosure_button_control",
         "settings": ["spacegray_color_expanded_folder"],
         "attributes": ["expanded"],
-        "layer0.tint": [255, 203, 107] // 0A
+        "layer0.tint": [128, 203, 196] // 0A
     },
 
 //
