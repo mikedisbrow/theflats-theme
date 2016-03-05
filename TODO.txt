@@ -1,36 +1,5 @@
 TODO
 
-Add File Icons
-
-        // Sidebar folder loading
-    {
-        "class": "icon_folder_loading",
-        "layer0.texture":
-        {
-            "keyframes":
-            [
-                "Theme - SoDaReloaded/dark/images/spinner/spinner7.png",
-                "Theme - SoDaReloaded/dark/images/spinner/spinner6.png",
-                "Theme - SoDaReloaded/dark/images/spinner/spinner5.png",
-                "Theme - SoDaReloaded/dark/images/spinner/spinner4.png",
-                "Theme - SoDaReloaded/dark/images/spinner/spinner3.png",
-                "Theme - SoDaReloaded/dark/images/spinner/spinner2.png",
-                "Theme - SoDaReloaded/dark/images/spinner/spinner1.png",
-                "Theme - SoDaReloaded/dark/images/spinner/spinner.png"
-            ],
-            "loop": true,
-            "frame_time": 0.075,
-        },
-        "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
-    },
-    // Sidebar file icons
-    {
-        "class": "icon_file_type",
-        // layer0.texture is filled in by code with the relevant icon name
-        "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
-    },
 
 Center Labels in Tabs
 Add Shadows             ?????
