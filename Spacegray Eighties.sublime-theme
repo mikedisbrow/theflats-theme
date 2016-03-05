@@ -416,7 +416,7 @@
         "settings": ["overlay_scroll_bars"],
         "attributes": ["dark"],
         "layer0.texture": "Theme - Spacegray/Spacegray/overlay-dark-puck-vertical.png",
-        //"layer0.tint": [167, 173, 186] // 02
+        "layer0.tint": [101, 115, 126] // 02
 
     },
     // Overlay light horizontal puck (for dark content)
@@ -425,7 +425,7 @@
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal","dark"],
         "layer0.texture": "Theme - Spacegray/Spacegray/overlay-dark-puck-horizontal.png",
-        //"layer0.tint": [167, 173, 186] // 02
+        "layer0.tint": [101, 115, 126] // 02
     },
 
 //
@@ -454,7 +454,7 @@
 
     {
         "class": "minimap_control",
-        "viewport_color": [167, 173, 186, 25]
+        "viewport_color": [128, 203, 196, 25]
     },
 
 //
