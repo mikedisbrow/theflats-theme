@@ -207,6 +207,16 @@
         "settings": ["spacegray_tabs_Menlo"],
         "font.face": "Menlo"
     },
+    {
+        "class": "tab_label",
+        "settings": ["spacegray_tabs_InputSans"],
+        "font.face": "InputSans"
+    },
+    {
+        "class": "tab_label",
+        "settings": ["spacegray_tabs_InputSansNarrow"],
+        "font.face": "InputSansNarrow"
+    },
 
 //
 // TAB SCROLLING
@@ -626,6 +636,26 @@
         "class": "sidebar_label",
         "settings": ["spacegray_sidebar_font_Menlo"],
         "font.face": "Menlo"
+    },
+    {
+        "class": "sidebar_label",
+        "settings": ["spacegray_sidebar_font_InputSans"],
+        "font.face": "InputSans"
+    },
+    {
+        "class": "sidebar_label",
+        "settings": ["spacegray_sidebar_font_InputSansNarrow"],
+        "font.face": "InputSansNarrow"
+    },
+    {
+        "class": "sidebar_label",
+        "settings": ["spacegray_sidebar_font_SFDisplay"],
+        "font.face": ".SF NS Display"
+    },
+    {
+        "class": "sidebar_label",
+        "settings": ["spacegray_sidebar_font_SFText"],
+        "font.face": ".SF NS Text"
     },
     // Sidebar folder entry
     {
