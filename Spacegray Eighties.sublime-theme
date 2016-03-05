@@ -10,10 +10,9 @@
         "layer0.tint": [28, 28, 28], // -00
         "layer0.inner_margin": 0,
         "layer0.opacity": 1,
-        "content_margin": 0,
-        "tab_overlap": 1,
-        "tab_width": 200,
-        "tab_min_width": 100,
+        "tab_overlap": 5,
+        "tab_width": 120,
+        "tab_min_width": 45,
         "tab_height": 35,
         "mouse_wheel_switch": false
     },
@@ -37,7 +36,7 @@
     {
         "class": "tab_control",
         "settings": ["show_tab_close_buttons"],
-        "content_margin": [8,0]
+        "content_margin": [12, 3, 7, 3]
     },
     // Tab hover state
     {

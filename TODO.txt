@@ -1,19 +1,20 @@
 TODO
 
-
-Center Labels in Tabs
-Add Shadows             ?????
-
-        "shadow_color": [0, 0, 0],
-        "shadow_offset": [0, -1]
-
+Fix Fuzzy Menu tab button
+Fix fuzzy tab scroll button ???
+Make Folder arrows bigger
+make tab X bigger.  keep circle the same.
+make sidebar X bigger with folder arrows
+Look at making Folder icons and Arrows swappable
 
 1px Border in Command Palette
 Rounded scrollbars      ?????
 
 Add more fonts to choices
-Play with margin/padding in sidebar and tabs
 See about changing the rest of the UI to different fonts
+
+
+
 
 
 //
