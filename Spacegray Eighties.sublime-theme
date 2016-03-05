@@ -190,18 +190,8 @@
     // Tab Labels font family
     {
         "class": "tab_label",
-        "settings": ["spacegray_tabs_Monaco"],
-        "font.face": "Monaco"
-    },
-    {
-        "class": "tab_label",
         "settings": ["spacegray_tabs_Hack"],
         "font.face": "Hack"
-    },
-    {
-        "class": "tab_label",
-        "settings": ["spacegray_tabs_Menlo"],
-        "font.face": "Menlo"
     },
     {
         "class": "tab_label",
@@ -212,6 +202,16 @@
         "class": "tab_label",
         "settings": ["spacegray_tabs_InputSansNarrow"],
         "font.face": "InputSansNarrow"
+    },
+    {
+        "class": "tab_label",
+        "settings": ["spacegray_tabs_SFText"],
+        "font.face": ".SF NS Text"
+    },
+    {
+        "class": "tab_label",
+        "settings": ["spacegray_tabs_SFDisplay"],
+        "font.face": ".SF NS Display"
     },
 
 //
@@ -610,18 +610,8 @@
     // Sidebar Label Font Family
     {
         "class": "sidebar_label",
-        "settings": ["spacegray_sidebar_font_Monaco"],
-        "font.face": "Monaco"
-    },
-    {
-        "class": "sidebar_label",
         "settings": ["spacegray_sidebar_font_Hack"],
         "font.face": "Hack"
-    },
-    {
-        "class": "sidebar_label",
-        "settings": ["spacegray_sidebar_font_Menlo"],
-        "font.face": "Menlo"
     },
     {
         "class": "sidebar_label",
