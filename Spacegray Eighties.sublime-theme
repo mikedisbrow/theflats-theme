@@ -152,7 +152,8 @@
     {
         "class": "tab_label",
         "fade": true,
-        "fg": [101, 115, 126] // 03
+        "fg": [101, 115, 126], // 03
+        "font.size": 12
     },
     {
         "class": "tab_label",
@@ -180,11 +181,6 @@
         "class": "tab_label",
         "settings": ["spacegray_tabs_font_11"],
         "font.size": 11.0
-    },
-    {
-        "class": "tab_label",
-        "settings": ["spacegray_tabs_font_12"],
-        "font.size": 12.0
     },
     {
         "class": "tab_label",
@@ -593,7 +589,8 @@
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [101, 115, 126] // 03
+        "color": [101, 115, 126],
+        "font.size": 12 // 03
     },
     {
         "class": "sidebar_label",
@@ -604,11 +601,6 @@
         "class": "sidebar_label",
         "settings": ["spacegray_sidebar_font_11"],
         "font.size": 11.0
-    },
-    {
-        "class": "sidebar_label",
-        "settings": ["spacegray_sidebar_font_12"],
-        "font.size": 12.0
     },
     {
         "class": "sidebar_label",
