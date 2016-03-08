@@ -187,7 +187,6 @@
         "font.size": 14.0
     },
 
-
 //
 // TAB SCROLLING
 //
@@ -714,7 +713,7 @@
         "min_size": [64,0],
         "layer0.texture": "",
         "layer0.opacity": 1,
-        "layer0.tint": [28, 28, 28], // -00
+        "layer0.tint": [43,43,43], // -00
         "layer0.inner_margin": [8,8]
     },
     // Hover button state
@@ -722,14 +721,14 @@
         "class": "button_control",
         "attributes": ["hover"],
         "layer0.texture": "",
-        "layer0.tint": [33, 33, 33] // -01
+        "layer0.tint": [53,53,53] // -01
     },
     // Pressed button state
     {
         "class": "button_control",
         "attributes": ["pressed"],
         "layer0.texture": "",
-        "layer0.tint": [28, 28, 28] // -00
+        "layer0.tint": [33,33,33] // -00
     },
 //
 // TEXT INPUT FIELD
@@ -754,7 +753,7 @@
         "layer0.texture": "",
         "layer0.inner_margin": [0,0],
         "layer0.opacity": 1,
-        "layer0.tint": [28, 28, 28], // -00
+        "layer0.tint": [43,43,43], // -00
         "content_margin": 0
     },
     // Quick panel background
@@ -762,7 +761,7 @@
         "class": "overlay_control",
         "layer0.opacity": 1,
         "layer1.texture": "",
-        "layer1.tint": [28, 28, 28], // 01
+        "layer1.tint": [43,43,43], // 01
         "layer1.inner_margin": [0,0,0,0],
         "layer1.opacity": 1,
         "content_margin": 0
@@ -775,14 +774,14 @@
     {
         "class": "quick_panel",
         "row_padding": 8,
-        "layer0.tint": [28, 28, 28],
+        "layer0.tint": [43, 43, 43],
         "layer0.opacity": 1,
         "dark_content": true
     },
     {
         "class": "quick_panel_row",
         "layer0.texture": "",
-        "layer0.tint": [28, 28, 28], // 01
+        "layer0.tint": [43, 43, 43], // 01
         "layer0.inner_margin": 8,
         "layer0.opacity": 1
     },
@@ -819,7 +818,7 @@
     {
         "class": "mini_quick_panel_row",
         "layer0.texture": "",
-        "layer0.tint": [28, 28, 28], // 01
+        "layer0.tint": [43, 43, 43], // 01
         "layer0.opacity": 1
     },
     {
@@ -836,7 +835,7 @@
     {
         "class": "popup_control",
         "content_margin": [0,0],
-        "layer0.tint": [28, 28, 28], // 01
+        "layer0.tint": [43, 43, 43], // 01
         "layer0.opacity": 1
     },
     {
@@ -1141,12 +1140,12 @@
 // 
     {
         "class": "sidebar_label",
-        "settings": ["spacegray_sidebar_font_Hack"],
+        "settings": ["spacegray_font_Hack"],
         "font.face": "Hack"
     },
     {
         "class": "tab_label",
-        "settings": ["spacegray_tabs_Hack"],
+        "settings": ["spacegray_font_Hack"],
         "font.face": "Hack"
     },
     {
@@ -1186,7 +1185,7 @@
     },
     {
         "class": "tab_label",
-        "settings": ["spacegray_tabs_SFText"],
+        "settings": ["spacegray_font_SFText"],
         "font.face": ".SF NS Text"
     },
     
