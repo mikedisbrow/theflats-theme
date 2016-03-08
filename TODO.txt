@@ -1,5 +1,10 @@
 TODO
 
+Fix text bottom cut off in Tabs.
+    Content Margin?
+    Inner Margin?
+    Layer Margin?
+
 Fix Fuzzy Menu tab button
 Fix fuzzy tab scroll button ???
 Make Folder arrows bigger

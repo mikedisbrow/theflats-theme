@@ -7,7 +7,7 @@
     {
         "class": "tabset_control",
         "layer0.texture": "",
-        "layer0.tint": [28, 28, 28], // -00
+        "layer0.tint": [43,43,43], // -00
         "layer0.inner_margin": 0,
         "layer0.opacity": 1,
         "tab_overlap": 5,
@@ -28,8 +28,8 @@
         "max_margin_trim": 0,
         "hit_test_level": 0,
         "layer0.texture": "",
-        "layer0.tint": [28, 28, 28], // -00
-        "layer0.inner_margin": [5,5],
+        "layer0.tint": [43,43,43], // -00
+        //"layer0.inner_margin": [5,5],
         "layer0.opacity": 1
     },
     // Tab close state
@@ -186,32 +186,7 @@
         "settings": ["spacegray_tabs_font_14"],
         "font.size": 14.0
     },
-    // Tab Labels font family
-    {
-        "class": "tab_label",
-        "settings": ["spacegray_tabs_Hack"],
-        "font.face": "Hack"
-    },
-    {
-        "class": "tab_label",
-        "settings": ["spacegray_tabs_InputSans"],
-        "font.face": "InputSans"
-    },
-    {
-        "class": "tab_label",
-        "settings": ["spacegray_tabs_InputSansNarrow"],
-        "font.face": "InputSansNarrow"
-    },
-    {
-        "class": "tab_label",
-        "settings": ["spacegray_tabs_SFText"],
-        "font.face": ".SF NS Text"
-    },
-    {
-        "class": "tab_label",
-        "settings": ["spacegray_tabs_SFDisplay"],
-        "font.face": ".SF NS Display"
-    },
+
 
 //
 // TAB SCROLLING
@@ -445,7 +420,7 @@
     {
         "class": "grid_layout_control",
         "border_size": 1,
-        "border_color": [28, 28, 28] // -00
+        "border_color": [43,43,43] // -00
     },
 
 //
@@ -487,7 +462,7 @@
     {
         "class": "tool_tip_control",
         // "layer0.texture": "",
-        "layer0.tint": [28, 28, 28], // 02
+        "layer0.tint": [43,43,43], // 02
         "layer0.inner_margin": [1,1],
         "layer0.opacity": 1,
         "content_margin": [4,4]
@@ -506,7 +481,7 @@
     {
         "class": "status_bar",
         "layer0.texture": "",
-        "layer0.tint": [28, 28, 28], // -00
+        "layer0.tint": [43,43,43], // -00
         "layer0.opacity": 1,
         "content_margin": 4
     },
@@ -531,7 +506,7 @@
         "class": "sidebar_container",
         // "layer0.texture": "",
         "layer0.opacity": 1,
-        "layer0.tint": [28, 28, 28], // -01
+        "layer0.tint": [43,43,43,], // -01
         "layer0.inner_margin": [1,5,2,1],
         "content_margin": [0,4,0,0]
     },
@@ -548,7 +523,7 @@
     {
         "class": "tree_row",
         // "layer0.texture": "",
-        "layer0.tint": [33, 33, 33], // 01
+        "layer0.tint": [43,43,43], // 01
         "layer0.opacity": 0,
         "layer0.inner_margin": [1,1]
     },
@@ -606,32 +581,7 @@
         "settings": ["spacegray_sidebar_font_14"],
         "font.size": 14.0
     },
-    // Sidebar Label Font Family
-    {
-        "class": "sidebar_label",
-        "settings": ["spacegray_sidebar_font_Hack"],
-        "font.face": "Hack"
-    },
-    {
-        "class": "sidebar_label",
-        "settings": ["spacegray_sidebar_font_InputSans"],
-        "font.face": "InputSans"
-    },
-    {
-        "class": "sidebar_label",
-        "settings": ["spacegray_sidebar_font_InputSansNarrow"],
-        "font.face": "InputSansNarrow"
-    },
-    {
-        "class": "sidebar_label",
-        "settings": ["spacegray_sidebar_font_SFDisplay"],
-        "font.face": ".SF NS Display"
-    },
-    {
-        "class": "sidebar_label",
-        "settings": ["spacegray_sidebar_font_SFText"],
-        "font.face": ".SF NS Text"
-    },
+
     // Sidebar folder entry
     {
         "class": "sidebar_label",
@@ -723,7 +673,7 @@
     {
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.tint": [128, 203, 196] // 04
+        "layer0.tint": [255, 235, 149] // 04
     },
     {
         "class": "disclosure_button_control",
@@ -1186,4 +1136,58 @@
     //     "layer0.opacity": 0.0
     // }
 
+//
+// FONT FAMILY OPTIONS
+// 
+    {
+        "class": "sidebar_label",
+        "settings": ["spacegray_sidebar_font_Hack"],
+        "font.face": "Hack"
+    },
+    {
+        "class": "tab_label",
+        "settings": ["spacegray_tabs_Hack"],
+        "font.face": "Hack"
+    },
+    {
+        "class": "sidebar_label",
+        "settings": ["spacegray_font_InputSans"],
+        "font.face": "InputSans"
+    },
+    {
+        "class": "tab_label",
+        "settings": ["spacegray_font_InputSans"],
+        "font.face": "InputSans"
+    },
+    {
+        "class": "sidebar_label",
+        "settings": ["spacegray_font_InputSansNarrow"],
+        "font.face": "InputSansNarrow"
+    },
+    {
+        "class": "tab_label",
+        "settings": ["spacegray_font_InputSansNarrow"],
+        "font.face": "InputSansNarrow"
+    },
+    {
+        "class": "sidebar_label",
+        "settings": ["spacegray_font_SFDisplay"],
+        "font.face": ".SF NS Display"
+    },
+    {
+        "class": "tab_label",
+        "settings": ["spacegray_font_SFDisplay"],
+        "font.face": ".SF NS Display"
+    },
+    {
+        "class": "sidebar_label",
+        "settings": ["spacegrayr_font_SFText"],
+        "font.face": ".SF NS Text"
+    },
+    {
+        "class": "tab_label",
+        "settings": ["spacegray_tabs_SFText"],
+        "font.face": ".SF NS Text"
+    },
+    
 ]
