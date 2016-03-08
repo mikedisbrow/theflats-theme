@@ -162,7 +162,7 @@
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control","attributes": ["selected"]}],
-        "fg": [205, 211, 222] // 06
+        "fg": [128, 203, 196] // 06
     },
     {
         "class": "tab_label",
@@ -590,7 +590,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "color": [255, 235, 149] // 05
+        "color": [128, 203, 196] // 05
     },
     {
         "class": "sidebar_label",
@@ -672,7 +672,7 @@
     {
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.tint": [255, 235, 149] // 04
+        "layer0.tint": [128, 203, 196] // 04
     },
     {
         "class": "disclosure_button_control",
@@ -1080,7 +1080,7 @@
         "class": "disclosure_button_control",
         "settings": ["spacegray_color_expanded_folder"],
         "attributes": ["expanded"],
-        "layer0.tint": [128, 203, 196] // 0A
+        "layer0.tint": [255, 235, 149] // 0A
     },
 
 //
