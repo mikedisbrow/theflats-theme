@@ -390,7 +390,7 @@
 
     {
         "class": "sheet_container_control",
-        "layer0.tint": [33, 33, 33],
+        "layer0.tint": [40, 40, 40],
         "layer0.opacity": 1
     },
 
@@ -408,10 +408,26 @@
 // MINI MAP
 //
 
-    {
-        "class": "minimap_control",
-        "viewport_color": [167, 173, 186, 25]
-    },
+  {
+    "class": "minimap_control",
+    "settings": ["always_show_minimap_viewport"],
+    "viewport_opacity": 0.4,
+    "viewport_color": [128, 203, 196, 75]
+  },
+  
+  {
+    "class": "minimap_control",
+    "settings": ["!always_show_minimap_viewport"],
+    "viewport_opacity": { "target": 0.0, "speed": 4.0, "interpolation": "smoothstep" }
+  },
+  
+  {
+    "class": "minimap_control",
+    "attributes": ["hover"],
+    "settings": ["!always_show_minimap_viewport"],
+    "viewport_color": [128, 203, 196, 75],
+    "viewport_opacity": { "target": 0.4, "speed": 20.0, "interpolation": "smoothstep" }
+  },
 
 //
 // LABELS
@@ -443,7 +459,7 @@
     {
         "class": "tool_tip_control",
         // "layer0.texture": "",
-        "layer0.tint": [43,43,43], // 02
+        "layer0.tint": [40, 40, 40], // 02
         "layer0.inner_margin": [1,1],
         "layer0.opacity": 1,
         "content_margin": [4,4]
@@ -462,7 +478,7 @@
     {
         "class": "status_bar",
         "layer0.texture": "",
-        "layer0.tint": [43,43,43], // -00
+        "layer0.tint": [40, 40, 40], // -00
         "layer0.opacity": 1,
         "content_margin": 4
     },
