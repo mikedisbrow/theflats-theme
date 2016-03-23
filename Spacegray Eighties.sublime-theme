@@ -465,8 +465,7 @@
     // Tooltip container
     {
         "class": "tool_tip_control",
-        // "layer0.texture": "",
-        "layer0.tint": [40, 40, 40], // 02
+        "layer0.tint": [40, 40, 40], 
         "layer0.inner_margin": [1,1],
         "layer0.opacity": 1,
         "content_margin": [4,4]
@@ -474,7 +473,7 @@
     // Tooltip content
     {
         "class": "tool_tip_label_control",
-        "color": [167, 173, 186] // 07
+        "color": [167, 173, 186]
     },
 
 //
@@ -484,8 +483,7 @@
     // Status bar container
     {
         "class": "status_bar",
-        "layer0.texture": "",
-        "layer0.tint": [40, 40, 40], // -00
+        "layer0.tint": [40, 40, 40],
         "layer0.opacity": 1,
         "content_margin": 4
     },
@@ -498,7 +496,7 @@
     {
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
-        "color": [101, 115, 126] // 02
+        "color": [101, 115, 126]
     },
 
 //
@@ -508,9 +506,8 @@
     // Sidebar container
     {
         "class": "sidebar_container",
-        // "layer0.texture": "",
         "layer0.opacity": 1,
-        "layer0.tint": [40, 40, 40], // -01
+        "layer0.tint": [40, 40, 40],
         "layer0.inner_margin": [1,5,2,1],
         "content_margin": [0,4,0,0]
     },
@@ -526,8 +523,7 @@
     // Sidebar rows
     {
         "class": "tree_row",
-        // "layer0.texture": "",
-        "layer0.tint": [40, 40, 40], // 01
+        "layer0.tint": [40, 40, 40],
         "layer0.opacity": 0,
         "layer0.inner_margin": [1,1]
     },
@@ -540,7 +536,7 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [205, 211, 222], // 02
+        "color": [205, 211, 222],
         "font.bold": true
     },
     {
@@ -568,7 +564,7 @@
     {
         "class": "sidebar_label",
         "color": [101, 115, 126],
-        "font.size": 12 // 03
+        "font.size": 12 
     },
     {
         "class": "sidebar_label",
@@ -590,12 +586,12 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable"]}],
-        "color": [79, 126, 122] // 03
+        "color": [79, 126, 122]
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "color": [128, 203, 196] // 05
+        "color": [128, 203, 196]
     },
     {
         "class": "sidebar_label",
@@ -607,7 +603,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "color": [128, 203, 196] // 06
+        "color": [255, 203, 107]
     },
 
 //
@@ -620,7 +616,7 @@
         "layer0.texture": "Theme - Spacegray/Spacegray/close.png",
         "layer0.opacity": 0,
         "layer0.inner_margin": 0,
-        "layer0.tint": [101, 115, 126], // 02
+        "layer0.tint": [101, 115, 126],
         "content_margin": [8,8]
     },
     {
@@ -639,7 +635,7 @@
         "attributes": ["dirty"],
         "layer0.texture": "Theme - Spacegray/Spacegray/circle.png",
         "layer0.opacity": 1,
-        "layer0.tint": [255, 203, 107] // 0A
+        "layer0.tint": [255, 203, 107]
     },
     {
         "class": "close_button",
@@ -651,14 +647,14 @@
     {
         "class": "close_button",
         "attributes": ["hover"],
-        "layer0.tint": [205, 211, 222] // 08
+        "layer0.tint": [205, 211, 222]
     },
     {
         "class": "close_button",
         "attributes": ["dirty", "hover"],
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
         "layer0.texture": "Theme - Spacegray/Spacegray/close.png",
-        "layer0.tint": [255, 203, 107] // 08
+        "layer0.tint": [255, 203, 107]
     },
 
 //
@@ -670,14 +666,14 @@
         "class": "disclosure_button_control",
         "content_margin": [8,8],
         "layer0.texture": "Theme - Spacegray/Spacegray/folder-closed.png",
-        "layer0.tint": [79, 126, 122], // 02
+        "layer0.tint": [79, 126, 122],
         "layer0.opacity": 1,
         "layer0.inner_margin": 0
     },
     {
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.tint": [128, 203, 196] // 04
+        "layer0.tint": [128, 203, 196]
     },
     {
         "class": "disclosure_button_control",
@@ -1110,6 +1106,7 @@
 
     // {
     //     "class": "icon_file_type",
+    //     "settings": ["spacegray_hide_icons"],
     //     "content_margin": [0,0],
     //     "layer0.opacity": 0.0
     // },
@@ -1121,6 +1118,7 @@
     },
     // {
     //     "class": "icon_folder_loading",
+    //     "settings": ["spacegray_hide_icons"],
     //     "content_margin": [0,0],
     //     "layer0.opacity": 0.0
     // }
