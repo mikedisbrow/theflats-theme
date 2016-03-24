@@ -80,3 +80,5 @@ Layer Margin?
 >
 > 2. add ```{ "keys": "ctrl+alt+shift+o"], "command": "show_scope_name" }``` to you user's keybindings, create a new ```.erb``` fyle and trigger the command to display current scope in the bottom status bar.
 
+12. **Fix UI Color Options Scrollbars Overlay**
+
