@@ -135,18 +135,18 @@
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
         "color": [29, 233, 182]
     },
-    //
-    // Sidebar entry selected
-    //
+    {
+        "class": "sidebar_label",
+        "settings": ["spacegray_seafoam_ui"],
+        "parents": [{"class": "tree_row","attributes": ["expanded"]}],
+        "color": [29, 233, 182]
+    },
     {
         "class": "sidebar_label",
         "settings": ["spacegray_seafoam_ui"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
         "color": [29, 233, 182]
     },
-    //
-    // Sidebar file close hover
-    //
     {
         "class": "close_button",
         "settings": ["spacegray_seafoam_ui"],
@@ -159,14 +159,17 @@
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
         "layer0.tint": [29, 233, 182]
     },
-    //
-    // SIDEBAR FOLDER COLORING
-    //
     {
         "class": "disclosure_button_control",
-        "settings": ["spacegray_seafoam_ui"],
-        "settings": ["spacegray_color_expanded_folder"],
         "attributes": ["expanded"],
+        "layer0.texture": "Theme - Spacegray/Spacegray/folder-arrow-open.png",
+        "layer0.tint": [29, 233, 182]
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["spacegray_folder_icons"],
+        "attributes": ["expanded"],
+        "layer0.texture": "Theme - Spacegray/Spacegray/folder-open.png",
         "layer0.tint": [29, 233, 182]
     },
     //

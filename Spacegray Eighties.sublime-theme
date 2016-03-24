@@ -590,6 +590,11 @@
     },
     {
         "class": "sidebar_label",
+        "parents": [{"class": "tree_row","attributes": ["expanded"]}],
+        "color": [29, 233, 182]
+    },
+    {
+        "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
         "color": [29, 233, 182]
     },
@@ -666,7 +671,7 @@
         "class": "disclosure_button_control",
         "content_margin": [8,8],
         "layer0.texture": "Theme - Spacegray/Spacegray/folder-arrow-closed.png",
-        "layer0.tint": [79, 126, 122],
+        "layer0.tint": [101, 115, 126],
         "layer0.opacity": 1,
         "layer0.inner_margin": 0
     },
@@ -683,7 +688,8 @@
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Spacegray/Spacegray/folder-arrow-open.png"
+        "layer0.texture": "Theme - Spacegray/Spacegray/folder-arrow-open.png",
+        "layer0.tint": [29, 233, 182]
     },
     {
         "class": "disclosure_button_control",
