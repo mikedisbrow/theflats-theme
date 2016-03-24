@@ -665,7 +665,7 @@
     {
         "class": "disclosure_button_control",
         "content_margin": [8,8],
-        "layer0.texture": "Theme - Spacegray/Spacegray/folder-closed.png",
+        "layer0.texture": "Theme - Spacegray/Spacegray/folder-arrow-closed.png",
         "layer0.tint": [79, 126, 122],
         "layer0.opacity": 1,
         "layer0.inner_margin": 0
@@ -683,7 +683,7 @@
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Spacegray/Spacegray/folder-open.png"
+        "layer0.texture": "Theme - Spacegray/Spacegray/folder-arrow-open.png"
     },
     {
         "class": "disclosure_button_control",
@@ -694,7 +694,7 @@
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "Theme - Spacegray/Spacegray/folder-open.png"
+        "layer0.texture": "Theme - Spacegray/Spacegray/folder-arrow-open.png"
     },
     // Sidebar file icons
     {
@@ -702,6 +702,25 @@
         // layer0.texture is filled in by code with the relevant icon name
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
+    },
+    // Option for Folders or Arrows
+    {
+        "class": "disclosure_button_control",
+        "settings": ["spacegray_folder_icons"],
+        "layer0.texture": "Theme - Spacegray/Spacegray/folder-closed.png"
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["spacegray_folder_icons"],
+        "attributes": ["expanded"],
+        "layer0.texture": "Theme - Spacegray/Spacegray/folder-open.png"
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["spacegray_folder_icons"],
+        "attributes": ["expanded"],
+        "parents": [{"class": "tree_row","attributes": ["selected"]}],
+        "layer0.texture": "Theme - Spacegray/Spacegray/folder-open.png"
     },
 //
 // STANDARD TEXT BUTTONS
