@@ -1164,16 +1164,6 @@
     },
     {
         "class": "sidebar_label",
-        "settings": ["spacegray_font_SFDisplay"],
-        "font.face": ".SF NS Display"
-    },
-    {
-        "class": "tab_label",
-        "settings": ["spacegray_font_SFDisplay"],
-        "font.face": ".SF NS Display"
-    },
-    {
-        "class": "sidebar_label",
         "settings": ["spacegray_font_SFText"],
         "font.face": ".SF NS Text"
     },
