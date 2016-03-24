@@ -1,0 +1,393 @@
+// ---------------------------------------------------------
+// BACKGROUND COLOR OPTIONS
+// ---------------------------------------------------------
+  
+  //
+  // DARKER    "settings": ["spacegray_ui_background_darker"],
+  //
+
+    //
+    // TABS (REGULAR)
+    //
+        // Tab set
+        {
+            "class": "tabset_control",
+            "settings": ["spacegray_ui_background_darker"],
+            "layer0.tint": [29, 29, 29]
+            
+        },
+        // Tab element
+        {
+            "class": "tab_control",
+            "settings": ["spacegray_ui_background_darker"],
+            "layer0.tint": [29, 29, 29]
+        },
+        {
+            "class": "tab_control",
+            "attributes": ["selected"],
+            "settings": ["spacegray_ui_background_darker"],
+            "layer0.tint": [29, 29, 29]
+        },
+    //
+    // SCROLLBARS
+    //
+        {
+            "class": "scroll_corner_control",
+            "settings": ["spacegray_ui_background_darker"],
+            "layer0.tint": [29, 29, 29]
+        },
+        {
+            "class": "scroll_bar_control",
+            "settings": ["spacegray_ui_background_darker"],
+            "layer0.tint": [29, 29, 29]
+        },
+        {
+            "class": "scroll_bar_control",
+            "settings": ["spacegray_ui_background_darker"],
+            "attributes": ["horizontal"],
+            "layer0.tint": [29, 29, 29]
+        },    
+    //  
+    // SCROLLBARS OVERLAID
+    //
+        {
+            "class": "scroll_bar_control",
+            "settings": ["spacegray_ui_background_darker"],
+            "layer0.tint": [29, 29, 29]
+        },
+        {
+            "class": "scroll_bar_control",
+            "settings": ["spacegray_ui_background_darker"],
+            "attributes": ["horizontal"],
+            "layer0.tint": [29, 29, 29]
+        },
+    //
+    // EMPTY WINDOW BACKGROUND
+    //
+        {
+            "class": "sheet_container_control",
+            "settings": ["spacegray_ui_background_darker"],
+            "layer0.tint": [29, 29, 29]
+        },
+    //
+    // GRID LAYOUT
+    //
+        {
+            "class": "grid_layout_control",
+            "settings": ["spacegray_ui_background_darker"],
+            "border_color": [40, 40, 40]
+        },
+    //
+    // STATUS BAR
+    //
+        // Status bar container
+        {
+            "class": "status_bar",
+            "settings": ["spacegray_ui_background_darker"],
+            "layer0.tint": [29, 29, 29]
+        },
+    //
+    // SIDEBAR
+    //
+        // Sidebar container
+        {
+            "class": "sidebar_container",
+            "settings": ["spacegray_ui_background_darker"],
+            "layer0.tint": [29, 29, 29]
+        },
+        {
+            "class": "tree_row",
+            "settings": ["spacegray_ui_background_darker"],
+            "layer0.tint": [29, 29, 29]
+        },
+    //
+    // TOOLTIP
+    //
+        // Tooltip container
+        {
+            "class": "tool_tip_control",
+            "settings": ["spacegray_ui_background_darker"],
+            "layer0.tint": [29, 29, 29]
+        },
+    //
+    // STANDARD TEXT BUTTONS
+    //
+        // Default button state
+        {
+            "class": "button_control",
+            "settings": ["spacegray_ui_background_darker"],
+            "layer0.tint": [29, 29, 29]
+        },
+        // Hover button state
+        {
+            "class": "button_control",
+            "settings": ["spacegray_ui_background_darker"],
+            "attributes": ["hover"],
+            "layer0.tint": [40, 40, 40]
+        },
+        // Pressed button state
+        {
+            "class": "button_control",
+            "settings": ["spacegray_ui_background_darker"],
+            "attributes": ["pressed"],
+            "layer0.tint": [12, 12, 12]
+        },
+    //
+    // TEXT INPUT FIELD
+    //
+        // Text input field item
+        {
+            "class": "text_line_control",
+            "settings": ["spacegray_ui_background_darker"],
+            "layer0.tint": [29, 29, 29]
+        },
+    //
+    // PANEL BACKGROUNDS
+    //
+        // Bottom panel background
+        {
+            "class": "panel_control",
+            "settings": ["spacegray_ui_background_darker"],
+            "layer0.tint": [29, 29, 29]
+        },
+    //
+    // QUICK PANEL
+    //
+        {
+            "class": "quick_panel",
+            "settings": ["spacegray_ui_background_darker"],
+            "layer0.tint": [29, 29, 29]
+        },
+        {
+            "class": "quick_panel_row",
+            "settings": ["spacegray_ui_background_darker"],
+            "layer0.tint": [29, 29, 29]
+        },
+        {
+            "class": "quick_panel_row",
+            "settings": ["spacegray_ui_background_darker"],
+            "attributes": ["selected"],
+            "layer0.tint": [40, 40, 40]
+        },
+    //
+    // MINI QUICK PANEL
+    //
+        {
+            "class": "mini_quick_panel_row",
+            "settings": ["spacegray_ui_background_darker"],
+            "layer0.tint": [29, 29, 29]
+        },
+        {
+            "class": "mini_quick_panel_row",
+            "settings": ["spacegray_ui_background_darker"],
+            "attributes": ["selected"],
+            "layer0.tint": [40, 40, 40]
+        },
+    //
+    // CODE COMPLETION DROPDOWN
+    //
+        {
+            "class": "popup_control",
+            "settings": ["spacegray_ui_background_darker"],
+            "layer0.tint": [29, 29, 29]
+        },
+        {
+            "class": "table_row",
+            "settings": ["spacegray_ui_background_darker"],
+            "layer0.tint": [40, 40, 40]
+        },
+
+  //
+  // LIGHTER    "settings": ["spacegray_ui_background_lighter"],
+  //
+
+    //
+    // TABS (REGULAR)
+    //
+        // Tab set
+        {
+            "class": "tabset_control",
+            "settings": ["spacegray_ui_background_lighter"],
+            "layer0.tint": [51, 51, 51]
+            
+        },
+        // Tab element
+        {
+            "class": "tab_control",
+            "settings": ["spacegray_ui_background_lighter"],
+            "layer0.tint": [51, 51, 51]
+        },
+        {
+            "class": "tab_control",
+            "attributes": ["selected"],
+            "settings": ["spacegray_ui_background_lighter"],
+            "layer0.tint": [51, 51, 51]
+        },
+    //
+    // SCROLLBARS
+    //
+        {
+            "class": "scroll_corner_control",
+            "settings": ["spacegray_ui_background_lighter"],
+            "layer0.tint": [51, 51, 51]
+        },
+        {
+            "class": "scroll_bar_control",
+            "settings": ["spacegray_ui_background_lighter"],
+            "layer0.tint": [51, 51, 51]
+        },
+        {
+            "class": "scroll_bar_control",
+            "settings": ["spacegray_ui_background_lighter"],
+            "attributes": ["horizontal"],
+            "layer0.tint": [51, 51, 51]
+        },    
+    //  
+    // SCROLLBARS OVERLAID
+    //
+        {
+            "class": "scroll_bar_control",
+            "settings": ["spacegray_ui_background_lighter"],
+            "layer0.tint": [51, 51, 51]
+        },
+        {
+            "class": "scroll_bar_control",
+            "settings": ["spacegray_ui_background_lighter"],
+            "attributes": ["horizontal"],
+            "layer0.tint": [51, 51, 51]
+        },
+    //
+    // EMPTY WINDOW BACKGROUND
+    //
+        {
+            "class": "sheet_container_control",
+            "settings": ["spacegray_ui_background_lighter"],
+            "layer0.tint": [51, 51, 51]
+        },
+    //
+    // GRID LAYOUT
+    //
+        {
+            "class": "grid_layout_control",
+            "settings": ["spacegray_ui_background_lighter"],
+            "border_color": [40, 40, 40]
+        },
+    //
+    // STATUS BAR
+    //
+        // Status bar container
+        {
+            "class": "status_bar",
+            "settings": ["spacegray_ui_background_lighter"],
+            "layer0.tint": [51, 51, 51]
+        },
+    //
+    // SIDEBAR
+    //
+        // Sidebar container
+        {
+            "class": "sidebar_container",
+            "settings": ["spacegray_ui_background_lighter"],
+            "layer0.tint": [51, 51, 51]
+        },
+        {
+            "class": "tree_row",
+            "settings": ["spacegray_ui_background_lighter"],
+            "layer0.tint": [51, 51, 51]
+        },
+    //
+    // TOOLTIP
+    //
+        // Tooltip container
+        {
+            "class": "tool_tip_control",
+            "settings": ["spacegray_ui_background_lighter"],
+            "layer0.tint": [51, 51, 51]
+        },
+    //
+    // STANDARD TEXT BUTTONS
+    //
+        // Default button state
+        {
+            "class": "button_control",
+            "settings": ["spacegray_ui_background_lighter"],
+            "layer0.tint": [51, 51, 51]
+        },
+        // Hover button state
+        {
+            "class": "button_control",
+            "settings": ["spacegray_ui_background_lighter"],
+            "attributes": ["hover"],
+            "layer0.tint": [63, 63, 63]
+        },
+        // Pressed button state
+        {
+            "class": "button_control",
+            "settings": ["spacegray_ui_background_lighter"],
+            "attributes": ["pressed"],
+            "layer0.tint": [40, 40, 40]
+        },
+    //
+    // TEXT INPUT FIELD
+    //
+        // Text input field item
+        {
+            "class": "text_line_control",
+            "settings": ["spacegray_ui_background_lighter"],
+            "layer0.tint": [40, 40, 40]
+        },
+    //
+    // PANEL BACKGROUNDS
+    //
+        // Bottom panel background
+        {
+            "class": "panel_control",
+            "settings": ["spacegray_ui_background_lighter"],
+            "layer0.tint": [51, 51, 51]
+        },
+    //
+    // QUICK PANEL
+    //
+        {
+            "class": "quick_panel",
+            "settings": ["spacegray_ui_background_lighter"],
+            "layer0.tint": [51, 51, 51]
+        },
+        {
+            "class": "quick_panel_row",
+            "settings": ["spacegray_ui_background_lighter"],
+            "layer0.tint": [51, 51, 51]
+        },
+        {
+            "class": "quick_panel_row",
+            "settings": ["spacegray_ui_background_lighter"],
+            "attributes": ["selected"],
+            "layer0.tint": [40, 40, 40]
+        },
+    //
+    // MINI QUICK PANEL
+    //
+        {
+            "class": "mini_quick_panel_row",
+            "settings": ["spacegray_ui_background_lighter"],
+            "layer0.tint": [51, 51, 51]
+        },
+        {
+            "class": "mini_quick_panel_row",
+            "settings": ["spacegray_ui_background_lighter"],
+            "attributes": ["selected"],
+            "layer0.tint": [40, 40, 40]
+        },
+    //
+    // CODE COMPLETION DROPDOWN
+    //
+        {
+            "class": "popup_control",
+            "settings": ["spacegray_ui_background_lighter"],
+            "layer0.tint": [51, 51, 51]
+        },
+        {
+            "class": "table_row",
+            "settings": ["spacegray_ui_background_lighter"],
+            "layer0.tint": [40, 40, 40]
+        },
