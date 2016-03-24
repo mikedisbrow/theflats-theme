@@ -82,3 +82,8 @@ Layer Margin?
 
 12. **Fix UI Color Options Scrollbars Overlay**
 
+13. **NEW FOLDER ICONS**
+
+14. Fix combo of darker/lighter background and no tab underline showing correctly.
+
+

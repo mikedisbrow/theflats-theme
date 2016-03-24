@@ -236,18 +236,18 @@
     // options
     {
         "class": "show_tabs_dropdown_button",
-        "settings": ["spacegray_no_tab_scroll_icons"],
+        "settings": ["spacegray_hide_tab_scroll_icons"],
         "content_margin": 0,
         "layer0.inner_margin": 0
     },
     {
         "class": "scroll_tabs_right_button",
-        "settings": ["spacegray_no_tab_scroll_icons"],
+        "settings": ["spacegray_hide_tab_scroll_icons"],
         "content_margin": 0
     },
     {
         "class": "scroll_tabs_left_button",
-        "settings": ["spacegray_no_tab_scroll_icons"],
+        "settings": ["spacegray_hide_tab_scroll_icons"],
         "content_margin": 0
     },
 
@@ -1122,6 +1122,9 @@
 // ---------------------------------------------------------
 // FONT FAMILY OPTIONS
 // --------------------------------------------------------- 
+    
+  // HACK
+  
     {
         "class": "sidebar_label",
         "settings": ["spacegray_font_Hack"],
@@ -1132,6 +1135,9 @@
         "settings": ["spacegray_font_Hack"],
         "font.face": "Hack"
     },
+
+  // INPUT SANS
+  
     {
         "class": "sidebar_label",
         "settings": ["spacegray_font_InputSans"],
@@ -1142,6 +1148,9 @@
         "settings": ["spacegray_font_InputSans"],
         "font.face": "InputSans"
     },
+
+  // INPUT SANS NARROW
+
     {
         "class": "sidebar_label",
         "settings": ["spacegray_font_InputSansNarrow"],
@@ -1152,6 +1161,9 @@
         "settings": ["spacegray_font_InputSansNarrow"],
         "font.face": "InputSansNarrow"
     },
+
+  // SAN FRANCISCO TEXT
+
     {
         "class": "sidebar_label",
         "settings": ["spacegray_font_SFText"],
@@ -2364,8 +2376,13 @@
         {
             "class": "tab_control",
             "settings": ["spacegray_ui_background_darker"],
-            "layer0.texture": "Theme - Spacegray/Spacegray/tab_inactive_darker.png",
-            "layer0.opacity": 1
+            "layer0.texture": "Theme - Spacegray/Spacegray/tab_inactive_darker.png"
+        },
+        // Tab active state
+        {
+            "class": "tab_control",
+            "attributes": ["selected"],
+            "layer0.texture": "Theme - Spacegray/Spacegray/tab_selected_seafoam.png"
         },
     //
     // SCROLLBARS
