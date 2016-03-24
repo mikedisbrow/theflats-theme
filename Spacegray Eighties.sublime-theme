@@ -27,8 +27,7 @@
         "content_margin": [8,0],
         "max_margin_trim": 0,
         "hit_test_level": 0,
-        "layer0.texture": "",
-        "layer0.tint": [40, 40, 40],
+        "layer0.texture": "Theme - Spacegray/Spacegray/tab_inactive.png",
         "layer0.opacity": 1
     },
     // Tab close state
@@ -46,10 +45,7 @@
     {
         "class": "tab_control",
         "attributes": ["selected"],
-        "layer0.texture": "",
-        "layer0.tint": [40, 40, 40],
-        "layer1.texture": "Theme - Spacegray/Spacegray/tab_selected_underlined.png",
-        "layer1.tint": [29, 233, 182]
+        "layer0.texture": "Theme - Spacegray/Spacegray/tab_selected_seafoam.png"
     },
     // Tab dirty state (close button hidden)
     {
@@ -1193,13 +1189,8 @@
         {
             "class": "tab_control",
             "settings": ["spacegray_ui_background_darker"],
-            "layer0.tint": [29, 29, 29]
-        },
-        {
-            "class": "tab_control",
-            "attributes": ["selected"],
-            "settings": ["spacegray_ui_background_darker"],
-            "layer0.tint": [29, 29, 29]
+            "layer0.texture": "Theme - Spacegray/Spacegray/tab_inactive_darker.png",
+            "layer0.opacity": 1
         },
     //
     // SCROLLBARS
@@ -1274,6 +1265,15 @@
             "layer0.tint": [29, 29, 29]
         },
     //
+    // TOOLTIP
+    //
+        // Tooltip container
+        {
+            "class": "tool_tip_control",
+            "settings": ["spacegray_ui_background_darker"],
+            "layer0.tint": [29, 29, 29]
+        },
+    //
     // STANDARD TEXT BUTTONS
     //
         // Default button state
@@ -1303,7 +1303,7 @@
         {
             "class": "text_line_control",
             "settings": ["spacegray_ui_background_darker"],
-            "layer0.tint": [29, 29, 29]
+            "layer0.tint": [33, 33, 33]
         },
     //
     // PANEL BACKGROUNDS
@@ -1313,6 +1313,12 @@
             "class": "panel_control",
             "settings": ["spacegray_ui_background_darker"],
             "layer0.tint": [29, 29, 29]
+        },
+        // Quick panel background
+        {
+            "class": "overlay_control",
+            "settings": ["spacegray_ui_background_darker"],
+            "layer0.texture": "Theme - Spacegray/Spacegray/overlay-darker-bg.png"
         },
     //
     // QUICK PANEL
@@ -1379,13 +1385,8 @@
         {
             "class": "tab_control",
             "settings": ["spacegray_ui_background_lighter"],
-            "layer0.tint": [51, 51, 51]
-        },
-        {
-            "class": "tab_control",
-            "attributes": ["selected"],
-            "settings": ["spacegray_ui_background_lighter"],
-            "layer0.tint": [51, 51, 51]
+            "layer0.texture": "Theme - Spacegray/Spacegray/tab_inactive_lighter.png",
+            "layer0.opacity": 1
         },
     //
     // SCROLLBARS
@@ -1460,6 +1461,15 @@
             "layer0.tint": [51, 51, 51]
         },
     //
+    // TOOLTIP
+    //
+        // Tooltip container
+        {
+            "class": "tool_tip_control",
+            "settings": ["spacegray_ui_background_lighter"],
+            "layer0.tint": [51, 51, 51]
+        },
+    //
     // STANDARD TEXT BUTTONS
     //
         // Default button state
@@ -1489,7 +1499,7 @@
         {
             "class": "text_line_control",
             "settings": ["spacegray_ui_background_lighter"],
-            "layer0.tint": [40, 40, 40]
+            "layer0.tint": [33, 33, 33]
         },
     //
     // PANEL BACKGROUNDS
@@ -1499,6 +1509,12 @@
             "class": "panel_control",
             "settings": ["spacegray_ui_background_lighter"],
             "layer0.tint": [51, 51, 51]
+        },
+        // Quick panel background
+        {
+            "class": "overlay_control",
+            "settings": ["spacegray_ui_background_lighter"],
+            "layer0.texture": "Theme - Spacegray/Spacegray/overlay-lighter-bg.png"
         },
     //
     // QUICK PANEL

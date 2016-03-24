@@ -6,11 +6,9 @@
     //
     {
         "class": "tab_control",
-        "settings": ["spacegray_underline_active_tabs"],
         "settings": ["spacegray_ui_seafoam"],
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Spacegray/Spacegray/tab_selected_underlined.png",
-        "layer0.tint": [29, 233, 182]
+        "layer0.texture": "Theme - Spacegray/Spacegray/tab_selected_seafoam.png",
     },
     //
     // Tab Close Button Hover
@@ -280,11 +278,9 @@
     //
     {
         "class": "tab_control",
-        "settings": ["spacegray_underline_active_tabs"],
         "settings": ["spacegray_ui_orange"],
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Spacegray/Spacegray/tab_selected_underlined.png",
-        "layer0.tint": [255, 145, 0]
+        "layer0.texture": "Theme - Spacegray/Spacegray/tab_selected_orange.png"
     },
     //
     // Tab Close Button Hover
@@ -554,11 +550,9 @@
     //
     {
         "class": "tab_control",
-        "settings": ["spacegray_underline_active_tabs"],
         "settings": ["spacegray_ui_yellow"],
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Spacegray/Spacegray/tab_selected_underlined.png",
-        "layer0.tint": [255, 238, 88]
+        "layer0.texture": "Theme - Spacegray/Spacegray/tab_selected_yellow.png"
     },
     //
     // Tab Close Button Hover
@@ -828,11 +822,9 @@
     //
     {
         "class": "tab_control",
-        "settings": ["spacegray_underline_active_tabs"],
         "settings": ["spacegray_ui_blue"],
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Spacegray/Spacegray/tab_selected_underlined.png",
-        "layer0.tint": [66, 165, 245]
+        "layer0.texture": "Theme - Spacegray/Spacegray/tab_selected_blue.png"
     },
     //
     // Tab Close Button Hover
@@ -1102,11 +1094,9 @@
     //
     {
         "class": "tab_control",
-        "settings": ["spacegray_underline_active_tabs"],
         "settings": ["spacegray_ui_purple"],
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Spacegray/Spacegray/tab_selected_underlined.png",
-        "layer0.tint": [126, 87, 194]
+        "layer0.texture": "Theme - Spacegray/Spacegray/tab_selected_purple.png"
     },
     //
     // Tab Close Button Hover
