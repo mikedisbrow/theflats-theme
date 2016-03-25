@@ -56,6 +56,27 @@
     },
 
 //
+// TABS SIZING
+//
+
+    // Tab set
+    {
+        "class": "tabset_control",
+        "settings": ["spacegray_tabs_auto_width"],
+        "tab_width": 0
+    },
+    {
+        "class": "tabset_control",
+        "settings": ["spacegray_tabs_small"],
+        "tab_height": 25
+    },
+    {
+        "class": "tabset_control",
+        "settings": ["spacegray_tabs_large"],
+        "tab_height": 40
+    },
+
+//
 // TAB BUTTONS
 //
 
@@ -64,7 +85,7 @@
         "class": "tab_close_button",
         "layer0.texture": "Theme - Spacegray/Spacegray/close.png",
         "layer0.opacity": 0,
-        "layer0.tint": [101, 115, 126]
+        "layer0.tint": [117, 117, 117]
     },
     {
         "class": "tab_close_button",
@@ -82,7 +103,7 @@
         "parents": [{"class": "tab_control"}],
         "attributes": ["hover"],
         "layer0.opacity": 1,
-        "layer0.tint": [29, 233, 182]
+        "layer0.tint": [113, 238, 184]
     },
     {
         "class": "tab_close_button",
@@ -148,18 +169,18 @@
     {
         "class": "tab_label",
         "fade": true,
-        "fg": [101, 115, 126],
+        "fg": [117, 117, 117],
         "font.size": 12
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control","attributes": ["hover"]}],
-        "fg": [167, 173, 186]
+        "fg": [158, 158, 158]
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control","attributes": ["selected"]}],
-        "fg": [205, 211, 222]
+        "fg": [224, 224, 224]
     },
     {
         "class": "tab_label",
@@ -192,45 +213,45 @@
     {
         "class": "show_tabs_dropdown_button",
         "content_margin": [8, 8],
-        "layer0.texture": "Theme - Spacegray/Spacegray/tabset-list@2x.png",
+        "layer0.texture": "Theme - Spacegray/Spacegray/tabset-list.png",
         "layer0.opacity": 1,
-        "layer0.tint": [101, 115, 126]
+        "layer0.tint": [117, 117, 117]
     },
     {
         "class": "show_tabs_dropdown_button",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - Spacegray/Spacegray/tabset-list@2x.png",
-        "layer0.tint": [29, 233, 182],
+        "layer0.texture": "Theme - Spacegray/Spacegray/tabset-list.png",
+        "layer0.tint": [113, 238, 184],
         "layer0.opacity": 1
     },
     // Tab scroll left
     {
         "class": "scroll_tabs_left_button",
         "content_margin": [8, 8],
-        "layer0.texture": "Theme - Spacegray/Spacegray/tabset-left@2x.png",
-        "layer0.tint": [101, 115, 126],
+        "layer0.texture": "Theme - Spacegray/Spacegray/tabset-left.png",
+        "layer0.tint": [117, 117, 117],
         "layer0.opacity": 1
     },
     {
         "class": "scroll_tabs_left_button",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - Spacegray/Spacegray/tabset-left@2x.png",
-        "layer0.tint": [29, 233, 182],
+        "layer0.texture": "Theme - Spacegray/Spacegray/tabset-left.png",
+        "layer0.tint": [113, 238, 184],
         "layer0.opacity": 1
     },
     // Tab scroll right
     {
         "class": "scroll_tabs_right_button",
         "content_margin": [8, 8],
-        "layer0.texture": "Theme - Spacegray/Spacegray/tabset-right@2x.png",
-        "layer0.tint": [101, 115, 126],
+        "layer0.texture": "Theme - Spacegray/Spacegray/tabset-right.png",
+        "layer0.tint": [117, 117, 117],
         "layer0.opacity": 1
     },
     {
         "class": "scroll_tabs_right_button",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - Spacegray/Spacegray/tabset-right@2x.png",
-        "layer0.tint": [29, 233, 182],
+        "layer0.texture": "Theme - Spacegray/Spacegray/tabset-right.png",
+        "layer0.tint": [113, 238, 184],
         "layer0.opacity": 1
     },
     // options
@@ -258,7 +279,7 @@
     {
         "class": "fold_button_control",
         "layer0.texture": "Theme - Spacegray/Spacegray/fold-closed.png",
-        "layer0.tint": [205, 211, 222],
+        "layer0.tint": [224, 224, 224],
         "layer0.opacity": 0.5,
         "layer0.inner_margin": 0,
         "content_margin": [8,8]
@@ -302,7 +323,7 @@
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [0, 10],
         "layer0.texture": "Theme - Spacegray/Spacegray/puck_vertical.png",
-        "layer0.tint": [29, 233, 182],
+        "layer0.tint": [113, 238, 184],
         "content_margin": [8, 12],
         "blur": false
       },
@@ -322,13 +343,13 @@
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [10, 0],
         "layer0.texture": "Theme - Spacegray/Spacegray/puck_horizontal.png",
-        "layer0.tint": [29, 233, 182],
+        "layer0.tint": [113, 238, 184],
         "content_margin": [12, 8],
         "blur": false
       },
 
 //  
-// SCROLLBARS OVERLAID
+// SCROLLBARS OVERLAY
 //
 
     {
@@ -355,7 +376,7 @@
       "class": "puck_control",
       "settings": ["overlay_scroll_bars"],
       "layer0.texture": "Theme - Spacegray/Spacegray/puck_vertical_overlay.png",
-      "layer0.tint": [29, 233, 182],
+      "layer0.tint": [113, 238, 184],
       "layer0.inner_margin": [0, 5],
       "content_margin": [5, 20],
       "blur": false
@@ -375,7 +396,7 @@
       "settings": ["overlay_scroll_bars"],
       "attributes": ["horizontal"],
       "layer0.texture": "Theme - Spacegray/Spacegray/puck_horizontal_overlay.png",
-      "layer0.tint": [29, 233, 182],
+      "layer0.tint": [113, 238, 184],
       "layer0.inner_margin": [5, 0],
       "content_margin": [20, 5],
       "blur": false
@@ -398,7 +419,7 @@
     {
         "class": "grid_layout_control",
         "border_size": 1,
-        "border_color": [43,43,43]
+        "border_color": [40, 40, 40]
     },
 
 //
@@ -409,7 +430,7 @@
     "class": "minimap_control",
     "settings": ["always_show_minimap_viewport"],
     "viewport_opacity": 0.4,
-    "viewport_color": [205, 211, 222, 75]
+    "viewport_color": [224, 224, 224, 75]
   },
   
   {
@@ -422,7 +443,7 @@
     "class": "minimap_control",
     "attributes": ["hover"],
     "settings": ["!always_show_minimap_viewport"],
-    "viewport_color": [205, 211, 222, 75],
+    "viewport_color": [224, 224, 224, 75],
     "viewport_opacity": { "target": 0.4, "speed": 20.0, "interpolation": "smoothstep" }
   },
 
@@ -433,7 +454,7 @@
     // General labels
     {
         "class": "label_control",
-        "color": [167, 173, 186] // 03
+        "color": [224, 224, 224] // 03
     },
     // Text field labels
     {
@@ -445,7 +466,7 @@
         "class": "label_control",
         "parents": [{"class": "button_control"}],
         "font.bold": true,
-        "color": [29, 233, 182] // 0C
+        "color": [113, 238, 184] // 0C
     },
 
 //
@@ -455,15 +476,15 @@
     // Tooltip container
     {
         "class": "tool_tip_control",
-        "layer0.tint": [40, 40, 40], 
+        "layer0.tint": [33, 33, 33], 
         "layer0.inner_margin": [1,1],
         "layer0.opacity": 1,
-        "content_margin": [4,4]
+        "content_margin": [8,8]
     },
     // Tooltip content
     {
         "class": "tool_tip_label_control",
-        "color": [167, 173, 186]
+        "color": [158, 158, 158]
     },
 
 //
@@ -486,7 +507,7 @@
     {
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
-        "color": [101, 115, 126]
+        "color": [117, 117, 117]
     },
 
 //
@@ -526,7 +547,7 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [205, 211, 222],
+        "color": [224, 224, 224],
         "font.bold": true
     },
     {
@@ -553,7 +574,7 @@
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [101, 115, 126],
+        "color": [158, 158, 158],
         "font.size": 12 
     },
     {
@@ -576,17 +597,17 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable"]}],
-        "color": [101, 115, 126]
+        "color": [158, 158, 158]
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expanded"]}],
-        "color": [29, 233, 182]
+        "color": [113, 238, 184]
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "color": [29, 233, 182]
+        "color": [189, 189, 189]
     },
     {
         "class": "sidebar_label",
@@ -598,7 +619,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "color": [29, 233, 182]
+        "color": [224, 224, 224]
     },
 
 //
@@ -611,7 +632,7 @@
         "layer0.texture": "Theme - Spacegray/Spacegray/close.png",
         "layer0.opacity": 0,
         "layer0.inner_margin": 0,
-        "layer0.tint": [101, 115, 126],
+        "layer0.tint": [117, 117, 117],
         "content_margin": [8,8]
     },
     {
@@ -642,7 +663,7 @@
     {
         "class": "close_button",
         "attributes": ["hover"],
-        "layer0.tint": [29, 233, 182]
+        "layer0.tint": [113, 238, 184]
     },
     {
         "class": "close_button",
@@ -661,14 +682,14 @@
         "class": "disclosure_button_control",
         "content_margin": [8,8],
         "layer0.texture": "Theme - Spacegray/Spacegray/folder-arrow-closed.png",
-        "layer0.tint": [101, 115, 126],
+        "layer0.tint": [117, 117, 117],
         "layer0.opacity": 1,
         "layer0.inner_margin": 0
     },
     {
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.tint": [29, 233, 182]
+        "layer0.tint": [158, 158, 158]
     },
     {
         "class": "disclosure_button_control",
@@ -679,7 +700,7 @@
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "layer0.texture": "Theme - Spacegray/Spacegray/folder-arrow-open.png",
-        "layer0.tint": [29, 233, 182]
+        "layer0.tint": [113,238,184]
     },
     {
         "class": "disclosure_button_control",
@@ -710,7 +731,7 @@
         "settings": ["spacegray_folder_icons"],
         "attributes": ["expanded"],
         "layer0.texture": "Theme - Spacegray/Spacegray/folder-open.png",
-        "layer0.tint": [29, 233, 182]
+        "layer0.tint": [113, 238, 184]
     },
     {
         "class": "disclosure_button_control",
@@ -719,6 +740,30 @@
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
         "layer0.texture": "Theme - Spacegray/Spacegray/folder-open.png"
     },
+
+//
+// SIDEBAR - HIDE FILE ICONS
+//
+
+    {
+        "class": "icon_file_type",
+        "settings": ["spacegray_hide_icons"],
+        "content_margin": [0,0],
+        "layer0.opacity": 0.0
+    },
+    {
+        "class": "icon_folder",
+        "layer0.texture": "",
+        "layer0.opacity": 0.0,
+        "content_margin": [0,0]
+    },
+    {
+        "class": "icon_folder_loading",
+        "settings": ["spacegray_hide_icons"],
+        "content_margin": [0,0],
+        "layer0.opacity": 0.0
+    }
+
 //
 // STANDARD TEXT BUTTONS
 //
@@ -804,22 +849,22 @@
     },
     {
         "class": "quick_panel_label",
-        "fg": [167, 173, 186, 255],
-        "match_fg": [0, 191, 165, 255],
-        "selected_fg": [205, 211, 222, 255],
-        "selected_match_fg": [29, 233, 182, 255]
+        "fg": [158, 158, 158, 255],
+        "match_fg": [150, 201, 179, 255],
+        "selected_fg": [224, 224, 224, 255],
+        "selected_match_fg": [113, 238, 184, 255]
     },
     {
         "class": "quick_panel_path_label",
-        "fg": [101, 115, 126, 255],
-        "match_fg": [0, 191, 165, 255],
-        "selected_fg": [101, 115, 126, 255],
-        "selected_match_fg": [0, 191, 165, 255]
+        "fg": [117, 117, 117, 255],
+        "match_fg": [150, 201, 179, 255],
+        "selected_fg": [158, 158, 158, 255],
+        "selected_match_fg": [113, 238, 184, 255]
     },
     {
         "class": "quick_panel_score_label",
-        "fg": [0, 191, 165, 255],
-        "selected_fg": [29, 233, 182, 255]
+        "fg": [150, 201, 179, 255],
+        "selected_fg": [113, 238, 184, 255]
     },
 
 //
@@ -854,10 +899,10 @@
     },
     {
         "class": "auto_complete_label",
-        "fg": [101, 115, 126, 255],
-        "match_fg": [0, 191, 165, 255],
-        "selected_fg": [167, 173, 186, 255],
-        "selected_match_fg": [29, 233, 182, 255]
+        "fg": [117, 117, 117, 255],
+        "match_fg": [150, 201, 179, 255],
+        "selected_fg": [158, 158, 158, 255],
+        "selected_match_fg": [113, 238, 184, 255]
     },
     {
         "class": "table_row",
@@ -928,7 +973,7 @@
     {
         "class": "icon_regex",
         "layer0.texture": "Theme - Spacegray/Spacegray/regex.png",
-        "layer0.tint": [101, 115, 126],
+        "layer0.tint": [117, 117, 117],
         "layer0.opacity": 1,
         "content_margin": 8
 
@@ -936,33 +981,33 @@
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [29, 233, 182]
+        "layer0.tint": [117, 117, 117]
     },
     // Case sensitive search button
     {
         "class": "icon_case",
         "layer0.texture": "Theme - Spacegray/Spacegray/casesens.png",
-        "layer0.tint": [101, 115, 126],
+        "layer0.tint": [117, 117, 117],
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [29, 233, 182]
+        "layer0.tint": [113, 238, 184]
     },
     // Match whole word search button
     {
         "class": "icon_whole_word",
         "layer0.texture": "Theme - Spacegray/Spacegray/wholeword.png",
-        "layer0.tint": [101, 115, 126],
+        "layer0.tint": [117, 117, 117],
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [29, 233, 182]
+        "layer0.tint": [113, 238, 184]
     },
 
 //
@@ -973,27 +1018,27 @@
     {
         "class": "icon_context",
         "layer0.texture": "Theme - Spacegray/Spacegray/context.png",
-        "layer0.tint": [101, 115, 126],
+        "layer0.tint": [117, 117, 117],
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [29, 233, 182]
+        "layer0.tint": [113, 238, 184]
     },
     // Use search buffer
     {
         "class": "icon_use_buffer",
         "layer0.texture": "Theme - Spacegray/Spacegray/buffer.png",
-        "layer0.tint": [101, 115, 126],
+        "layer0.tint": [117, 117, 117],
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [29, 233, 182]
+        "layer0.tint": [113, 238, 184]
     },
 
 //
@@ -1003,40 +1048,40 @@
     {
         "class": "icon_reverse",
         "layer0.texture": "Theme - Spacegray/Spacegray/reverse.png",
-        "layer0.tint": [101, 115, 126],
+        "layer0.tint": [117, 117, 117],
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [29, 233, 182]
+        "layer0.tint": [113, 238, 184]
     },
     // Search wrap button
     {
         "class": "icon_wrap",
         "layer0.texture": "Theme - Spacegray/Spacegray/wrap.png",
-        "layer0.tint": [101, 115, 126],
+        "layer0.tint": [117, 117, 117],
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [29, 233, 182]
+        "layer0.tint": [113, 238, 184]
     },
     // Search in selection button
     {
         "class": "icon_in_selection",
         "layer0.texture": "Theme - Spacegray/Spacegray/selection.png",
-        "layer0.tint": [101, 115, 126],
+        "layer0.tint": [117, 117, 117],
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [29, 233, 182]
+        "layer0.tint": [113, 238, 184]
     },
 
 //
@@ -1047,14 +1092,14 @@
     {
         "class": "icon_preserve_case",
         "layer0.texture": "Theme - Spacegray/Spacegray/lock.png",
-        "layer0.tint": [101, 115, 126],
+        "layer0.tint": [117, 117, 117],
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [29, 233, 182]
+        "layer0.tint": [113, 238, 184]
     },
 
 //
@@ -1065,59 +1110,38 @@
     {
         "class": "icon_highlight",
         "layer0.texture": "Theme - Spacegray/Spacegray/highlight.png",
-        "layer0.tint": [101, 115, 126],
+        "layer0.tint": [117, 117, 117],
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [29, 233, 182]
-    },
-
-//
-// TABS SIZING
-//
-
-    // Tab set
-    {
-        "class": "tabset_control",
-        "settings": ["spacegray_tabs_auto_width"],
-        "tab_width": 0
-    },
-    {
-        "class": "tabset_control",
-        "settings": ["spacegray_tabs_small"],
-        "tab_height": 25
-    },
-    {
-        "class": "tabset_control",
-        "settings": ["spacegray_tabs_large"],
-        "tab_height": 40
+        "layer0.tint": [113, 238, 184]
     },
 
 //
 // FIX ICON BUG BY REMOVING THEM
 //
 
-    // {
-    //     "class": "icon_file_type",
-    //     "settings": ["spacegray_hide_icons"],
-    //     "content_margin": [0,0],
-    //     "layer0.opacity": 0.0
-    // },
+    {
+        "class": "icon_file_type",
+        "settings": ["spacegray_hide_icons"],
+        "content_margin": [0,0],
+        "layer0.opacity": 0.0
+    },
     {
         "class": "icon_folder",
         "layer0.texture": "",
         "layer0.opacity": 0.0,
         "content_margin": [0,0]
     },
-    // {
-    //     "class": "icon_folder_loading",
-    //     "settings": ["spacegray_hide_icons"],
-    //     "content_margin": [0,0],
-    //     "layer0.opacity": 0.0
-    // }
+    {
+        "class": "icon_folder_loading",
+        "settings": ["spacegray_hide_icons"],
+        "content_margin": [0,0],
+        "layer0.opacity": 0.0
+    }
 
 // ---------------------------------------------------------
 // FONT FAMILY OPTIONS
@@ -1198,7 +1222,7 @@
           "parents": [{"class": "tab_control"}],
           "settings": ["spacegray_ui_seafoam"],
           "attributes": ["hover"],
-          "layer0.tint": [29, 233, 182]
+          "layer0.tint": [113, 238, 184]
       },
       //
       // Tab Scroll Buttons Hover
@@ -1207,22 +1231,22 @@
           "class": "show_tabs_dropdown_button",
           "settings": ["spacegray_ui_seafoam"],
           "attributes": ["hover"],
-          "layer0.texture": "Theme - Spacegray/Spacegray/tabset-list@2x.png",
-          "layer0.tint": [29, 233, 182]
+          "layer0.texture": "Theme - Spacegray/Spacegray/tabset-list.png",
+          "layer0.tint": [113, 238, 184]
       },
       {
           "class": "scroll_tabs_left_button",
           "settings": ["spacegray_ui_seafoam"],
           "attributes": ["hover"],
-          "layer0.texture": "Theme - Spacegray/Spacegray/tabset-left@2x.png",
-          "layer0.tint": [29, 233, 182]
+          "layer0.texture": "Theme - Spacegray/Spacegray/tabset-left.png",
+          "layer0.tint": [113, 238, 184]
       },
       {
           "class": "scroll_tabs_right_button",
           "settings": ["spacegray_ui_seafoam"],
           "attributes": ["hover"],
-          "layer0.texture": "Theme - Spacegray/Spacegray/tabset-right@2x.png",
-          "layer0.tint": [29, 233, 182]
+          "layer0.texture": "Theme - Spacegray/Spacegray/tabset-right.png",
+          "layer0.tint": [113, 238, 184]
       },
       //
       // Scrollbars
@@ -1231,14 +1255,14 @@
           "class": "puck_control",
           "settings": ["spacegray_ui_seafoam"],
           "layer0.texture": "Theme - Spacegray/Spacegray/puck_vertical.png",
-          "layer0.tint": [29, 233, 182]
+          "layer0.tint": [113, 238, 184]
       },
       {
           "class": "puck_control",
           "settings": ["spacegray_ui_seafoam"],
           "attributes": ["horizontal"],
           "layer0.texture": "Theme - Spacegray/Spacegray/puck_horizontal.png",
-          "layer0.tint": [29, 233, 182]
+          "layer0.tint": [113, 238, 184]
       },
       // //
       // // Scrollbars Overlaid
@@ -1248,7 +1272,7 @@
       //     "settings": ["spacegray_ui_seafoam"],
       //     "settings": ["overlay_scroll_bars"],
       //     "layer0.texture": "Theme - Spacegray/Spacegray/puck_vertical_overlay.png",
-      //     "layer0.tint": [29, 233, 182]
+      //     "layer0.tint": [113, 238, 184]
       // },
       // {
       //     "class": "puck_control",
@@ -1256,7 +1280,7 @@
       //     "settings": ["overlay_scroll_bars"],
       //     "attributes": ["horizontal"],
       //     "layer0.texture": "Theme - Spacegray/Spacegray/puck_horizontal_overlay.png",
-      //     "layer0.tint": [29, 233, 182]
+      //     "layer0.tint": [113, 238, 184]
       // },
       //
       // Button labels
@@ -1265,54 +1289,54 @@
           "class": "label_control",
           "settings": ["spacegray_ui_seafoam"],
           "parents": [{"class": "button_control"}],
-          "color": [29, 233, 182]
+          "color": [113, 238, 184]
       },
       //
       // Sidebar
       //
-      {
-          "class": "sidebar_label",
-          "settings": ["spacegray_ui_seafoam"],
-          "parents": [{"class": "tree_row","attributes": ["hover"]}],
-          "color": [29, 233, 182]
-      },
+      // {
+      //     "class": "sidebar_label",
+      //     "settings": ["spacegray_ui_seafoam"],
+      //     "parents": [{"class": "tree_row","attributes": ["hover"]}],
+      //     "color": [113, 238, 184]
+      // },
       {
           "class": "sidebar_label",
           "settings": ["spacegray_ui_seafoam"],
           "parents": [{"class": "tree_row","attributes": ["expanded"]}],
-          "color": [29, 233, 182]
+          "color": [113, 238, 184]
       },
-      {
-          "class": "sidebar_label",
-          "settings": ["spacegray_ui_seafoam"],
-          "parents": [{"class": "tree_row","attributes": ["selected"]}],
-          "color": [29, 233, 182]
-      },
+      // {
+      //     "class": "sidebar_label",
+      //     "settings": ["spacegray_ui_seafoam"],
+      //     "parents": [{"class": "tree_row","attributes": ["selected"]}],
+      //     "color": [113, 238, 184]
+      // },
       {
           "class": "close_button",
           "settings": ["spacegray_ui_seafoam"],
           "attributes": ["hover"],
-          "layer0.tint": [29, 233, 182]
+          "layer0.tint": [113, 238, 184]
       },
       {
           "class": "disclosure_button_control",
           "settings": ["spacegray_ui_seafoam"],
           "parents": [{"class": "tree_row","attributes": ["hover"]}],
-          "layer0.tint": [29, 233, 182]
+          "layer0.tint": [113, 238, 184]
       },
       {
           "class": "disclosure_button_control",
           "settings": ["spacegray_ui_seafoam"],
           "attributes": ["expanded"],
           "layer0.texture": "Theme - Spacegray/Spacegray/folder-arrow-open.png",
-          "layer0.tint": [29, 233, 182]
+          "layer0.tint": [113, 238, 184]
       },
       {
           "class": "disclosure_button_control",
           "settings": ["spacegray_folder_icons"],
           "attributes": ["expanded"],
           "layer0.texture": "Theme - Spacegray/Spacegray/folder-open.png",
-          "layer0.tint": [29, 233, 182]
+          "layer0.tint": [113, 238, 184]
       },
       //
       // Quick Panel
@@ -1323,7 +1347,7 @@
           "fg": [167, 173, 186, 255],
           "match_fg": [0, 191, 165, 255],
           "selected_fg": [205, 211, 222, 255],
-          "selected_match_fg": [29, 233, 182, 255]
+          "selected_match_fg": [113, 238, 184, 255]
       },
       {
           "class": "quick_panel_path_label",
@@ -1337,7 +1361,7 @@
           "class": "quick_panel_score_label",
           "settings": ["spacegray_ui_seafoam"],
           "fg": [0, 191, 165, 255],
-          "selected_fg": [29, 233, 182, 255]
+          "selected_fg": [113, 238, 184, 255]
       },
       //
       // Code Completion
@@ -1348,7 +1372,7 @@
           "fg": [101, 115, 126, 255],
           "match_fg": [0, 191, 165, 255],
           "selected_fg": [167, 173, 186, 255],
-          "selected_match_fg": [29, 233, 182, 255]
+          "selected_match_fg": [113, 238, 184, 255]
       },
       //
       // Bottom Panel Buttons
@@ -1357,61 +1381,61 @@
           "class": "icon_regex",
           "settings": ["spacegray_ui_seafoam"],
           "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-          "layer0.tint": [29, 233, 182]
+          "layer0.tint": [113, 238, 184]
       },
       {
           "class": "icon_case",
           "settings": ["spacegray_ui_seafoam"],
           "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-          "layer0.tint": [29, 233, 182]
+          "layer0.tint": [113, 238, 184]
       },
       {
           "class": "icon_whole_word",
           "settings": ["spacegray_ui_seafoam"],
           "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-          "layer0.tint": [29, 233, 182]
+          "layer0.tint": [113, 238, 184]
       },
       {
           "class": "icon_context",
           "settings": ["spacegray_ui_seafoam"],
           "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-          "layer0.tint": [29, 233, 182]
+          "layer0.tint": [113, 238, 184]
       },
       {
           "class": "icon_use_buffer",
           "settings": ["spacegray_ui_seafoam"],
           "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-          "layer0.tint": [29, 233, 182]
+          "layer0.tint": [113, 238, 184]
       },
       {
           "class": "icon_reverse",
           "settings": ["spacegray_ui_seafoam"],
           "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-          "layer0.tint": [29, 233, 182]
+          "layer0.tint": [113, 238, 184]
       },
       {
           "class": "icon_wrap",
           "settings": ["spacegray_ui_seafoam"],
           "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-          "layer0.tint": [29, 233, 182]
+          "layer0.tint": [113, 238, 184]
       },
       {
           "class": "icon_in_selection",
           "settings": ["spacegray_ui_seafoam"],
           "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-          "layer0.tint": [29, 233, 182]
+          "layer0.tint": [113, 238, 184]
       },
       {
           "class": "icon_preserve_case",
           "settings": ["spacegray_ui_seafoam"],
           "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-          "layer0.tint": [29, 233, 182]
+          "layer0.tint": [113, 238, 184]
       },
       {
           "class": "icon_highlight",
           "settings": ["spacegray_ui_seafoam"],
           "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-          "layer0.tint": [29, 233, 182]
+          "layer0.tint": [113, 238, 184]
       },
 
   //
@@ -2354,405 +2378,5 @@
           "layer0.tint": [126, 87, 194]
       },
 
-// ---------------------------------------------------------
-// BACKGROUND COLOR OPTIONS
-// ---------------------------------------------------------
-  
-  //
-  // DARKER    "settings": ["spacegray_ui_background_darker"],
-  //
-
-    //
-    // TABS (REGULAR)
-    //
-        // Tab set
-        {
-            "class": "tabset_control",
-            "settings": ["spacegray_ui_background_darker"],
-            "layer0.tint": [29, 29, 29]
-            
-        },
-        // Tab element
-        {
-            "class": "tab_control",
-            "settings": ["spacegray_ui_background_darker"],
-            "layer0.texture": "Theme - Spacegray/Spacegray/tab_inactive_darker.png"
-        },
-        // Tab active state
-        {
-            "class": "tab_control",
-            "attributes": ["selected"],
-            "layer0.texture": "Theme - Spacegray/Spacegray/tab_selected_seafoam.png"
-        },
-    //
-    // SCROLLBARS
-    //
-        {
-            "class": "scroll_corner_control",
-            "settings": ["spacegray_ui_background_darker"],
-            "layer0.tint": [29, 29, 29]
-        },
-        {
-            "class": "scroll_bar_control",
-            "settings": ["spacegray_ui_background_darker"],
-            "layer0.tint": [29, 29, 29]
-        },
-        {
-            "class": "scroll_bar_control",
-            "settings": ["spacegray_ui_background_darker"],
-            "attributes": ["horizontal"],
-            "layer0.tint": [29, 29, 29]
-        },    
-    //  
-    // SCROLLBARS OVERLAID
-    //
-        {
-            "class": "scroll_bar_control",
-            "settings": ["spacegray_ui_background_darker"],
-            "layer0.tint": [29, 29, 29]
-        },
-        {
-            "class": "scroll_bar_control",
-            "settings": ["spacegray_ui_background_darker"],
-            "attributes": ["horizontal"],
-            "layer0.tint": [29, 29, 29]
-        },
-    //
-    // EMPTY WINDOW BACKGROUND
-    //
-        {
-            "class": "sheet_container_control",
-            "settings": ["spacegray_ui_background_darker"],
-            "layer0.tint": [29, 29, 29]
-        },
-    //
-    // GRID LAYOUT
-    //
-        {
-            "class": "grid_layout_control",
-            "settings": ["spacegray_ui_background_darker"],
-            "border_color": [40, 40, 40]
-        },
-    //
-    // STATUS BAR
-    //
-        // Status bar container
-        {
-            "class": "status_bar",
-            "settings": ["spacegray_ui_background_darker"],
-            "layer0.tint": [29, 29, 29]
-        },
-    //
-    // SIDEBAR
-    //
-        // Sidebar container
-        {
-            "class": "sidebar_container",
-            "settings": ["spacegray_ui_background_darker"],
-            "layer0.tint": [29, 29, 29]
-        },
-        {
-            "class": "tree_row",
-            "settings": ["spacegray_ui_background_darker"],
-            "layer0.tint": [29, 29, 29]
-        },
-    //
-    // TOOLTIP
-    //
-        // Tooltip container
-        {
-            "class": "tool_tip_control",
-            "settings": ["spacegray_ui_background_darker"],
-            "layer0.tint": [29, 29, 29]
-        },
-    //
-    // STANDARD TEXT BUTTONS
-    //
-        // Default button state
-        {
-            "class": "button_control",
-            "settings": ["spacegray_ui_background_darker"],
-            "layer0.tint": [29, 29, 29]
-        },
-        // Hover button state
-        {
-            "class": "button_control",
-            "settings": ["spacegray_ui_background_darker"],
-            "attributes": ["hover"],
-            "layer0.tint": [40, 40, 40]
-        },
-        // Pressed button state
-        {
-            "class": "button_control",
-            "settings": ["spacegray_ui_background_darker"],
-            "attributes": ["pressed"],
-            "layer0.tint": [12, 12, 12]
-        },
-    //
-    // TEXT INPUT FIELD
-    //
-        // Text input field item
-        {
-            "class": "text_line_control",
-            "settings": ["spacegray_ui_background_darker"],
-            "layer0.tint": [33, 33, 33]
-        },
-    //
-    // PANEL BACKGROUNDS
-    //
-        // Bottom panel background
-        {
-            "class": "panel_control",
-            "settings": ["spacegray_ui_background_darker"],
-            "layer0.tint": [29, 29, 29]
-        },
-        // Quick panel background
-        {
-            "class": "overlay_control",
-            "settings": ["spacegray_ui_background_darker"],
-            "layer0.texture": "Theme - Spacegray/Spacegray/overlay-darker-bg.png"
-        },
-    //
-    // QUICK PANEL
-    //
-        {
-            "class": "quick_panel",
-            "settings": ["spacegray_ui_background_darker"],
-            "layer0.tint": [29, 29, 29]
-        },
-        {
-            "class": "quick_panel_row",
-            "settings": ["spacegray_ui_background_darker"],
-            "layer0.tint": [29, 29, 29]
-        },
-        {
-            "class": "quick_panel_row",
-            "settings": ["spacegray_ui_background_darker"],
-            "attributes": ["selected"],
-            "layer0.tint": [40, 40, 40]
-        },
-    //
-    // MINI QUICK PANEL
-    //
-        {
-            "class": "mini_quick_panel_row",
-            "settings": ["spacegray_ui_background_darker"],
-            "layer0.tint": [29, 29, 29]
-        },
-        {
-            "class": "mini_quick_panel_row",
-            "settings": ["spacegray_ui_background_darker"],
-            "attributes": ["selected"],
-            "layer0.tint": [40, 40, 40]
-        },
-    //
-    // CODE COMPLETION DROPDOWN
-    //
-        {
-            "class": "popup_control",
-            "settings": ["spacegray_ui_background_darker"],
-            "layer0.tint": [29, 29, 29]
-        },
-        {
-            "class": "table_row",
-            "settings": ["spacegray_ui_background_darker"],
-            "layer0.tint": [40, 40, 40]
-        },
-
-  //
-  // LIGHTER    "settings": ["spacegray_ui_background_lighter"],
-  //
-
-    //
-    // TABS (REGULAR)
-    //
-        // Tab set
-        {
-            "class": "tabset_control",
-            "settings": ["spacegray_ui_background_lighter"],
-            "layer0.tint": [51, 51, 51]
-            
-        },
-        // Tab element
-        {
-            "class": "tab_control",
-            "settings": ["spacegray_ui_background_lighter"],
-            "layer0.texture": "Theme - Spacegray/Spacegray/tab_inactive_lighter.png",
-            "layer0.opacity": 1
-        },
-    //
-    // SCROLLBARS
-    //
-        {
-            "class": "scroll_corner_control",
-            "settings": ["spacegray_ui_background_lighter"],
-            "layer0.tint": [51, 51, 51]
-        },
-        {
-            "class": "scroll_bar_control",
-            "settings": ["spacegray_ui_background_lighter"],
-            "layer0.tint": [51, 51, 51]
-        },
-        {
-            "class": "scroll_bar_control",
-            "settings": ["spacegray_ui_background_lighter"],
-            "attributes": ["horizontal"],
-            "layer0.tint": [51, 51, 51]
-        },    
-    //  
-    // SCROLLBARS OVERLAID
-    //
-        {
-            "class": "scroll_bar_control",
-            "settings": ["spacegray_ui_background_lighter"],
-            "layer0.tint": [51, 51, 51]
-        },
-        {
-            "class": "scroll_bar_control",
-            "settings": ["spacegray_ui_background_lighter"],
-            "attributes": ["horizontal"],
-            "layer0.tint": [51, 51, 51]
-        },
-    //
-    // EMPTY WINDOW BACKGROUND
-    //
-        {
-            "class": "sheet_container_control",
-            "settings": ["spacegray_ui_background_lighter"],
-            "layer0.tint": [51, 51, 51]
-        },
-    //
-    // GRID LAYOUT
-    //
-        {
-            "class": "grid_layout_control",
-            "settings": ["spacegray_ui_background_lighter"],
-            "border_color": [40, 40, 40]
-        },
-    //
-    // STATUS BAR
-    //
-        // Status bar container
-        {
-            "class": "status_bar",
-            "settings": ["spacegray_ui_background_lighter"],
-            "layer0.tint": [51, 51, 51]
-        },
-    //
-    // SIDEBAR
-    //
-        // Sidebar container
-        {
-            "class": "sidebar_container",
-            "settings": ["spacegray_ui_background_lighter"],
-            "layer0.tint": [51, 51, 51]
-        },
-        {
-            "class": "tree_row",
-            "settings": ["spacegray_ui_background_lighter"],
-            "layer0.tint": [51, 51, 51]
-        },
-    //
-    // TOOLTIP
-    //
-        // Tooltip container
-        {
-            "class": "tool_tip_control",
-            "settings": ["spacegray_ui_background_lighter"],
-            "layer0.tint": [51, 51, 51]
-        },
-    //
-    // STANDARD TEXT BUTTONS
-    //
-        // Default button state
-        {
-            "class": "button_control",
-            "settings": ["spacegray_ui_background_lighter"],
-            "layer0.tint": [51, 51, 51]
-        },
-        // Hover button state
-        {
-            "class": "button_control",
-            "settings": ["spacegray_ui_background_lighter"],
-            "attributes": ["hover"],
-            "layer0.tint": [63, 63, 63]
-        },
-        // Pressed button state
-        {
-            "class": "button_control",
-            "settings": ["spacegray_ui_background_lighter"],
-            "attributes": ["pressed"],
-            "layer0.tint": [40, 40, 40]
-        },
-    //
-    // TEXT INPUT FIELD
-    //
-        // Text input field item
-        {
-            "class": "text_line_control",
-            "settings": ["spacegray_ui_background_lighter"],
-            "layer0.tint": [33, 33, 33]
-        },
-    //
-    // PANEL BACKGROUNDS
-    //
-        // Bottom panel background
-        {
-            "class": "panel_control",
-            "settings": ["spacegray_ui_background_lighter"],
-            "layer0.tint": [51, 51, 51]
-        },
-        // Quick panel background
-        {
-            "class": "overlay_control",
-            "settings": ["spacegray_ui_background_lighter"],
-            "layer0.texture": "Theme - Spacegray/Spacegray/overlay-lighter-bg.png"
-        },
-    //
-    // QUICK PANEL
-    //
-        {
-            "class": "quick_panel",
-            "settings": ["spacegray_ui_background_lighter"],
-            "layer0.tint": [51, 51, 51]
-        },
-        {
-            "class": "quick_panel_row",
-            "settings": ["spacegray_ui_background_lighter"],
-            "layer0.tint": [51, 51, 51]
-        },
-        {
-            "class": "quick_panel_row",
-            "settings": ["spacegray_ui_background_lighter"],
-            "attributes": ["selected"],
-            "layer0.tint": [40, 40, 40]
-        },
-    //
-    // MINI QUICK PANEL
-    //
-        {
-            "class": "mini_quick_panel_row",
-            "settings": ["spacegray_ui_background_lighter"],
-            "layer0.tint": [51, 51, 51]
-        },
-        {
-            "class": "mini_quick_panel_row",
-            "settings": ["spacegray_ui_background_lighter"],
-            "attributes": ["selected"],
-            "layer0.tint": [40, 40, 40]
-        },
-    //
-    // CODE COMPLETION DROPDOWN
-    //
-        {
-            "class": "popup_control",
-            "settings": ["spacegray_ui_background_lighter"],
-            "layer0.tint": [51, 51, 51]
-        },
-        {
-            "class": "table_row",
-            "settings": ["spacegray_ui_background_lighter"],
-            "layer0.tint": [40, 40, 40]
-        }
 
 ]
