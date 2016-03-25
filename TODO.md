@@ -1,6 +1,6 @@
 # TODO
 
-1. **New PNGs for panels for background color options**
+1. **DONE** - New PNGs for panels for background color options
 
 2. 	Fix text bottom cut off in Tabs.
 Content Margin?
@@ -80,10 +80,8 @@ Layer Margin?
 >
 > 2. add ```{ "keys": "ctrl+alt+shift+o"], "command": "show_scope_name" }``` to you user's keybindings, create a new ```.erb``` fyle and trigger the command to display current scope in the bottom status bar.
 
-12. **Fix UI Color Options Scrollbars Overlay**
+12. Fix UI Color Options Scrollbars Overlay
 
-13. **NEW FOLDER ICONS**
-
-14. Fix combo of darker/lighter background and no tab underline showing correctly.
+13. **DONE** - NEW FOLDER ICONS
 
 
