@@ -46,96 +46,119 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 
 ##### Sidebar folder icons - [Screenshot](https://github.com/mikedisbrow/theflats/screenshots/theflats-folder-icons.jpg)
 ```json
-  "The_Flats_folder_icons": true
+  "flats_folder_icons": true
 ```
 ##### Sidebar label font size
 ```json
-  "The_Flats_sidebar_font_10": true
+  "flats_sidebar_font_10": true
 ```
 ```json
-  "The_Flats_sidebar_font_11": true
+  "flats_sidebar_font_11": true
 ```
 ```json
-  "The_Flats_sidebar_font_14": true
+  "flats_sidebar_font_14": true
 ```
 ##### Sidebar tree row height
 ```json
-  "The_Flats_sidebar_tree_small": true
+  "flats_sidebar_tree_small": true
 ```
 ```json
-  "The_Flats_sidebar_tree_large": true
+  "flats_sidebar_tree_large": true
 ```
 ##### Hide file icons
 ```json
-  "The_Flats_hide_icons": true
+  "flats_hide_icons": true
 ```
 ##### Tab label font size
 ```json
-  "The_Flats_tabs_font_10": true
+  "flats_tabs_font_10": true
 ```
 ```json
-  "The_Flats_tabs_font_11": true
+  "flats_tabs_font_11": true
 ```
 ```json
-  "The_Flats_tabs_font_14": true
+  "flats_tabs_font_14": true
 ```
 ##### Tab height
 ```json
-  "The_Flats_tabs_small": true
+  "flats_tabs_small": true
 ```
 ```json
-  "The_Flats_tabs_large": true
+  "flats_tabs_large": true
 ```
 ##### Tab width
 ```json
-  "The_Flats_tabs_auto_width": true
+  "flats_tabs_auto_width": true
 ```
 ##### Hide tab scroll icons
 ```json
-  "The_Flats_hide_tab_scroll_icons": true
+  "flats_hide_tab_scroll_icons": true
 ```
-##### Font options in Sidebar and Tabs
+#### Font options in Sidebar and Tabs
 _Obviously will only work if you have the fonts installed on your system.
 Check [__CodeFace__](https://github.com/chrissimpkins/codeface "CodeFace") for a great bundle of monospaced fonts made for programming._
 
 ###### Camingo Code - [Camingo Code - MyFonts](https://www.myfonts.com/fonts/jan-fromm/camingo-code/ "MyFonts - Camingo Code")
 ```json
-  "The_Flats_font_CamingoCode": true
+  "flats_font_camingocode": true
 ```
 ###### Fira Code - [Fira Code - GitHub](https://github.com/tonsky/FiraCode "Fira Code - GitHub")
 ```json
-  "The_Flats_font_Fira": true
+  "flats_font_fira": true
 ```
 ###### Hack - [Hack - GitHub](https://github.com/chrissimpkins/Hack "Hack - GitHub")
 ```json
-  "The_Flats_font_Hack": true
+  "flats_font_hack": true
 ```
 ###### Input Sans - [The Font Bureau - Input Fonts](http://input.fontbureau.com "Font Bureau Input Fonts")
 ```json
-  "The_Flats_font_InputSans": true
+  "flats_font_inputsans": true
 ```
 ```json
-  "The_Flats_font_InputSansNarrow": true
+  "flats_font_inputsansnarrow": true
 ```
 ###### Menlo
 _Installed on Macs as a system font_
 ```json
-  "The_Flats_font_Menlo": true
+  "flats_font_menlo": true
 ```
 ###### Monaco
 _Installed on Macs as a system font_
 ```json
-  "The_Flats_font_Monaco": true
+  "flats_font_monaco": true
 ```
 ###### Pragmata Pro Mono - [Pragmata Pro Homepage](http://www.fsd.it/shop/fonts/pragmatapro "Pragmata Pro") & [Pragmata Pro GitHub](https://github.com/fabrizioschiavi/pragmatapro "Pragmata Pro GitHub")
 ```json
-  "The_Flats_font_PragmataPro": true
+  "flats_font_pragmata": true
 ```
 ###### San Francisco Text
 _Default system font on OS X 10.10 Yosemite and 10.11 El Capitan_
 ```json
-  "The_Flats_font_SanFrancisco": true
+  "flats_font_sanfrancisco": true
 ```
+#### Theme UI Accent colors
+_Change colors to better coordinate with specific themes_
+###### Seafoam - default
+```json
+  "flats_ui_seafoam": true
+```
+###### PreDawn
+```json
+  "flats_ui_predawn": true
+```
+###### Oceanic Next
+```json
+  "flats_ui_oceanic": true
+```
+###### One Dark
+```json
+  "flats_ui_onedark": true
+```
+###### Monokai
+```json
+  "flats_ui_monokai": true
+```
+
 ***
 ### Color Shemes
 ##### The Flats Material

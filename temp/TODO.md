@@ -1,21 +1,11 @@
 # TODO
 
-1. **DONE** - New PNGs for panels for background color options
-
 2. 	Fix text bottom cut off in Tabs.
 Content Margin?
 Inner Margin?
 Layer Margin?
 
-3. 	**CHANGED MIND** make tab X bigger.  keep circle the same.
-
-4. 	**CHANGED MIND** make sidebar X bigger with folder arrows
-
 5. 	1px Border in Command Palette
-
-6. 	**CHANGED MIND** Rounded scrollbars ?
-
-7. 	**DONE** Add more fonts to choices
 
 8. 	See about changing the rest of the UI to different fonts
 
@@ -80,8 +70,8 @@ Layer Margin?
 >
 > 2. add ```{ "keys": "ctrl+alt+shift+o"], "command": "show_scope_name" }``` to you user's keybindings, create a new ```.erb``` fyle and trigger the command to display current scope in the bottom status bar.
 
-12. Fix UI Color Options Scrollbars Overlay
+12. Fix UI Color Options Scrollbars Overlay Not Resetting
 
-13. **DONE** - NEW FOLDER ICONS
+13. Fix UI Color Options Folder Options Not Resetting
 
 
