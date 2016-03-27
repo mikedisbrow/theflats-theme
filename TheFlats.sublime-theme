@@ -1205,19 +1205,6 @@
         "font.face": "PragmataPro Mono"
     },
 
-  // M+
-
-    {
-        "class": "sidebar_label",
-        "settings": ["The_Flats_font_Mplus_1mn"],
-        "font.face": "M+ 1mn"
-    },
-    {
-        "class": "tab_label",
-        "settings": ["The_Flats_font_Mplus_1mn"],
-        "font.face": "M+ 1mn"
-    },
-
   // Fira Code
 
     {
