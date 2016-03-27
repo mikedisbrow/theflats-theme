@@ -44,11 +44,11 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 
 ### Settings
 
-#### Sidebar folder icons
+##### Sidebar folder icons
 ```json
   "The_Flats_folder_icons": true
 ```
-#### Sidebar label font size
+##### Sidebar label font size
 ```json
   "The_Flats_sidebar_font_10": true
 ```
@@ -58,18 +58,18 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 ```json
   "The_Flats_sidebar_font_14": true
 ```
-#### Sidebar tree row height
+##### Sidebar tree row height
 ```json
   "The_Flats_sidebar_tree_small": true
 ```
 ```json
   "The_Flats_sidebar_tree_large": true
 ```
-#### Hide file icons
+##### Hide file icons
 ```json
   "The_Flats_hide_icons": true
 ```
-#### Tab label font size
+##### Tab label font size
 ```json
   "The_Flats_tabs_font_10": true
 ```
@@ -79,70 +79,101 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 ```json
   "The_Flats_tabs_font_14": true
 ```
-#### Tab height
+##### Tab height
 ```json
   "The_Flats_tabs_small": true
 ```
 ```json
   "The_Flats_tabs_large": true
 ```
-#### Tab width
+##### Tab width
 ```json
   "The_Flats_tabs_auto_width": true
 ```
-#### Hide tab scroll icons
+##### Hide tab scroll icons
 ```json
   "The_Flats_hide_tab_scroll_icons": true
 ```
-#### Font options in Sidebar and Tabs
+##### Font options in Sidebar and Tabs
 _Obviously will only work if you have the fonts installed on your system.
 Check [__CodeFace__](https://github.com/chrissimpkins/codeface "CodeFace") for a great bundle of monospaced fonts made for programming._
 
-##### Camingo Code
-[MyFonts - Camingo Code](https://www.myfonts.com/fonts/jan-fromm/camingo-code/ "MyFonts - Camingo Code")
+###### Camingo Code - [Camingo Code - MyFonts](https://www.myfonts.com/fonts/jan-fromm/camingo-code/ "MyFonts - Camingo Code")
 ```json
   "The_Flats_font_CamingoCode": true
 ```
-##### Fira Code
-[Fira Code - GitHub](https://github.com/tonsky/FiraCode "Fira Code - GitHub")
+###### Fira Code - [Fira Code - GitHub](https://github.com/tonsky/FiraCode "Fira Code - GitHub")
 ```json
   "The_Flats_font_Fira": true
 ```
-##### Hack
-[Hack - GitHub](https://github.com/chrissimpkins/Hack "Hack - GitHub")
+###### Hack - [Hack - GitHub](https://github.com/chrissimpkins/Hack "Hack - GitHub")
 ```json
   "The_Flats_font_Hack": true
 ```
-##### Input Sans
-[The Font Bureau - Input Fonts](http://input.fontbureau.com "Font Bureau Input Fonts")
+###### Input Sans - [The Font Bureau - Input Fonts](http://input.fontbureau.com "Font Bureau Input Fonts")
 ```json
   "The_Flats_font_InputSans": true
 ```
 ```json
   "The_Flats_font_InputSansNarrow": true
 ```
-##### Menlo
+###### Menlo
 _Installed on Macs as a system font_
 ```json
   "The_Flats_font_Menlo": true
 ```
-##### Monaco
+###### Monaco
 _Installed on Macs as a system font_
 ```json
   "The_Flats_font_Monaco": true
 ```
-##### Pragmata Pro Mono
-[Pragmata Pro Homepage](http://www.fsd.it/shop/fonts/pragmatapro "Pragmata Pro") _and_ [Pragmata Pro GitHub](https://github.com/fabrizioschiavi/pragmatapro "Pragmata Pro GitHub")
+###### Pragmata Pro Mono - [Pragmata Pro Homepage](http://www.fsd.it/shop/fonts/pragmatapro "Pragmata Pro") & [Pragmata Pro GitHub](https://github.com/fabrizioschiavi/pragmatapro "Pragmata Pro GitHub")
 ```json
   "The_Flats_font_PragmataPro": true
 ```
-##### San Francisco Text
+###### San Francisco Text
 _Default system font on OS X 10.10 Yosemite and 10.11 El Capitan_
 ```json
   "The_Flats_font_SanFrancisco": true
 ```
 ***
+### Color Shemes
+##### The Flats Material
+_Changed a few colors from the Material-Dark color scheme_
 
+![image](Screenshots/theflats.png)
+![image](Screenshots/theflats1.png)
+![image](Screenshots/theflats2.png)
+
+##### The Flats for Markdown
+_Example settings for Markdown_
+
+Create a `Markdown.sublime-settings` file and place it in your `User` folder in `Sublime Text -> Preferences -> Browse Packages...`
+
+```json
+  {
+  "word_wrap": true,
+  "draw_indent_guides": false,
+  "tab_size": 4,
+  "translate_tabs_to_spaces": false,
+  "trim_trailing_white_space_on_save": false,
+  "gutter": true,
+  "font_size": 14,
+  "font_face": "Hack",
+  "font_options":
+  [
+    "subpixel_antialias"
+  ],
+  "line_padding_bottom": 2,
+  "line_padding_top": 2,
+  "spell_check": true,
+  "color_scheme": "Packages/Theme - The_Flats/schemes/The_Flats-markdown.tmTheme",
+  "draw_centered": true,
+  "wrap_width": 80
+}
+```
+![image](Screenshots/theflats.png)
+***
 ### Thanks
 ##### Themes
 [Spacegray Theme](https://github.com/kkga/spacegray) - Gadzhi Kharkharov
