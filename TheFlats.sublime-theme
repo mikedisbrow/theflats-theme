@@ -1298,14 +1298,12 @@
       // //
       {
           "class": "puck_control",
-          "settings": ["flats_ui_seafoam"],
-          "settings": ["overlay_scroll_bars"],
+          "settings": ["overlay_scroll_bars", "flats_ui_seafoam"],
           "layer0.texture": "Theme - The_Flats/assets/puck_vertical_overlay_seafoam.png"
       },
       {
           "class": "puck_control",
-          "settings": ["flats_ui_seafoam"],
-          "settings": ["overlay_scroll_bars"],
+          "settings": ["overlay_scroll_bars", "flats_ui_seafoam"],
           "attributes": ["horizontal"],
           "layer0.texture": "Theme - The_Flats/assets/puck_horizontal_overlay_seafoam.png"
       },
@@ -1342,9 +1340,16 @@
       },
       {
           "class": "disclosure_button_control",
-          "settings": ["flats_folder_icons"],
+          "settings": ["flats_folder_icons", "flats_ui_seafoam"],
           "attributes": ["expanded"],
           "layer0.texture": "Theme - The_Flats/assets/folder-open.png",
+          "layer0.tint": [113, 238, 184]
+      },
+      {
+          "class": "disclosure_button_control",
+          "settings": ["flats_folder_icons", "flats_ui_seafoam"],
+          "attributes": ["expanded"],
+          "layer0.texture": "Theme - The_Flats/assets/folder-closed.png",
           "layer0.tint": [113, 238, 184]
       },
       //
@@ -1506,14 +1511,12 @@
       //
       {
           "class": "puck_control",
-          "settings": ["flats_ui_predawn"],
-          "settings": ["overlay_scroll_bars"],
+          "settings": ["overlay_scroll_bars", "flats_ui_predawn"],
           "layer0.texture": "Theme - The_Flats/assets/puck_vertical_overlay_predawn.png"
       },
       {
           "class": "puck_control",
-          "settings": ["flats_ui_predawn"],
-          "settings": ["overlay_scroll_bars"],
+          "settings": ["overlay_scroll_bars", "flats_ui_predawn"],
           "attributes": ["horizontal"],
           "layer0.texture": "Theme - The_Flats/assets/puck_horizontal_overlay_predawn.png"
       },
@@ -1532,19 +1535,7 @@
       {
           "class": "sidebar_label",
           "settings": ["flats_ui_predawn"],
-          "parents": [{"class": "tree_row","attributes": ["hover"]}],
-          "color": [241, 130, 96]
-      },
-      {
-          "class": "sidebar_label",
-          "settings": ["flats_ui_predawn"],
           "parents": [{"class": "tree_row","attributes": ["expanded"]}],
-          "color": [241, 130, 96]
-      },
-      {
-          "class": "sidebar_label",
-          "settings": ["flats_ui_predawn"],
-          "parents": [{"class": "tree_row","attributes": ["selected"]}],
           "color": [241, 130, 96]
       },
       {
@@ -1556,19 +1547,13 @@
       {
           "class": "disclosure_button_control",
           "settings": ["flats_ui_predawn"],
-          "parents": [{"class": "tree_row","attributes": ["hover"]}],
-          "layer0.tint": [241, 130, 96]
-      },
-      {
-          "class": "disclosure_button_control",
-          "settings": ["flats_ui_predawn"],
           "attributes": ["expanded"],
           "layer0.texture": "Theme - The_Flats/assets/folder-arrow-open.png",
           "layer0.tint": [241, 130, 96]
       },
       {
           "class": "disclosure_button_control",
-          "settings": ["flats_folder_icons"],
+          "settings": ["flats_folder_icons", "flats_ui_predawn"],
           "attributes": ["expanded"],
           "layer0.texture": "Theme - The_Flats/assets/folder-open.png",
           "layer0.tint": [241, 130, 96]
@@ -1732,14 +1717,12 @@
       //
       {
         "class": "puck_control",
-        "settings": ["flats_ui_oceanic"],
-        "settings": ["overlay_scroll_bars"],
+        "settings": ["overlay_scroll_bars", "flats_ui_oceanic"],
         "layer0.texture": "Theme - The_Flats/assets/puck_vertical_overlay_oceanic.png"
       },
       {
         "class": "puck_control",
-        "settings": ["flats_ui_oceanic"],
-        "settings": ["overlay_scroll_bars"],
+        "settings": ["overlay_scroll_bars", "flats_ui_oceanic"],
         "attributes": ["horizontal"],
         "layer0.texture": "Theme - The_Flats/assets/puck_horizontal_overlay_oceanic.png"
       },
@@ -1758,19 +1741,7 @@
       {
           "class": "sidebar_label",
           "settings": ["flats_ui_oceanic"],
-          "parents": [{"class": "tree_row","attributes": ["hover"]}],
-          "color": [250, 200, 99]
-      },
-      {
-          "class": "sidebar_label",
-          "settings": ["flats_ui_oceanic"],
           "parents": [{"class": "tree_row","attributes": ["expanded"]}],
-          "color": [250, 200, 99]
-      },
-      {
-          "class": "sidebar_label",
-          "settings": ["flats_ui_oceanic"],
-          "parents": [{"class": "tree_row","attributes": ["selected"]}],
           "color": [250, 200, 99]
       },
       {
@@ -1782,19 +1753,13 @@
       {
           "class": "disclosure_button_control",
           "settings": ["flats_ui_oceanic"],
-          "parents": [{"class": "tree_row","attributes": ["hover"]}],
-          "layer0.tint": [250, 200, 99]
-      },
-      {
-          "class": "disclosure_button_control",
-          "settings": ["flats_ui_oceanic"],
           "attributes": ["expanded"],
           "layer0.texture": "Theme - The_Flats/assets/folder-arrow-open.png",
           "layer0.tint": [250, 200, 99]
       },
       {
           "class": "disclosure_button_control",
-          "settings": ["flats_folder_icons"],
+          "settings": ["flats_folder_icons", "flats_ui_oceanic"],
           "attributes": ["expanded"],
           "layer0.texture": "Theme - The_Flats/assets/folder-open.png",
           "layer0.tint": [250, 200, 99]
@@ -1960,14 +1925,12 @@
       
       {
         "class": "puck_control",
-        "settings": ["flats_ui_onedark"],
-        "settings": ["overlay_scroll_bars"],
+        "settings": ["overlay_scroll_bars", "flats_ui_onedark"],
         "layer0.texture": "Theme - The_Flats/assets/puck_vertical_overlay_onedark.png"
       },
       {
         "class": "puck_control",
-        "settings": ["flats_ui_onedark"],
-        "settings": ["overlay_scroll_bars"],
+        "settings": ["overlay_scroll_bars", "flats_ui_onedark"],
         "attributes": ["horizontal"],
         "layer0.texture": "Theme - The_Flats/assets/puck_horizontal_overlay_onedark.png"
       },
@@ -1986,19 +1949,7 @@
       {
           "class": "sidebar_label",
           "settings": ["flats_ui_onedark"],
-          "parents": [{"class": "tree_row","attributes": ["hover"]}],
-          "color": [82, 139, 255]
-      },
-      {
-          "class": "sidebar_label",
-          "settings": ["flats_ui_onedark"],
           "parents": [{"class": "tree_row","attributes": ["expanded"]}],
-          "color": [82, 139, 255]
-      },
-      {
-          "class": "sidebar_label",
-          "settings": ["flats_ui_onedark"],
-          "parents": [{"class": "tree_row","attributes": ["selected"]}],
           "color": [82, 139, 255]
       },
       {
@@ -2010,19 +1961,13 @@
       {
           "class": "disclosure_button_control",
           "settings": ["flats_ui_onedark"],
-          "parents": [{"class": "tree_row","attributes": ["hover"]}],
-          "layer0.tint": [82, 139, 255]
-      },
-      {
-          "class": "disclosure_button_control",
-          "settings": ["flats_ui_onedark"],
           "attributes": ["expanded"],
           "layer0.texture": "Theme - The_Flats/assets/folder-arrow-open.png",
           "layer0.tint": [82, 139, 255]
       },
       {
           "class": "disclosure_button_control",
-          "settings": ["flats_folder_icons"],
+          "settings": ["flats_folder_icons", "flats_ui_onedark"],
           "attributes": ["expanded"],
           "layer0.texture": "Theme - The_Flats/assets/folder-open.png",
           "layer0.tint": [82, 139, 255]
@@ -2186,14 +2131,12 @@
       //
       {
         "class": "puck_control",
-        "settings": ["flats_ui_monokai"],
-        "settings": ["overlay_scroll_bars"],
+        "settings": ["overlay_scroll_bars", "flats_ui_monokai"],
         "layer0.texture": "Theme - The_Flats/assets/puck_vertical_overlay_monokai.png"
       },
       {
         "class": "puck_control",
-        "settings": ["flats_ui_monokai"],
-        "settings": ["overlay_scroll_bars"],
+        "settings": ["overlay_scroll_bars", "flats_ui_monokai"],
         "attributes": ["horizontal"],
         "layer0.texture": "Theme - The_Flats/assets/puck_horizontal_overlay_monokai.png"
       },
@@ -2214,31 +2157,13 @@
       {
           "class": "sidebar_label",
           "settings": ["flats_ui_monokai"],
-          "parents": [{"class": "tree_row","attributes": ["hover"]}],
-          "color": [249, 38, 114]
-      },
-      {
-          "class": "sidebar_label",
-          "settings": ["flats_ui_monokai"],
           "parents": [{"class": "tree_row","attributes": ["expanded"]}],
-          "color": [249, 38, 114]
-      },
-      {
-          "class": "sidebar_label",
-          "settings": ["flats_ui_monokai"],
-          "parents": [{"class": "tree_row","attributes": ["selected"]}],
           "color": [249, 38, 114]
       },
       {
           "class": "close_button",
           "settings": ["flats_ui_monokai"],
           "attributes": ["hover"],
-          "layer0.tint": [249, 38, 114]
-      },
-      {
-          "class": "disclosure_button_control",
-          "settings": ["flats_ui_monokai"],
-          "parents": [{"class": "tree_row","attributes": ["hover"]}],
           "layer0.tint": [249, 38, 114]
       },
       {
@@ -2250,7 +2175,7 @@
       },
       {
           "class": "disclosure_button_control",
-          "settings": ["flats_folder_icons"],
+          "settings": ["flats_folder_icons", "flats_ui_monokai"],
           "attributes": ["expanded"],
           "layer0.texture": "Theme - The_Flats/assets/folder-open.png",
           "layer0.tint": [249, 38, 114]

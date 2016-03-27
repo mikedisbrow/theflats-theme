@@ -160,7 +160,7 @@ _Change colors to better coordinate with specific themes_
 ```
 
 ***
-### Color Shemes
+### Color Schemes
 ##### The Flats Material
 _Changed a few colors from the Material-Dark color scheme_
 
@@ -189,9 +189,15 @@ Create a `Markdown.sublime-settings` file and place it in your `User` folder in 
   ],
   "line_padding_bottom": 2,
   "line_padding_top": 2,
+  "line_numbers": true,
   "spell_check": true,
-  "color_scheme": "Packages/Theme - The_Flats/schemes/The_Flats-markdown.tmTheme",
+  "color_scheme": "Packages/Predawn/predawn-gf-markdown.tmTheme",
   "draw_centered": true,
+  "save_on_focus_lost": true,
+  "caret_extra_bottom": 4,
+  "caret_extra_top": 4,
+  "caret_extra_width": 3,
+  "caret_style": "phase",
   "wrap_width": 80
 }
 ```
