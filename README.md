@@ -1,35 +1,16 @@
-# Spacegray
+# The Flats
 
-A set of custom UI themes for Sublime Text 2/3. It's all about hype and minimal. Comes in different flavors with accompanying [Base16](https://github.com/chriskempson/base16) color schemes.
+A dark, flat UI theme for Sublime Text 3. Uses Seafoam Green as the default accent color, popular on the hulls of saltwater fishing boats.
 
+#### Screenshots
 
-### Looking for a maintainer
+![image](Screenshots/theflats.png)
+![image](Screenshots/theflats1.png)
+![image](Screenshots/theflats2.png)
+![image](Screenshots/theflats3.png)
+![image](Screenshots/theflats4.png)
 
-I'm not actively maintaining this repo for quite a while since I've switched to [Atom](https://atom.io/). If you have an intention to maintain the repo and keep the themes up to date, let me know.
-
-***
-
-### Themes
-
-#### Spacegray
-
-Default flavor based on Base16 Ocean Dark color scheme.
-
-![image](Screenshots/spacegray.png)
-
-#### Spacegray Light
-
-Light variation based on Base16 Ocean Light color scheme.
-
-![image](Screenshots/spacegray-light.png)
-
-#### Spacegray Eighties
-
-A variation based on Base16 Eighties Dark color scheme.
-
-![image](Screenshots/spacegray-eighties.png)
-
-*The font used in the screenshots is [__Source Code Pro__](https://github.com/adobe-fonts/source-code-pro).*
+*The font used in the screenshots is [__Input Sans Narrow__](http://input.fontbureau.com).*
 
 ***
 
@@ -37,18 +18,18 @@ A variation based on Base16 Eighties Dark color scheme.
 
 #### Via Package Control
 
-The easiest way to install is using [Sublime Package Control](https://sublime.wbond.net), where Spacegray is listed as `Theme - Spacegray`.
+The easiest way to install is using [Sublime Package Control](https://sublime.wbond.net), where The Flats is listed as `Theme - The Flats`.
 
 1. Open Command Palette using menu item `Tools -> Command Palette...` (<kbd>⇧</kbd><kbd>⌘</kbd><kbd>P</kbd> on Mac)
 2. Choose `Package Control: Install Package`
-3. Find `Theme - Spacegray` and hit <kbd>Enter</kbd>
+3. Find `Theme - The Flats` and hit <kbd>Enter</kbd>
 
 #### Manual
 
 You can also install the theme manually:
 
-1. [Download the .zip](https://github.com/kkga/spacegray/archive/master.zip)
-2. Unzip and rename the folder to `Theme - Spacegray`
+1. [Download the .zip](https://github.com/mikedisbrow/theflats/archive/master.zip)
+2. Unzip and rename the folder to `Theme - The Flats`
 3. Copy the folder into `Packages` directory, which you can find using the menu item `Sublime Text -> Preferences -> Browse Packages...`
 
 ***
@@ -57,122 +38,137 @@ You can also install the theme manually:
 
 Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User` (<kbd>⌘</kbd><kbd>,</kbd> on Mac).
 
-You can choose whichever flavor you like, but don't forget to change *both* color scheme and UI theme so they match.
-
 ***Note: Don't forget to restart Sublime Text after activating the theme.***
-
-#### Settings for Spacegray
-
-```json
-{
-  "theme": "Spacegray.sublime-theme",
-  "color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme"
-}
-```
-
-#### Settings for Spacegray Light
-
-```json
-{
-  "theme": "Spacegray Light.sublime-theme",
-  "color_scheme": "Packages/Theme - Spacegray/base16-ocean.light.tmTheme"
-}
-```
-
-#### Settings for Spacegray Eighties
-
-```json
-{
-  "theme": "Spacegray Eighties.sublime-theme",
-  "color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme"
-}
-```
 
 ***
 
 ### Settings
 
-#### Tab labels font size
+#### Sidebar folder icons
+```json
+  "The_Flats_folder_icons": true
+```
+#### Sidebar label font size
+```json
+  "The_Flats_sidebar_font_10": true
+```
+```json
+  "The_Flats_sidebar_font_11": true
+```
+```json
+  "The_Flats_sidebar_font_14": true
+```
+#### Sidebar tree row height
+```json
+  "The_Flats_sidebar_tree_small": true
+```
+```json
+  "The_Flats_sidebar_tree_large": true
+```
+#### Hide file icons
+```json
+  "The_Flats_hide_icons": true
+```
+#### Tab label font size
+```json
+  "The_Flats_tabs_font_10": true
+```
+```json
+  "The_Flats_tabs_font_11": true
+```
+```json
+  "The_Flats_tabs_font_14": true
+```
+#### Tab height
+```json
+  "The_Flats_tabs_small": true
+```
+```json
+  "The_Flats_tabs_large": true
+```
+#### Tab width
+```json
+  "The_Flats_tabs_auto_width": true
+```
+#### Hide tab scroll icons
+```json
+  "The_Flats_hide_tab_scroll_icons": true
+```
+#### Font options in Sidebar and Tabs
+_Obviously will only work if you have the fonts installed on your system.
+Check [__CodeFace__](https://github.com/chrissimpkins/codeface "CodeFace") for a great bundle of monospaced fonts made for programming._
 
-Copy and paste one of four options in your user preferences file:
-
+##### Camingo Code
+[MyFonts - Camingo Code](https://www.myfonts.com/fonts/jan-fromm/camingo-code/ "MyFonts - Camingo Code")
 ```json
-  "spacegray_tabs_font_small": true
+  "The_Flats_font_CamingoCode": true
+```
+##### Fira Code
+[Fira Code - GitHub](https://github.com/tonsky/FiraCode "Fira Code - GitHub")
+```json
+  "The_Flats_font_Fira": true
+```
+##### Hack
+[Hack - GitHub](https://github.com/chrissimpkins/Hack "Hack - GitHub")
+```json
+  "The_Flats_font_Hack": true
+```
+##### Input Sans
+[The Font Bureau - Input Fonts](http://input.fontbureau.com "Font Bureau Input Fonts")
+```json
+  "The_Flats_font_InputSans": true
 ```
 ```json
-  "spacegray_tabs_font_normal": true
+  "The_Flats_font_InputSansNarrow": true
 ```
+##### Menlo
+_Installed on Macs as a system font_
 ```json
-  "spacegray_tabs_font_large": true
+  "The_Flats_font_Menlo": true
 ```
+##### Monaco
+_Installed on Macs as a system font_
 ```json
-  "spacegray_tabs_font_xlarge": true
+  "The_Flats_font_Monaco": true
 ```
-
-#### Tabs size
-
-Tabs height:
-
+##### Pragmata Pro Mono
+[Pragmata Pro Homepage](http://www.fsd.it/shop/fonts/pragmatapro "Pragmata Pro") _and_ [Pragmata Pro GitHub](https://github.com/fabrizioschiavi/pragmatapro "Pragmata Pro GitHub")
 ```json
-  "spacegray_tabs_small": true
+  "The_Flats_font_PragmataPro": true
 ```
+##### San Francisco Text
+_Default system font on OS X 10.10 Yosemite and 10.11 El Capitan_
 ```json
-  "spacegray_tabs_normal": true
+  "The_Flats_font_SanFrancisco": true
 ```
-```json
-  "spacegray_tabs_large": true
-```
-```json
-  "spacegray_tabs_xlarge": true
-```
-
-Tabs width: 
-
-```json
-  "spacegray_tabs_auto_width": true
-```
-
-#### Sidebar labels font size
-
-```json
-  "spacegray_sidebar_font_small": true
-```
-```json
-  "spacegray_sidebar_font_normal": true
-```
-```json
-  "spacegray_sidebar_font_large": true
-```
-```json
-  "spacegray_sidebar_font_xlarge": true
-```
-
-#### Sidebar tree rows height
-
-```json
-  "spacegray_sidebar_tree_xsmall": true
-```
-```json
-  "spacegray_sidebar_tree_small": true
-```
-```json
-  "spacegray_sidebar_tree_normal": true
-```
-```json
-  "spacegray_sidebar_tree_large": true
-```
-```json
-  "spacegray_sidebar_tree_xlarge": true
-```
-
-#### Hide navigation icons in Sublime Text 3
-
-```json
-    "enable_tab_scrolling": false,
-```
-
 ***
 
 ### Thanks
+##### Themes
+[Spacegray Theme](https://github.com/kkga/spacegray) - Gadzhi Kharkharov
 
-The Spacegray Eighties variation is contributed by [Yoshua Wuyts](https://github.com/yoshuawuyts).
+[Material Theme](https://github.com/equinusocio/material-theme) - Mattia Astorino
+
+##### Icons
+[Subway Icons](https://github.com/mariuszostrowski/subway) - Mariusz Ostrowski
+
+[Ionicons](https://github.com/driftyco/ionicons/)
+
+[Octicons](https://octicons.github.com/)
+
+[Font Awesome](https://fortawesome.github.io/Font-Awesome/icons/)
+
+[Google Material Design](https://design.google.com/icons/)
+
+[Iconic](https://github.com/iconic/open-iconic)
+
+##### Fonts
+[CodeFace](https://github.com/chrissimpkins/codeface) - Chris Simpkins
+
+[Hack](https://github.com/chrissimpkins/Hack) - Chris Simpkins
+
+[Fira Code](https://github.com/tonsky/FiraCode) - Nikita Prokopov
+
+[Input Fonts](http://input.fontbureau.com) - The Font Bureau
+
+[Camingo Code](https://www.myfonts.com/fonts/jan-fromm/camingo-code/) - Jan Fromm

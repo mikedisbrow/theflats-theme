@@ -555,11 +555,6 @@
     },
     {
         "class": "sidebar_tree",
-        "settings": ["spacegray_sidebar_tree_normal"],
-        "row_padding": [8, 4]
-    },
-    {
-        "class": "sidebar_tree",
         "settings": ["spacegray_sidebar_tree_large"],
         "row_padding": [8, 6]
     },
@@ -1158,6 +1153,84 @@
         "font.face": "Hack"
     },
 
+  // Menlo
+
+    {
+        "class": "sidebar_label",
+        "settings": ["spacegray_font_Menlo"],
+        "font.face": "Menlo"
+    },
+    {
+        "class": "tab_label",
+        "settings": ["spacegray_font_Menlo"],
+        "font.face": "Menlo"
+    },
+
+  // Monaco
+
+    {
+        "class": "sidebar_label",
+        "settings": ["spacegray_font_Monaco"],
+        "font.face": "Monaco"
+    },
+    {
+        "class": "tab_label",
+        "settings": ["spacegray_font_Monaco"],
+        "font.face": "Monaco"
+    },
+
+  // Camingo Code
+
+    {
+        "class": "sidebar_label",
+        "settings": ["spacegray_font_CamingoCode"],
+        "font.face": "CamingoCode"
+    },
+    {
+        "class": "tab_label",
+        "settings": ["spacegray_font_CamingoCode"],
+        "font.face": "CamingoCode"
+    },
+
+  // Pragmata Pro
+
+    {
+        "class": "sidebar_label",
+        "settings": ["spacegray_font_PragmataPro"],
+        "font.face": "PragmataPro Mono"
+    },
+    {
+        "class": "tab_label",
+        "settings": ["spacegray_font_PragmataPro"],
+        "font.face": "PragmataPro Mono"
+    },
+
+  // M+
+
+    {
+        "class": "sidebar_label",
+        "settings": ["spacegray_font_Mplus_1mn"],
+        "font.face": "M+ 1mn"
+    },
+    {
+        "class": "tab_label",
+        "settings": ["spacegray_font_Mplus_1mn"],
+        "font.face": "M+ 1mn"
+    },
+
+  // Fira Code
+
+    {
+        "class": "sidebar_label",
+        "settings": ["spacegray_font_Fira"],
+        "font.face": "Fira Code"
+    },
+    {
+        "class": "tab_label",
+        "settings": ["spacegray_font_Fira"],
+        "font.face": "Fira Code"
+    },
+
   // INPUT SANS
   
     {
@@ -1188,12 +1261,12 @@
 
     {
         "class": "sidebar_label",
-        "settings": ["spacegray_font_SFText"],
+        "settings": ["spacegray_font_SanFrancisco"],
         "font.face": ".SF NS Text"
     },
     {
         "class": "tab_label",
-        "settings": ["spacegray_font_SFText"],
+        "settings": ["spacegray_font_SanFrancisco"],
         "font.face": ".SF NS Text"
     }
 

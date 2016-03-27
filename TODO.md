@@ -7,15 +7,15 @@ Content Margin?
 Inner Margin?
 Layer Margin?
 
-3. 	make tab X bigger.  keep circle the same.
+3. 	**CHANGED MIND** make tab X bigger.  keep circle the same.
 
-4. 	make sidebar X bigger with folder arrows
+4. 	**CHANGED MIND** make sidebar X bigger with folder arrows
 
 5. 	1px Border in Command Palette
 
-6. 	Rounded scrollbars ?
+6. 	**CHANGED MIND** Rounded scrollbars ?
 
-7. 	Add more fonts to choices
+7. 	**DONE** Add more fonts to choices
 
 8. 	See about changing the rest of the UI to different fonts
 
