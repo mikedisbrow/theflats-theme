@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>author</key>
-	<string>Gadzhi Kharkharov</string>
+	<string>Mike Disbrow</string>
 	<key>comment</key>
-	<string>Spacegray</string>
+	<string>The Flats</string>
 	<key>name</key>
-	<string>Spacegray Eighties</string>
+	<string>The Flats</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -16,15 +16,13 @@
 				<key>background</key>
 				<string>#212121</string>
 				<key>caret</key>
-				<string>#ffcc00</string>
+				<string>#71EEB8</string>
 				<key>foreground</key>
-				<string>#eeffffff</string>
+				<string>#E0E0E0</string>
 				<key>invisibles</key>
-				<string>#65737e</string>
+				<string>#757575</string>
 				<key>selection</key>
 				<string>#61616140</string>
-				<key>selectionBorder</key>
-				<string>#4F4F4F</string>
 			</dict>
 		</dict>
 	</array>
