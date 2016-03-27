@@ -44,7 +44,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 
 ### Settings
 
-##### Sidebar folder icons
+##### Sidebar folder icons - [Screenshot](https://github.com/mikedisbrow/theflats/screenshots/theflats-folder-icons.jpg)
 ```json
   "The_Flats_folder_icons": true
 ```
@@ -141,7 +141,7 @@ _Default system font on OS X 10.10 Yosemite and 10.11 El Capitan_
 ##### The Flats Material
 _Changed a few colors from the Material-Dark color scheme_
 
-![image](Screenshots/theflats.png)
+![image](screenshots/theflats.png)
 ![image](Screenshots/theflats1.png)
 ![image](Screenshots/theflats2.png)
 
@@ -172,7 +172,7 @@ Create a `Markdown.sublime-settings` file and place it in your `User` folder in 
   "wrap_width": 80
 }
 ```
-![image](Screenshots/theflats.png)
+[Screenshot](http://github.com/mikedisbrow/theflats/screenshots/theflats-markdown.jpg)
 ***
 ### Thanks
 ##### Themes

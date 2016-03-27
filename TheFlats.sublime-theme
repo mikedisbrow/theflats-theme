@@ -27,7 +27,7 @@
         "content_margin": [8,0],
         "max_margin_trim": 0,
         "hit_test_level": 0,
-        "layer0.texture": "Theme - The_Flats/The_Flats/tab_inactive.png",
+        "layer0.texture": "Theme - The_Flats/assets/tab_inactive.png",
         "layer0.opacity": 1
     },
     // Tab close state
@@ -45,7 +45,7 @@
     {
         "class": "tab_control",
         "attributes": ["selected"],
-        "layer0.texture": "Theme - The_Flats/The_Flats/tab_selected_seafoam.png"
+        "layer0.texture": "Theme - The_Flats/assets/tab_selected_seafoam.png"
     },
     // Tab dirty state (close button hidden)
     {
@@ -62,17 +62,17 @@
     // Tab set
     {
         "class": "tabset_control",
-        "settings": ["The_Flats_tabs_auto_width"],
+        "settings": ["the_flats_tabs_auto_width"],
         "tab_width": 0
     },
     {
         "class": "tabset_control",
-        "settings": ["The_Flats_tabs_small"],
+        "settings": ["the_flats_tabs_small"],
         "tab_height": 25
     },
     {
         "class": "tabset_control",
-        "settings": ["The_Flats_tabs_large"],
+        "settings": ["the_flats_tabs_large"],
         "tab_height": 40
     },
 
@@ -83,7 +83,7 @@
     // Tab close button
     {
         "class": "tab_close_button",
-        "layer0.texture": "Theme - The_Flats/The_Flats/close.png",
+        "layer0.texture": "Theme - The_Flats/assets/close.png",
         "layer0.opacity": 0,
         "layer0.tint": [117, 117, 117]
     },
@@ -95,7 +95,7 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control","attributes": ["hover"]}],
-        "layer0.texture": "Theme - The_Flats/The_Flats/close.png",
+        "layer0.texture": "Theme - The_Flats/assets/close.png",
         "layer0.opacity": 1
     },
     {
@@ -114,7 +114,7 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control","attributes": ["dirty"]}],
-        "layer0.texture": "Theme - The_Flats/The_Flats/circle.png",
+        "layer0.texture": "Theme - The_Flats/assets/circle.png",
         "layer0.tint": [255, 203, 107],
         "layer0.opacity": 1
     },
@@ -128,7 +128,7 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control","attributes": ["dirty","hover"]}],
-        "layer0.texture": "Theme - The_Flats/The_Flats/close.png",
+        "layer0.texture": "Theme - The_Flats/assets/close.png",
         "attributes": ["hover"],
         "layer0.opacity": 1,
         "layer0.tint": [255, 203, 107]
@@ -191,17 +191,17 @@
     // Tab Labels font size
     {
         "class": "tab_label",
-        "settings": ["The_Flats_tabs_font_10"],
+        "settings": ["the_flats_tabs_font_10"],
         "font.size": 10.0
     },
     {
         "class": "tab_label",
-        "settings": ["The_Flats_tabs_font_11"],
+        "settings": ["the_flats_tabs_font_11"],
         "font.size": 11.0
     },
     {
         "class": "tab_label",
-        "settings": ["The_Flats_tabs_font_14"],
+        "settings": ["the_flats_tabs_font_14"],
         "font.size": 14.0
     },
 
@@ -213,14 +213,14 @@
     {
         "class": "show_tabs_dropdown_button",
         "content_margin": [8, 8],
-        "layer0.texture": "Theme - The_Flats/The_Flats/tabset-list.png",
+        "layer0.texture": "Theme - The_Flats/assets/tabset-list.png",
         "layer0.opacity": 1,
         "layer0.tint": [117, 117, 117]
     },
     {
         "class": "show_tabs_dropdown_button",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - The_Flats/The_Flats/tabset-list.png",
+        "layer0.texture": "Theme - The_Flats/assets/tabset-list.png",
         "layer0.tint": [113, 238, 184],
         "layer0.opacity": 1
     },
@@ -228,14 +228,14 @@
     {
         "class": "scroll_tabs_left_button",
         "content_margin": [8, 8],
-        "layer0.texture": "Theme - The_Flats/The_Flats/tabset-left.png",
+        "layer0.texture": "Theme - The_Flats/assets/tabset-left.png",
         "layer0.tint": [117, 117, 117],
         "layer0.opacity": 1
     },
     {
         "class": "scroll_tabs_left_button",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - The_Flats/The_Flats/tabset-left.png",
+        "layer0.texture": "Theme - The_Flats/assets/tabset-left.png",
         "layer0.tint": [113, 238, 184],
         "layer0.opacity": 1
     },
@@ -243,32 +243,32 @@
     {
         "class": "scroll_tabs_right_button",
         "content_margin": [8, 8],
-        "layer0.texture": "Theme - The_Flats/The_Flats/tabset-right.png",
+        "layer0.texture": "Theme - The_Flats/assets/tabset-right.png",
         "layer0.tint": [117, 117, 117],
         "layer0.opacity": 1
     },
     {
         "class": "scroll_tabs_right_button",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - The_Flats/The_Flats/tabset-right.png",
+        "layer0.texture": "Theme - The_Flats/assets/tabset-right.png",
         "layer0.tint": [113, 238, 184],
         "layer0.opacity": 1
     },
     // options
     {
         "class": "show_tabs_dropdown_button",
-        "settings": ["The_Flats_hide_tab_scroll_icons"],
+        "settings": ["the_flats_hide_tab_scroll_icons"],
         "content_margin": 0,
         "layer0.inner_margin": 0
     },
     {
         "class": "scroll_tabs_right_button",
-        "settings": ["The_Flats_hide_tab_scroll_icons"],
+        "settings": ["the_flats_hide_tab_scroll_icons"],
         "content_margin": 0
     },
     {
         "class": "scroll_tabs_left_button",
-        "settings": ["The_Flats_hide_tab_scroll_icons"],
+        "settings": ["the_flats_hide_tab_scroll_icons"],
         "content_margin": 0
     },
 
@@ -278,7 +278,7 @@
 
     {
         "class": "fold_button_control",
-        "layer0.texture": "Theme - The_Flats/The_Flats/fold-closed.png",
+        "layer0.texture": "Theme - The_Flats/assets/fold-closed.png",
         "layer0.tint": [224, 224, 224],
         "layer0.opacity": 0.5,
         "layer0.inner_margin": 0,
@@ -292,7 +292,7 @@
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - The_Flats/The_Flats/fold-open.png"
+        "layer0.texture": "Theme - The_Flats/assets/fold-open.png"
     },
     {
         "class": "fold_button_control",
@@ -322,7 +322,7 @@
         "class": "puck_control",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [0, 10],
-        "layer0.texture": "Theme - The_Flats/The_Flats/puck_vertical.png",
+        "layer0.texture": "Theme - The_Flats/assets/puck_vertical.png",
         "layer0.tint": [113, 238, 184],
         "content_margin": [8, 12],
         "blur": false
@@ -342,7 +342,7 @@
         "attributes": ["horizontal"],
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [10, 0],
-        "layer0.texture": "Theme - The_Flats/The_Flats/puck_horizontal.png",
+        "layer0.texture": "Theme - The_Flats/assets/puck_horizontal.png",
         "layer0.tint": [113, 238, 184],
         "content_margin": [12, 8],
         "blur": false
@@ -375,7 +375,7 @@
     {
       "class": "puck_control",
       "settings": ["overlay_scroll_bars"],
-      "layer0.texture": "Theme - The_Flats/The_Flats/puck_vertical_overlay.png",
+      "layer0.texture": "Theme - The_Flats/assets/puck_vertical_overlay.png",
       "layer0.tint": [113, 238, 184],
       "layer0.inner_margin": [0, 5],
       "content_margin": [5, 20],
@@ -395,7 +395,7 @@
       "class": "puck_control",
       "settings": ["overlay_scroll_bars"],
       "attributes": ["horizontal"],
-      "layer0.texture": "Theme - The_Flats/The_Flats/puck_horizontal_overlay.png",
+      "layer0.texture": "Theme - The_Flats/assets/puck_horizontal_overlay.png",
       "layer0.tint": [113, 238, 184],
       "layer0.inner_margin": [5, 0],
       "content_margin": [20, 5],
@@ -550,12 +550,12 @@
     },
     {
         "class": "sidebar_tree",
-        "settings": ["The_Flats_sidebar_tree_small"],
+        "settings": ["the_flats_sidebar_tree_small"],
         "row_padding": [8, 2]
     },
     {
         "class": "sidebar_tree",
-        "settings": ["The_Flats_sidebar_tree_large"],
+        "settings": ["the_flats_sidebar_tree_large"],
         "row_padding": [8, 6]
     },
     // Sidebar heading selected
@@ -572,17 +572,17 @@
     },
     {
         "class": "sidebar_label",
-        "settings": ["The_Flats_sidebar_font_10"],
+        "settings": ["the_flats_sidebar_font_10"],
         "font.size": 10.0
     },
     {
         "class": "sidebar_label",
-        "settings": ["The_Flats_sidebar_font_11"],
+        "settings": ["the_flats_sidebar_font_11"],
         "font.size": 11.0
     },
     {
         "class": "sidebar_label",
-        "settings": ["The_Flats_sidebar_font_14"],
+        "settings": ["the_flats_sidebar_font_14"],
         "font.size": 14.0
     },
 
@@ -622,7 +622,7 @@
     // Sidebar file close
     {
         "class": "close_button",
-        "layer0.texture": "Theme - The_Flats/The_Flats/close.png",
+        "layer0.texture": "Theme - The_Flats/assets/close.png",
         "layer0.opacity": 0,
         "layer0.inner_margin": 0,
         "layer0.tint": [117, 117, 117],
@@ -642,7 +642,7 @@
     {
         "class": "close_button",
         "attributes": ["dirty"],
-        "layer0.texture": "Theme - The_Flats/The_Flats/circle.png",
+        "layer0.texture": "Theme - The_Flats/assets/circle.png",
         "layer0.opacity": 1,
         "layer0.tint": [255, 203, 107]
     },
@@ -650,7 +650,7 @@
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "Theme - The_Flats/The_Flats/circle.png"
+        "layer0.texture": "Theme - The_Flats/assets/circle.png"
     },
     // Sidebar file close hover
     {
@@ -662,7 +662,7 @@
         "class": "close_button",
         "attributes": ["dirty", "hover"],
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.texture": "Theme - The_Flats/The_Flats/close.png",
+        "layer0.texture": "Theme - The_Flats/assets/close.png",
         "layer0.tint": [255, 203, 107]
     },
 
@@ -674,7 +674,7 @@
     {
         "class": "disclosure_button_control",
         "content_margin": [8,8],
-        "layer0.texture": "Theme - The_Flats/The_Flats/folder-arrow-closed.png",
+        "layer0.texture": "Theme - The_Flats/assets/folder-arrow-closed.png",
         "layer0.tint": [117, 117, 117],
         "layer0.opacity": 1,
         "layer0.inner_margin": 0
@@ -692,7 +692,7 @@
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - The_Flats/The_Flats/folder-arrow-open.png",
+        "layer0.texture": "Theme - The_Flats/assets/folder-arrow-open.png",
         "layer0.tint": [113,238,184]
     },
     {
@@ -704,7 +704,7 @@
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "Theme - The_Flats/The_Flats/folder-arrow-open.png"
+        "layer0.texture": "Theme - The_Flats/assets/folder-arrow-open.png"
     },
     // Sidebar file icons
     {
@@ -716,22 +716,22 @@
     // Option for Folders or Arrows
     {
         "class": "disclosure_button_control",
-        "settings": ["The_Flats_folder_icons"],
-        "layer0.texture": "Theme - The_Flats/The_Flats/folder-closed.png"
+        "settings": ["the_flats_folder_icons"],
+        "layer0.texture": "Theme - The_Flats/assets/folder-closed.png"
     },
     {
         "class": "disclosure_button_control",
-        "settings": ["The_Flats_folder_icons"],
+        "settings": ["the_flats_folder_icons"],
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - The_Flats/The_Flats/folder-open.png",
+        "layer0.texture": "Theme - The_Flats/assets/folder-open.png",
         "layer0.tint": [113, 238, 184]
     },
     {
         "class": "disclosure_button_control",
-        "settings": ["The_Flats_folder_icons"],
+        "settings": ["the_flats_folder_icons"],
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "Theme - The_Flats/The_Flats/folder-open.png"
+        "layer0.texture": "Theme - The_Flats/assets/folder-open.png"
     },
 
 //
@@ -740,7 +740,7 @@
 
     {
         "class": "icon_file_type",
-        "settings": ["The_Flats_hide_icons"],
+        "settings": ["the_flats_hide_icons"],
         "content_margin": [0,0],
         "layer0.opacity": 0.0
     },
@@ -752,7 +752,7 @@
     },
     {
         "class": "icon_folder_loading",
-        "settings": ["The_Flats_hide_icons"],
+        "settings": ["the_flats_hide_icons"],
         "content_margin": [0,0],
         "layer0.opacity": 0.0
     },
@@ -809,10 +809,10 @@
     // Quick panel background
     {
         "class": "overlay_control",
-        "layer0.texture": "Theme - The_Flats/The_Flats/overlay-bg.png",
+        "layer0.texture": "Theme - The_Flats/assets/overlay-bg.png",
         "layer0.inner_margin": [16, 4, 16, 33],
         "layer0.opacity": 1.0,
-        "layer1.texture": "Theme - The_Flats/The_Flats/quick-panel-background.png",
+        "layer1.texture": "Theme - The_Flats/assets/quick-panel-background.png",
         "layer1.inner_margin": [16, 0, 16, 25],
         "layer1.opacity": 1.0,
         "content_margin": [13, 13, 13, 33]
@@ -965,7 +965,7 @@
     // Regex search button
     {
         "class": "icon_regex",
-        "layer0.texture": "Theme - The_Flats/The_Flats/regex.png",
+        "layer0.texture": "Theme - The_Flats/assets/regex.png",
         "layer0.tint": [117, 117, 117],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -979,7 +979,7 @@
     // Case sensitive search button
     {
         "class": "icon_case",
-        "layer0.texture": "Theme - The_Flats/The_Flats/casesens.png",
+        "layer0.texture": "Theme - The_Flats/assets/casesens.png",
         "layer0.tint": [117, 117, 117],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -992,7 +992,7 @@
     // Match whole word search button
     {
         "class": "icon_whole_word",
-        "layer0.texture": "Theme - The_Flats/The_Flats/wholeword.png",
+        "layer0.texture": "Theme - The_Flats/assets/wholeword.png",
         "layer0.tint": [117, 117, 117],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1010,7 +1010,7 @@
     // Show search context button
     {
         "class": "icon_context",
-        "layer0.texture": "Theme - The_Flats/The_Flats/context.png",
+        "layer0.texture": "Theme - The_Flats/assets/context.png",
         "layer0.tint": [117, 117, 117],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1023,7 +1023,7 @@
     // Use search buffer
     {
         "class": "icon_use_buffer",
-        "layer0.texture": "Theme - The_Flats/The_Flats/buffer.png",
+        "layer0.texture": "Theme - The_Flats/assets/buffer.png",
         "layer0.tint": [117, 117, 117],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1040,7 +1040,7 @@
     // Reverse search direction button (ST2 only)
     {
         "class": "icon_reverse",
-        "layer0.texture": "Theme - The_Flats/The_Flats/reverse.png",
+        "layer0.texture": "Theme - The_Flats/assets/reverse.png",
         "layer0.tint": [117, 117, 117],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1053,7 +1053,7 @@
     // Search wrap button
     {
         "class": "icon_wrap",
-        "layer0.texture": "Theme - The_Flats/The_Flats/wrap.png",
+        "layer0.texture": "Theme - The_Flats/assets/wrap.png",
         "layer0.tint": [117, 117, 117],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1066,7 +1066,7 @@
     // Search in selection button
     {
         "class": "icon_in_selection",
-        "layer0.texture": "Theme - The_Flats/The_Flats/selection.png",
+        "layer0.texture": "Theme - The_Flats/assets/selection.png",
         "layer0.tint": [117, 117, 117],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1084,7 +1084,7 @@
     // Preserve case button
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "Theme - The_Flats/The_Flats/lock.png",
+        "layer0.texture": "Theme - The_Flats/assets/lock.png",
         "layer0.tint": [117, 117, 117],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1102,7 +1102,7 @@
     // Highlight results button
     {
         "class": "icon_highlight",
-        "layer0.texture": "Theme - The_Flats/The_Flats/highlight.png",
+        "layer0.texture": "Theme - The_Flats/assets/highlight.png",
         "layer0.tint": [117, 117, 117],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1119,7 +1119,7 @@
 
     {
         "class": "icon_file_type",
-        "settings": ["The_Flats_hide_icons"],
+        "settings": ["the_flats_hide_icons"],
         "content_margin": [0,0],
         "layer0.opacity": 0.0
     },
@@ -1131,7 +1131,7 @@
     },
     {
         "class": "icon_folder_loading",
-        "settings": ["The_Flats_hide_icons"],
+        "settings": ["the_flats_hide_icons"],
         "content_margin": [0,0],
         "layer0.opacity": 0.0
     },
@@ -1144,12 +1144,12 @@
   
     {
         "class": "sidebar_label",
-        "settings": ["The_Flats_font_Hack"],
+        "settings": ["the_flats_font_Hack"],
         "font.face": "Hack"
     },
     {
         "class": "tab_label",
-        "settings": ["The_Flats_font_Hack"],
+        "settings": ["the_flats_font_Hack"],
         "font.face": "Hack"
     },
 
@@ -1157,12 +1157,12 @@
 
     {
         "class": "sidebar_label",
-        "settings": ["The_Flats_font_Menlo"],
+        "settings": ["the_flats_font_Menlo"],
         "font.face": "Menlo"
     },
     {
         "class": "tab_label",
-        "settings": ["The_Flats_font_Menlo"],
+        "settings": ["the_flats_font_Menlo"],
         "font.face": "Menlo"
     },
 
@@ -1170,12 +1170,12 @@
 
     {
         "class": "sidebar_label",
-        "settings": ["The_Flats_font_Monaco"],
+        "settings": ["the_flats_font_Monaco"],
         "font.face": "Monaco"
     },
     {
         "class": "tab_label",
-        "settings": ["The_Flats_font_Monaco"],
+        "settings": ["the_flats_font_Monaco"],
         "font.face": "Monaco"
     },
 
@@ -1183,12 +1183,12 @@
 
     {
         "class": "sidebar_label",
-        "settings": ["The_Flats_font_CamingoCode"],
+        "settings": ["the_flats_font_CamingoCode"],
         "font.face": "CamingoCode"
     },
     {
         "class": "tab_label",
-        "settings": ["The_Flats_font_CamingoCode"],
+        "settings": ["the_flats_font_CamingoCode"],
         "font.face": "CamingoCode"
     },
 
@@ -1196,12 +1196,12 @@
 
     {
         "class": "sidebar_label",
-        "settings": ["The_Flats_font_PragmataPro"],
+        "settings": ["the_flats_font_PragmataPro"],
         "font.face": "PragmataPro Mono"
     },
     {
         "class": "tab_label",
-        "settings": ["The_Flats_font_PragmataPro"],
+        "settings": ["the_flats_font_PragmataPro"],
         "font.face": "PragmataPro Mono"
     },
 
@@ -1209,12 +1209,12 @@
 
     {
         "class": "sidebar_label",
-        "settings": ["The_Flats_font_Fira"],
+        "settings": ["the_flats_font_Fira"],
         "font.face": "Fira Code"
     },
     {
         "class": "tab_label",
-        "settings": ["The_Flats_font_Fira"],
+        "settings": ["the_flats_font_Fira"],
         "font.face": "Fira Code"
     },
 
@@ -1222,12 +1222,12 @@
   
     {
         "class": "sidebar_label",
-        "settings": ["The_Flats_font_InputSans"],
+        "settings": ["the_flats_font_InputSans"],
         "font.face": "InputSans"
     },
     {
         "class": "tab_label",
-        "settings": ["The_Flats_font_InputSans"],
+        "settings": ["the_flats_font_InputSans"],
         "font.face": "InputSans"
     },
 
@@ -1235,12 +1235,12 @@
 
     {
         "class": "sidebar_label",
-        "settings": ["The_Flats_font_InputSansNarrow"],
+        "settings": ["the_flats_font_InputSansNarrow"],
         "font.face": "InputSansNarrow"
     },
     {
         "class": "tab_label",
-        "settings": ["The_Flats_font_InputSansNarrow"],
+        "settings": ["the_flats_font_InputSansNarrow"],
         "font.face": "InputSansNarrow"
     },
 
@@ -1248,12 +1248,12 @@
 
     {
         "class": "sidebar_label",
-        "settings": ["The_Flats_font_SanFrancisco"],
+        "settings": ["the_flats_font_SanFrancisco"],
         "font.face": ".SF NS Text"
     },
     {
         "class": "tab_label",
-        "settings": ["The_Flats_font_SanFrancisco"],
+        "settings": ["the_flats_font_SanFrancisco"],
         "font.face": ".SF NS Text"
     }
 

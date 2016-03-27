@@ -1,14 +1,11 @@
 Thanks for installing The Flats!
 
-
 How to activate
 ===============
 
 Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User` (⌘+, on Mac).
 
-
 *Note: Don't forget to restart Sublime Text after activating the theme.*
-
 
 The Flats
 ---------
@@ -16,9 +13,8 @@ The Flats
 *Example settings*
 
     {
-      "theme": "The Flats.sublime-theme",
-      "color_scheme": "Packages/Theme - The Flats/the_flats_material_dark.tmTheme"
+      "theme": "TheFlats.sublime-theme",
+      "color_scheme": "Packages/Theme - The_Flats/The_Flats-Material.tmTheme"
     }
-
 
 *Note: Don't forget to restart Sublime Text after activating the theme.*
