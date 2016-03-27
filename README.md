@@ -18,18 +18,18 @@ A dark, flat UI theme for Sublime Text 3. Uses Seafoam Green as the default acce
 
 #### Via Package Control
 
-The easiest way to install is using [Sublime Package Control](https://sublime.wbond.net), where The Flats is listed as `Theme - The Flats`.
+The easiest way to install is using [Sublime Package Control](https://sublime.wbond.net), where The Flats is listed as `Theme - The_Flats`.
 
 1. Open Command Palette using menu item `Tools -> Command Palette...` (<kbd>⇧</kbd><kbd>⌘</kbd><kbd>P</kbd> on Mac)
 2. Choose `Package Control: Install Package`
-3. Find `Theme - The Flats` and hit <kbd>Enter</kbd>
+3. Find `Theme - The_Flats` and hit <kbd>Enter</kbd>
 
 #### Manual
 
 You can also install the theme manually:
 
 1. [Download the .zip](https://github.com/mikedisbrow/theflats/archive/master.zip)
-2. Unzip and rename the folder to `Theme - The Flats`
+2. Unzip and rename the folder to `Theme - The_Flats`
 3. Copy the folder into `Packages` directory, which you can find using the menu item `Sublime Text -> Preferences -> Browse Packages...`
 
 ***
