@@ -1,5 +1,7 @@
 # TODO
 
+1.  Fix Tab buttons and sidebar label alignment with Operator Pro font.
+
 2. 	Fix text bottom cut off in Tabs.
 Content Margin?
 Inner Margin?
@@ -70,8 +72,5 @@ Layer Margin?
 >
 > 2. add ```{ "keys": "ctrl+alt+shift+o"], "command": "show_scope_name" }``` to you user's keybindings, create a new ```.erb``` fyle and trigger the command to display current scope in the bottom status bar.
 
-12. Fix UI Color Options Scrollbars Overlay Not Resetting
-
-13. Fix UI Color Options Folder Options Not Resetting
 
 

@@ -103,7 +103,7 @@
         "parents": [{"class": "tab_control"}],
         "attributes": ["hover"],
         "layer0.opacity": 1,
-        "layer0.tint": [113, 238, 184]
+        "layer0.tint": [155, 242, 190]
     },
     {
         "class": "tab_close_button",
@@ -221,7 +221,7 @@
         "class": "show_tabs_dropdown_button",
         "attributes": ["hover"],
         "layer0.texture": "Theme - The_Flats/assets/tabset-list.png",
-        "layer0.tint": [113, 238, 184],
+        "layer0.tint": [155, 242, 190],
         "layer0.opacity": 1
     },
     // Tab scroll left
@@ -236,7 +236,7 @@
         "class": "scroll_tabs_left_button",
         "attributes": ["hover"],
         "layer0.texture": "Theme - The_Flats/assets/tabset-left.png",
-        "layer0.tint": [113, 238, 184],
+        "layer0.tint": [155, 242, 190],
         "layer0.opacity": 1
     },
     // Tab scroll right
@@ -251,7 +251,7 @@
         "class": "scroll_tabs_right_button",
         "attributes": ["hover"],
         "layer0.texture": "Theme - The_Flats/assets/tabset-right.png",
-        "layer0.tint": [113, 238, 184],
+        "layer0.tint": [155, 242, 190],
         "layer0.opacity": 1
     },
     // options
@@ -460,7 +460,7 @@
         "class": "label_control",
         "parents": [{"class": "button_control"}],
         "font.bold": true,
-        "color": [113, 238, 184] // 0C
+        "color": [155, 242, 190] // 0C
     },
 
 //
@@ -591,7 +591,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expanded"]}],
-        "color": [113, 238, 184]
+        "color": [155, 242, 190]
     },
     {
         "class": "sidebar_label",
@@ -652,7 +652,7 @@
     {
         "class": "close_button",
         "attributes": ["hover"],
-        "layer0.tint": [113, 238, 184]
+        "layer0.tint": [155, 242, 190]
     },
     {
         "class": "close_button",
@@ -689,7 +689,7 @@
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "layer0.texture": "Theme - The_Flats/assets/folder-arrow-open.png",
-        "layer0.tint": [113,238,184]
+        "layer0.tint": [155, 242, 190]
     },
     {
         "class": "disclosure_button_control",
@@ -720,7 +720,7 @@
         "settings": ["flats_folder_icons"],
         "attributes": ["expanded"],
         "layer0.texture": "Theme - The_Flats/assets/folder-open.png",
-        "layer0.tint": [113, 238, 184]
+        "layer0.tint": [155, 242, 190]
     },
     {
         "class": "disclosure_button_control",
@@ -839,21 +839,21 @@
     {
         "class": "quick_panel_label",
         "fg": [158, 158, 158, 255],
-        "match_fg": [82, 196, 167, 255],
+        "match_fg": [156, 213, 238, 255],
         "selected_fg": [224, 224, 224, 255],
-        "selected_match_fg": [113, 238, 184, 255]
+        "selected_match_fg": [155, 242, 190, 255]
     },
     {
         "class": "quick_panel_path_label",
         "fg": [117, 117, 117, 255],
-        "match_fg": [82, 196, 167, 255],
+        "match_fg": [156, 213, 238, 255],
         "selected_fg": [158, 158, 158, 255],
-        "selected_match_fg": [82, 196, 167, 255]
+        "selected_match_fg": [155, 242, 190, 255]
     },
     {
         "class": "quick_panel_score_label",
-        "fg": [82, 196, 167, 255],
-        "selected_fg": [113, 238, 184, 255]
+        "fg": [156, 213, 238, 255],
+        "selected_fg": [155, 242, 190, 255]
     },
 
 //
@@ -889,9 +889,9 @@
     {
         "class": "auto_complete_label",
         "fg": [117, 117, 117, 255],
-        "match_fg": [82, 196, 167, 255],
+        "match_fg": [156, 213, 238, 255],
         "selected_fg": [158, 158, 158, 255],
-        "selected_match_fg": [113, 238, 184, 255]
+        "selected_match_fg": [155, 242, 190, 255]
     },
     {
         "class": "table_row",
@@ -983,7 +983,7 @@
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [113, 238, 184]
+        "layer0.tint": [155, 242, 190]
     },
     // Match whole word search button
     {
@@ -996,7 +996,7 @@
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [113, 238, 184]
+        "layer0.tint": [155, 242, 190]
     },
 
 //
@@ -1014,7 +1014,7 @@
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [113, 238, 184]
+        "layer0.tint": [155, 242, 190]
     },
     // Use search buffer
     {
@@ -1027,7 +1027,7 @@
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [113, 238, 184]
+        "layer0.tint": [155, 242, 190]
     },
 
 //
@@ -1044,7 +1044,7 @@
     {
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [113, 238, 184]
+        "layer0.tint": [155, 242, 190]
     },
     // Search wrap button
     {
@@ -1057,7 +1057,7 @@
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [113, 238, 184]
+        "layer0.tint": [155, 242, 190]
     },
     // Search in selection button
     {
@@ -1070,7 +1070,7 @@
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [113, 238, 184]
+        "layer0.tint": [155, 242, 190]
     },
 
 //
@@ -1088,7 +1088,7 @@
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [113, 238, 184]
+        "layer0.tint": [155, 242, 190]
     },
 
 //
@@ -1106,7 +1106,7 @@
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [113, 238, 184]
+        "layer0.tint": [155, 242, 190]
     },
 
 // ---------------------------------------------------------
@@ -1230,6 +1230,19 @@
         "font.face": ".SF NS Text"
     },
 
+    // Operator
+
+    {
+        "class": "sidebar_label",
+        "settings": ["flats_font_operator"],
+        "font.face": "Operator SSm"
+    },
+    {
+        "class": "tab_label",
+        "settings": ["flats_font_operator"],
+        "font.face": "Operator SSm"
+    },
+
 // ---------------------------------------------------------
 // ACCENT COLOR OPTIONS
 // ---------------------------------------------------------
@@ -1253,7 +1266,7 @@
           "parents": [{"class": "tab_control"}],
           "settings": ["flats_ui_seafoam"],
           "attributes": ["hover"],
-          "layer0.tint": [113, 238, 184]
+          "layer0.tint": [155, 242, 190]
       },
       //
       // Tab Scroll Buttons Hover
@@ -1263,21 +1276,21 @@
           "settings": ["flats_ui_seafoam"],
           "attributes": ["hover"],
           "layer0.texture": "Theme - The_Flats/assets/tabset-list.png",
-          "layer0.tint": [113, 238, 184]
+          "layer0.tint": [155, 242, 190]
       },
       {
           "class": "scroll_tabs_left_button",
           "settings": ["flats_ui_seafoam"],
           "attributes": ["hover"],
           "layer0.texture": "Theme - The_Flats/assets/tabset-left.png",
-          "layer0.tint": [113, 238, 184]
+          "layer0.tint": [155, 242, 190]
       },
       {
           "class": "scroll_tabs_right_button",
           "settings": ["flats_ui_seafoam"],
           "attributes": ["hover"],
           "layer0.texture": "Theme - The_Flats/assets/tabset-right.png",
-          "layer0.tint": [113, 238, 184]
+          "layer0.tint": [155, 242, 190]
       },
       //
       // Scrollbars
@@ -1314,7 +1327,7 @@
           "class": "label_control",
           "settings": ["flats_ui_seafoam"],
           "parents": [{"class": "button_control"}],
-          "color": [113, 238, 184]
+          "color": [155, 242, 190]
       },
       //
       // Sidebar
@@ -1323,34 +1336,34 @@
           "class": "sidebar_label",
           "settings": ["flats_ui_seafoam"],
           "parents": [{"class": "tree_row","attributes": ["expanded"]}],
-          "color": [113, 238, 184]
+          "color": [155, 242, 190]
       },
       {
           "class": "close_button",
           "settings": ["flats_ui_seafoam"],
           "attributes": ["hover"],
-          "layer0.tint": [113, 238, 184]
+          "layer0.tint": [155, 242, 190]
       },
       {
           "class": "disclosure_button_control",
           "settings": ["flats_ui_seafoam"],
           "attributes": ["expanded"],
           "layer0.texture": "Theme - The_Flats/assets/folder-arrow-open.png",
-          "layer0.tint": [113, 238, 184]
+          "layer0.tint": [155, 242, 190]
       },
       {
           "class": "disclosure_button_control",
           "settings": ["flats_folder_icons", "flats_ui_seafoam"],
           "attributes": ["expanded"],
           "layer0.texture": "Theme - The_Flats/assets/folder-open.png",
-          "layer0.tint": [113, 238, 184]
+          "layer0.tint": [155, 242, 190]
       },
       {
           "class": "disclosure_button_control",
           "settings": ["flats_folder_icons", "flats_ui_seafoam"],
           "attributes": ["expanded"],
           "layer0.texture": "Theme - The_Flats/assets/folder-closed.png",
-          "layer0.tint": [113, 238, 184]
+          "layer0.tint": [155, 242, 190]
       },
       //
       // Quick Panel
@@ -1358,20 +1371,20 @@
       {
           "class": "quick_panel_label",
           "settings": ["flats_ui_seafoam"],
-          "match_fg": [82, 196, 167, 255],
-          "selected_match_fg": [113, 238, 184, 255]
+          "match_fg": [156, 213, 238, 255],
+          "selected_match_fg": [155, 242, 190, 255]
       },
       {
           "class": "quick_panel_path_label",
           "settings": ["flats_ui_seafoam"],
-          "match_fg": [82, 196, 167, 255],
-          "selected_match_fg": [82, 196, 167, 255]
+          "match_fg": [156, 213, 238, 255],
+          "selected_match_fg": [156, 213, 238, 255]
       },
       {
           "class": "quick_panel_score_label",
           "settings": ["flats_ui_seafoam"],
-          "fg": [82, 196, 167, 255],
-          "selected_fg": [113, 238, 184, 255]
+          "fg": [156, 213, 238, 255],
+          "selected_fg": [155, 242, 190, 255]
       },
       //
       // Code Completion
@@ -1379,8 +1392,8 @@
       {
           "class": "auto_complete_label",
           "settings": ["flats_ui_seafoam"],
-          "match_fg": [82, 196, 167, 255],
-          "selected_match_fg": [113, 238, 184, 255]
+          "match_fg": [156, 213, 238, 255],
+          "selected_match_fg": [155, 242, 190, 255]
       },
       //
       // Bottom Panel Buttons
@@ -1389,61 +1402,61 @@
           "class": "icon_regex",
           "settings": ["flats_ui_seafoam"],
           "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-          "layer0.tint": [113, 238, 184]
+          "layer0.tint": [155, 242, 190]
       },
       {
           "class": "icon_case",
           "settings": ["flats_ui_seafoam"],
           "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-          "layer0.tint": [113, 238, 184]
+          "layer0.tint": [155, 242, 190]
       },
       {
           "class": "icon_whole_word",
           "settings": ["flats_ui_seafoam"],
           "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-          "layer0.tint": [113, 238, 184]
+          "layer0.tint": [155, 242, 190]
       },
       {
           "class": "icon_context",
           "settings": ["flats_ui_seafoam"],
           "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-          "layer0.tint": [113, 238, 184]
+          "layer0.tint": [155, 242, 190]
       },
       {
           "class": "icon_use_buffer",
           "settings": ["flats_ui_seafoam"],
           "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-          "layer0.tint": [113, 238, 184]
+          "layer0.tint": [155, 242, 190]
       },
       {
           "class": "icon_reverse",
           "settings": ["flats_ui_seafoam"],
           "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-          "layer0.tint": [113, 238, 184]
+          "layer0.tint": [155, 242, 190]
       },
       {
           "class": "icon_wrap",
           "settings": ["flats_ui_seafoam"],
           "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-          "layer0.tint": [113, 238, 184]
+          "layer0.tint": [155, 242, 190]
       },
       {
           "class": "icon_in_selection",
           "settings": ["flats_ui_seafoam"],
           "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-          "layer0.tint": [113, 238, 184]
+          "layer0.tint": [155, 242, 190]
       },
       {
           "class": "icon_preserve_case",
           "settings": ["flats_ui_seafoam"],
           "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-          "layer0.tint": [113, 238, 184]
+          "layer0.tint": [155, 242, 190]
       },
       {
           "class": "icon_highlight",
           "settings": ["flats_ui_seafoam"],
           "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-          "layer0.tint": [113, 238, 184]
+          "layer0.tint": [155, 242, 190]
       },
 
   //
