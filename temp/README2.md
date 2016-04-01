@@ -76,7 +76,6 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
   "flats_ui_seafoam": true,					// Default
   "flats_ui_predawn": true,					// Orange & Yellow
   "flats_ui_oceanic": true,					// Yellow & Green
-  "flats_ui_onedark": true,					// Blue & Orange
   "flats_ui_monokai": true,					// Red & Purple
 ```
 * Fonts
@@ -133,12 +132,10 @@ Create a `Markdown.sublime-settings` file and place it in your `User` folder in 
 [Screenshot](http://github.com/mikedisbrow/theflats/screenshots/theflats-markdown.jpg)
 ***
 ### Thanks
-*  **Themes**
-	* [Spacegray Theme](https://github.com/kkga/spacegray) - Gadzhi Kharkharov
+*  **Themes & Color Schemes**	
+    * [Spacegray Theme](https://github.com/kkga/spacegray) - Gadzhi Kharkharov
 	* [Material Theme](https://github.com/equinusocio/material-theme) - Mattia Astorino
 	* [PreDawn](https://github.com/jamiewilson/predawn) - Jamie Wilson
-*  **Color Schemes**
-	* [OneDark](https://github.com/IceTimux/one-dark-sublime-text-3-color-scheme) - Timothy de Jongh
 	* [Oceanic Next](https://github.com/voronianski/oceanic-next-color-scheme) - Dmitri Voronianski
 	* [Monokai Extended](https://github.com/jonschlinkert/sublime-monokai-extended) - Jon Schlinkert
 
