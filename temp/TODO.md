@@ -72,3 +72,53 @@ Layer Margin?
 	4. For the scope of ```.erb``` files, it should be ```html.body.ruby```, but you can find it both by:
 	  5. looking in the color scheme or language definition files to see which scopes are used for highlight.
 	  6. add ```{ "keys": "ctrl+alt+shift+o"], "command": "show_scope_name" }``` to you user's keybindings, create a new ```.erb``` fyle and trigger the command to display current scope in the bottom status bar.
+
+
+
+    {
+        "class": "fold_button_control",
+        "layer0.texture": "Theme - Spacegray/Spacegray/folder-closed.png",
+        "layer0.tint": [167, 173, 186], // 04
+        "layer0.opacity": 0.5,
+        "layer0.inner_margin": 0,
+        "content_margin": [8,8]
+    },
+    {
+        "class": "fold_button_control",
+        "attributes": ["hover"],
+        "layer0.opacity": 1
+    },
+    {
+        "class": "fold_button_control",
+        "attributes": ["expanded"],
+        "layer0.texture": "Theme - Spacegray/Spacegray/folder-open.png"
+    },
+    {
+        "class": "fold_button_control",
+        "attributes": ["expanded","hover"]
+    },
+
+
+
+
+{
+        "class": "fold_button_control",
+        "layer0.tint": [155, 242, 190],
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "fold_button_control",
+        "attributes": ["hover"],
+        "layer0.tint": [155, 242, 190],
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "fold_button_control",
+        "attributes": ["expanded"],
+        "layer0.tint": [117, 117, 117]
+    },
+    {
+        "class": "fold_button_control",
+        "attributes": ["expanded","hover"],
+        "layer0.tint": [155, 242, 190],
+    },
