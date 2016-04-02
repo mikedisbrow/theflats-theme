@@ -770,13 +770,13 @@
     {
         "class": "button_control",
         "attributes": ["hover"],
-        "layer0.tint": [53,53,53]
+        "layer0.tint": [53, 53, 53]
     },
     // Pressed button state
     {
         "class": "button_control",
         "attributes": ["pressed"],
-        "layer0.tint": [33,33,33]
+        "layer0.tint": [33, 33, 33]
     },
 //
 // TEXT INPUT FIELD
@@ -2073,6 +2073,210 @@
           "settings": ["flats_ui_monokai"],
           "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
           "layer0.tint": [249, 38, 114]
+      },
+
+  //
+  // monokai_flat "settings": ["flats_ui_monokai_flat"],
+  // 
+      //
+      // Tab Active Underlined
+      //
+      {
+          "class": "tab_control",
+          "settings": ["flats_ui_monokai_flat"],
+          "attributes": ["selected"],
+          "layer0.texture": "Theme - The_Flats/assets/tab_selected_monokai_flat.png"
+      },
+      //
+      // Tab Close Button Hover
+      //
+      {
+          "class": "tab_close_button",
+          "parents": [{"class": "tab_control"}],
+          "settings": ["flats_ui_monokai_flat"],
+          "attributes": ["hover"],
+          "layer0.tint": [255, 64, 129]
+      },
+      //
+      // Tab Scroll Buttons Hover
+      //
+      {
+          "class": "show_tabs_dropdown_button",
+          "settings": ["flats_ui_monokai_flat"],
+          "attributes": ["hover"],
+          "layer0.texture": "Theme - The_Flats/assets/tabset-list.png",
+          "layer0.tint": [255, 64, 129]
+      },
+      {
+          "class": "scroll_tabs_left_button",
+          "settings": ["flats_ui_monokai_flat"],
+          "attributes": ["hover"],
+          "layer0.texture": "Theme - The_Flats/assets/tabset-left.png",
+          "layer0.tint": [255, 64, 129]
+      },
+      {
+          "class": "scroll_tabs_right_button",
+          "settings": ["flats_ui_monokai_flat"],
+          "attributes": ["hover"],
+          "layer0.texture": "Theme - The_Flats/assets/tabset-right.png",
+          "layer0.tint": [255, 64, 129]
+      },
+      //
+      // Scrollbars
+      //
+      {
+          "class": "puck_control",
+          "settings": ["flats_ui_monokai_flat"],
+          "layer0.texture": "Theme - The_Flats/assets/puck_vertical_monokai_flat.png"
+      },
+      {
+          "class": "puck_control",
+          "settings": ["flats_ui_monokai_flat"],
+          "attributes": ["horizontal"],
+          "layer0.texture": "Theme - The_Flats/assets/puck_horizontal_monokai_flat.png"
+      },
+      //
+      // Scrollbars Overlaid
+      //
+      {
+        "class": "puck_control",
+        "settings": ["overlay_scroll_bars", "flats_ui_monokai_flat"],
+        "layer0.texture": "Theme - The_Flats/assets/puck_vertical_overlay_monokai_flat.png"
+      },
+      {
+        "class": "puck_control",
+        "settings": ["overlay_scroll_bars", "flats_ui_monokai_flat"],
+        "attributes": ["horizontal"],
+        "layer0.texture": "Theme - The_Flats/assets/puck_horizontal_overlay_monokai_flat.png"
+      },
+      
+      //
+      // Button labels
+      //
+      
+      {
+          "class": "label_control",
+          "settings": ["flats_ui_monokai_flat"],
+          "parents": [{"class": "button_control"}],
+          "color": [255, 64, 129]
+      },
+      //
+      // Sidebar
+      //
+      {
+          "class": "sidebar_label",
+          "settings": ["flats_ui_monokai_flat"],
+          "parents": [{"class": "tree_row","attributes": ["expanded"]}],
+          "color": [255, 64, 129]
+      },
+      {
+          "class": "close_button",
+          "settings": ["flats_ui_monokai_flat"],
+          "attributes": ["hover"],
+          "layer0.tint": [255, 64, 129]
+      },
+      {
+          "class": "disclosure_button_control",
+          "attributes": ["expanded"],
+          "settings": ["flats_ui_monokai_flat"],
+          "layer0.texture": "Theme - The_Flats/assets/folder-arrow-open.png",
+          "layer0.tint": [255, 64, 129]
+      },
+      {
+          "class": "disclosure_button_control",
+          "settings": ["flats_folder_icons", "flats_ui_monokai_flat"],
+          "attributes": ["expanded"],
+          "layer0.texture": "Theme - The_Flats/assets/folder-open.png",
+          "layer0.tint": [255, 64, 129]
+      },
+      //
+      // Quick Panel
+      //
+      {
+          "class": "quick_panel_label",
+          "settings": ["flats_ui_monokai_flat"],
+          "match_fg": [179, 157, 219, 255],
+          "selected_match_fg": [255, 64, 129, 255]
+      },
+      {
+          "class": "quick_panel_path_label",
+          "settings": ["flats_ui_monokai_flat"],
+          "match_fg": [179, 157, 219, 255],
+          "selected_match_fg": [255, 64, 129, 255]
+      },
+      {
+          "class": "quick_panel_score_label",
+          "settings": ["flats_ui_monokai_flat"],
+          "fg": [179, 157, 219, 255],
+          "selected_fg": [255, 64, 129, 255]
+      },
+      // Code Completion
+      {
+          "class": "auto_complete_label",
+          "settings": ["flats_ui_monokai_flat"],
+          "match_fg": [179, 157, 219, 255],
+          "selected_match_fg": [255, 64, 129, 255]
+      },
+      // Bottom Panel Buttons
+      {
+          "class": "icon_regex",
+          "settings": ["flats_ui_monokai_flat"],
+          "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+          "layer0.tint": [255, 64, 129]
+      },
+      {
+          "class": "icon_case",
+          "settings": ["flats_ui_monokai_flat"],
+          "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+          "layer0.tint": [255, 64, 129]
+      },
+      {
+          "class": "icon_whole_word",
+          "settings": ["flats_ui_monokai_flat"],
+          "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+          "layer0.tint": [255, 64, 129]
+      },
+      {
+          "class": "icon_context",
+          "settings": ["flats_ui_monokai_flat"],
+          "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+          "layer0.tint": [255, 64, 129]
+      },
+      {
+          "class": "icon_use_buffer",
+          "settings": ["flats_ui_monokai_flat"],
+          "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+          "layer0.tint": [255, 64, 129]
+      },
+      {
+          "class": "icon_reverse",
+          "settings": ["flats_ui_monokai_flat"],
+          "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+          "layer0.tint": [255, 64, 129]
+      },
+      {
+          "class": "icon_wrap",
+          "settings": ["flats_ui_monokai_flat"],
+          "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+          "layer0.tint": [255, 64, 129]
+      },
+      {
+          "class": "icon_in_selection",
+          "settings": ["flats_ui_monokai_flat"],
+          "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+          "layer0.tint": [255, 64, 129]
+      },
+      {
+          "class": "icon_preserve_case",
+          "settings": ["flats_ui_monokai_flat"],
+          "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+          "layer0.tint": [255, 64, 129]
+      },
+      {
+          "class": "icon_highlight",
+          "settings": ["flats_ui_monokai_flat"],
+          "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+          "layer0.tint": [255, 64, 129]
       }
 
 ]

@@ -5,6 +5,12 @@ Content Margin?
 Inner Margin?
 Layer Margin?
 
+3.  Smooth out hover animations for
+  *	 Find buttons
+  *	 Command Palette
+  *	 tabs
+  *	 sidebar
+
 8. 	See about changing the rest of the UI to different fonts
 
 9. 	Progress Bar ? 
@@ -66,12 +72,3 @@ Layer Margin?
 	4. For the scope of ```.erb``` files, it should be ```html.body.ruby```, but you can find it both by:
 	  5. looking in the color scheme or language definition files to see which scopes are used for highlight.
 	  6. add ```{ "keys": "ctrl+alt+shift+o"], "command": "show_scope_name" }``` to you user's keybindings, create a new ```.erb``` fyle and trigger the command to display current scope in the bottom status bar.
-
-
-
-### Markdown Theme
-*  #B4D388
-*  #92BFBF
-*  #CF5340
-*  wordhighlight
-*  brackethighlighter.default
