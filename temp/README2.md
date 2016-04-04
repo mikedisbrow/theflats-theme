@@ -159,3 +159,9 @@ Create a `Markdown.sublime-settings` file and place it in your `User` folder in 
 	* [Input Fonts](http://input.fontbureau.com) - The Font Bureau
 	* [Camingo Code](https://www.myfonts.com/fonts/jan-fromm/camingo-code/) - Jan Fromm
 
+source.sublime-settings constant.language.boolean.jsongenericarrayelements, 
+source.sublime-settings constant.numeric.jsongenericarrayelements
+source.sublime-settings string.jsongenericarrayelements
+source.sublime-settings constant.numeric.jsongenericarrayelements
+source.sublime-settings keyword.other.name.sublime-settings
+
