@@ -114,3 +114,22 @@
 *  XML
 *  GULPFILE
 
+source.sublime-settings keyword.other.name.sublime-settings
+source.sublime-settings constant.language.boolean.jsongenericarrayelements
+source.sublime-settings string.jsongenericarrayelements
+source.sublime-settings constant.numeric.jsongenericarrayelements
+
+
+source.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json
+
+source.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json
+
+source.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json constant.numeric.json
+
+source.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.separator.dictionary.pair.json
+
+------
+
+source.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json
+
+source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json

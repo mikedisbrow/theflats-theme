@@ -801,7 +801,7 @@ meta.property-value support.constant.named-color.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFCB6B</string>
+				<string>#EDED8A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -985,7 +985,7 @@ source.sublime-settings constant.numeric.jsongenericarrayelements</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFCB6B</string>
+				<string>#EDED8A</string>
 			</dict>
 		</dict>
 		<dict>

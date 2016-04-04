@@ -3,11 +3,11 @@
 <plist version="1.0">
     <dict>
         <key>scope</key>
-        <string>text.xml.svg,source.svg</string>
+        <string>source.mov, source.mp4, source.mkv</string>
         <key>settings</key>
         <dict>
             <key>icon</key>
-            <string>file_type_svg</string>
+            <string>file_type_video</string>
         </dict>
     </dict>
 </plist>
