@@ -1,18 +1,11 @@
 # TODO
 
-2. 	Fix text bottom cut off in Tabs.
-Content Margin?
-Inner Margin?
-Layer Margin?
-
 3.  Smooth out hover animations for
   *	 Find buttons
   *	 Command Palette
   *	 tabs
   *	 sidebar
-
-8. 	See about changing the rest of the UI to different fonts
-
+ 
 9. 	Progress Bar ? 
 	```json		
 	{
@@ -49,10 +42,10 @@ Layer Margin?
 	},
 	```
 11. Icons .tmpreferences files to add more icons
-	* *How can I target* ```.erb``` *files so I can add a icon too them ? I tried* ```source.rails``` *and* ```text.html.rails``` *but it's not working.*
+	* *How can I target* `.erb` *files so I can add a icon too them ? I tried* `source.rails` *and* `text.html.rails` *but it's not working.*
 		* If you want to add specific icons for specific file types you need to:
-		1. add the respective ```file_type_desired.png``` and ```file_type_desired@2x.png``` (for retina) in ```/package/Theme - Theme_Name/icons/``` folder (if ```Theme - Theme_Name``` folder does not exist create it yourself).
-		2. create a new ```Icon (new file type here).tmPreference``` file and put it in either ```/package/user/``` or ```/package/Theme - Theme_Name/``` folder.
+		1. add the respective `file_type_desired.png` and `file_type_desired@2x.png` (for retina) in `/package/Theme - Theme_Name/icons/` folder (if `Theme - Theme_Name` folder does not exist create it yourself).
+		2. create a new `Icon (new file type here).tmPreference` file and put it in either `/package/user/` or `/package/Theme - Theme_Name/` folder.
 		3. in the newly created "Icon (new file type here)" file insert the following:
 		```xml
 		<?xml version="1.0" encoding="UTF-8"?>
@@ -73,52 +66,51 @@ Layer Margin?
 	  5. looking in the color scheme or language definition files to see which scopes are used for highlight.
 	  6. add ```{ "keys": "ctrl+alt+shift+o"], "command": "show_scope_name" }``` to you user's keybindings, create a new ```.erb``` fyle and trigger the command to display current scope in the bottom status bar.
 
+### Icon Prefs
+*  AI
+*  Apache conf
+*  ASP
+*  CFC
+*  CFM
+*  CoffeeScript
+*  Dart
+*  Default
+*  Ex
+*  Fish
+*  FSharp
+*  handlebars
+*  Haskell GS
+*  Haskell HAS
+*  Haskell LHS
+*  Haxe
+*  Jade
+*  Julia
+*  Liquid
+*  List
+*  LSL
+*  Lua Luac
+*  Markup
+*  Mocha
+*  **AUDIO**
+*  Mustache
+*  PDF
+*  PERL
+*  R
+*  Ruby RBW
+*  Rust
+*  SCSS / SASS
+*  sublime-settings
+*  SLIM
+*  Smiley
+*  Source
+*  Stata
+*  STylus
+*  Swift
+*  SVG
+*  ToDO
+*  Twig
+*  **Video**
+*  Vue
+*  XML
+*  GULPFILE
 
-
-    {
-        "class": "fold_button_control",
-        "layer0.texture": "Theme - Spacegray/Spacegray/folder-closed.png",
-        "layer0.tint": [167, 173, 186], // 04
-        "layer0.opacity": 0.5,
-        "layer0.inner_margin": 0,
-        "content_margin": [8,8]
-    },
-    {
-        "class": "fold_button_control",
-        "attributes": ["hover"],
-        "layer0.opacity": 1
-    },
-    {
-        "class": "fold_button_control",
-        "attributes": ["expanded"],
-        "layer0.texture": "Theme - Spacegray/Spacegray/folder-open.png"
-    },
-    {
-        "class": "fold_button_control",
-        "attributes": ["expanded","hover"]
-    },
-
-
-
-
-{
-        "class": "fold_button_control",
-        "layer0.tint": [155, 242, 190],
-        "layer0.opacity": 1.0
-    },
-    {
-        "class": "fold_button_control",
-        "attributes": ["hover"],
-        "layer0.tint": [155, 242, 190],
-        "layer0.opacity": 1.0
-    },
-    {
-        "class": "fold_button_control",
-        "attributes": ["expanded"],
-        "layer0.tint": [117, 117, 117]
-    },
-    {
-        "class": "fold_button_control",
-        "attributes": ["expanded","hover"],
-        "layer0.tint": [155, 242, 190],
-    },

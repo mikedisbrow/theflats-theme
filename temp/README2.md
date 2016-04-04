@@ -32,6 +32,7 @@ You can also install the theme manually:
 2. Unzip and rename the folder to `Theme - The_Flats`
 3. Copy the folder into `Packages` directory, which you can find using the menu item `Sublime Text -> Preferences -> Browse Packages...`
 4. In `Theme - The_Flats/Misc/` you will find a replacement app icon for Sublime Text, as well as a `fold.png` colored to match each UI accent color.  To use that color matched `fold.png` icon, copy it to `Packages/Theme - Default` to replace the default code folding icon in ST3.
+
 ***
 
 ### How to Activate
@@ -45,6 +46,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 ### Settings
 
 ```json
+{
   "flats_folder_icons": true,				// Change ">" to folder icons
   "flats_hide_icons": true,					// Hide icons in sidebar
   "flats_hide_tab_scroll_icons": true,		// Hide "< >" and hamburger icon
@@ -77,6 +79,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
   "flats_ui_predawn": true,					// Orange & Yellow
   "flats_ui_oceanic": true,					// Yellow & Green
   "flats_ui_monokai": true,					// Red & Purple
+}
 ```
 * Fonts
 	- [Camingo Code](https://www.myfonts.com/fonts/jan-fromm/camingo-code/ "MyFonts - Camingo Code") @ MyFonts
@@ -130,14 +133,16 @@ Create a `Markdown.sublime-settings` file and place it in your `User` folder in 
 }
 ```
 [Screenshot](http://github.com/mikedisbrow/theflats/screenshots/theflats-markdown.jpg)
+
 ***
+
 ### Thanks
 *  **Themes & Color Schemes**	
     * [Spacegray Theme](https://github.com/kkga/spacegray) - Gadzhi Kharkharov
 	* [Material Theme](https://github.com/equinusocio/material-theme) - Mattia Astorino
 	* [PreDawn](https://github.com/jamiewilson/predawn) - Jamie Wilson
 	* [Oceanic Next](https://github.com/voronianski/oceanic-next-color-scheme) - Dmitri Voronianski
-	* [Monokai Extended](https://github.com/jonschlinkert/sublime-monokai-extended) - Jon Schlinkert
+	* [Monokai Neue](https://github.com/josh-kaplan/sublime-monokai-neue) - Josh Kaplan
 
 *	**Icons**
 	* [Subway Icons](https://github.com/mariuszostrowski/subway) - Mariusz Ostrowski
@@ -153,3 +158,4 @@ Create a `Markdown.sublime-settings` file and place it in your `User` folder in 
 	* [Fira Code](https://github.com/tonsky/FiraCode) - Nikita Prokopov
 	* [Input Fonts](http://input.fontbureau.com) - The Font Bureau
 	* [Camingo Code](https://www.myfonts.com/fonts/jan-fromm/camingo-code/) - Jan Fromm
+
