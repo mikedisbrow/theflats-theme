@@ -7,7 +7,7 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Predawn GitHub MD for Flats</string>
+	<string>Flats GitHub Markdown</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -502,7 +502,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#CF5340</string>
+				<string>#E86F71</string>
 			</dict>
 		</dict>
 		<dict>
@@ -513,7 +513,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#92BFBF</string>
+				<string>#FFCB6B</string>
 			</dict>
 		</dict>
 		<dict>
@@ -524,7 +524,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#B4D388</string>
+				<string>#79C26B</string>
 			</dict>
 		</dict>
 		<dict>
@@ -535,7 +535,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#777777</string>
+				<string>#424242</string>
 			</dict>
 		</dict>
 		<dict>
@@ -546,7 +546,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#777777</string>
+				<string>#424242</string>
 			</dict>
 		</dict>
 		<dict>
@@ -583,7 +583,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#DDB700</string>
+				<string>#FFCB6B</string>
 			</dict>
 		</dict>
 		<dict>
@@ -605,7 +605,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D02000</string>
+				<string>#E86F71</string>
 			</dict>
 		</dict>
 	</array>
