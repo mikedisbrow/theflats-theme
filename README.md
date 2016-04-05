@@ -1,37 +1,27 @@
-# The Flats
-
-A dark, flat UI theme for Sublime Text 3. Uses Seafoam Green as the default accent color, popular on the hulls of saltwater fishing boats.
-
-#### Screenshots
+## The Flats
 
 ![image](Screenshots/theflats.png)
-![image](Screenshots/theflats1.png)
-![image](Screenshots/theflats2.png)
-![image](Screenshots/theflats3.png)
-![image](Screenshots/theflats4.png)
 
-*The font used in the screenshots is [__Input Sans Narrow__](http://input.fontbureau.com).*
+A dark, flat UI theme for Sublime Text 3. Uses Seafoam Green as the default accent color, popular on the hulls of saltwater fishing boats.
 
 ***
 
 ### How to Install
-
 #### Via Package Control
-
-The easiest way to install is using [Sublime Package Control](https://sublime.wbond.net), where The Flats is listed as `Theme - The_Flats`.
+The easiest way to install is using [Sublime Package Control](https://sublime.wbond.net), where The Flats is listed as `TheFlats`.
 
 1. Open Command Palette using menu item `Tools -> Command Palette...` (<kbd>⇧</kbd><kbd>⌘</kbd><kbd>P</kbd> on Mac)
 2. Choose `Package Control: Install Package`
-3. Find `Theme - The_Flats` and hit <kbd>Enter</kbd>
+3. Find `TheFlats` and hit <kbd>Enter</kbd>
 
 #### Manual
 
 You can also install the theme manually:
 
 1. [Download the .zip](https://github.com/mikedisbrow/theflats/archive/master.zip)
-2. Unzip and rename the folder to `Theme - The_Flats`
+2. Unzip and rename the folder to `TheFlats`
 3. Copy the folder into `Packages` directory, which you can find using the menu item `Sublime Text -> Preferences -> Browse Packages...`
-4. In `Theme - The_Flats/Misc/` you will find a replacement app icon for Sublime Text, as well as a `fold.png` colored to match each UI accent color.  To use that color matched `fold.png` icon, copy it to `Packages/Theme - Default` to replace the default code folding icon in ST3.
+4. In `TheFlats/Misc/` you will find a replacement app icon for Sublime Text, as well as a `fold.png` colored to match each UI accent color.  To use that color matched `fold.png` icon, copy it to `Packages/Theme - Default` to replace the default code folding icon in ST3.
 
 ***
 
@@ -45,40 +35,40 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 
 ### Settings
 
-```json
+```js
 {
-  "flats_folder_icons": true,				// Change ">" to folder icons
-  "flats_hide_icons": true,					// Hide icons in sidebar
-  "flats_hide_tab_scroll_icons": true,		// Hide "< >" and hamburger icon
-  "flats_sidebar_tree_small": true,			// Reduce padding between lines
-  "flats_sidebar_tree_large": true,			// Increase padding between lines
-  "flats_tabs_small": true,					// 25px height
-  "flats_tabs_large": true,					// 45px height
+  "flats_folder_icons": true,
+  "flats_hide_icons": true,
+  "flats_hide_tab_scroll_icons": true,
+  "flats_sidebar_tree_small": true,
+  "flats_sidebar_tree_large": true,
+  "flats_tabs_small": true,
+  "flats_tabs_large": true,
   "flats_tabs_auto_width": true,
-  "flats_sidebar_font_10": true,			// Default font size is 12pt
+  "flats_sidebar_font_10": true,
   "flats_sidebar_font_11": true,
   "flats_sidebar_font_14": true,
-  "flats_tabs_font_10": true,				// Default font size is 12pt
+  "flats_tabs_font_10": true,
   "flats_tabs_font_11": true,
   "flats_tabs_font_14": true,
 
-// Font Options in Tabs & Sidebar
-  "flats_font_camingocode": true,			// Free
-  "flats_font_fira": true,					// Free
-  "flats_font_hack": true,					// Free
-  "flats_font_inputsans": true,				// Free
-  "flats_font_inputsansnarrow": true,		// Free
-  "flats_font_operator": true,				// Paid
-  "flats_font_pragmata": true,				// Paid
-  "flats_font_menlo": true,					// System font on OS X
-  "flats_font_monaco": true,				// System font on OS X
-  "flats_font_sanfrancisco": true,			// System default on OS X
+  // Font Options in Tabs & Sidebar
+  "flats_font_camingocode": true,
+  "flats_font_fira": true,
+  "flats_font_hack": true,
+  "flats_font_inputsans": true,
+  "flats_font_inputsansnarrow": true,
+  "flats_font_operator": true,
+  "flats_font_pragmata": true,
+  "flats_font_menlo": true,
+  "flats_font_monaco": true,
+  "flats_font_sanfrancisco": true,
   
-// UI Accent Colors
-  "flats_ui_seafoam": true,					// Default
-  "flats_ui_predawn": true,					// Orange & Yellow
-  "flats_ui_oceanic": true,					// Yellow & Green
-  "flats_ui_monokai": true,					// Red & Purple
+  // UI Accent Colors
+  "flats_ui_seafoam": true,
+  "flats_ui_predawn": true,
+  "flats_ui_oceanic": true,
+  "flats_ui_monokai": true,
 }
 ```
 * Fonts
@@ -89,22 +79,25 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 	- Hoefler & Co. [Operator ScreenSmart Pro](http://www.typography.com/fonts/operator/overview/ "Operator")
 	- FSD [Pragmata Pro](http://www.fsd.it/shop/fonts/pragmatapro "Pragmata Pro") & [@ GitHub](https://github.com/fabrizioschiavi/pragmatapro "Pragmata Pro GitHub")
 
+*The font used in the screenshots is [__Input Sans Narrow__](http://input.fontbureau.com).*
+
 ***
 
 ### Color Schemes
-##### The Flats Material
-_Changed a few colors from the Material-Dark color scheme_
+##### Flats-Dark
+*Adapted from Material-Dark and Oceanic Next*
 
 ![image](screenshots/theflats.png)
-![image](Screenshots/theflats1.png)
-![image](Screenshots/theflats2.png)
 
-##### The Flats for Markdown
+##### Flats-GFM-Markdown
+
+![Image](http://github.com/mikedisbrow/theflats/screenshots/theflats-markdown.jpg)
+
 _Example settings for Markdown_
 
 Create a `Markdown.sublime-settings` file and place it in your `User` folder in `Sublime Text -> Preferences -> Browse Packages...`
 
-```json
+```js
   {
   "word_wrap": true,
   "draw_indent_guides": false,
@@ -112,7 +105,7 @@ Create a `Markdown.sublime-settings` file and place it in your `User` folder in 
   "translate_tabs_to_spaces": false,
   "trim_trailing_white_space_on_save": false,
   "gutter": true,
-  "font_size": 14,
+  "font_size": 15,
   "font_face": "Hack",
   "font_options":
   [
@@ -122,7 +115,7 @@ Create a `Markdown.sublime-settings` file and place it in your `User` folder in 
   "line_padding_top": 2,
   "line_numbers": true,
   "spell_check": true,
-  "color_scheme": "Packages/Predawn/predawn-gf-markdown.tmTheme",
+  "color_scheme": "Packages/Flats/Flats-GFM-Markdown.tmTheme",
   "draw_centered": true,
   "save_on_focus_lost": true,
   "caret_extra_bottom": 4,
@@ -132,7 +125,17 @@ Create a `Markdown.sublime-settings` file and place it in your `User` folder in 
   "wrap_width": 80
 }
 ```
-[Screenshot](http://github.com/mikedisbrow/theflats/screenshots/theflats-markdown.jpg)
+
+##### Others
+*I've also included the following color schemes, with a couple of small changes to carets, bracket highlighter, gitgutter, etc.*
+
+*  Predawn
+*  Predawn Markdown
+*  Predawn GF Markdown
+*  Material Dark
+*  Oceanic Next
+*  Monokai Neue
+	*  *while I like the contrast of colors, there are a few that just burn my retinas in Monokai, so I've also included a version, `Monokai-Flat` that I like much more.*
 
 ***
 
@@ -158,10 +161,4 @@ Create a `Markdown.sublime-settings` file and place it in your `User` folder in 
 	* [Fira Code](https://github.com/tonsky/FiraCode) - Nikita Prokopov
 	* [Input Fonts](http://input.fontbureau.com) - The Font Bureau
 	* [Camingo Code](https://www.myfonts.com/fonts/jan-fromm/camingo-code/) - Jan Fromm
-
-source.sublime-settings constant.language.boolean.jsongenericarrayelements, 
-source.sublime-settings constant.numeric.jsongenericarrayelements
-source.sublime-settings string.jsongenericarrayelements
-source.sublime-settings constant.numeric.jsongenericarrayelements
-source.sublime-settings keyword.other.name.sublime-settings
 

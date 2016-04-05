@@ -612,7 +612,7 @@
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>semanticClass</key>
-	<string>theme.dark.predawn_git_hub_md_for_flats</string>
+	<string>theme.dark.flats_gfm_markdown</string>
 	<key>author</key>
 	<string>Mike Disbrow</string>
 </dict>
