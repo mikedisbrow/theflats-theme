@@ -5,21 +5,14 @@
   *	 Command Palette
   *	 tabs
   *	 sidebar
- 
-9. 	Progress Bar ? 
-	```json		
-	{
-	    "class": "progress_bar_control",
-	    "layer0.tint": [30, 30, 30],
-	    "layer0.opacity": 1.0
-	},
-	{
-	    "class": "progress_gauge_control",
-	    "layer0.tint": [144, 144, 144],
-	    "layer0.opacity": 1.0,
-	    "content_margin": [0, 6]
-	},
-	```
+ ```js
+  "layer2.opacity": { 
+  	"target": 0.6, 
+  	"speed": 5.0, 
+  	"interpolation": "smoothstep"
+  },
+ ```
+
 10. **Sidebar Icons need work**
 	* I managed to theme the folders too, with:
 
@@ -66,6 +59,70 @@
 	  5. looking in the color scheme or language definition files to see which scopes are used for highlight.
 	  6. add ```{ "keys": "ctrl+alt+shift+o"], "command": "show_scope_name" }``` to you user's keybindings, create a new ```.erb``` fyle and trigger the command to display current scope in the bottom status bar.
 
+12. Fix Quick Panel Margins
+13. Label Control
+```js
+{
+"class": "label_control",
+"color": [176, 190, 197],
+"shadow_color": [24, 24, 24, 0],
+"shadow_offset": [0, 0],
+"font.bold": true
+}
+```
+14. Status Bar
+```js
+  // All labels
+  {
+    "class": "label_control",
+    "color": [176, 190, 197],
+    "shadow_color": [24, 24, 24, 0],
+    "shadow_offset": [0, 0],
+    "font.bold": true
+  },
+    // Status bar labels
+   {
+      "class": "label_control",
+      "parents": [{"class": "status_bar"}],
+      "color": [97, 97, 97, 200],
+      "font.bold": false
+  },
+    // Text field labels
+  {
+    "class": "status_bar",
+    // Layer 0 base
+    "layer0.tint": [33, 33, 33],
+    "layer0.opacity": 1.0,
+    "layer0.inner_margin": [2, 2],
+    // Visible tint layer
+    "layer1.tint": [33, 33, 33],
+    "layer1.opacity": 1.0,
+    "layer1.inner_margin": [2, 2],
+    "content_margin": [0, 0]
+  },
+  {
+    "class": "status_container",
+    "content_margin": [24, 12, 24, 12],
+  },
+  {
+    "class": "status_button",
+    "layer0.tint": [33, 33, 33],
+    "layer0.opacity": 1.0,
+    "layer0.draw_center": false,
+    "layer0.inner_margin": [1, 0, 0, 0],
+    "content_margin": [10, 2, 10, 3],
+    "min_size": [75, 0]
+  },
+  {
+    "class": "status_button",
+    "layer0.tint": [33, 33, 33],
+    "layer0.opacity": 1.0,
+    "layer0.draw_center": false,
+    "layer0.inner_margin": [1, 0, 0, 0],
+    "content_margin": [10, 2, 10, 3],
+    "min_size": [75, 0],
+  },
+```
 ### Icon Prefs
 *  AI
 *  Apache conf
@@ -118,7 +175,6 @@ source.sublime-settings keyword.other.name.sublime-settings
 source.sublime-settings constant.language.boolean.jsongenericarrayelements
 source.sublime-settings string.jsongenericarrayelements
 source.sublime-settings constant.numeric.jsongenericarrayelements
-
 
 source.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json
 

@@ -434,7 +434,7 @@
   // General labels
     {
        "class": "label_control",
-       "color": [224, 224, 224] // 03
+       "color": [224, 224, 224]
     },
   // Text field labels
     {
@@ -446,7 +446,7 @@
        "class": "label_control",
        "parents": [{"class": "button_control"}],
        "font.bold": true,
-       "color": [155, 242, 190] // 0C
+       "color": [155, 242, 190]
     },
 
 // ---------------------------
@@ -506,6 +506,10 @@
        "class": "label_control",
        "parents": [{"class": "status_bar"}],
        "color": [117, 117, 117]
+    },
+    {
+       "class": "status_container",
+       "content_margin": [8, 2, 8, 2],
     },
 
 // ---------------------------
