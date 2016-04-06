@@ -1,19 +1,5 @@
 # TODO
-
-3.  Smooth out hover animations for
-  *	 Find buttons
-  *	 Command Palette
-  *	 tabs
-  *	 sidebar
- ```js
-  "layer2.opacity": { 
-  	"target": 0.6, 
-  	"speed": 5.0, 
-  	"interpolation": "smoothstep"
-  },
- ```
-
-10. **Sidebar Icons need work**
+* **Sidebar Icons need work**
 	* I managed to theme the folders too, with:
 
 	```json
@@ -34,7 +20,7 @@
 	  "layer0.texture": "User/Theme - Default/icons/folder_open.png",
 	},
 	```
-11. Icons .tmpreferences files to add more icons
+* Icons .tmpreferences files to add more icons
 	* *How can I target* `.erb` *files so I can add a icon too them ? I tried* `source.rails` *and* `text.html.rails` *but it's not working.*
 		* If you want to add specific icons for specific file types you need to:
 		1. add the respective `file_type_desired.png` and `file_type_desired@2x.png` (for retina) in `/package/Theme - Theme_Name/icons/` folder (if `Theme - Theme_Name` folder does not exist create it yourself).
@@ -58,71 +44,41 @@
 	4. For the scope of ```.erb``` files, it should be ```html.body.ruby```, but you can find it both by:
 	  5. looking in the color scheme or language definition files to see which scopes are used for highlight.
 	  6. add ```{ "keys": "ctrl+alt+shift+o"], "command": "show_scope_name" }``` to you user's keybindings, create a new ```.erb``` fyle and trigger the command to display current scope in the bottom status bar.
-
-12. Fix Quick Panel Margins
-13. Label Control
+* Fix Quick Panel Margins
+* Label Control
 ```js
-{
-"class": "label_control",
-"color": [176, 190, 197],
-"shadow_color": [24, 24, 24, 0],
-"shadow_offset": [0, 0],
-"font.bold": true
-}
-```
-14. Status Bar
-```js
-  // All labels
-  {
-    "class": "label_control",
-    "color": [176, 190, 197],
-    "shadow_color": [24, 24, 24, 0],
-    "shadow_offset": [0, 0],
-    "font.bold": true
-  },
-    // Status bar labels
    {
-      "class": "label_control",
-      "parents": [{"class": "status_bar"}],
-      "color": [97, 97, 97, 200],
-      "font.bold": false
-  },
-    // Text field labels
-  {
-    "class": "status_bar",
-    // Layer 0 base
-    "layer0.tint": [33, 33, 33],
-    "layer0.opacity": 1.0,
-    "layer0.inner_margin": [2, 2],
-    // Visible tint layer
-    "layer1.tint": [33, 33, 33],
-    "layer1.opacity": 1.0,
-    "layer1.inner_margin": [2, 2],
-    "content_margin": [0, 0]
-  },
-  {
-    "class": "status_container",
-    "content_margin": [24, 12, 24, 12],
-  },
-  {
-    "class": "status_button",
-    "layer0.tint": [33, 33, 33],
-    "layer0.opacity": 1.0,
-    "layer0.draw_center": false,
-    "layer0.inner_margin": [1, 0, 0, 0],
-    "content_margin": [10, 2, 10, 3],
-    "min_size": [75, 0]
-  },
-  {
-    "class": "status_button",
-    "layer0.tint": [33, 33, 33],
-    "layer0.opacity": 1.0,
-    "layer0.draw_center": false,
-    "layer0.inner_margin": [1, 0, 0, 0],
-    "content_margin": [10, 2, 10, 3],
-    "min_size": [75, 0],
-  },
+  	 "class": "label_control",
+  	 "color": [176, 190, 197],
+  	 "shadow_color": [24, 24, 24, 0],
+  	 "shadow_offset": [0, 0],
+  	 "font.bold": true
+   }
 ```
+
+* Text Input Underline
+```js
+	    // Texline input
+	  {
+	    "class": "text_line_control",
+	    "layer0.texture": "Material Theme/assets/darker/input_field_border.png",
+	    "layer0.opacity": 1.0,
+	    "layer0.inner_margin": [20, 5, 20, 5],
+	    "tint_index": 1,
+	    "content_margin": [10, 8, 13, 8]
+	  },
+	    // Textline input inside overlay panels
+	  {
+	    "class": "text_line_control",
+	    "parents": [{"class": "overlay_control"}],
+	    "layer0.texture": "Material Theme/assets/darker/input_field_border--short.png",
+	    "layer0.opacity": 1.0,
+	    "layer0.inner_margin": [32, 2, 32, 2],
+	    "layer0.draw_center": true,
+	    "content_margin": [32, 8, 32, 8]
+	  },
+```
+
 ### Icon Prefs
 *  AI
 *  Apache conf
