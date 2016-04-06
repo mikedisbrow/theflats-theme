@@ -1069,6 +1069,25 @@
     },
 
 // ---------------------------
+// BOTTOM PANEL BUTTON
+// ---------------------------
+    
+    {
+      "class": "panel_button_control",
+      "content_margin": [8, 8],
+      "layer0.texture": "Theme - The_Flats/assets/tabset-list.png",
+      "layer0.tint": [117, 117, 117],
+      "layer0.opacity": 1
+    },
+    {
+      "class": "panel_button_control",
+      "attributes": ["hover"],
+      "layer0.texture": "Theme - The_Flats/assets/tabset-list.png",
+      "layer0.tint": [155, 242, 190],
+      "layer0.opacity": 1
+    },
+
+// ---------------------------
 // FONT FAMILY OPTIONS
 // ---------------------------  
   // --------------------------- 
@@ -1208,18 +1227,18 @@
   // ---------------------------------------------------
   // SEAFOAM "settings": ["flats_ui_seafoam"],
   // ---------------------------------------------------
-    //
+    // ---------------------------
     // Tab Active Underlined
-    //
+    // ---------------------------
       {
          "class": "tab_control",
          "settings": ["flats_ui_seafoam"],
          "attributes": ["selected"],
          "layer0.texture": "Theme - The_Flats/assets/tab_selected_seafoam.png",
       },
-    //
+    // ---------------------------
     // Tab Close Button Hover
-    //
+    // ---------------------------
       {
          "class": "tab_close_button",
          "parents": [{"class": "tab_control"}],
@@ -1227,9 +1246,9 @@
          "attributes": ["hover"],
          "layer0.tint": [155, 242, 190]
       },
-    //
+    // ---------------------------
     // Tab Scroll Buttons Hover
-    //
+    // ---------------------------
       {
          "class": "show_tabs_dropdown_button",
          "settings": ["flats_ui_seafoam"],
@@ -1251,9 +1270,9 @@
          "layer0.texture": "Theme - The_Flats/assets/tabset-right.png",
          "layer0.tint": [155, 242, 190]
       },
-    //
+    // ---------------------------
     // FOLD BUTTONS
-    // 
+    // ---------------------------
       {
          "class": "fold_button_control",
          "settings": ["flats_ui_seafoam"],
@@ -1279,9 +1298,9 @@
          "attributes": ["expanded","hover"],
          "layer0.tint": [155, 242, 190],
       },
-    //
+    // ---------------------------
     // Scrollbars
-    //
+    // ---------------------------
       {
          "class": "puck_control",
          "settings": ["flats_ui_seafoam"],
@@ -1293,9 +1312,9 @@
          "attributes": ["horizontal"],
          "layer0.texture": "Theme - The_Flats/assets/puck_horizontal_seafoam.png"
       },
-    //
+    // ---------------------------
     // Scrollbars Overlaid
-    //
+    // ---------------------------
       {
          "class": "puck_control",
          "settings": ["overlay_scroll_bars", "flats_ui_seafoam"],
@@ -1307,18 +1326,18 @@
          "attributes": ["horizontal"],
          "layer0.texture": "Theme - The_Flats/assets/puck_horizontal_overlay_seafoam.png"
       },
-    //
+    // ---------------------------
     // Button labels
-    //
+    // ---------------------------
       {
          "class": "label_control",
          "settings": ["flats_ui_seafoam"],
          "parents": [{"class": "button_control"}],
          "color": [155, 242, 190]
       },
-    //
+    // ---------------------------
     // Sidebar
-    //
+    // ---------------------------
       {
          "class": "sidebar_label",
          "settings": ["flats_ui_seafoam"],
@@ -1352,9 +1371,9 @@
          "layer0.texture": "Theme - The_Flats/assets/folder-closed.png",
          "layer0.tint": [155, 242, 190]
       },
-    //
+    // ---------------------------
     // Quick Panel
-    //
+    // ---------------------------
       {
          "class": "quick_panel_label",
          "settings": ["flats_ui_seafoam"],
@@ -1373,18 +1392,18 @@
          "fg": [155, 207, 242, 255],
          "selected_fg": [155, 242, 190, 255]
       },
-    //
+    // ---------------------------
     // Code Completion
-    //
+    // ---------------------------
       {
          "class": "auto_complete_label",
          "settings": ["flats_ui_seafoam"],
          "match_fg": [155, 207, 242, 255],
          "selected_match_fg": [155, 242, 190, 255]
       },
-    //
+    // ---------------------------
     // Bottom Panel Buttons
-    //
+    // ---------------------------
       {
          "class": "icon_regex",
          "settings": ["flats_ui_seafoam"],
@@ -1445,256 +1464,278 @@
          "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
          "layer0.tint": [155, 242, 190]
       },
+    // ---------------------------
+    // BOTTOM PANEL BUTTON
+    // ---------------------------
+      {
+         "class": "panel_button_control",
+         "settings": ["flats_ui_seafoam"],
+         "attributes": ["hover"],
+         "layer0.texture": "Theme - The_Flats/assets/tabset-list.png",
+         "layer0.tint": [155, 242, 190],
+         "layer0.opacity": 1
+      },
 
   // ---------------------------------------------------
   // PREDAWN "settings": ["flats_ui_predawn"],
   // ---------------------------------------------------
-      //
-      // Tab Active Underlined
-      //
-       {
-          "class": "tab_control",
-          "settings": ["flats_ui_predawn"],
-          "attributes": ["selected"],
-          "layer0.texture": "Theme - The_Flats/assets/tab_selected_predawn.png"
-       },
-      //
-      // Tab Close Button Hover
-      //
-       {
-          "class": "tab_close_button",
-          "parents": [{"class": "tab_control"}],
-          "settings": ["flats_ui_predawn"],
-          "attributes": ["hover"],
-          "layer0.tint": [241, 130, 96]
-       },
-      //
-      // Tab Scroll Buttons Hover
-      //
-       {
-          "class": "show_tabs_dropdown_button",
-          "settings": ["flats_ui_predawn"],
-          "attributes": ["hover"],
-          "layer0.texture": "Theme - The_Flats/assets/tabset-list.png",
-          "layer0.tint": [241, 130, 96],
-       },
-       {
-          "class": "scroll_tabs_left_button",
-          "settings": ["flats_ui_predawn"],
-          "attributes": ["hover"],
-          "layer0.texture": "Theme - The_Flats/assets/tabset-left.png",
-          "layer0.tint": [241, 130, 96],
-       },
-       {
-          "class": "scroll_tabs_right_button",
-          "settings": ["flats_ui_predawn"],
-          "attributes": ["hover"],
-          "layer0.texture": "Theme - The_Flats/assets/tabset-right.png",
-          "layer0.tint": [241, 130, 96],
-       },
-     //
-     // FOLD BUTTONS
-     // 
-       {
-          "class": "fold_button_control",
-          "settings": ["flats_ui_predawn"],
-          "layer0.tint": [241, 130, 96],
-          "layer0.opacity": 1.0
-       },
-       {
-          "class": "fold_button_control",
-          "settings": ["flats_ui_predawn"],
-          "attributes": ["hover"],
-          "layer0.tint": [241, 130, 96],
-          "layer0.opacity": 1.0
-       },
-       {
-          "class": "fold_button_control",
-          "settings": ["flats_ui_predawn"],
-          "attributes": ["expanded"],
-          "layer0.tint": [117, 117, 117]
-       },
-       {
-          "class": "fold_button_control",
-          "settings": ["flats_ui_predawn"],
-          "attributes": ["expanded","hover"],
-          "layer0.tint": [241, 130, 96],
-       },
-     //
-     // Scrollbars
-     //
-       {
-          "class": "puck_control",
-          "settings": ["flats_ui_predawn"],
-          "layer0.texture": "Theme - The_Flats/assets/puck_vertical_predawn.png"
-       },
-       {
-          "class": "puck_control",
-          "settings": ["flats_ui_predawn"],
-          "attributes": ["horizontal"],
-          "layer0.texture": "Theme - The_Flats/assets/puck_horizontal_predawn.png"
-       },
-     //
-     // Scrollbars Overlaid
-     //
-       {
-          "class": "puck_control",
-          "settings": ["overlay_scroll_bars", "flats_ui_predawn"],
-          "layer0.texture": "Theme - The_Flats/assets/puck_vertical_overlay_predawn.png"
-       },
-       {
-          "class": "puck_control",
-          "settings": ["overlay_scroll_bars", "flats_ui_predawn"],
-          "attributes": ["horizontal"],
-          "layer0.texture": "Theme - The_Flats/assets/puck_horizontal_overlay_predawn.png"
-       },
-     //
-     // Button labels
-     //
-       {
-          "class": "label_control",
-          "settings": ["flats_ui_predawn"],
-          "parents": [{"class": "button_control"}],
-          "color": [241, 130, 96]
-       },
-     //
-     // Sidebar
-     //
-       {
-          "class": "sidebar_label",
-          "settings": ["flats_ui_predawn"],
-          "parents": [{"class": "tree_row","attributes": ["expanded"]}],
-          "color": [241, 130, 96]
-       },
-       {
-          "class": "close_button",
-          "settings": ["flats_ui_predawn"],
-          "attributes": ["hover"],
-          "layer0.tint": [241, 130, 96]
-       },
-       {
-          "class": "disclosure_button_control",
-          "settings": ["flats_ui_predawn"],
-          "attributes": ["expanded"],
-          "layer0.texture": "Theme - The_Flats/assets/folder-arrow-open.png",
-          "layer0.tint": [241, 130, 96]
-       },
-       {
-          "class": "disclosure_button_control",
-          "settings": ["flats_folder_icons", "flats_ui_predawn"],
-          "attributes": ["expanded"],
-          "layer0.texture": "Theme - The_Flats/assets/folder-open.png",
-          "layer0.tint": [241, 130, 96]
-       },
-     //
-     // Quick Panel
-     //
-       {
-          "class": "quick_panel_label",
-          "settings": ["flats_ui_predawn"],
-          "match_fg": [146, 191, 191, 255],
-          "selected_match_fg": [241, 130, 96, 255]
-       },
-       {
-          "class": "quick_panel_path_label",
-          "settings": ["flats_ui_predawn"],
-          "match_fg": [146, 191, 191, 255],
-          "selected_match_fg": [241, 130, 96, 255]
-       },
-       {
-          "class": "quick_panel_score_label",
-          "settings": ["flats_ui_predawn"],
-          "fg": [146, 191, 191, 255],
-          "selected_fg": [241, 130, 96, 255]
-       },
-     //
-     // Code Completion
-     //
-       {
-          "class": "auto_complete_label",
-          "settings": ["flats_ui_predawn"],
-          "match_fg": [146, 191, 191, 255],
-          "selected_match_fg": [241, 130, 96, 255]
-       },
-     //
-     // Bottom Panel Buttons
-     //
-       {
-          "class": "icon_regex",
-          "settings": ["flats_ui_predawn"],
-          "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-          "layer0.tint": [241, 130, 96]
-       },
-       {
-          "class": "icon_case",
-          "settings": ["flats_ui_predawn"],
-          "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-          "layer0.tint": [241, 130, 96]
-       },
-       {
-          "class": "icon_whole_word",
-          "settings": ["flats_ui_predawn"],
-          "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-          "layer0.tint": [241, 130, 96]
-       },
-       {
-          "class": "icon_context",
-          "settings": ["flats_ui_predawn"],
-          "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-          "layer0.tint": [241, 130, 96]
-       },
-       {
-          "class": "icon_use_buffer",
-          "settings": ["flats_ui_predawn"],
-          "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-          "layer0.tint": [241, 130, 96]
-       },
-       {
-          "class": "icon_reverse",
-          "settings": ["flats_ui_predawn"],
-          "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-          "layer0.tint": [241, 130, 96]
-       },
-       {   
-          "class": "icon_wrap",
-          "settings": ["flats_ui_predawn"],
-          "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-          "layer0.tint": [241, 130, 96]
-       },
-       {
-          "class": "icon_in_selection",
-          "settings": ["flats_ui_predawn"],
-          "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-          "layer0.tint": [241, 130, 96]
-       },
-       {
-          "class": "icon_preserve_case",
-          "settings": ["flats_ui_predawn"],
-          "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-          "layer0.tint": [241, 130, 96]
-       },
-       {
-          "class": "icon_highlight",
-          "settings": ["flats_ui_predawn"],
-          "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-          "layer0.tint": [241, 130, 96]
+    // ---------------------------
+    // Tab Active Underlined
+    // ---------------------------
+      {
+         "class": "tab_control",
+         "settings": ["flats_ui_predawn"],
+         "attributes": ["selected"],
+         "layer0.texture": "Theme - The_Flats/assets/tab_selected_predawn.png"
+      },
+    // ---------------------------
+    // Tab Close Button Hover
+    // ---------------------------
+      {
+         "class": "tab_close_button",
+         "parents": [{"class": "tab_control"}],
+         "settings": ["flats_ui_predawn"],
+         "attributes": ["hover"],
+         "layer0.tint": [241, 130, 96]
+      },
+    // ---------------------------
+    // Tab Scroll Buttons Hover
+    // ---------------------------
+      {
+         "class": "show_tabs_dropdown_button",
+         "settings": ["flats_ui_predawn"],
+         "attributes": ["hover"],
+         "layer0.texture": "Theme - The_Flats/assets/tabset-list.png",
+         "layer0.tint": [241, 130, 96],
+      },
+      {
+         "class": "scroll_tabs_left_button",
+         "settings": ["flats_ui_predawn"],
+         "attributes": ["hover"],
+         "layer0.texture": "Theme - The_Flats/assets/tabset-left.png",
+         "layer0.tint": [241, 130, 96],
+      },
+      {
+         "class": "scroll_tabs_right_button",
+         "settings": ["flats_ui_predawn"],
+         "attributes": ["hover"],
+         "layer0.texture": "Theme - The_Flats/assets/tabset-right.png",
+         "layer0.tint": [241, 130, 96],
+      },
+    // ---------------------------
+    // FOLD BUTTONS
+    // ---------------------------
+      {
+         "class": "fold_button_control",
+         "settings": ["flats_ui_predawn"],
+         "layer0.tint": [241, 130, 96],
+         "layer0.opacity": 1.0
+      },
+      {
+         "class": "fold_button_control",
+         "settings": ["flats_ui_predawn"],
+         "attributes": ["hover"],
+         "layer0.tint": [241, 130, 96],
+         "layer0.opacity": 1.0
+      },
+      {
+         "class": "fold_button_control",
+         "settings": ["flats_ui_predawn"],
+         "attributes": ["expanded"],
+         "layer0.tint": [117, 117, 117]
+      },
+      {
+         "class": "fold_button_control",
+         "settings": ["flats_ui_predawn"],
+         "attributes": ["expanded","hover"],
+         "layer0.tint": [241, 130, 96],
+      },
+    // ---------------------------
+    // Scrollbars
+    // ---------------------------
+      {
+         "class": "puck_control",
+         "settings": ["flats_ui_predawn"],
+         "layer0.texture": "Theme - The_Flats/assets/puck_vertical_predawn.png"
+      },
+      {
+         "class": "puck_control",
+         "settings": ["flats_ui_predawn"],
+         "attributes": ["horizontal"],
+         "layer0.texture": "Theme - The_Flats/assets/puck_horizontal_predawn.png"
+      },
+    // ---------------------------
+    // Scrollbars Overlaid
+    // ---------------------------
+      {
+         "class": "puck_control",
+         "settings": ["overlay_scroll_bars", "flats_ui_predawn"],
+         "layer0.texture": "Theme - The_Flats/assets/puck_vertical_overlay_predawn.png"
+      },
+      {
+         "class": "puck_control",
+         "settings": ["overlay_scroll_bars", "flats_ui_predawn"],
+         "attributes": ["horizontal"],
+         "layer0.texture": "Theme - The_Flats/assets/puck_horizontal_overlay_predawn.png"
+      },
+    // ---------------------------
+    // Button labels
+    // ---------------------------
+      {
+         "class": "label_control",
+         "settings": ["flats_ui_predawn"],
+         "parents": [{"class": "button_control"}],
+         "color": [241, 130, 96]
+      },
+    // ---------------------------
+    // Sidebar
+    // ---------------------------
+      {
+         "class": "sidebar_label",
+         "settings": ["flats_ui_predawn"],
+         "parents": [{"class": "tree_row","attributes": ["expanded"]}],
+         "color": [241, 130, 96]
+      },
+      {
+         "class": "close_button",
+         "settings": ["flats_ui_predawn"],
+         "attributes": ["hover"],
+         "layer0.tint": [241, 130, 96]
+      },
+      {
+         "class": "disclosure_button_control",
+         "settings": ["flats_ui_predawn"],
+         "attributes": ["expanded"],
+         "layer0.texture": "Theme - The_Flats/assets/folder-arrow-open.png",
+         "layer0.tint": [241, 130, 96]
+      },
+      {
+         "class": "disclosure_button_control",
+         "settings": ["flats_folder_icons", "flats_ui_predawn"],
+         "attributes": ["expanded"],
+         "layer0.texture": "Theme - The_Flats/assets/folder-open.png",
+         "layer0.tint": [241, 130, 96]
+      },
+    // ---------------------------
+    // Quick Panel
+    // ---------------------------
+      {
+         "class": "quick_panel_label",
+         "settings": ["flats_ui_predawn"],
+         "match_fg": [146, 191, 191, 255],
+         "selected_match_fg": [241, 130, 96, 255]
+      },
+      {
+         "class": "quick_panel_path_label",
+         "settings": ["flats_ui_predawn"],
+         "match_fg": [146, 191, 191, 255],
+         "selected_match_fg": [241, 130, 96, 255]
+      },
+      {
+         "class": "quick_panel_score_label",
+         "settings": ["flats_ui_predawn"],
+         "fg": [146, 191, 191, 255],
+         "selected_fg": [241, 130, 96, 255]
+      },
+    // ---------------------------
+    // Code Completion
+    // ---------------------------
+      {
+         "class": "auto_complete_label",
+         "settings": ["flats_ui_predawn"],
+         "match_fg": [146, 191, 191, 255],
+         "selected_match_fg": [241, 130, 96, 255]
+      },
+    // ---------------------------
+    // Bottom Panel Buttons
+    // ---------------------------
+      {
+         "class": "icon_regex",
+         "settings": ["flats_ui_predawn"],
+         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+         "layer0.tint": [241, 130, 96]
+      },
+      {
+         "class": "icon_case",
+         "settings": ["flats_ui_predawn"],
+         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+         "layer0.tint": [241, 130, 96]
+      },
+      {
+         "class": "icon_whole_word",
+         "settings": ["flats_ui_predawn"],
+         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+         "layer0.tint": [241, 130, 96]
+      },
+      {
+         "class": "icon_context",
+         "settings": ["flats_ui_predawn"],
+         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+         "layer0.tint": [241, 130, 96]
+      },
+      {
+         "class": "icon_use_buffer",
+         "settings": ["flats_ui_predawn"],
+         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+         "layer0.tint": [241, 130, 96]
+      },
+      {
+         "class": "icon_reverse",
+         "settings": ["flats_ui_predawn"],
+         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+         "layer0.tint": [241, 130, 96]
+      },
+      {   
+         "class": "icon_wrap",
+         "settings": ["flats_ui_predawn"],
+         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+         "layer0.tint": [241, 130, 96]
+      },
+      {
+         "class": "icon_in_selection",
+         "settings": ["flats_ui_predawn"],
+         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+         "layer0.tint": [241, 130, 96]
+      },
+      {
+         "class": "icon_preserve_case",
+         "settings": ["flats_ui_predawn"],
+         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+         "layer0.tint": [241, 130, 96]
+      },
+      {
+         "class": "icon_highlight",
+         "settings": ["flats_ui_predawn"],
+         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+         "layer0.tint": [241, 130, 96]
+      },
+    // ---------------------------
+    // BOTTOM PANEL BUTTON
+    // ---------------------------
+      {
+         "class": "panel_button_control",
+         "settings": ["flats_ui_predawn"],
+         "attributes": ["hover"],
+         "layer0.texture": "Theme - The_Flats/assets/tabset-list.png",
+         "layer0.tint": [241, 130, 96],
+         "layer0.opacity": 1
       },
 
   // ---------------------------------------------------
   // OCEANIC NEXT "settings": ["flats_ui_oceanic"],
   // ---------------------------------------------------
-    //
+    // ---------------------------
     // Tab Active Underlined
-    //
+    // ---------------------------
       {
         "class": "tab_control",
         "settings": ["flats_ui_oceanic"],
         "attributes": ["selected"],
         "layer0.texture": "Theme - The_Flats/assets/tab_selected_oceanic.png"
       },
-    //
+    // ---------------------------
     // Tab Close Button Hover
-    //
+    // ---------------------------
       {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control"}],
@@ -1702,9 +1743,9 @@
         "attributes": ["hover"],
         "layer0.tint": [250, 200, 99]
       },
-    //
+    // ---------------------------
     // Tab Scroll Buttons Hover
-    //
+    // ---------------------------
       {
         "class": "show_tabs_dropdown_button",
         "settings": ["flats_ui_oceanic"],
@@ -1726,9 +1767,9 @@
         "layer0.texture": "Theme - The_Flats/assets/tabset-right.png",
         "layer0.tint": [250, 200, 99]
       },
-    //
+    // ---------------------------
     // FOLD BUTTONS
-    // 
+    // ---------------------------
       {
          "class": "fold_button_control",
          "settings": ["flats_ui_oceanic"],
@@ -1754,9 +1795,9 @@
          "attributes": ["expanded","hover"],
          "layer0.tint": [250, 200, 99],
       },
-    //
+    // ---------------------------
     // Scrollbars
-    //
+    // ---------------------------
       {
          "class": "puck_control",
          "settings": ["flats_ui_oceanic"],
@@ -1768,9 +1809,9 @@
          "attributes": ["horizontal"],
          "layer0.texture": "Theme - The_Flats/assets/puck_horizontal_oceanic.png"
       },
-    //
+    // ---------------------------
     // Scrollbars Overlaid
-    //
+    // ---------------------------
       {
          "class": "puck_control",
          "settings": ["overlay_scroll_bars", "flats_ui_oceanic"],
@@ -1782,18 +1823,18 @@
          "attributes": ["horizontal"],
          "layer0.texture": "Theme - The_Flats/assets/puck_horizontal_overlay_oceanic.png"
       },
-    //
+    // ---------------------------
     // Button labels
-    //
+    // ---------------------------
       {   
          "class": "label_control",
          "settings": ["flats_ui_oceanic"],
          "parents": [{"class": "button_control"}],
          "color": [250, 200, 99]
       },
-    //
+    // ---------------------------
     // Sidebar
-    //
+    // ---------------------------
       {
          "class": "sidebar_label",
          "settings": ["flats_ui_oceanic"],
@@ -1820,9 +1861,9 @@
          "layer0.texture": "Theme - The_Flats/assets/folder-open.png",
          "layer0.tint": [250, 200, 99]
       },
-    //
+    // ---------------------------
     // Quick Panel
-    //
+    // ---------------------------
       {
          "class": "quick_panel_label",
          "settings": ["flats_ui_oceanic"],
@@ -1841,18 +1882,18 @@
          "fg": [95, 179, 179, 255],
          "selected_fg": [250, 200, 99, 255]
       },
-    //
+    // ---------------------------
     // Code Completion
-    //
+    // ---------------------------
       {
          "class": "auto_complete_label",
          "settings": ["flats_ui_oceanic"],
          "match_fg": [95, 179, 179, 255],
          "selected_match_fg": [250, 200, 99, 255]
       },
-    //
+    // ---------------------------
     // Bottom Panel Buttons
-    //
+    // ---------------------------
       {
          "class": "icon_regex",
          "settings": ["flats_ui_oceanic"],
@@ -1913,22 +1954,33 @@
          "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
          "layer0.tint": [250, 200, 99]
       },
+    // ---------------------------
+    // BOTTOM PANEL BUTTON
+    // ---------------------------
+      {
+         "class": "panel_button_control",
+         "settings": ["flats_ui_oceanic"],
+         "attributes": ["hover"],
+         "layer0.texture": "Theme - The_Flats/assets/tabset-list.png",
+         "layer0.tint": [250, 200, 99],
+         "layer0.opacity": 1
+      },
 
   // ---------------------------------------------------
   // MONOKAI "settings": ["flats_ui_monokai"],
   // ---------------------------------------------------
-    //
+    // ---------------------------
     // Tab Active Underlined
-    //
+    // ---------------------------
       {
          "class": "tab_control",
          "settings": ["flats_ui_monokai"],
          "attributes": ["selected"],
          "layer0.texture": "Theme - The_Flats/assets/tab_selected_monokai.png"
       },
-    //
+    // ---------------------------
     // Tab Close Button Hover
-    //
+    // ---------------------------
       {
          "class": "tab_close_button",
          "parents": [{"class": "tab_control"}],
@@ -1936,9 +1988,9 @@
          "attributes": ["hover"],
          "layer0.tint": [249, 38, 114]
       },
-    //
+    // ---------------------------
     // Tab Scroll Buttons Hover
-    //
+    // ---------------------------
       {
          "class": "show_tabs_dropdown_button",
          "settings": ["flats_ui_monokai"],
@@ -1960,9 +2012,9 @@
          "layer0.texture": "Theme - The_Flats/assets/tabset-right.png",
          "layer0.tint": [249, 38, 114]
       },
-    //
+    // ---------------------------
     // FOLD BUTTONS
-    // 
+    // ---------------------------
       {
          "class": "fold_button_control",
          "settings": ["flats_ui_monokai"],
@@ -1988,9 +2040,9 @@
          "attributes": ["expanded","hover"],
          "layer0.tint": [249, 38, 114],
       },
-    //
+    // ---------------------------
     // Scrollbars
-    //
+    // ---------------------------
       {
          "class": "puck_control",
          "settings": ["flats_ui_monokai"],
@@ -2002,9 +2054,9 @@
          "attributes": ["horizontal"],
          "layer0.texture": "Theme - The_Flats/assets/puck_horizontal_monokai.png"
       },
-    //
+    // ---------------------------
     // Scrollbars Overlaid
-    //
+    // ---------------------------
       {
          "class": "puck_control",
          "settings": ["overlay_scroll_bars", "flats_ui_monokai"],
@@ -2015,20 +2067,19 @@
          "settings": ["overlay_scroll_bars", "flats_ui_monokai"],
          "attributes": ["horizontal"],
          "layer0.texture": "Theme - The_Flats/assets/puck_horizontal_overlay_monokai.png"
-      },
-      
-    //
+      },     
+    // ---------------------------
     // Button labels
-    //     
+    // --------------------------- 
       {
          "class": "label_control",
          "settings": ["flats_ui_monokai"],
          "parents": [{"class": "button_control"}],
          "color": [249, 38, 114]
       },
-    //
+    // ---------------------------
     // Sidebar
-    //
+    // ---------------------------
       {
          "class": "sidebar_label",
          "settings": ["flats_ui_monokai"],
@@ -2055,9 +2106,9 @@
          "layer0.texture": "Theme - The_Flats/assets/folder-open.png",
          "layer0.tint": [249, 38, 114]
       },
-    //
+    // ---------------------------
     // Quick Panel
-    //
+    // ---------------------------
       {
          "class": "quick_panel_label",
          "settings": ["flats_ui_monokai"],
@@ -2076,18 +2127,18 @@
          "fg": [174, 129, 255, 255],
          "selected_fg": [249, 38, 114, 255]
       },
-    // 
+    // ---------------------------
     // Code Completion
-    // 
+    // ---------------------------
       {
          "class": "auto_complete_label",
          "settings": ["flats_ui_monokai"],
          "match_fg": [174, 129, 255, 255],
          "selected_match_fg": [249, 38, 114, 255]
       },
-    //   
+    // ---------------------------
     // Bottom Panel Buttons
-    // 
+    // ---------------------------
       {
          "class": "icon_regex",
          "settings": ["flats_ui_monokai"],
@@ -2148,22 +2199,33 @@
          "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
          "layer0.tint": [249, 38, 114]
       },
+    // ---------------------------
+    // BOTTOM PANEL BUTTON
+    // ---------------------------
+      {
+         "class": "panel_button_control",
+         "settings": ["flats_ui_monokai"],
+         "attributes": ["hover"],
+         "layer0.texture": "Theme - The_Flats/assets/tabset-list.png",
+         "layer0.tint": [249, 38, 114],
+         "layer0.opacity": 1
+      },
 
   // ---------------------------------------------------
   // MONOKAI FLAT "settings": ["flats_ui_monokai_flat"],
   // ---------------------------------------------------
-    //
+    // ---------------------------
     // Tab Active Underlined
-    //
+    // ---------------------------
       {
          "class": "tab_control",
          "settings": ["flats_ui_monokai_flat"],
          "attributes": ["selected"],
          "layer0.texture": "Theme - The_Flats/assets/tab_selected_monokai_flat.png"
       },
-    //
+    // ---------------------------
     // Tab Close Button Hover
-    //
+    // ---------------------------
       {
          "class": "tab_close_button",
          "parents": [{"class": "tab_control"}],
@@ -2171,9 +2233,9 @@
          "attributes": ["hover"],
          "layer0.tint": [255, 64, 129]
       },
-    //
+    // ---------------------------
     // Tab Scroll Buttons Hover
-    //
+    // ---------------------------
       {
          "class": "show_tabs_dropdown_button",
          "settings": ["flats_ui_monokai_flat"],
@@ -2195,9 +2257,9 @@
          "layer0.texture": "Theme - The_Flats/assets/tabset-right.png",
          "layer0.tint": [255, 64, 129]
       },
-    //
+    // ---------------------------
     // FOLD BUTTONS
-    // 
+    // ---------------------------
       {
          "class": "fold_button_control",
          "settings": ["flats_ui_monokai_flat"],
@@ -2223,9 +2285,9 @@
          "attributes": ["expanded","hover"],
          "layer0.tint": [255, 64, 129],
       },
-    //
+    // ---------------------------
     // Scrollbars
-    //
+    // ---------------------------
       {
          "class": "puck_control",
          "settings": ["flats_ui_monokai_flat"],
@@ -2237,150 +2299,161 @@
          "attributes": ["horizontal"],
          "layer0.texture": "Theme - The_Flats/assets/puck_horizontal_monokai_flat.png"
       },
-   //
-   // Scrollbars Overlaid
-   //
-     {
-        "class": "puck_control",
-        "settings": ["overlay_scroll_bars", "flats_ui_monokai_flat"],
-        "layer0.texture": "Theme - The_Flats/assets/puck_vertical_overlay_monokai_flat.png"
-     },
-     {
-        "class": "puck_control",
-        "settings": ["overlay_scroll_bars", "flats_ui_monokai_flat"],
-        "attributes": ["horizontal"],
-        "layer0.texture": "Theme - The_Flats/assets/puck_horizontal_overlay_monokai_flat.png"
-     },      
-   //
-   // Button labels
-   // 
-     {
-        "class": "label_control",
-        "settings": ["flats_ui_monokai_flat"],
-        "parents": [{"class": "button_control"}],
-        "color": [255, 64, 129]
-     },
-   //
-   // Sidebar
-   //
-     {
-        "class": "sidebar_label",
-        "settings": ["flats_ui_monokai_flat"],
-        "parents": [{"class": "tree_row","attributes": ["expanded"]}],
-        "color": [255, 64, 129]
-     },
-     {
-        "class": "close_button",
-        "settings": ["flats_ui_monokai_flat"],
-        "attributes": ["hover"],
-        "layer0.tint": [255, 64, 129]
-     },
-     {
-        "class": "disclosure_button_control",
-        "attributes": ["expanded"],
-        "settings": ["flats_ui_monokai_flat"],
-        "layer0.texture": "Theme - The_Flats/assets/folder-arrow-open.png",
-        "layer0.tint": [255, 64, 129]
-     },
-     {
-        "class": "disclosure_button_control",
-        "settings": ["flats_folder_icons", "flats_ui_monokai_flat"],
-        "attributes": ["expanded"],
-        "layer0.texture": "Theme - The_Flats/assets/folder-open.png",
-        "layer0.tint": [255, 64, 129]
-     },
-   //
-   // Quick Panel
-   //
-     {
-        "class": "quick_panel_label",
-        "settings": ["flats_ui_monokai_flat"],
-        "match_fg": [179, 157, 219, 255],
-        "selected_match_fg": [255, 64, 129, 255]
-     },
-     {
-        "class": "quick_panel_path_label",
-        "settings": ["flats_ui_monokai_flat"],
-        "match_fg": [179, 157, 219, 255],
-        "selected_match_fg": [255, 64, 129, 255]
-     },
-     {
-        "class": "quick_panel_score_label",
-        "settings": ["flats_ui_monokai_flat"],
-        "fg": [179, 157, 219, 255],
-        "selected_fg": [255, 64, 129, 255]
-     },
-   //  
-   // Code Completion
-   // 
-     {
-        "class": "auto_complete_label",
-        "settings": ["flats_ui_monokai_flat"],
-        "match_fg": [179, 157, 219, 255],
-        "selected_match_fg": [255, 64, 129, 255]
-     },
-   // 
-   // Bottom Panel Buttons
-   // 
-     {
-        "class": "icon_regex",
-        "settings": ["flats_ui_monokai_flat"],
-        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [255, 64, 129]
-     },
-     {
-        "class": "icon_case",
-        "settings": ["flats_ui_monokai_flat"],
-        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [255, 64, 129]
-     },
-     {
-        "class": "icon_whole_word",
-        "settings": ["flats_ui_monokai_flat"],
-        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [255, 64, 129]
-     },
-     {
-        "class": "icon_context",
-        "settings": ["flats_ui_monokai_flat"],
-        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [255, 64, 129]
-     },
-     {
-        "class": "icon_use_buffer",
-        "settings": ["flats_ui_monokai_flat"],
-        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [255, 64, 129]
-     },
-     {
-        "class": "icon_reverse",
-        "settings": ["flats_ui_monokai_flat"],
-        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [255, 64, 129]
-     },
-     {
-        "class": "icon_wrap",
-        "settings": ["flats_ui_monokai_flat"],
-        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [255, 64, 129]
-     },
-     {
-        "class": "icon_in_selection",
-        "settings": ["flats_ui_monokai_flat"],
-        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [255, 64, 129]
-     },
-     {
-        "class": "icon_preserve_case",
-        "settings": ["flats_ui_monokai_flat"],
-        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [255, 64, 129]
-     },
-     {
-        "class": "icon_highlight",
-        "settings": ["flats_ui_monokai_flat"],
-        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [255, 64, 129]
-     }
+    // ---------------------------
+    // Scrollbars Overlaid
+    // ---------------------------
+      {
+         "class": "puck_control",
+         "settings": ["overlay_scroll_bars", "flats_ui_monokai_flat"],
+         "layer0.texture": "Theme - The_Flats/assets/puck_vertical_overlay_monokai_flat.png"
+      },
+      {
+         "class": "puck_control",
+         "settings": ["overlay_scroll_bars", "flats_ui_monokai_flat"],
+         "attributes": ["horizontal"],
+         "layer0.texture": "Theme - The_Flats/assets/puck_horizontal_overlay_monokai_flat.png"
+      },      
+    // ---------------------------
+    // Button labels
+    // ---------------------------
+      {
+         "class": "label_control",
+         "settings": ["flats_ui_monokai_flat"],
+         "parents": [{"class": "button_control"}],
+         "color": [255, 64, 129]
+      },
+    // ---------------------------
+    // Sidebar
+    // ---------------------------
+      {
+         "class": "sidebar_label",
+         "settings": ["flats_ui_monokai_flat"],
+         "parents": [{"class": "tree_row","attributes": ["expanded"]}],
+         "color": [255, 64, 129]
+      },
+      {
+         "class": "close_button",
+         "settings": ["flats_ui_monokai_flat"],
+         "attributes": ["hover"],
+         "layer0.tint": [255, 64, 129]
+      },
+      {
+         "class": "disclosure_button_control",
+         "attributes": ["expanded"],
+         "settings": ["flats_ui_monokai_flat"],
+         "layer0.texture": "Theme - The_Flats/assets/folder-arrow-open.png",
+         "layer0.tint": [255, 64, 129]
+      },
+      {
+         "class": "disclosure_button_control",
+         "settings": ["flats_folder_icons", "flats_ui_monokai_flat"],
+         "attributes": ["expanded"],
+         "layer0.texture": "Theme - The_Flats/assets/folder-open.png",
+         "layer0.tint": [255, 64, 129]
+      },
+    // ---------------------------
+    // Quick Panel
+    // ---------------------------
+      {
+         "class": "quick_panel_label",
+         "settings": ["flats_ui_monokai_flat"],
+         "match_fg": [179, 157, 219, 255],
+         "selected_match_fg": [255, 64, 129, 255]
+      },
+      {
+         "class": "quick_panel_path_label",
+         "settings": ["flats_ui_monokai_flat"],
+         "match_fg": [179, 157, 219, 255],
+         "selected_match_fg": [255, 64, 129, 255]
+      },
+      {
+         "class": "quick_panel_score_label",
+         "settings": ["flats_ui_monokai_flat"],
+         "fg": [179, 157, 219, 255],
+         "selected_fg": [255, 64, 129, 255]
+      },
+    // ---------------------------
+    // Code Completion
+    // ---------------------------
+      {
+         "class": "auto_complete_label",
+         "settings": ["flats_ui_monokai_flat"],
+         "match_fg": [179, 157, 219, 255],
+         "selected_match_fg": [255, 64, 129, 255]
+      },
+    // ---------------------------
+    // Bottom Panel Buttons
+    // ---------------------------
+      {
+         "class": "icon_regex",
+         "settings": ["flats_ui_monokai_flat"],
+         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+         "layer0.tint": [255, 64, 129]
+      },
+      {
+         "class": "icon_case",
+         "settings": ["flats_ui_monokai_flat"],
+         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+         "layer0.tint": [255, 64, 129]
+      },
+      {
+         "class": "icon_whole_word",
+         "settings": ["flats_ui_monokai_flat"],
+         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+         "layer0.tint": [255, 64, 129]
+      },
+      {
+         "class": "icon_context",
+         "settings": ["flats_ui_monokai_flat"],
+         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+         "layer0.tint": [255, 64, 129]
+      },
+      {
+         "class": "icon_use_buffer",
+         "settings": ["flats_ui_monokai_flat"],
+         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+         "layer0.tint": [255, 64, 129]
+      },
+      {
+         "class": "icon_reverse",
+         "settings": ["flats_ui_monokai_flat"],
+         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+         "layer0.tint": [255, 64, 129]
+      },
+      {
+         "class": "icon_wrap",
+         "settings": ["flats_ui_monokai_flat"],
+         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+         "layer0.tint": [255, 64, 129]
+      },
+      {
+         "class": "icon_in_selection",
+         "settings": ["flats_ui_monokai_flat"],
+         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+         "layer0.tint": [255, 64, 129]
+      },
+      {
+         "class": "icon_preserve_case",
+         "settings": ["flats_ui_monokai_flat"],
+         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+         "layer0.tint": [255, 64, 129]
+      },
+      {
+         "class": "icon_highlight",
+         "settings": ["flats_ui_monokai_flat"],
+         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+         "layer0.tint": [255, 64, 129]
+      },
+    // ---------------------------
+    // BOTTOM PANEL BUTTON
+    // ---------------------------
+      {
+         "class": "panel_button_control",
+         "settings": ["flats_ui_monokai_flat"],
+         "attributes": ["hover"],
+         "layer0.texture": "Theme - The_Flats/assets/tabset-list.png",
+         "layer0.tint": [255, 64, 129],
+         "layer0.opacity": 1
+      }
 
 ]
