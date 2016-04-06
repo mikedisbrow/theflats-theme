@@ -467,6 +467,26 @@
     },
 
 // ---------------------------
+// PROGRESS BAR & DIALOG
+// ---------------------------
+    {
+       "class": "progress_gauge_control",
+       "layer0.tint": [155, 242, 190],
+       "layer0.opacity": 1.0,
+       "content_margin": [0, 6]
+    },
+    {
+       "class": "dialog",
+       "layer0.tint": [33, 33, 33],
+       "layer0.opacity": 1.0
+    },
+    {
+       "class": "progress_bar_control",
+       "layer0.tint": [33, 33, 33],
+       "layer0.opacity": 1.0,
+    },
+
+// ---------------------------
 // STATUS BAR
 // ---------------------------
   // Status bar container
@@ -1253,21 +1273,18 @@
          "class": "show_tabs_dropdown_button",
          "settings": ["flats_ui_seafoam"],
          "attributes": ["hover"],
-         "layer0.texture": "Theme - The_Flats/assets/tabset-list.png",
          "layer0.tint": [155, 242, 190]
       },
       {
          "class": "scroll_tabs_left_button",
          "settings": ["flats_ui_seafoam"],
          "attributes": ["hover"],
-         "layer0.texture": "Theme - The_Flats/assets/tabset-left.png",
          "layer0.tint": [155, 242, 190]
       },
       {
          "class": "scroll_tabs_right_button",
          "settings": ["flats_ui_seafoam"],
          "attributes": ["hover"],
-         "layer0.texture": "Theme - The_Flats/assets/tabset-right.png",
          "layer0.tint": [155, 242, 190]
       },
     // ---------------------------
@@ -1277,14 +1294,12 @@
          "class": "fold_button_control",
          "settings": ["flats_ui_seafoam"],
          "layer0.tint": [155, 242, 190],
-         "layer0.opacity": 1.0
       },
       {
          "class": "fold_button_control",
          "settings": ["flats_ui_seafoam"],
          "attributes": ["hover"],
          "layer0.tint": [155, 242, 190],
-         "layer0.opacity": 1.0
       },
       {
          "class": "fold_button_control",
@@ -1327,6 +1342,14 @@
          "layer0.texture": "Theme - The_Flats/assets/puck_horizontal_overlay_seafoam.png"
       },
     // ---------------------------
+    // PROGRESS BAR & DIALOG
+    // ---------------------------
+      {
+         "class": "progress_gauge_control",
+         "settings": ["flats_ui_seafoam"],
+         "layer0.tint": [155, 242, 190]
+      },
+    // ---------------------------
     // Button labels
     // ---------------------------
       {
@@ -1354,21 +1377,18 @@
          "class": "disclosure_button_control",
          "settings": ["flats_ui_seafoam"],
          "attributes": ["expanded"],
-         "layer0.texture": "Theme - The_Flats/assets/folder-arrow-open.png",
          "layer0.tint": [155, 242, 190]
       },
       {
          "class": "disclosure_button_control",
          "settings": ["flats_folder_icons", "flats_ui_seafoam"],
          "attributes": ["expanded"],
-         "layer0.texture": "Theme - The_Flats/assets/folder-open.png",
          "layer0.tint": [155, 242, 190]
       },
       {
          "class": "disclosure_button_control",
          "settings": ["flats_folder_icons", "flats_ui_seafoam"],
          "attributes": ["expanded"],
-         "layer0.texture": "Theme - The_Flats/assets/folder-closed.png",
          "layer0.tint": [155, 242, 190]
       },
     // ---------------------------
@@ -1471,9 +1491,7 @@
          "class": "panel_button_control",
          "settings": ["flats_ui_seafoam"],
          "attributes": ["hover"],
-         "layer0.texture": "Theme - The_Flats/assets/tabset-list.png",
-         "layer0.tint": [155, 242, 190],
-         "layer0.opacity": 1
+         "layer0.tint": [155, 242, 190]
       },
 
   // ---------------------------------------------------
@@ -1505,22 +1523,19 @@
          "class": "show_tabs_dropdown_button",
          "settings": ["flats_ui_predawn"],
          "attributes": ["hover"],
-         "layer0.texture": "Theme - The_Flats/assets/tabset-list.png",
-         "layer0.tint": [241, 130, 96],
+         "layer0.tint": [241, 130, 96]
       },
       {
          "class": "scroll_tabs_left_button",
          "settings": ["flats_ui_predawn"],
          "attributes": ["hover"],
-         "layer0.texture": "Theme - The_Flats/assets/tabset-left.png",
-         "layer0.tint": [241, 130, 96],
+         "layer0.tint": [241, 130, 96]
       },
       {
          "class": "scroll_tabs_right_button",
          "settings": ["flats_ui_predawn"],
          "attributes": ["hover"],
-         "layer0.texture": "Theme - The_Flats/assets/tabset-right.png",
-         "layer0.tint": [241, 130, 96],
+         "layer0.tint": [241, 130, 96]
       },
     // ---------------------------
     // FOLD BUTTONS
@@ -1528,15 +1543,13 @@
       {
          "class": "fold_button_control",
          "settings": ["flats_ui_predawn"],
-         "layer0.tint": [241, 130, 96],
-         "layer0.opacity": 1.0
+         "layer0.tint": [241, 130, 96]
       },
       {
          "class": "fold_button_control",
          "settings": ["flats_ui_predawn"],
          "attributes": ["hover"],
-         "layer0.tint": [241, 130, 96],
-         "layer0.opacity": 1.0
+         "layer0.tint": [241, 130, 96]
       },
       {
          "class": "fold_button_control",
@@ -1548,7 +1561,7 @@
          "class": "fold_button_control",
          "settings": ["flats_ui_predawn"],
          "attributes": ["expanded","hover"],
-         "layer0.tint": [241, 130, 96],
+         "layer0.tint": [241, 130, 96]
       },
     // ---------------------------
     // Scrollbars
@@ -1579,6 +1592,14 @@
          "layer0.texture": "Theme - The_Flats/assets/puck_horizontal_overlay_predawn.png"
       },
     // ---------------------------
+    // PROGRESS BAR & DIALOG
+    // ---------------------------
+      {
+         "class": "progress_gauge_control",
+         "settings": ["flats_ui_predawn"],
+         "layer0.tint": [241, 130, 96]
+      },
+    // ---------------------------
     // Button labels
     // ---------------------------
       {
@@ -1606,14 +1627,12 @@
          "class": "disclosure_button_control",
          "settings": ["flats_ui_predawn"],
          "attributes": ["expanded"],
-         "layer0.texture": "Theme - The_Flats/assets/folder-arrow-open.png",
          "layer0.tint": [241, 130, 96]
       },
       {
          "class": "disclosure_button_control",
          "settings": ["flats_folder_icons", "flats_ui_predawn"],
          "attributes": ["expanded"],
-         "layer0.texture": "Theme - The_Flats/assets/folder-open.png",
          "layer0.tint": [241, 130, 96]
       },
     // ---------------------------
@@ -1716,9 +1735,7 @@
          "class": "panel_button_control",
          "settings": ["flats_ui_predawn"],
          "attributes": ["hover"],
-         "layer0.texture": "Theme - The_Flats/assets/tabset-list.png",
-         "layer0.tint": [241, 130, 96],
-         "layer0.opacity": 1
+         "layer0.tint": [241, 130, 96]
       },
 
   // ---------------------------------------------------
@@ -1750,21 +1767,18 @@
         "class": "show_tabs_dropdown_button",
         "settings": ["flats_ui_oceanic"],
         "attributes": ["hover"],
-        "layer0.texture": "Theme - The_Flats/assets/tabset-list.png",
         "layer0.tint": [250, 200, 99]
       },
       {
         "class": "scroll_tabs_left_button",
         "settings": ["flats_ui_oceanic"],
         "attributes": ["hover"],
-        "layer0.texture": "Theme - The_Flats/assets/tabset-left.png",
         "layer0.tint": [250, 200, 99]
       },
       {
         "class": "scroll_tabs_right_button",
         "settings": ["flats_ui_oceanic"],
         "attributes": ["hover"],
-        "layer0.texture": "Theme - The_Flats/assets/tabset-right.png",
         "layer0.tint": [250, 200, 99]
       },
     // ---------------------------
@@ -1773,15 +1787,13 @@
       {
          "class": "fold_button_control",
          "settings": ["flats_ui_oceanic"],
-         "layer0.tint": [250, 200, 99],
-         "layer0.opacity": 1.0
+         "layer0.tint": [250, 200, 99]
       },
       {
          "class": "fold_button_control",
          "settings": ["flats_ui_oceanic"],
          "attributes": ["hover"],
-         "layer0.tint": [250, 200, 99],
-         "layer0.opacity": 1.0
+         "layer0.tint": [250, 200, 99]
       },
       {
          "class": "fold_button_control",
@@ -1793,7 +1805,7 @@
          "class": "fold_button_control",
          "settings": ["flats_ui_oceanic"],
          "attributes": ["expanded","hover"],
-         "layer0.tint": [250, 200, 99],
+         "layer0.tint": [250, 200, 99]
       },
     // ---------------------------
     // Scrollbars
@@ -1824,6 +1836,14 @@
          "layer0.texture": "Theme - The_Flats/assets/puck_horizontal_overlay_oceanic.png"
       },
     // ---------------------------
+    // PROGRESS BAR & DIALOG
+    // ---------------------------
+      {
+         "class": "progress_gauge_control",
+         "settings": ["flats_ui_seafoam"],
+         "layer0.tint": [155, 242, 190]
+      },
+    // ---------------------------
     // Button labels
     // ---------------------------
       {   
@@ -1851,14 +1871,12 @@
          "class": "disclosure_button_control",
          "settings": ["flats_ui_oceanic"],
          "attributes": ["expanded"],
-         "layer0.texture": "Theme - The_Flats/assets/folder-arrow-open.png",
          "layer0.tint": [250, 200, 99]
       },
       {
          "class": "disclosure_button_control",
          "settings": ["flats_folder_icons", "flats_ui_oceanic"],
          "attributes": ["expanded"],
-         "layer0.texture": "Theme - The_Flats/assets/folder-open.png",
          "layer0.tint": [250, 200, 99]
       },
     // ---------------------------
@@ -1961,9 +1979,7 @@
          "class": "panel_button_control",
          "settings": ["flats_ui_oceanic"],
          "attributes": ["hover"],
-         "layer0.texture": "Theme - The_Flats/assets/tabset-list.png",
-         "layer0.tint": [250, 200, 99],
-         "layer0.opacity": 1
+         "layer0.tint": [250, 200, 99]
       },
 
   // ---------------------------------------------------
@@ -1995,21 +2011,18 @@
          "class": "show_tabs_dropdown_button",
          "settings": ["flats_ui_monokai"],
          "attributes": ["hover"],
-         "layer0.texture": "Theme - The_Flats/assets/tabset-list.png",
          "layer0.tint": [249, 38, 114]
       },
       {
          "class": "scroll_tabs_left_button",
          "settings": ["flats_ui_monokai"],
          "attributes": ["hover"],
-         "layer0.texture": "Theme - The_Flats/assets/tabset-left.png",
          "layer0.tint": [249, 38, 114]
       },
       {
          "class": "scroll_tabs_right_button",
          "settings": ["flats_ui_monokai"],
          "attributes": ["hover"],
-         "layer0.texture": "Theme - The_Flats/assets/tabset-right.png",
          "layer0.tint": [249, 38, 114]
       },
     // ---------------------------
@@ -2018,15 +2031,13 @@
       {
          "class": "fold_button_control",
          "settings": ["flats_ui_monokai"],
-         "layer0.tint": [249, 38, 114],
-         "layer0.opacity": 1.0
+         "layer0.tint": [249, 38, 114]
       },
       {
          "class": "fold_button_control",
          "settings": ["flats_ui_monokai"],
          "attributes": ["hover"],
-         "layer0.tint": [249, 38, 114],
-         "layer0.opacity": 1.0
+         "layer0.tint": [249, 38, 114]
       },
       {
          "class": "fold_button_control",
@@ -2038,7 +2049,7 @@
          "class": "fold_button_control",
          "settings": ["flats_ui_monokai"],
          "attributes": ["expanded","hover"],
-         "layer0.tint": [249, 38, 114],
+         "layer0.tint": [249, 38, 114]
       },
     // ---------------------------
     // Scrollbars
@@ -2067,7 +2078,15 @@
          "settings": ["overlay_scroll_bars", "flats_ui_monokai"],
          "attributes": ["horizontal"],
          "layer0.texture": "Theme - The_Flats/assets/puck_horizontal_overlay_monokai.png"
-      },     
+      },
+    // ---------------------------
+    // PROGRESS BAR & DIALOG
+    // ---------------------------
+      {
+         "class": "progress_gauge_control",
+         "settings": ["flats_ui_monokai"],
+         "layer0.tint": [249, 38, 114]
+      },
     // ---------------------------
     // Button labels
     // --------------------------- 
@@ -2096,14 +2115,12 @@
          "class": "disclosure_button_control",
          "attributes": ["expanded"],
          "settings": ["flats_ui_monokai"],
-         "layer0.texture": "Theme - The_Flats/assets/folder-arrow-open.png",
          "layer0.tint": [249, 38, 114]
       },
       {
          "class": "disclosure_button_control",
          "settings": ["flats_folder_icons", "flats_ui_monokai"],
          "attributes": ["expanded"],
-         "layer0.texture": "Theme - The_Flats/assets/folder-open.png",
          "layer0.tint": [249, 38, 114]
       },
     // ---------------------------
@@ -2206,9 +2223,7 @@
          "class": "panel_button_control",
          "settings": ["flats_ui_monokai"],
          "attributes": ["hover"],
-         "layer0.texture": "Theme - The_Flats/assets/tabset-list.png",
-         "layer0.tint": [249, 38, 114],
-         "layer0.opacity": 1
+         "layer0.tint": [249, 38, 114]
       },
 
   // ---------------------------------------------------
@@ -2240,21 +2255,18 @@
          "class": "show_tabs_dropdown_button",
          "settings": ["flats_ui_monokai_flat"],
          "attributes": ["hover"],
-         "layer0.texture": "Theme - The_Flats/assets/tabset-list.png",
          "layer0.tint": [255, 64, 129]
       },
       {
          "class": "scroll_tabs_left_button",
          "settings": ["flats_ui_monokai_flat"],
          "attributes": ["hover"],
-         "layer0.texture": "Theme - The_Flats/assets/tabset-left.png",
          "layer0.tint": [255, 64, 129]
       },
       {
          "class": "scroll_tabs_right_button",
          "settings": ["flats_ui_monokai_flat"],
          "attributes": ["hover"],
-         "layer0.texture": "Theme - The_Flats/assets/tabset-right.png",
          "layer0.tint": [255, 64, 129]
       },
     // ---------------------------
@@ -2263,15 +2275,13 @@
       {
          "class": "fold_button_control",
          "settings": ["flats_ui_monokai_flat"],
-         "layer0.tint": [255, 64, 129],
-         "layer0.opacity": 1.0
+         "layer0.tint": [255, 64, 129]
       },
       {
          "class": "fold_button_control",
          "settings": ["flats_ui_monokai_flat"],
          "attributes": ["hover"],
-         "layer0.tint": [255, 64, 129],
-         "layer0.opacity": 1.0
+         "layer0.tint": [255, 64, 129]
       },
       {
          "class": "fold_button_control",
@@ -2283,7 +2293,7 @@
          "class": "fold_button_control",
          "settings": ["flats_ui_monokai_flat"],
          "attributes": ["expanded","hover"],
-         "layer0.tint": [255, 64, 129],
+         "layer0.tint": [255, 64, 129]
       },
     // ---------------------------
     // Scrollbars
@@ -2312,7 +2322,15 @@
          "settings": ["overlay_scroll_bars", "flats_ui_monokai_flat"],
          "attributes": ["horizontal"],
          "layer0.texture": "Theme - The_Flats/assets/puck_horizontal_overlay_monokai_flat.png"
-      },      
+      },
+    // ---------------------------
+    // PROGRESS BAR & DIALOG
+    // ---------------------------
+      {
+         "class": "progress_gauge_control",
+         "settings": ["flats_ui_monokai_flat"],
+         "layer0.tint": [255, 64, 129]
+      },
     // ---------------------------
     // Button labels
     // ---------------------------
@@ -2341,14 +2359,12 @@
          "class": "disclosure_button_control",
          "attributes": ["expanded"],
          "settings": ["flats_ui_monokai_flat"],
-         "layer0.texture": "Theme - The_Flats/assets/folder-arrow-open.png",
          "layer0.tint": [255, 64, 129]
       },
       {
          "class": "disclosure_button_control",
          "settings": ["flats_folder_icons", "flats_ui_monokai_flat"],
          "attributes": ["expanded"],
-         "layer0.texture": "Theme - The_Flats/assets/folder-open.png",
          "layer0.tint": [255, 64, 129]
       },
     // ---------------------------
@@ -2451,9 +2467,7 @@
          "class": "panel_button_control",
          "settings": ["flats_ui_monokai_flat"],
          "attributes": ["hover"],
-         "layer0.texture": "Theme - The_Flats/assets/tabset-list.png",
-         "layer0.tint": [255, 64, 129],
-         "layer0.opacity": 1
+         "layer0.tint": [255, 64, 129]
       }
 
 ]
