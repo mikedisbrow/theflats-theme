@@ -570,7 +570,7 @@
   // Sidebar entry
     {
        "class": "sidebar_label",
-       "color": [158, 158, 158],
+       "color": [117, 117, 117],
        "font.size": 12 
     },
     {
@@ -791,13 +791,6 @@
 // ---------------------------
 // TEXT INPUT FIELD
 // ---------------------------
-  // Text input field item
-    // {
-    //    "class": "text_line_control",
-    //    "layer0.tint": [33, 33, 33],
-    //    "layer0.opacity": 1,
-    //    "content_margin": [4,8,4,8],
-    // },
     {
        "class": "text_line_control",
        "layer0.texture": "Theme - The_Flats/assets/seafoam/input_border.png",
@@ -815,9 +808,9 @@
        "layer0.draw_center": true,
        "content_margin": [32, 8, 32, 8]
     },
-  // ------------------------------- 
-  // TEXT INPUT MENU ICON
-  // -------------------------------
+    // ------------------------------- 
+    // TEXT INPUT MENU ICON
+    // -------------------------------
     {
        "class": "dropdown_button_control",
        "content_margin": [8, 8],
@@ -1544,13 +1537,6 @@
     // ---------------------------
     // TEXT INPUT FIELD
     // ---------------------------
-    // Text input field item
-      // {
-      //    "class": "text_line_control",
-      //    "layer0.tint": [33, 33, 33],
-      //    "layer0.opacity": 1,
-      //    "content_margin": [4,8,4,8],
-      // },
       {
          "class": "text_line_control",
          "settings": ["flats_ui_seafoam"],
@@ -1569,7 +1555,7 @@
          "class": "dropdown_button_control",
          "settings": ["flats_ui_seafoam"],
          "attributes": ["hover"],
-         "layer0.tint": [155, 242, 190]
+         "layer1.tint": [155, 242, 190]
       },
 
   // ---------------------------------------------------
@@ -1589,8 +1575,8 @@
     // ---------------------------
       {
          "class": "tab_close_button",
-         "parents": [{"class": "tab_control"}],
          "settings": ["flats_ui_predawn"],
+         "parents": [{"class": "tab_control"}],
          "attributes": ["hover"],
          "layer0.tint": [241, 130, 96]
       },
@@ -1818,33 +1804,26 @@
     // ---------------------------
     // TEXT INPUT FIELD
     // ---------------------------
-    // Text input field item
-    // {
-    //    "class": "text_line_control",
-    //    "layer0.tint": [33, 33, 33],
-    //    "layer0.opacity": 1,
-    //    "content_margin": [4,8,4,8],
-    // },
-    {
-       "class": "text_line_control",
-       "settings": ["flats_ui_predawn"],
-       "layer0.texture": "Theme - The_Flats/assets/predawn/input_border.png"
-    },
-    {
-       "class": "text_line_control",
-       "parents": [{"class": "overlay_control"}],
-       "settings": ["flats_ui_predawn"],
-       "layer0.texture": "Theme - The_Flats/assets/predawm/input_border_short.png"
-    },
-    // ------------------------------- 
-    // TEXT INPUT MENU ICON
-    // -------------------------------
-    {
-       "class": "dropdown_button_control",
-       "settings": ["flats_ui_predawn"],
-       "attributes": ["hover"],
-       "layer0.tint": [241, 130, 96]
-    },
+      {
+         "class": "text_line_control",
+         "settings": ["flats_ui_predawn"],
+         "layer0.texture": "Theme - The_Flats/assets/predawn/input_border.png"
+      },
+      {
+         "class": "text_line_control",
+         "settings": ["flats_ui_predawn"],
+         "parents": [{"class": "overlay_control"}],
+         "layer0.texture": "Theme - The_Flats/assets/predawn/input_border_short.png"
+      },
+      // ------------------------------- 
+      // TEXT INPUT MENU ICON
+      // -------------------------------
+      {
+         "class": "dropdown_button_control",
+         "settings": ["flats_ui_predawn"],
+         "attributes": ["hover"],
+         "layer1.tint": [241, 130, 96]
+      },
   // ---------------------------------------------------
   // OCEANIC NEXT "settings": ["flats_ui_oceanic"],
   // ---------------------------------------------------
@@ -1862,8 +1841,8 @@
     // ---------------------------
       {
         "class": "tab_close_button",
-        "parents": [{"class": "tab_control"}],
         "settings": ["flats_ui_oceanic"],
+        "parents": [{"class": "tab_control"}],
         "attributes": ["hover"],
         "layer0.tint": [250, 200, 99]
       },
@@ -2088,27 +2067,17 @@
          "attributes": ["hover"],
          "layer0.tint": [250, 200, 99]
       },
-    // ---------------------------
-    // TEXT INPUT FIELD
-    // ---------------------------
-    // Text input field item
-    // {
-    //    "class": "text_line_control",
-    //    "layer0.tint": [33, 33, 33],
-    //    "layer0.opacity": 1,
-    //    "content_margin": [4,8,4,8],
-    // },
-    {
-       "class": "text_line_control",
-       "settings": ["flats_ui_oceanic"],
-       "layer0.texture": "Theme - The_Flats/assets/oceanic/input_border.png"
-    },
-    {
-       "class": "text_line_control",
-       "settings": ["flats_ui_oceanic"],
-       "parents": [{"class": "overlay_control"}],
-       "layer0.texture": "Theme - The_Flats/assets/oceanic/input_border_short.png"
-    },
+      {
+         "class": "text_line_control",
+         "settings": ["flats_ui_oceanic"],
+         "layer0.texture": "Theme - The_Flats/assets/oceanic/input_border.png"
+      },
+      {
+         "class": "text_line_control",
+         "settings": ["flats_ui_oceanic"],
+         "parents": [{"class": "overlay_control"}],
+         "layer0.texture": "Theme - The_Flats/assets/oceanic/input_border_short.png"
+      },
     // ------------------------------- 
     // TEXT INPUT MENU ICON
     // -------------------------------
@@ -2116,7 +2085,7 @@
          "class": "dropdown_button_control",
          "settings": ["flats_ui_oceanic"],
          "attributes": ["hover"],
-         "layer0.tint": [250, 200, 99]
+         "layer1.tint": [250, 200, 99]
       },
 
   // ---------------------------------------------------
@@ -2136,8 +2105,8 @@
     // ---------------------------
       {
          "class": "tab_close_button",
-         "parents": [{"class": "tab_control"}],
          "settings": ["flats_ui_monokai"],
+         "parents": [{"class": "tab_control"}],
          "attributes": ["hover"],
          "layer0.tint": [249, 38, 114]
       },
@@ -2365,13 +2334,6 @@
     // ---------------------------
     // TEXT INPUT FIELD
     // ---------------------------
-    // Text input field item
-      // {
-      //    "class": "text_line_control",
-      //    "layer0.tint": [33, 33, 33],
-      //    "layer0.opacity": 1,
-      //    "content_margin": [4,8,4,8],
-      // },
       {
          "class": "text_line_control",
          "settings": ["flats_ui_monokai"],
@@ -2390,7 +2352,7 @@
          "class": "dropdown_button_control",
          "settings": ["flats_ui_monokai"],
          "attributes": ["hover"],
-         "layer0.tint": [249, 38, 114]
+         "layer1.tint": [249, 38, 114]
       },
 
   // ---------------------------------------------------
@@ -2639,13 +2601,6 @@
     // ---------------------------
     // TEXT INPUT FIELD
     // ---------------------------
-    // Text input field item
-      // {
-      //    "class": "text_line_control",
-      //    "layer0.tint": [33, 33, 33],
-      //    "layer0.opacity": 1,
-      //    "content_margin": [4,8,4,8],
-      // },
       {
          "class": "text_line_control",
          "settings": ["flats_ui_monokai_flat"],
@@ -2664,7 +2619,7 @@
          "class": "dropdown_button_control",
          "settings": ["flats_ui_monokai_flat"],
          "attributes": ["hover"],
-         "layer0.tint": [255, 64, 129]
+         "layer1.tint": [255, 64, 129]
       }
 
 ]
