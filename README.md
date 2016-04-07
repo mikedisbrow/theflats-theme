@@ -69,6 +69,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
   "flats_ui_predawn": true,
   "flats_ui_oceanic": true,
   "flats_ui_monokai": true,
+  "flats_ui_monokai_flat": true,
 }
 ```
 * Fonts
@@ -98,7 +99,7 @@ _Example settings for Markdown_
 Create a `Markdown.sublime-settings` file and place it in your `User` folder in `Sublime Text -> Preferences -> Browse Packages...`
 
 ```js
-  {
+{
   "word_wrap": true,
   "draw_indent_guides": false,
   "tab_size": 4,
@@ -136,6 +137,14 @@ Create a `Markdown.sublime-settings` file and place it in your `User` folder in 
 *  Oceanic Next
 *  Monokai Neue
 	*  *while I like the contrast of colors, there are a few that just burn my retinas in Monokai, so I've also included a version, `Monokai-Flat` that I like much more.*
+
+***
+
+### Replacement Icons for Sublime Text
+
+*Made a few replacement icons for Sublime Text to go with the theme. Typical OS X style, using a few different fonts*
+
+![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/app%20icons.png)
 
 ***
 

@@ -27,7 +27,7 @@
        "content_margin": [8, 0],
        "max_margin_trim": 0,
        "hit_test_level": 0,
-       "layer0.texture": "Theme - The_Flats/assets/common/tab_inactive.png",
+       "layer0.texture": "TheFlats Theme/assets/common/tab_inactive.png",
        "layer0.opacity": 1
     },
   // Tab close state
@@ -45,7 +45,7 @@
     {
        "class": "tab_control",
        "attributes": ["selected"],
-       "layer0.texture": "Theme - The_Flats/assets/seafoam/tab_selected.png"
+       "layer0.texture": "TheFlats Theme/assets/seafoam/tab_selected.png"
     },
   // Tab dirty state (close button hidden)
     {
@@ -81,7 +81,7 @@
   // Tab close button
     {
        "class": "tab_close_button",
-       "layer0.texture": "Theme - The_Flats/assets/common/close.png",
+       "layer0.texture": "TheFlats Theme/assets/common/close.png",
        "layer0.opacity": 0,
        "layer0.tint": [117, 117, 117]
     },
@@ -93,7 +93,7 @@
     {
        "class": "tab_close_button",
        "parents": [{"class": "tab_control","attributes": ["hover"]}],
-       "layer0.texture": "Theme - The_Flats/assets/common/close.png",
+       "layer0.texture": "TheFlats Theme/assets/common/close.png",
        "layer0.opacity": 1
     },
     {
@@ -112,7 +112,7 @@
     {
        "class": "tab_close_button",
        "parents": [{"class": "tab_control","attributes": ["dirty"]}],
-       "layer0.texture": "Theme - The_Flats/assets/common/circle.png",
+       "layer0.texture": "TheFlats Theme/assets/common/circle.png",
        "layer0.tint": [255, 203, 107],
        "layer0.opacity": 1
     },
@@ -126,7 +126,7 @@
     {
        "class": "tab_close_button",
        "parents": [{"class": "tab_control","attributes": ["dirty","hover"]}],
-       "layer0.texture": "Theme - The_Flats/assets/common/close.png",
+       "layer0.texture": "TheFlats Theme/assets/common/close.png",
        "attributes": ["hover"],
        "layer0.opacity": 1,
        "layer0.tint": [255, 203, 107]
@@ -207,14 +207,14 @@
     {
        "class": "show_tabs_dropdown_button",
        "content_margin": [8, 8],
-       "layer0.texture": "Theme - The_Flats/assets/common/hamburger.png",
+       "layer0.texture": "TheFlats Theme/assets/common/hamburger.png",
        "layer0.opacity": 1,
        "layer0.tint": [117, 117, 117]
     },
     {
        "class": "show_tabs_dropdown_button",
        "attributes": ["hover"],
-       "layer0.texture": "Theme - The_Flats/assets/common/hamburger.png",
+       "layer0.texture": "TheFlats Theme/assets/common/hamburger.png",
        "layer0.tint": [155, 242, 190],
        "layer0.opacity": 1
     },
@@ -222,14 +222,14 @@
     {
        "class": "scroll_tabs_left_button",
        "content_margin": [8, 8],
-       "layer0.texture": "Theme - The_Flats/assets/common/tabset-left.png",
+       "layer0.texture": "TheFlats Theme/assets/common/tabset-left.png",
        "layer0.tint": [117, 117, 117],
        "layer0.opacity": 1
     },
     {
        "class": "scroll_tabs_left_button",
        "attributes": ["hover"],
-       "layer0.texture": "Theme - The_Flats/assets/common/tabset-left.png",
+       "layer0.texture": "TheFlats Theme/assets/common/tabset-left.png",
        "layer0.tint": [155, 242, 190],
        "layer0.opacity": 1
     },
@@ -237,14 +237,14 @@
     {
        "class": "scroll_tabs_right_button",
        "content_margin": [8, 8],
-       "layer0.texture": "Theme - The_Flats/assets/common/tabset-right.png",
+       "layer0.texture": "TheFlats Theme/assets/common/tabset-right.png",
        "layer0.tint": [117, 117, 117],
        "layer0.opacity": 1
     },
     {
        "class": "scroll_tabs_right_button",
        "attributes": ["hover"],
-       "layer0.texture": "Theme - The_Flats/assets/common/tabset-right.png",
+       "layer0.texture": "TheFlats Theme/assets/common/tabset-right.png",
        "layer0.tint": [155, 242, 190],
        "layer0.opacity": 1
     },
@@ -272,7 +272,7 @@
 
     {
        "class": "fold_button_control",
-       "layer0.texture": "Theme - The_Flats/assets/common/fold-closed.png",
+       "layer0.texture": "TheFlats Theme/assets/common/fold-closed.png",
        "layer0.tint": [155, 242, 190],
        "layer0.opacity": 0.6,
        "layer0.inner_margin": 0,
@@ -288,7 +288,7 @@
        "class": "fold_button_control",
        "attributes": ["expanded"],
        "layer0.tint": [158, 158, 158],
-       "layer0.texture": "Theme - The_Flats/assets/common/fold-open.png"
+       "layer0.texture": "TheFlats Theme/assets/common/fold-open.png"
     },
     {
        "class": "fold_button_control",
@@ -317,7 +317,7 @@
        "class": "puck_control",
        "layer0.opacity": 1.0,
        "layer0.inner_margin": [0, 10],
-       "layer0.texture": "Theme - The_Flats/assets/seafoam/puck_vertical.png",
+       "layer0.texture": "TheFlats Theme/assets/seafoam/puck_vertical.png",
        "content_margin": [8, 12],
        "blur": false
     },  
@@ -334,7 +334,7 @@
        "attributes": ["horizontal"],
        "layer0.opacity": 1.0,
        "layer0.inner_margin": [10, 0],
-       "layer0.texture": "Theme - The_Flats/assets/seafoam/puck_horizontal.png",
+       "layer0.texture": "TheFlats Theme/assets/seafoam/puck_horizontal.png",
        "content_margin": [12, 8],
        "blur": false
     },
@@ -362,7 +362,7 @@
     {
        "class": "puck_control",
        "settings": ["overlay_scroll_bars"],
-       "layer0.texture": "Theme - The_Flats/assets/seafoam/puck_vertical_overlay.png",
+       "layer0.texture": "TheFlats Theme/assets/seafoam/puck_vertical_overlay.png",
        "layer0.inner_margin": [0, 5],
        "content_margin": [5, 20],
        "blur": false
@@ -379,7 +379,7 @@
        "class": "puck_control",
        "settings": ["overlay_scroll_bars"],
        "attributes": ["horizontal"],
-       "layer0.texture": "Theme - The_Flats/assets/seafoam/puck_horizontal_overlay.png",
+       "layer0.texture": "TheFlats Theme/assets/seafoam/puck_horizontal_overlay.png",
        "layer0.inner_margin": [5, 0],
        "content_margin": [20, 5],
        "blur": false
@@ -623,7 +623,7 @@
   // Sidebar file close
     {
        "class": "close_button",
-       "layer0.texture": "Theme - The_Flats/assets/common/close.png",
+       "layer0.texture": "TheFlats Theme/assets/common/close.png",
        "layer0.opacity": 0,
        "layer0.inner_margin": 0,
        "layer0.tint": [117, 117, 117],
@@ -643,7 +643,7 @@
     {
        "class": "close_button",
        "attributes": ["dirty"],
-       "layer0.texture": "Theme - The_Flats/assets/common/circle.png",
+       "layer0.texture": "TheFlats Theme/assets/common/circle.png",
        "layer0.opacity": 1,
        "layer0.tint": [255, 203, 107]
     },
@@ -651,7 +651,7 @@
        "class": "close_button",
        "attributes": ["dirty"],
        "parents": [{"class": "tree_row","attributes": ["selected"]}],
-       "layer0.texture": "Theme - The_Flats/assets/common/circle.png"
+       "layer0.texture": "TheFlats Theme/assets/common/circle.png"
     },
   // Sidebar file close hover
     {
@@ -663,7 +663,7 @@
        "class": "close_button",
        "attributes": ["dirty", "hover"],
        "parents": [{"class": "tree_row","attributes": ["hover"]}],
-       "layer0.texture": "Theme - The_Flats/assets/common/close.png",
+       "layer0.texture": "TheFlats Theme/assets/common/close.png",
        "layer0.tint": [255, 203, 107]
     },
 
@@ -674,7 +674,7 @@
     {
        "class": "disclosure_button_control",
        "content_margin": [8,8],
-       "layer0.texture": "Theme - The_Flats/assets/common/folder-arrow-closed.png",
+       "layer0.texture": "TheFlats Theme/assets/common/folder-arrow-closed.png",
        "layer0.tint": [117, 117, 117],
        "layer0.opacity": 1,
        "layer0.inner_margin": 0
@@ -692,7 +692,7 @@
     {
        "class": "disclosure_button_control",
        "attributes": ["expanded"],
-       "layer0.texture": "Theme - The_Flats/assets/common/folder-arrow-open.png",
+       "layer0.texture": "TheFlats Theme/assets/common/folder-arrow-open.png",
        "layer0.tint": [155, 242, 190]
     },
     {
@@ -704,7 +704,7 @@
        "class": "disclosure_button_control",
        "attributes": ["expanded"],
        "parents": [{"class": "tree_row","attributes": ["selected"]}],
-       "layer0.texture": "Theme - The_Flats/assets/common/folder-arrow-open.png"
+       "layer0.texture": "TheFlats Theme/assets/common/folder-arrow-open.png"
     },
   // Sidebar file icons
     {
@@ -724,13 +724,13 @@
     {
        "class": "disclosure_button_control",
        "settings": ["flats_folder_icons"],
-       "layer0.texture": "Theme - The_Flats/assets/common/folder-closed.png"
+       "layer0.texture": "TheFlats Theme/assets/common/folder-closed.png"
     },
     {
        "class": "disclosure_button_control",
        "settings": ["flats_folder_icons"],
        "attributes": ["expanded"],
-       "layer0.texture": "Theme - The_Flats/assets/common/folder-open.png",
+       "layer0.texture": "TheFlats Theme/assets/common/folder-open.png",
        "layer0.tint": [155, 242, 190]
     },
     {
@@ -738,7 +738,7 @@
        "settings": ["flats_folder_icons"],
        "attributes": ["expanded"],
        "parents": [{"class": "tree_row","attributes": ["selected"]}],
-       "layer0.texture": "Theme - The_Flats/assets/common/folder-open.png"
+       "layer0.texture": "TheFlats Theme/assets/common/folder-open.png"
     },
 
 // ---------------------------
@@ -793,7 +793,7 @@
 // ---------------------------
     {
        "class": "text_line_control",
-       "layer0.texture": "Theme - The_Flats/assets/seafoam/input_border.png",
+       "layer0.texture": "TheFlats Theme/assets/seafoam/input_border.png",
        "layer0.opacity": 1.0,
        "layer0.inner_margin": [20, 5, 20, 5],
        "tint_index": 1,
@@ -802,7 +802,7 @@
     {
        "class": "text_line_control",
        "parents": [{"class": "overlay_control"}],
-       "layer0.texture": "Theme - The_Flats/assets/seafoam/input_border_short.png",
+       "layer0.texture": "TheFlats Theme/assets/seafoam/input_border_short.png",
        "layer0.opacity": 1.0,
        "layer0.inner_margin": [32, 2, 32, 2],
        "layer0.draw_center": true,
@@ -814,11 +814,11 @@
     {
        "class": "dropdown_button_control",
        "content_margin": [8, 8],
-       "layer0.texture": "Theme - The_Flats/assets/common/hamburger.png",
+       "layer0.texture": "TheFlats Theme/assets/common/hamburger.png",
        "layer0.tint": [117, 117, 117],
        "layer0.opacity": 1.0,
        "layer0.inner_margin": [0, 0],
-       "layer1.texture": "Theme - The_Flats/assets/common/hamburger-hover.png",
+       "layer1.texture": "TheFlats Theme/assets/common/hamburger-hover.png",
        "layer1.opacity": 0.0,
        "layer1.inner_margin": [0, 0],
     },
@@ -843,10 +843,10 @@
   // Quick panel background
     {
        "class": "overlay_control",
-       "layer0.texture": "Theme - The_Flats/assets/common/overlay_background.png",
+       "layer0.texture": "TheFlats Theme/assets/common/overlay_background.png",
        "layer0.inner_margin": [16, 4, 16, 33],
        "layer0.opacity": 1.0,
-       "layer1.texture": "Theme - The_Flats/assets/common/quick_panel_background.png",
+       "layer1.texture": "TheFlats Theme/assets/common/quick_panel_background.png",
        "layer1.inner_margin": [16, 0, 16, 25],
        "layer1.opacity": 1.0,
        "content_margin": [13, 13, 13, 33]
@@ -997,7 +997,7 @@
    // Regex search button
      {
         "class": "icon_regex",
-        "layer0.texture": "Theme - The_Flats/assets/common/regex.png",
+        "layer0.texture": "TheFlats Theme/assets/common/regex.png",
         "layer0.tint": [117, 117, 117],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1010,7 +1010,7 @@
    // Case sensitive search button
      {
         "class": "icon_case",
-        "layer0.texture": "Theme - The_Flats/assets/common/casesens.png",
+        "layer0.texture": "TheFlats Theme/assets/common/casesens.png",
         "layer0.tint": [117, 117, 117],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1023,7 +1023,7 @@
    // Match whole word search button
      {
         "class": "icon_whole_word",
-        "layer0.texture": "Theme - The_Flats/assets/common/wholeword.png",
+        "layer0.texture": "TheFlats Theme/assets/common/wholeword.png",
         "layer0.tint": [117, 117, 117],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1040,7 +1040,7 @@
   // Show search context button
     {
        "class": "icon_context",
-       "layer0.texture": "Theme - The_Flats/assets/common/context.png",
+       "layer0.texture": "TheFlats Theme/assets/common/context.png",
        "layer0.tint": [117, 117, 117],
        "layer0.opacity": 1,
        "content_margin": 8
@@ -1053,7 +1053,7 @@
   // Use search buffer
     {
        "class": "icon_use_buffer",
-       "layer0.texture": "Theme - The_Flats/assets/common/buffer.png",
+       "layer0.texture": "TheFlats Theme/assets/common/buffer.png",
        "layer0.tint": [117, 117, 117],
        "layer0.opacity": 1,
        "content_margin": 8
@@ -1066,7 +1066,7 @@
   // Reverse search direction button (ST2 only)
     {
        "class": "icon_reverse",
-       "layer0.texture": "Theme - The_Flats/assets/common/reverse.png",
+       "layer0.texture": "TheFlats Theme/assets/common/reverse.png",
        "layer0.tint": [117, 117, 117],
        "layer0.opacity": 1,
        "content_margin": 8
@@ -1079,7 +1079,7 @@
   // Search wrap button
     {
        "class": "icon_wrap",
-       "layer0.texture": "Theme - The_Flats/assets/common/wrap.png",
+       "layer0.texture": "TheFlats Theme/assets/common/wrap.png",
        "layer0.tint": [117, 117, 117],
        "layer0.opacity": 1,
        "content_margin": 8
@@ -1092,7 +1092,7 @@
   // Search in selection button
     {
        "class": "icon_in_selection",
-       "layer0.texture": "Theme - The_Flats/assets/common/selection.png",
+       "layer0.texture": "TheFlats Theme/assets/common/selection.png",
        "layer0.tint": [117, 117, 117],
        "layer0.opacity": 1,
        "content_margin": 8
@@ -1105,7 +1105,7 @@
   // Preserve case button
     {
        "class": "icon_preserve_case",
-       "layer0.texture": "Theme - The_Flats/assets/common/lock.png",
+       "layer0.texture": "TheFlats Theme/assets/common/lock.png",
        "layer0.tint": [117, 117, 117],
        "layer0.opacity": 1,
        "content_margin": 8
@@ -1118,7 +1118,7 @@
   // Highlight results button
     {
        "class": "icon_highlight",
-       "layer0.texture": "Theme - The_Flats/assets/common/highlight.png",
+       "layer0.texture": "TheFlats Theme/assets/common/highlight.png",
        "layer0.tint": [117, 117, 117],
        "layer0.opacity": 1,
        "content_margin": 8
@@ -1136,14 +1136,14 @@
     {
       "class": "panel_button_control",
       "content_margin": [8, 8],
-      "layer0.texture": "Theme - The_Flats/assets/common/hamburger.png",
+      "layer0.texture": "TheFlats Theme/assets/common/hamburger.png",
       "layer0.tint": [117, 117, 117],
       "layer0.opacity": 1
     },
     {
       "class": "panel_button_control",
       "attributes": ["hover"],
-      "layer0.texture": "Theme - The_Flats/assets/common/hamburger.png",
+      "layer0.texture": "TheFlats Theme/assets/common/hamburger.png",
       "layer0.tint": [155, 242, 190],
       "layer0.opacity": 1
     },
@@ -1296,7 +1296,7 @@
          "class": "tab_control",
          "settings": ["flats_ui_seafoam"],
          "attributes": ["selected"],
-         "layer0.texture": "Theme - The_Flats/assets/seafoam/tab_selected.png",
+         "layer0.texture": "TheFlats Theme/assets/seafoam/tab_selected.png",
       },
     // ---------------------------
     // Tab Close Button Hover
@@ -1361,13 +1361,13 @@
       {
          "class": "puck_control",
          "settings": ["flats_ui_seafoam"],
-         "layer0.texture": "Theme - The_Flats/assets/seafoam/puck_vertical.png"
+         "layer0.texture": "TheFlats Theme/assets/seafoam/puck_vertical.png"
       },
       {
          "class": "puck_control",
          "settings": ["flats_ui_seafoam"],
          "attributes": ["horizontal"],
-         "layer0.texture": "Theme - The_Flats/assets/seafoam/puck_horizontal.png"
+         "layer0.texture": "TheFlats Theme/assets/seafoam/puck_horizontal.png"
       },
     // ---------------------------
     // Scrollbars Overlaid
@@ -1375,13 +1375,13 @@
       {
          "class": "puck_control",
          "settings": ["overlay_scroll_bars", "flats_ui_seafoam"],
-         "layer0.texture": "Theme - The_Flats/assets/seafoam/puck_vertical_overlay.png"
+         "layer0.texture": "TheFlats Theme/assets/seafoam/puck_vertical_overlay.png"
       },
       {
          "class": "puck_control",
          "settings": ["overlay_scroll_bars", "flats_ui_seafoam"],
          "attributes": ["horizontal"],
-         "layer0.texture": "Theme - The_Flats/assets/seafoam/puck_horizontal_overlay.png"
+         "layer0.texture": "TheFlats Theme/assets/seafoam/puck_horizontal_overlay.png"
       },
     // ---------------------------
     // PROGRESS BAR & DIALOG
@@ -1541,13 +1541,13 @@
       {
          "class": "text_line_control",
          "settings": ["flats_ui_seafoam"],
-         "layer0.texture": "Theme - The_Flats/assets/seafoam/input_border.png"
+         "layer0.texture": "TheFlats Theme/assets/seafoam/input_border.png"
       },
       {
          "class": "text_line_control",
          "settings": ["flats_ui_seafoam"],
          "parents": [{"class": "overlay_control"}],
-         "layer0.texture": "Theme - The_Flats/assets/seafoam/input_border_short.png"
+         "layer0.texture": "TheFlats Theme/assets/seafoam/input_border_short.png"
       },
     // ------------------------------- 
     // TEXT INPUT MENU ICON
@@ -1569,7 +1569,7 @@
          "class": "tab_control",
          "settings": ["flats_ui_predawn"],
          "attributes": ["selected"],
-         "layer0.texture": "Theme - The_Flats/assets/predawn/tab_selected.png"
+         "layer0.texture": "TheFlats Theme/assets/predawn/tab_selected.png"
       },
     // ---------------------------
     // Tab Close Button Hover
@@ -1634,13 +1634,13 @@
       {
          "class": "puck_control",
          "settings": ["flats_ui_predawn"],
-         "layer0.texture": "Theme - The_Flats/assets/predawn/puck_vertical.png"
+         "layer0.texture": "TheFlats Theme/assets/predawn/puck_vertical.png"
       },
       {
          "class": "puck_control",
          "settings": ["flats_ui_predawn"],
          "attributes": ["horizontal"],
-         "layer0.texture": "Theme - The_Flats/assets/predawn/puck_horizontal.png"
+         "layer0.texture": "TheFlats Theme/assets/predawn/puck_horizontal.png"
       },
     // ---------------------------
     // Scrollbars Overlaid
@@ -1648,13 +1648,13 @@
       {
          "class": "puck_control",
          "settings": ["overlay_scroll_bars", "flats_ui_predawn"],
-         "layer0.texture": "Theme - The_Flats/assets/predawn/puck_vertical_overlay.png"
+         "layer0.texture": "TheFlats Theme/assets/predawn/puck_vertical_overlay.png"
       },
       {
          "class": "puck_control",
          "settings": ["overlay_scroll_bars", "flats_ui_predawn"],
          "attributes": ["horizontal"],
-         "layer0.texture": "Theme - The_Flats/assets/predawn/puck_horizontal_overlay.png"
+         "layer0.texture": "TheFlats Theme/assets/predawn/puck_horizontal_overlay.png"
       },
     // ---------------------------
     // PROGRESS BAR & DIALOG
@@ -1808,13 +1808,13 @@
       {
          "class": "text_line_control",
          "settings": ["flats_ui_predawn"],
-         "layer0.texture": "Theme - The_Flats/assets/predawn/input_border.png"
+         "layer0.texture": "TheFlats Theme/assets/predawn/input_border.png"
       },
       {
          "class": "text_line_control",
          "settings": ["flats_ui_predawn"],
          "parents": [{"class": "overlay_control"}],
-         "layer0.texture": "Theme - The_Flats/assets/predawn/input_border_short.png"
+         "layer0.texture": "TheFlats Theme/assets/predawn/input_border_short.png"
       },
       // ------------------------------- 
       // TEXT INPUT MENU ICON
@@ -1835,7 +1835,7 @@
         "class": "tab_control",
         "settings": ["flats_ui_oceanic"],
         "attributes": ["selected"],
-        "layer0.texture": "Theme - The_Flats/assets/oceanic/tab_selected.png"
+        "layer0.texture": "TheFlats Theme/assets/oceanic/tab_selected.png"
       },
     // ---------------------------
     // Tab Close Button Hover
@@ -1900,13 +1900,13 @@
       {
          "class": "puck_control",
          "settings": ["flats_ui_oceanic"],
-         "layer0.texture": "Theme - The_Flats/assets/oceanic/puck_vertical.png"
+         "layer0.texture": "TheFlats Theme/assets/oceanic/puck_vertical.png"
       },
       {
          "class": "puck_control",
          "settings": ["flats_ui_oceanic"],
          "attributes": ["horizontal"],
-         "layer0.texture": "Theme - The_Flats/assets/oceanic/puck_horizontal.png"
+         "layer0.texture": "TheFlats Theme/assets/oceanic/puck_horizontal.png"
       },
     // ---------------------------
     // Scrollbars Overlaid
@@ -1914,13 +1914,13 @@
       {
          "class": "puck_control",
          "settings": ["overlay_scroll_bars", "flats_ui_oceanic"],
-         "layer0.texture": "Theme - The_Flats/assets/oceanic/puck_vertical_overlay.png"
+         "layer0.texture": "TheFlats Theme/assets/oceanic/puck_vertical_overlay.png"
       },
       {
          "class": "puck_control",
          "settings": ["overlay_scroll_bars", "flats_ui_oceanic"],
          "attributes": ["horizontal"],
-         "layer0.texture": "Theme - The_Flats/assets/oceanic/puck_horizontal_overlay.png"
+         "layer0.texture": "TheFlats Theme/assets/oceanic/puck_horizontal_overlay.png"
       },
     // ---------------------------
     // PROGRESS BAR & DIALOG
@@ -2071,13 +2071,13 @@
       {
          "class": "text_line_control",
          "settings": ["flats_ui_oceanic"],
-         "layer0.texture": "Theme - The_Flats/assets/oceanic/input_border.png"
+         "layer0.texture": "TheFlats Theme/assets/oceanic/input_border.png"
       },
       {
          "class": "text_line_control",
          "settings": ["flats_ui_oceanic"],
          "parents": [{"class": "overlay_control"}],
-         "layer0.texture": "Theme - The_Flats/assets/oceanic/input_border_short.png"
+         "layer0.texture": "TheFlats Theme/assets/oceanic/input_border_short.png"
       },
     // ------------------------------- 
     // TEXT INPUT MENU ICON
@@ -2099,7 +2099,7 @@
          "class": "tab_control",
          "settings": ["flats_ui_monokai"],
          "attributes": ["selected"],
-         "layer0.texture": "Theme - The_Flats/assets/monokai/tab_selected.png"
+         "layer0.texture": "TheFlats Theme/assets/monokai/tab_selected.png"
       },
     // ---------------------------
     // Tab Close Button Hover
@@ -2164,13 +2164,13 @@
       {
          "class": "puck_control",
          "settings": ["flats_ui_monokai"],
-         "layer0.texture": "Theme - The_Flats/assets/monokai/puck_vertical.png"
+         "layer0.texture": "TheFlats Theme/assets/monokai/puck_vertical.png"
       },
       {
          "class": "puck_control",
          "settings": ["flats_ui_monokai"],
          "attributes": ["horizontal"],
-         "layer0.texture": "Theme - The_Flats/assets/monokai/puck_horizontal.png"
+         "layer0.texture": "TheFlats Theme/assets/monokai/puck_horizontal.png"
       },
     // ---------------------------
     // Scrollbars Overlaid
@@ -2178,13 +2178,13 @@
       {
          "class": "puck_control",
          "settings": ["overlay_scroll_bars", "flats_ui_monokai"],
-         "layer0.texture": "Theme - The_Flats/assets/monokai/puck_vertical_overlay.png"
+         "layer0.texture": "TheFlats Theme/assets/monokai/puck_vertical_overlay.png"
       },
       {
          "class": "puck_control",
          "settings": ["overlay_scroll_bars", "flats_ui_monokai"],
          "attributes": ["horizontal"],
-         "layer0.texture": "Theme - The_Flats/assets/monokai/puck_horizontal_overlay.png"
+         "layer0.texture": "TheFlats Theme/assets/monokai/puck_horizontal_overlay.png"
       },
     // ---------------------------
     // PROGRESS BAR & DIALOG
@@ -2338,13 +2338,13 @@
       {
          "class": "text_line_control",
          "settings": ["flats_ui_monokai"],
-         "layer0.texture": "Theme - The_Flats/assets/monokai/input_border.png"
+         "layer0.texture": "TheFlats Theme/assets/monokai/input_border.png"
       },
       {
          "class": "text_line_control",
          "settings": ["flats_ui_monokai"],
          "parents": [{"class": "overlay_control"}],
-         "layer0.texture": "Theme - The_Flats/assets/monokai/input_border_short.png"
+         "layer0.texture": "TheFlats Theme/assets/monokai/input_border_short.png"
       },
     // ------------------------------- 
     // TEXT INPUT MENU ICON
@@ -2366,7 +2366,7 @@
          "class": "tab_control",
          "settings": ["flats_ui_monokai_flat"],
          "attributes": ["selected"],
-         "layer0.texture": "Theme - The_Flats/assets/monokai_flat/tab_selected.png"
+         "layer0.texture": "TheFlats Theme/assets/monokai_flat/tab_selected.png"
       },
     // ---------------------------
     // Tab Close Button Hover
@@ -2431,13 +2431,13 @@
       {
          "class": "puck_control",
          "settings": ["flats_ui_monokai_flat"],
-         "layer0.texture": "Theme - The_Flats/assets/monokai_flat/puck_vertical.png"
+         "layer0.texture": "TheFlats Theme/assets/monokai_flat/puck_vertical.png"
       },
       {
          "class": "puck_control",
          "settings": ["flats_ui_monokai_flat"],
          "attributes": ["horizontal"],
-         "layer0.texture": "Theme - The_Flats/assets/monokai_flat/puck_horizontal.png"
+         "layer0.texture": "TheFlats Theme/assets/monokai_flat/puck_horizontal.png"
       },
     // ---------------------------
     // Scrollbars Overlaid
@@ -2445,13 +2445,13 @@
       {
          "class": "puck_control",
          "settings": ["overlay_scroll_bars", "flats_ui_monokai_flat"],
-         "layer0.texture": "Theme - The_Flats/assets/monokai_flat/puck_vertical_overlay.png"
+         "layer0.texture": "TheFlats Theme/assets/monokai_flat/puck_vertical_overlay.png"
       },
       {
          "class": "puck_control",
          "settings": ["overlay_scroll_bars", "flats_ui_monokai_flat"],
          "attributes": ["horizontal"],
-         "layer0.texture": "Theme - The_Flats/assets/monokai_flat/puck_horizontal_overlay.png"
+         "layer0.texture": "TheFlats Theme/assets/monokai_flat/puck_horizontal_overlay.png"
       },
     // ---------------------------
     // PROGRESS BAR & DIALOG
@@ -2605,13 +2605,13 @@
       {
          "class": "text_line_control",
          "settings": ["flats_ui_monokai_flat"],
-         "layer0.texture": "Theme - The_Flats/assets/monokai_flat/input_border.png"
+         "layer0.texture": "TheFlats Theme/assets/monokai_flat/input_border.png"
       },
       {
          "class": "text_line_control",
          "settings": ["flats_ui_monokai_flat"],
          "parents": [{"class": "overlay_control"}],
-         "layer0.texture": "Theme - The_Flats/assets/monokai_flat/input_border_short.png"
+         "layer0.texture": "TheFlats Theme/assets/monokai_flat/input_border_short.png"
       },
     // ------------------------------- 
     // TEXT INPUT MENU ICON
