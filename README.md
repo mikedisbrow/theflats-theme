@@ -2,39 +2,41 @@
 
 ![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/Seafoam.png)
 
-A dark, flat UI theme for Sublime Text 3. Uses Seafoam Green as the default accent color, popular on the hulls of saltwater fishing boats.
+A dark, flat UI theme for Sublime Text 3. Uses Seafoam Green as the default accent color.  
+I just wanted to make something I could be happy with staring at for long hours.  Inspired by [Predawn](https://github.com/jamiewilson/predawn), [Material Dark](https://github.com/equinusocio/material-theme), and [Spacegray](https://github.com/kkga/spacegray).
 
 ***
 
 ### How to Install
 #### Via Package Control
-The easiest way to install is using [Sublime Package Control](https://sublime.wbond.net), where The Flats is listed as `TheFlats`.
+The easiest way to install is using [Sublime Package Control](https://packagecontrol.io), where The Flats is listed as `TheFlats`.
 
-1. Open Command Palette using menu item `Tools -> Command Palette...` (<kbd>⇧</kbd><kbd>⌘</kbd><kbd>P</kbd> on Mac)
-2. Choose `Package Control: Install Package`
-3. Find `TheFlats` and hit <kbd>Enter</kbd>
+1. Open Command Palette using menu item "*Tools -> Command Palette...*" or the shortcut *Command + Shift + P* on Mac
+2. Type "*Install*"
+3. Choose "*Package Control: Install Package*"
+4. Search for "**TheFlats**" and hit *Enter*
 
 #### Manual
 
 You can also install the theme manually:
 
 1. [Download the .zip](https://github.com/mikedisbrow/theflats-theme/archive/master.zip)
-2. Unzip and rename the folder to `TheFlats`
-3. Copy the folder into `Packages` directory, which you can find using the menu item `Sublime Text -> Preferences -> Browse Packages...`
-4. In `TheFlats/Misc/` you will find a replacement app icon for Sublime Text, as well as a `fold.png` colored to match each UI accent color.  To use that color matched `fold.png` icon, copy it to `Packages/Theme - Default` to replace the default code folding icon in ST3.
+2. Unzip and rename the folder to "**TheFlats Theme**"
+3. In the menu, go to "*Sublime Text -> Preferences -> Browse Packages...*" and copy the folder into the "*Packages*" directory. 
+4. In the "*misc*" folder, you will find replacement app icons for Sublime Text, as well as a "*fold.png*" colored to match each UI accent color.  To use that color matched "*fold.png*" icon, copy it to "*Packages/Theme - Default*" to replace the default code folding icon in ST3.
 
 ***
 
 ### How to Activate
 
-Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User` (<kbd>⌘</kbd><kbd>,</kbd> on Mac).
+Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item "*Sublime Text -> Preferences -> Settings - User*".
 
-***Note: Don't forget to restart Sublime Text after activating the theme.***
+***Note:*** *Don't forget to restart Sublime Text after activating the theme.*
 
 ***
 
-### Settings
-
+### Settings & Options
+#### General Settings
 ```js
 {
   "flats_folder_icons": true,
@@ -51,7 +53,34 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
   "flats_tabs_font_10": true,
   "flats_tabs_font_11": true,
   "flats_tabs_font_14": true,
+}
+```
+#### UI Accent Colors
+  * Seafoam - [Screenshot](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/Seafoam.png)
+  * PreDawn - [Screenshot](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/Predawn.png)
+  * Oceanic Next - [Screenshot](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/Oceanic.png)
+  * Monokai - [Screenshot](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/Monokai.png)
+  * Monokai Flat - [Screenshot](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/Monokai Flat.png)
 
+```js
+{  
+  // UI Accent Colors
+  "flats_ui_seafoam": true,
+  "flats_ui_predawn": true,
+  "flats_ui_oceanic": true,
+  "flats_ui_monokai": true,
+  "flats_ui_monokai_flat": true,
+}
+```
+#### Fonts
+- [Camingo Code](https://www.myfonts.com/fonts/jan-fromm/camingo-code/ "MyFonts - Camingo Code") @ MyFonts
+- [Fira Code](https://github.com/tonsky/FiraCode "Fira Code - GitHub") @ GitHub
+- [Hack](https://github.com/chrissimpkins/Hack "Hack - GitHub") @ GitHub
+- The Font Bureau [Input](http://input.fontbureau.com "Font Bureau Input Fonts")
+- Hoefler & Co. [Operator ScreenSmart Pro](http://www.typography.com/fonts/operator/overview/ "Operator")
+- FSD [Pragmata Pro](http://www.fsd.it/shop/fonts/pragmatapro "Pragmata Pro") & [@ GitHub](https://github.com/fabrizioschiavi/pragmatapro "Pragmata Pro GitHub")
+```js
+{
   // Font Options in Tabs & Sidebar
   "flats_font_camingocode": true,
   "flats_font_fira": true,
@@ -63,36 +92,24 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
   "flats_font_menlo": true,
   "flats_font_monaco": true,
   "flats_font_sanfrancisco": true,
-  
-  // UI Accent Colors
-  "flats_ui_seafoam": true,
-  "flats_ui_predawn": true,
-  "flats_ui_oceanic": true,
-  "flats_ui_monokai": true,
-  "flats_ui_monokai_flat": true,
 }
 ```
-* Fonts
-	- [Camingo Code](https://www.myfonts.com/fonts/jan-fromm/camingo-code/ "MyFonts - Camingo Code") @ MyFonts
-	- [Fira Code](https://github.com/tonsky/FiraCode "Fira Code - GitHub") @ GitHub
-	- [Hack](https://github.com/chrissimpkins/Hack "Hack - GitHub") @ GitHub
-	- The Font Bureau [Input](http://input.fontbureau.com "Font Bureau Input Fonts")
-	- Hoefler & Co. [Operator ScreenSmart Pro](http://www.typography.com/fonts/operator/overview/ "Operator")
-	- FSD [Pragmata Pro](http://www.fsd.it/shop/fonts/pragmatapro "Pragmata Pro") & [@ GitHub](https://github.com/fabrizioschiavi/pragmatapro "Pragmata Pro GitHub")
 
 *The font used in the screenshots is [__Input Sans Narrow__](http://input.fontbureau.com).*
 
 ***
 
+### Folder Icons
+
+![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/Folders.png)
+
+***
 ### Color Schemes
 ##### Flats-Dark
 *Adapted from Material-Dark and Oceanic Next*
 
-![image](screenshots/theflats.png)
-
 ##### Flats-GFM-Markdown
 
-![Image](http://github.com/mikedisbrow/theflats/screenshots/theflats-markdown.jpg)
 
 _Example settings for Markdown_
 
@@ -135,8 +152,8 @@ Create a `Markdown.sublime-settings` file and place it in your `User` folder in 
 *  Predawn GF Markdown
 *  Material Dark
 *  Oceanic Next
-*  Monokai Neue
-	*  *while I like the contrast of colors, there are a few that just burn my retinas in Monokai, so I've also included a version, `Monokai-Flat` that I like much more.*
+*  Monokai Neue Flat
+  *  *Modified the colors slightly because regular Monokai just burns my retinas.*
 
 ***
 
