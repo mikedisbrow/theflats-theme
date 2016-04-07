@@ -1,6 +1,6 @@
 ## The Flats
 
-![image](Screenshots/theflats.png)
+![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/Seafoam.png)
 
 A dark, flat UI theme for Sublime Text 3. Uses Seafoam Green as the default accent color, popular on the hulls of saltwater fishing boats.
 
@@ -18,7 +18,7 @@ The easiest way to install is using [Sublime Package Control](https://sublime.wb
 
 You can also install the theme manually:
 
-1. [Download the .zip](https://github.com/mikedisbrow/theflats/archive/master.zip)
+1. [Download the .zip](https://github.com/mikedisbrow/theflats-theme/archive/master.zip)
 2. Unzip and rename the folder to `TheFlats`
 3. Copy the folder into `Packages` directory, which you can find using the menu item `Sublime Text -> Preferences -> Browse Packages...`
 4. In `TheFlats/Misc/` you will find a replacement app icon for Sublime Text, as well as a `fold.png` colored to match each UI accent color.  To use that color matched `fold.png` icon, copy it to `Packages/Theme - Default` to replace the default code folding icon in ST3.
