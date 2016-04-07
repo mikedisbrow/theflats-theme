@@ -44,40 +44,6 @@
 	4. For the scope of ```.erb``` files, it should be ```html.body.ruby```, but you can find it both by:
 	  5. looking in the color scheme or language definition files to see which scopes are used for highlight.
 	  6. add ```{ "keys": "ctrl+alt+shift+o"], "command": "show_scope_name" }``` to you user's keybindings, create a new ```.erb``` fyle and trigger the command to display current scope in the bottom status bar.
-* Fix Quick Panel Margins
-* Label Control
-```js
-   {
-  	 "class": "label_control",
-  	 "color": [176, 190, 197],
-  	 "shadow_color": [24, 24, 24, 0],
-  	 "shadow_offset": [0, 0],
-  	 "font.bold": true
-   }
-```
-
-* Text Input Underline
-```js
-	    // Texline input
-	  {
-	    "class": "text_line_control",
-	    "layer0.texture": "Material Theme/assets/darker/input_field_border.png",
-	    "layer0.opacity": 1.0,
-	    "layer0.inner_margin": [20, 5, 20, 5],
-	    "tint_index": 1,
-	    "content_margin": [10, 8, 13, 8]
-	  },
-	    // Textline input inside overlay panels
-	  {
-	    "class": "text_line_control",
-	    "parents": [{"class": "overlay_control"}],
-	    "layer0.texture": "Material Theme/assets/darker/input_field_border--short.png",
-	    "layer0.opacity": 1.0,
-	    "layer0.inner_margin": [32, 2, 32, 2],
-	    "layer0.draw_center": true,
-	    "content_margin": [32, 8, 32, 8]
-	  },
-```
 
 ### Icon Prefs
 *  AI

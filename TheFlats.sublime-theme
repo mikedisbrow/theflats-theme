@@ -274,7 +274,7 @@
        "class": "fold_button_control",
        "layer0.texture": "Theme - The_Flats/assets/common/fold-closed.png",
        "layer0.tint": [155, 242, 190],
-       "layer0.opacity": 1.0,
+       "layer0.opacity": 0.6,
        "layer0.inner_margin": 0,
        "content_margin": [8,8]
     },
@@ -287,7 +287,7 @@
     {
        "class": "fold_button_control",
        "attributes": ["expanded"],
-       "layer0.tint": [117, 117, 117],
+       "layer0.tint": [158, 158, 158],
        "layer0.texture": "Theme - The_Flats/assets/common/fold-open.png"
     },
     {
