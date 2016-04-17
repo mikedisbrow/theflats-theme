@@ -103,9 +103,10 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 
 ***
 ### Color Schemes
-##### Flats-Dark
+##### The Flats
+*A dark theme, takes a lot from Oceanic Next and Material Dark. Fully supports HTML, CSS, JS, Markdown, GFM Markdown, JSON, YAML, with Bracket Highlighter, Sublime Linter, GitGutter, and WordHighlight all defined. Ruby, PHP, and Python are WIP but more than sufficient as-is.*
 
-##### Flats-GFM-Markdown
+I had thought about making a separate theme for Markdown & Markdown GFM, but instead just took the language from the [Markdown Editing](https://packagecontrol.io/packages/MarkdownEditing) package and defined everything in one `.tmTheme`.
 
 ##### Others
 *I've also included the following color schemes, with a couple of small changes to carets, bracket highlighter, gitgutter, etc.*
@@ -115,7 +116,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 *  Predawn GF Markdown
 *  Material Dark
 *  Oceanic Next
-*  Monokai Neue Flat
+*  Monokai Neue
   *  *Modified the colors slightly because regular Monokai just burns my retinas.*
 
 ***
@@ -153,3 +154,8 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 	* [Input Fonts](http://input.fontbureau.com) - The Font Bureau
 	* [Camingo Code](https://www.myfonts.com/fonts/jan-fromm/camingo-code/) - Jan Fromm
 
+***
+
+### Known Issues
+1. Camingo Code font does not play nice with tabs and sidebar always.  Due to the way the fonts built in line height is defined I believe.  
+2. Depending on font, and font size, you may see descenders of letters slightly cut off in tabs.
