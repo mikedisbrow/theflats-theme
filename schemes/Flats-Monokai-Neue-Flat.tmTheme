@@ -13,15 +13,13 @@
 	<key>gutterSettings</key>
 	<dict>
 		<key>background</key>
-		<string>#2B303B</string>
+		<string>#282828</string>
 		<key>divider</key>
-		<string>#586e75</string>
+		<string>#212121</string>
 		<key>foreground</key>
-		<string>#839496</string>
+		<string>#e0e0e0</string>
 		<key>selectionBackground</key>
-		<string>#586e75</string>
-		<key>selectionForeground</key>
-		<string>#a6e22e</string>
+		<string>#61616140</string>
 	</dict>
 	<key>name</key>
 	<string>Monokai Neue for Flats</string>
@@ -37,9 +35,9 @@
 				<key>background</key>
 				<string>#282828</string>
 				<key>caret</key>
-				<string>#71EEB8</string>
+				<string>#8ee9bc</string>
 				<key>findHighlight</key>
-				<string>#71EEB8</string>
+				<string>#8ee9bc</string>
 				<key>foreground</key>
 				<string>#E0E0E0</string>
 				<key>invisibles</key>
@@ -1997,7 +1995,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9BF2BE</string>
+				<string>#8ee9bc</string>
 			</dict>
 		</dict>
 	</array>

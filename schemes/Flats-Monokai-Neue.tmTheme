@@ -37,9 +37,9 @@
 				<key>background</key>
 				<string>#282828</string>
 				<key>caret</key>
-				<string>#71EEB8</string>
+				<string>#8ee9bc</string>
 				<key>findHighlight</key>
-				<string>#71EEB8</string>
+				<string>#8ee9bc</string>
 				<key>foreground</key>
 				<string>#E0E0E0</string>
 				<key>invisibles</key>
@@ -1997,7 +1997,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9BF2BE</string>
+				<string>#8ee9bc</string>
 			</dict>
 		</dict>
 	</array>

@@ -16,7 +16,7 @@
 				<key>background</key>
 				<string>#282828</string>
 				<key>caret</key>
-				<string>#71EEB8</string>
+				<string>#8ee9bc</string>
 				<key>foreground</key>
 				<string>#E0E0E0</string>
 				<key>invisibles</key>
@@ -26,7 +26,7 @@
 				<key>selection</key>
 				<string>#61616140</string>
 				<key>findHighlight</key>
-				<string>#71EEB8</string>
+				<string>#8ee9bc</string>
 				<key>gutterForeground</key>
 				<string>#757575</string>
 				<key>guide</key>
@@ -34,7 +34,7 @@
 				<key>activeGuide</key>
 				<string>#424242</string>
 				<key>minimapBorder</key>
-				<string>#9BF2BE25</string>
+				<string>#8ee9bc25</string>
 				<key>shadow</key>
 				<string>#0000000F</string>
 				<key>stackGuide</key>
@@ -559,9 +559,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9BF2BE</string>
+				<string>#8ee9bc</string>
 				<key>background</key>
-				<string>#9BF2BE</string>
+				<string>#8ee9bc</string>
 			</dict>
 		</dict>
 		<dict>
@@ -572,9 +572,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9BF2BE</string>
+				<string>#8ee9bc</string>
 				<key>background</key>
-				<string>#9BF2BE</string>
+				<string>#8ee9bc</string>
 			</dict>
 		</dict>
 		<dict>

@@ -1,0 +1,11 @@
+    {
+      "name": "TheFlats Theme",
+      "details": "https://github.com/mikedisbrow/theflats-theme",
+      "labels": ["theme", "color scheme"],
+      "releases": [
+        {
+          "sublime_text": "*",
+          "tags": true
+        }
+      ]
+    },

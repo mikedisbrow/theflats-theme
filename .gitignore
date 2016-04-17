@@ -1,3 +1,7 @@
 site
 .DS_Store
-Thumbs.db
+.Trashes
+.Spotlight-V100
+thumbs.db
+.sublime-project
+.sublime-workspace

@@ -1,0 +1,657 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mono",
+				"monokai_flat"
+			],
+			[
+				"scrip",
+				"script.js"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "TheFlats.sublime-theme",
+			"settings":
+			{
+				"buffer_size": 79512,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "remove",
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"THEMR",
+				"Themr: List themes"
+			],
+			[
+				"themr li",
+				"Themr: List themes"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"themr",
+				"Themr: Toggle Theme Settings"
+			],
+			[
+				"channel",
+				"ChannelRepositoryTools: Test Default Channel"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"them",
+				"Themr: List themes"
+			],
+			[
+				"markd",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"package re",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"pack ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"insa",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"package res",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			]
+		],
+		"width": 619.0
+	},
+	"console":
+	{
+		"height": 142.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/miked/GitHub/sublime-theme/theflats-master"
+	],
+	"file_history":
+	[
+		"/Users/miked/GitHub/sublime-theme/theflats-master/README.md",
+		"/Users/miked/Library/Application Support/Sublime Text 3/Packages/User/Project Manager.sublime-settings",
+		"/Users/miked/Library/Application Support/Sublime Text 3/Local/Session.sublime_session",
+		"/Users/miked/Library/Application Support/Sublime Text 3/Packages/Project Manager/Project Manager.sublime-settings",
+		"/Users/miked/GitHub/sublime-theme/Sublime-Default/Default-Dark.sublime-theme",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/schemes/Flats-Monokai-Neue-Flat.tmTheme",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/schemes/Flats-GFM-Markdown.tmTheme",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/schemes/Flats-Dark.tmTheme",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/schemes/Flats-Oceanic-Next.tmTheme",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/package.json",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/.gitignore",
+		"/Users/miked/.gitignore_global",
+		"/Users/miked/GitHub/themes/_sublime/material-theme-develop/README.md",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/TODO.md",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/widgets/Widget - TheFlats.sublime-settings",
+		"/Users/miked/Library/Application Support/Sublime Text 3/Packages/Theme - The_Flats/schemes/Flats-Monokai-Neue-Flat.tmTheme",
+		"/Users/miked/Library/Application Support/Sublime Text 3/Packages/Theme - The_Flats/schemes/Flats-Monokai-Neue.tmTheme",
+		"/Users/miked/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/miked/Library/Application Support/Sublime Text 3/Packages/User/Markdown.sublime-settings",
+		"/Users/miked/GitHub/themes/_sublime/material-theme-develop/Material-Theme-Darker.sublime-theme",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/TheFlats.sublime-theme",
+		"/Users/miked/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/widgets/Widget - TheFlats.stTheme",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/messages.json",
+		"/Users/miked/Desktop/TheFlats Sublime Theme.json",
+		"/Users/miked/Desktop/TheFlats Sublime Theme.md",
+		"/Users/miked/Downloads/preap-master/Schemes/preap-markdown.tmTheme",
+		"/Users/miked/Downloads/flatland-master/Flatland Dark.tmTheme",
+		"/Users/miked/Downloads/preap-master/Schemes/Preap.tmTheme",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/temp/README2.md",
+		"/Users/miked/Documents/Development/Web_Education.md",
+		"/Users/miked/GitHub/themes/_sublime/otto-master/README.md",
+		"/Users/miked/GitHub/themes/_sublime/otto-master/LICENSE",
+		"/Users/miked/GitHub/themes/_sublime/otto-master/CHANGELOG.md",
+		"/Users/miked/Library/Application Support/Sublime Text 3/Packages/Theme - The_Flats/icons/Langs/Git.tmLanguage",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/icons/Langs/Gulpfile JS.tmLanguage",
+		"/Users/miked/Library/Application Support/Sublime Text 3/Packages/Theme - The_Flats/icons/Langs/CSS.sublime-settings",
+		"/Users/miked/Library/Application Support/Sublime Text 3/Packages/Theme - The_Flats/icons/Langs/Plain text.sublime-settings",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/icons/Langs/Rust.sublime-settings",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/icons/Langs/SVG.tmLanguage",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/icons/Langs/Markdown.sublime-settings",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/temp/TODO.md",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/types/coffeescript.coffee",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/types/asp.asp",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/types/r.R",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/types/video.mpg",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/types/video.mpeg",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/types/video.mp4",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/types/video.mov",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/types/video.mkv",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/types/video.flv",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/types/rust.rlib",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/types/ruby.rbw",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/types/music.aiff",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/types/music.m4a",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/types/music.mp3",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/types/music.wav",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/icons/Prefs/icon_ai.tmPreferences",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/icons/Prefs/icon_pdf.tmPreferences",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/types/svg.svg",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/icons/Prefs/icon_ps.tmPreferences",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/icons/Prefs/icon_svg.tmPreferences",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/icons/file_type_ai@3x.png",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/icons/Prefs/icon_audio.tmPreferences",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/icons/Prefs/icon_video.tmPreferences",
+		"/Users/miked/.gvimrc",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/types/lua.luac",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/types/haskell.has",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/types/haskell.gs",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/types/perl.perl",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/types/perl.prl",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/types/perl.pls",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/types/sass.scss",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/icons/Prefs/icon_gulpfile.tmPreferences",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/types/file_type_gulpfile.coffee",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/types/gulpfile.js",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/icons/Prefs/icon_cfc.tmPreferences",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/types/file_type_c#.c#",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/temp/README2.html",
+		"/Users/miked/GitHub/sublime-theme/schemes/Flats-PreDawn-GF-Markdown.tmTheme",
+		"/Users/miked/GitHub/sublime-theme/Markdown-Theme/predawn-scopes.md",
+		"/Users/miked/GitHub/sublime-theme/Markdown-Theme/predawn-gf-scopes.md",
+		"/Users/miked/GitHub/sublime-theme/Markdown-Theme/markdown-editing-package-gfm-scopes.md",
+		"/Users/miked/Library/Application Support/Sublime Text 3/Packages/User/BufferScroll.sublime-settings",
+		"/Users/miked/Library/Application Support/Sublime Text 3/Packages/BufferScroll/BufferScroll.sublime-settings",
+		"/Users/miked/GitHub/sublime-theme/schemes/Flats-Material-Darker.purpletag.tmTheme",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/markdown-themes.xml",
+		"/Users/miked/GitHub/sublime-theme/untitled.xml",
+		"/Users/miked/GitHub/sublime-theme/markdownscopes.md",
+		"/Users/miked/GitHub/sublime-theme/markdown-editing-package-gfm-scopes.md",
+		"/Users/miked/GitHub/sublime-theme/markdown-editing-package-markdown-scopes.md",
+		"/Users/miked/GitHub/sublime-theme/MarkdownEditing-master/Markdown (Standard).tmLanguage",
+		"/Users/miked/GitHub/sublime-theme/MarkdownEditing-master/Markdown.tmLanguage",
+		"/Users/miked/GitHub/sublime-theme/markdown-themes.xml",
+		"/Users/miked/GitHub/sublime-theme/Monokai (SL).tmTheme",
+		"/Users/miked/Desktop/schemes/Flats-Monokai-Neue-Flat.tmTheme",
+		"/Users/miked/Desktop/schemes/Flats-Monokai-Neue.tmTheme",
+		"/Users/miked/Desktop/markdownscopes.md",
+		"/Users/miked/Desktop/Modded Themes/Flats-Markdown-gf.tmTheme",
+		"/Users/miked/Desktop/Themes/predawn-markdown (SL).tmTheme",
+		"/Users/miked/GitHub/themes/_atom/atom-monokai-flat-master/index.less",
+		"/Users/miked/GitHub/themes/_sublime/Monokai-Soft-master/Monokai Soft.tmTheme",
+		"/Users/miked/Desktop/Flats for Markdown.tmTheme",
+		"/Users/miked/Library/Application Support/Sublime Text 3/Packages/User/XML.sublime-settings",
+		"/Users/miked/GitHub/sublime-theme/untitled.YAML-tmLanguage",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/misc/TheFlats-iTerm2.json",
+		"/Users/miked/Library/Application Support/Sublime Text 3/Packages/Theme - Default/Default.sublime-theme",
+		"/Users/miked/Library/Application Support/Sublime Text 3/Packages/Theme - Default/Widget.sublime-settings",
+		"/Users/miked/Library/Application Support/Sublime Text 3/Packages/Theme - Default/Widgets.stTheme",
+		"/Users/miked/GitHub/Default.sublime-theme",
+		"/Applications/Sublime Text.app/Contents/MacOS/Packages/Theme - Default.sublime-package",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/icons/Prefs/icon_dlang.tmPreferences",
+		"/Users/miked/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/schemes/The_Flats-Material.tmTheme",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/temp/1-60-3.css",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/temp/Colr.css",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/temp/index1-30.css",
+		"/Users/miked/Downloads/Seti_ST3-master/README.md",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/types/file_type_swift.swift",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/icons/prefs/icon_json.tmPreferences",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/icons/prefs/icon_coffee.tmPreferences",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/types/file_type_git.git",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/types/file_type_assembler.asm",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/types/file_type_basic.bas",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/types/file_type_bash.bsh",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/types/file_type_google go.go",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/types/file_type_fonts.woff2",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/temp/color_options.json"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Theme - The_Flats",
+			"show_scope",
+			"dropdown_button_control",
+			"dropdown",
+			"input_field_border",
+			"input-field-border",
+			"button_control",
+			"panel_control",
+			"tabset-list.png",
+			"list_item",
+			"constant",
+			"value",
+			"link.description",
+			"link",
+			"entity",
+			"markup.raw.block.markdown",
+			"JSON",
+			"</dict>",
+			"<dict>",
+			"</key>",
+			"<key>",
+			"</string>",
+			"<string>",
+			"<array>",
+			"</array>",
+			"<array>",
+			"</dict>",
+			"<dict>",
+			"</key>",
+			"<key>",
+			"</string>",
+			"423378C0",
+			"<string>",
+			"82, 196, 167",
+			"255, 159, 121",
+			"113, 238, 184",
+			"overlay",
+			"number",
+			"150, 201, 179",
+			"81, 45, 168",
+			"126, 87, 194",
+			"purple",
+			"25, 118, 210",
+			"66, 165, 245",
+			"blue",
+			"yellow",
+			"255, 214, 0",
+			"255, 238, 88",
+			"150, 201, 179",
+			"255, 109, 0",
+			"255, 145, 0",
+			"@2x",
+			"Theme - flats/flats/",
+			"spacegray",
+			"orange",
+			"Theme - The_Flats/The_flats",
+			"settings",
+			"spacegray",
+			"SCROLLBARS",
+			"29, 233, 182",
+			"underline",
+			"25, 25, 25",
+			"darker",
+			"33, 33, 33",
+			"40, 40, 40",
+			"spacegray_purple_ui",
+			"spacegray_blue_ui",
+			"spacegray_orange_ui",
+			"spacegray_green_ui",
+			"spacegray_yellow_ui",
+			"spacegray_seafoam_ui",
+			"blue",
+			"25, 118, 210",
+			"66, 165, 245",
+			"yellow",
+			"255, 214, 0",
+			"255, 238, 88",
+			"orange",
+			"255, 145, 0",
+			"255, 238, 88",
+			"255, 109, 0",
+			"0, 191, 165",
+			"29, 233, 182",
+			"seafoam",
+			"overlay-bg.png",
+			"115",
+			"shadow",
+			"minimap",
+			"ignore",
+			"other_icons",
+			"255, 203, 107",
+			"[21, 21, 21]",
+			"miked_sublime",
+			"@2x",
+			"[21",
+			"[21, 21, 21]",
+			"21, 21, 21",
+			"151515",
+			"side",
+			"theme",
+			"seti",
+			"Seti_UI",
+			"</key>",
+			"</string>",
+			"<string>",
+			"<key>",
+			") "
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"TheFlats Theme",
+			"hamburger.png",
+			"156, 213, 238",
+			"255, 203, 107",
+			"155, 242, 190",
+			"82, 196, 167",
+			"174, 129, 255",
+			"249, 38, 114",
+			"monokai",
+			"209, 154, 102",
+			"82, 139, 255",
+			"onedark",
+			"oceanic",
+			"95, 179, 179",
+			"250, 200, 99",
+			"82, 196, 167",
+			"146, 191, 191",
+			"241, 130, 96",
+			"",
+			"Theme - The_Flats/assets/",
+			"flats",
+			"predawn",
+			"Theme - The_Flats/assets",
+			"The_Flats",
+			"113, 238, 184",
+			"29, 29, 29",
+			"51, 51, 51",
+			"lighter",
+			"40, 40, 40",
+			"25, 25, 25",
+			"spacegray_ui_purple",
+			"spacegray_ui_blue",
+			"spacegray_ui_orange",
+			"spacegray_ui_green",
+			"spacegray_ui_yellow",
+			"spacegray_ui_seafoam",
+			"purple",
+			"81, 45, 168",
+			"126, 87, 194",
+			"blue",
+			"25, 118, 210",
+			"66, 165, 245",
+			"yellow",
+			"255, 238, 88",
+			"255, 214, 0",
+			"255, 238, 88",
+			"255, 109, 0",
+			"255, 145, 0",
+			"orange",
+			"Spacegray",
+			"128, 203, 196",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "TheFlats.sublime-theme",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 79512,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6606,
+								6606
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": true,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"bs_sintax": "json",
+							"buffer_scroll_name": "fab51e9e",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Flats-Dark.tmTheme",
+							"spell_check": false,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 98.0
+	},
+	"output.markdown":
+	{
+		"height": 132.0
+	},
+	"pinned_build_system": "",
+	"project": "theflats_theme.sublime-project",
+	"replace":
+	{
+		"height": 78.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/GitHub/mikedisbrow.github.io/mikedisbrow_github_io.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 200.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

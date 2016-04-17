@@ -35,7 +35,7 @@
 				<key>background</key>
 				<string>#282828</string>
 				<key>caret</key>
-				<string>#71EEB8</string>
+				<string>#8ee9bc</string>
 				<key>foreground</key>
 				<string>#E0E0E0</string>
 				<key>invisibles</key>
@@ -53,7 +53,7 @@
 				<key>gutterForeground</key>
 				<string>#757575</string>
 				<key>findHighlight</key>
-				<string>#71EEB8</string>
+				<string>#8ee9bc</string>
 				<key>tagsOptions</key>
 				<string>underline</string>
 				<key>shadow</key>
@@ -1080,7 +1080,7 @@ meta.property-value support.constant.named-color.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9BF2BE</string>
+				<string>#8ee9bc</string>
 			</dict>
 		</dict>
 	</array>

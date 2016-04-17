@@ -13,15 +13,13 @@
 	<key>gutterSettings</key>
 	<dict>
 		<key>background</key>
-		<string>#343d46</string>
+		<string>#282828</string>
 		<key>divider</key>
-		<string>#343d46</string>
+		<string>#212121</string>
 		<key>foreground</key>
-		<string>#65737e</string>
+		<string>#e0e0e0</string>
 		<key>selectionBackground</key>
-		<string>#4f5b66</string>
-		<key>selectionForeground</key>
-		<string>#a7adba</string>
+		<string>#61616140</string>
 	</dict>
 	<key>name</key>
 	<string>Oceanic Next for Flats</string>
@@ -37,7 +35,7 @@
 				<key>background</key>
 				<string>#282828</string>
 				<key>caret</key>
-				<string>#71EEB8</string>
+				<string>#8ee9bc</string>
 				<key>foreground</key>
 				<string>#E0E0E0</string>
 				<key>guide</key>
@@ -53,7 +51,7 @@
 				<key>gutterForeground</key>
 				<string>#757575</string>
 				<key>findHighlight</key>
-				<string>#71EEB8</string>
+				<string>#8ee9bc</string>
 				<key>shadow</key>
 				<string>#0000000F</string>
 				<key>tagsOptions</key>
@@ -494,7 +492,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9BF2BE</string>
+				<string>#8ee9bc</string>
 			</dict>
 		</dict>
 	</array>
