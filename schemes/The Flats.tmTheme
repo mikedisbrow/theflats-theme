@@ -6,19 +6,6 @@
 	<string>Mike Disbrow (mikedisbrow.github.io)</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
-	<key>gutterSettings</key>
-	<dict>
-		<key>background</key>
-		<string>#282828</string>
-		<key>divider</key>
-		<string>#282828</string>
-		<key>foreground</key>
-		<string>#757575</string>
-		<key>selectionBackground</key>
-		<string>#61616140</string>
-		<key>selectionForeground</key>
-		<string>#e0e0e0</string>
-	</dict>
 	<key>name</key>
 	<string>The Flats</string>
 	<key>semanticClass</key>
@@ -80,13 +67,24 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Keyword, Storage</string>
+			<string>Keyword</string>
 			<key>scope</key>
-			<string>keyword, storage.type, storage.modifier</string>
+			<string>keyword</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#B08DE8</string>
+				<string>#BC8EE9</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Storage</string>
+			<key>scope</key>
+			<string>storage.type, storage.modifier</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BC8EE9</string>
 			</dict>
 		</dict>
 		<dict>
@@ -97,14 +95,14 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#8EE9BC</string>
+				<string>#BC8EE9</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Punctuation</string>
 			<key>scope</key>
-			<string>punctuation, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.section.embedded</string>
+			<string>meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.section.embedded</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -126,33 +124,33 @@
 			<key>name</key>
 			<string>Function, Special Method, Block Level</string>
 			<key>scope</key>
-			<string>entity.name.function, meta.function-call, variable.function, support.function, keyword.other.special-method, meta.block-level</string>
+			<string>entity.name.function, meta.function-call, variable.function, support.function, keyword.other.special-method</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#8EAFE8</string>
+				<string>#8EBBE9</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Other Variable, String Link</string>
+			<string>Other Variable</string>
 			<key>scope</key>
-			<string>support.other.variable, string.other.link</string>
+			<string>support.other.variable</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E86F71</string>
+				<string>#E98F8E</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Number, Constant, Function Argument, Tag Attribute, Embedded</string>
+			<string>Number, Constant, Function Argument, Embedded</string>
 			<key>scope</key>
 			<string>constant.numeric, constant.language, support.constant, constant.character, variable.parameter, keyword.other.unit</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F4AC67</string>
+				<string>#E8AC6F</string>
 			</dict>
 		</dict>
 		<dict>
@@ -174,7 +172,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E8E88D</string>
+				<string>#E9E98E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -231,7 +229,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#8EAFE8</string>
+				<string>#8EBBE9</string>
 			</dict>
 		</dict>
 		<dict>
@@ -253,7 +251,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E86F71</string>
+				<string>#E86F6E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -310,7 +308,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#6CAAC0</string>
+				<string>#ACDAE6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -334,7 +332,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E8E88D</string>
+				<string>#E9E98E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -367,7 +365,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E8E88D</string>
+				<string>#E9E98E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -400,7 +398,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E8E88D</string>
+				<string>#E9E98E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -455,7 +453,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E86F71</string>
+				<string>#E86F6E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -499,7 +497,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E86F71</string>
+				<string>#E86F6E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -510,7 +508,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E86F71</string>
+				<string>#E86F6E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -543,7 +541,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E86F71</string>
+				<string>#E86F6E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -554,7 +552,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E86F71</string>
+				<string>#E86F6E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -565,7 +563,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E86F71</string>
+				<string>#E86F6E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -576,7 +574,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E86F71</string>
+				<string>#E86F6E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -588,6 +586,45 @@
 			<dict>
 				<key>foreground</key>
 				<string>#E0E0E0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Invalid</string>
+			<key>scope</key>
+			<string>invalid</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#E86F6E</string>
+				<key>foreground</key>
+				<string>#282828</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Illegal</string>
+			<key>scope</key>
+			<string>invalid.illegal</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#E86F6E</string>
+				<key>foreground</key>
+				<string>#282828</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Depricated</string>
+			<key>scope</key>
+			<string>invalid.deprecated</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#E86F6E</string>
+				<key>foreground</key>
+				<string>#282828</string>
 			</dict>
 		</dict>
 		<dict>
@@ -675,7 +712,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E86F71</string>
+				<string>#E86F6E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -697,7 +734,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#8EE9BC</string>
+				<string>#ACDAE6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -708,7 +745,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ACDAE6</string>
+				<string>#8EBBE9</string>
 			</dict>
 		</dict>
 		<dict>
@@ -719,7 +756,18 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F7DEA2</string>
+				<string>#BBE98E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML Text</string>
+			<key>scope</key>
+			<string>text.html.basic</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e0e0e0</string>
 			</dict>
 		</dict>
 		<dict>
@@ -730,18 +778,29 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#BBE98E</string>
+				<string>#A5B0F0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS At Rule</string>
+			<key>scope</key>
+			<string>source.css keyword.control.at-rule</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E88180</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>CSS Value</string>
 			<key>scope</key>
-			<string>support.constant.property-value.css</string>
+			<string>support.constant.property-value.css, meta.value.css, source.css support.function</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EDA772</string>
+				<string>#ACDAE6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -752,7 +811,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F7DEA2</string>
+				<string>#BBE98E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -763,7 +822,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A5B0F0</string>
+				<string>#E9E98E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -774,29 +833,29 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ACDAE6</string>
+				<string>#E8AC6F</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>CSS ID Selector</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.id.css, punctuation.definition.entity.css</string>
+			<string>entity.other.attribute-name.id.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ACDAE6</string>
+				<string>#E8AC6F</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>CSS Pseudo Class</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.pseudo-class.css, source.css meta.selector.css entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css</string>
+			<string>entity.other.attribute-name.pseudo-class.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E98F8E</string>
+				<string>#E88180</string>
 			</dict>
 		</dict>
 		<dict>
@@ -807,18 +866,29 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EDA772</string>
+				<string>#ACDAE6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Punctuation White</string>
+			<key>scope</key>
+			<string>punctuation.terminator.rule.css, punctuation.section.property-list.css, punctuation.separator.key-value.css, meta.selector.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e0e0e0</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>CSS Punctuation</string>
 			<key>scope</key>
-			<string>punctuation.terminator.rule.css, punctuation.section.property-list.css, punctuation.separator.key-value.css, punctuation.section.attribute.css, keyword.operator.selector-combinator.css, keyword.operator.attribute.css, source.css, punctuation.definition.string.begin.css, punctuation.definition.string.end.css</string>
+			<string>punctuation.section.attribute.css, keyword.operator.selector-combinator.css, keyword.operator.attribute.css, source.css, punctuation.definition.string.begin.css, punctuation.definition.string.end.css, punctuation.definition.entity.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#e0e0e0</string>
+				<string>#8EE9BC</string>
 			</dict>
 		</dict>
 		<dict>
@@ -829,7 +899,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EDA772</string>
+				<string>#ACDAE6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -840,7 +910,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EDA772</string>
+				<string>#ACDAE6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -851,7 +921,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F7DEA2</string>
+				<string>#BBE98E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -958,7 +1028,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>bold, italic</string>
+				<string>bold italic</string>
 				<key>foreground</key>
 				<string>#f1f1f1</string>
 			</dict>
@@ -1004,7 +1074,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>$757575</string>
+				<string>#757575</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1037,7 +1107,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F7DEA2</string>
+				<string>#E9BC8E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1048,7 +1118,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>$757575</string>
+				<string>#757575</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1160,7 +1230,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A5B0F0</string>
+				<string>#BBE98E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1171,7 +1241,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#BBE98E</string>
+				<string>#ACDAE6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1215,7 +1285,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#C7ED98</string>
+				<string>#BBE98E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1226,7 +1296,51 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A5B0F0</string>
+				<string>#BC8EE9</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>YAML Punctuation</string>
+			<key>scope</key>
+			<string>punctuation.separator.key-value.yaml, punctuation.definition.string.end.yaml, punctuation.definition.string.begin.yaml</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e0e0e0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Python Function Arguments</string>
+			<key>scope</key>
+			<string>meta.function-call.arguments.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ACDAE6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Python Numeric Constants</string>
+			<key>scope</key>
+			<string>constant.numeric.float.python, constant.numeric.complex.python, constant.numeric.integer.octal.python, constant.numeric.integer.long.octal.python, constant.numeric.integer.hexadecimal.python, constant.numeric.integer.long.hexadecimal.python, constant.numeric.integer.long.decimal.python, constant.numeric.integer.decimal.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E8AC6F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Python Function Call</string>
+			<key>scope</key>
+			<string>meta.function-call.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8EBBE9</string>
 			</dict>
 		</dict>
 	</array>

@@ -6,12 +6,6 @@ author: Mike Disbrow (mikedisbrow.github.io)
 
 colorSpaceName: sRGB
 
-gutterSettings:
-  background: '#282828'
-  divider: '#282828'
-  foreground: '#757575'
-  selectionBackground: '#61616140'
-  selectionForeground: '#e0e0e0'
 semanticClass: theflats.dark
 settings:
 - settings:
@@ -39,19 +33,24 @@ settings:
   settings:
     foreground: '#ACDAE6'
 
-- name: Keyword, Storage
-  scope: keyword, storage.type, storage.modifier
+- name: Keyword
+  scope: keyword 
   settings:
-    foreground: '#B08DE8'
+    foreground: '#BC8EE9'
+
+- name: Storage
+  scope: storage.type, storage.modifier
+  settings:
+    foreground: '#BC8EE9'
 
 - name: Operator, Misc
   scope: keyword.operator, constant.other.color,
     keyword.other.template, keyword.other.substitution
   settings:
-    foreground: '#8EE9BC'
+    foreground: '#BC8EE9'
 
 - name: Punctuation
-  scope: punctuation, meta.tag,
+  scope: meta.tag,
     punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.section.embedded
   settings:
     foreground: '#8EE9BC'
@@ -62,21 +61,20 @@ settings:
     foreground: '#A5B0F0'
 
 - name: Function, Special Method, Block Level
-  scope: entity.name.function, meta.function-call, variable.function, support.function, keyword.other.special-method,
-    meta.block-level
+  scope: entity.name.function, meta.function-call, variable.function, support.function, keyword.other.special-method
   settings:
-    foreground: '#8EAFE8'
+    foreground: '#8EBBE9'
 
-- name: Other Variable, String Link
-  scope: support.other.variable, string.other.link
+- name: Other Variable
+  scope: support.other.variable
   settings:
-    foreground: '#E86F71'
+    foreground: '#E98F8E'
 
-- name: Number, Constant, Function Argument, Tag Attribute, Embedded
+- name: Number, Constant, Function Argument, Embedded
   scope: constant.numeric, constant.language, support.constant, constant.character,
     variable.parameter, keyword.other.unit
   settings:
-    foreground: '#F4AC67'
+    foreground: '#E8AC6F'
 
 - name: String, Symbols, Inherited Class
   scope: string, constant.other.symbol, constant.other.key, entity.other.inherited-class, meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js
@@ -84,10 +82,9 @@ settings:
     foreground: '#BBE98E'
 
 - name: Class, Support
-  scope: entity.name.class, entity.name.type.class, support.type, support.class, support.orther.namespace.use.php,
-    meta.use.php, support.other.namespace.php
+  scope: entity.name.class, entity.name.type.class, support.type, support.class, support.orther.namespace.use.php, meta.use.php, support.other.namespace.php
   settings:
-    foreground: '#E8E88D'
+    foreground: '#E9E98E'
 
 - name: Sub-methods
   scope: entity.name.module.js, variable.import.parameter.js, variable.other.class.js
@@ -113,7 +110,7 @@ settings:
 - name: Attributes
   scope: entity.other.attribute-name
   settings:
-    foreground: '#8EAFE8'
+    foreground: '#8EBBE9'
 
 - name: Inserted
   scope: markup.inserted
@@ -123,7 +120,7 @@ settings:
 - name: Deleted
   scope: markup.deleted
   settings:
-    foreground: '#E86F71'
+    foreground: '#E86F6E'
 
 - name: Changed
   scope: markup.changed
@@ -148,7 +145,7 @@ settings:
 - name: Decorators
   scope: tag.decorator.js entity.name.tag.js, tag.decorator.js punctuation.definition.tag.js
   settings:
-    foreground: '#6CAAC0'
+    foreground: '#ACDAE6'
     fontStyle: italic
 
 - name: ES7 Bind Operator
@@ -160,7 +157,7 @@ settings:
 - name: JSON key - Level 8
   scope: source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
-    foreground: '#E8E88D'
+    foreground: '#E9E98E'
 
 - name: JSON key - Level 7
   scope: source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
@@ -175,7 +172,7 @@ settings:
 - name: JSON key - Level 5
   scope: source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
-    foreground: '#E8E88D'
+    foreground: '#E9E98E'
 
 - name: JSON key - Level 4
   scope: source.json meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
@@ -190,7 +187,7 @@ settings:
 - name: JSON key - Level 2
   scope: source.json meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
-    foreground: '#E8E88D'
+    foreground: '#E9E98E'
 
 - name: JSON key - Level 1
   scope: source.json meta meta.structure.dictionary.json string.quoted.double.json - meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta.structure.dictionary.json punctuation.definition.string - meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
@@ -217,7 +214,7 @@ settings:
 - name: Git Gutter - Deleted
   scope: markup.deleted.git_gutter
   settings:
-    foreground: '#E86F71'
+    foreground: '#E86F6E'
 
 - name: Git Gutter - Ignored
   scope: markup.ignored.git_gutter
@@ -239,12 +236,12 @@ settings:
 - name: SublimeLinter - Outline Illegal
   scope: sublimelinter.outline.illegal
   settings:
-    foreground: '#E86F71'
+    foreground: '#E86F6E'
 
 - name: SublimeLinter - Underline Illegal
   scope: sublimelinter.underline.illegal
   settings:
-    foreground: '#E86F71'
+    foreground: '#E86F6E'
 
 - name: SublimeLinter - Outline Warning
   scope: sublimelinter.outline.warning
@@ -259,27 +256,47 @@ settings:
 - name: SublimeLinter - Outline Violation
   scope: sublimelinter.outline.violation
   settings:
-    foreground: '#E86F71'
+    foreground: '#E86F6E'
 
 - name: SublimeLinter - Underline Violation
   scope: sublimelinter.underline.violation
   settings:
-    foreground: '#E86F71'
+    foreground: '#E86F6E'
 
 - name: SublimeLinter - Mark Error
   scope: sublimelinter.mark.error
   settings:
-    foreground: '#E86F71'
+    foreground: '#E86F6E'
 
 - name: SublimeLinter - Mark Warning
   scope: sublimelinter.mark.warning
   settings:
-    foreground: '#E86F71'
+    foreground: '#E86F6E'
 
 - name: SublimeLinter - Gutter Mark
   scope: sublimelinter.gutter-mark
   settings:
     foreground: '#E0E0E0'
+
+# INVALID ILLEGAL DEPRICATED
+
+- name: Invalid
+  scope: invalid
+  settings:
+    foreground: '#282828'
+    background: '#E86F6E'
+
+- name: Illegal
+  scope: invalid.illegal
+  settings:
+    foreground: '#282828'
+    background: '#E86F6E'
+
+- name: Depricated
+  scope: invalid.deprecated
+  settings:
+    foreground: '#282828'
+    background: '#E86F6E'
 
 # BRACKET HIGHLIGHTER
 
@@ -321,7 +338,7 @@ settings:
 - name: Bracket Highlighter - Unmatched
   scope: brackethighlighter.unmatched
   settings:
-    foreground: '#E86F71'
+    foreground: '#E86F6E'
 
 # HTML
 
@@ -333,79 +350,94 @@ settings:
 - name: HTML Punctuation
   scope: punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.separator.key-value.html, punctuation.definition.string.begin.html, punctuation.definition.string.end.html
   settings:
-    foreground: '#8EE9BC'
+    foreground: '#ACDAE6'
 
 - name: HTML Attributes
   scope: entity.other.attribute-name
   settings:
-    foreground: '#ACDAE6'
+    foreground: '#8EBBE9'
 
 - name: HTML Strings
   scope: string.quoted.double.html, string.quoted.single.html
   settings:
-    foreground: '#F7DEA2'
+    foreground: '#BBE98E'
+
+- name: HTML Text
+  scope: text.html.basic
+  settings:
+    foreground: '#e0e0e0'
 
 # CSS
 
 - name: CSS Property
   scope: support.type.property-name.css
   settings:
-    foreground: '#BBE98E'
+    foreground: '#A5B0F0'
+
+- name: CSS At Rule
+  scope: source.css keyword.control.at-rule
+  settings:
+    foreground: '#E88180'
 
 - name: CSS Value
-  scope: support.constant.property-value.css
+  scope: support.constant.property-value.css, meta.value.css, source.css support.function
   settings:
-    foreground: '#EDA772'
+    foreground: '#ACDAE6'
 
 - name: CSS Strings
   scope: string.quoted.single.css, string.quoted.double.css
   settings:
-    foreground: '#F7DEA2'
+    foreground: '#BBE98E'
 
 - name: CSS Selector
   scope: entity.name.tag.css
   settings:
-    foreground: '#A5B0F0'
+    foreground: '#E9E98E'
 
 - name: CSS Attribute Selector
   scope: entity.other.attribute-name.class.css, entity.other.attribute-name.css
   settings:
-    foreground: '#ACDAE6'
+    foreground: '#E8AC6F'
 
 - name: CSS ID Selector
-  scope: entity.other.attribute-name.id.css, punctuation.definition.entity.css
+  scope: entity.other.attribute-name.id.css
   settings:
-    foreground: '#ACDAE6'
+    foreground: '#E8AC6F'
 
 - name: CSS Pseudo Class
-  scope: entity.other.attribute-name.pseudo-class.css, source.css meta.selector.css entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css
+  scope: entity.other.attribute-name.pseudo-class.css
   settings:
-    foreground: '#E98F8E'
+    foreground: '#E88180'
 
 - name: CSS Vendor Prefix
   scope: support.type.vendor-prefix.css
   settings:
-    foreground: '#EDA772'
+    foreground: '#ACDAE6'
 
-- name: CSS Punctuation
-  scope: punctuation.terminator.rule.css, punctuation.section.property-list.css, punctuation.separator.key-value.css, punctuation.section.attribute.css, keyword.operator.selector-combinator.css, keyword.operator.attribute.css, source.css, punctuation.definition.string.begin.css, punctuation.definition.string.end.css
+- name: CSS Punctuation White
+  scope: punctuation.terminator.rule.css, punctuation.section.property-list.css, punctuation.separator.key-value.css, meta.selector.css
   settings:
     foreground: '#e0e0e0'
+
+- name: CSS Punctuation
+  scope: punctuation.section.attribute.css, keyword.operator.selector-combinator.css, keyword.operator.attribute.css, source.css, punctuation.definition.string.begin.css, punctuation.definition.string.end.css, punctuation.definition.entity.css
+  settings:
+    foreground: '#8EE9BC'
 
 - name: CSS RGB
   scope: constant.other.color.rgb-value.css
   settings:
-    foreground: '#EDA772'
+    foreground: '#ACDAE6'
 
 - name: CSS Number
   scope: constant.numeric.css
   settings:
-    foreground: '#EDA772'
+    foreground: '#ACDAE6'
 
 - name: CSS Units
   scope: keyword.other.unit.css, punctuation.definition.constant.css
   settings:
-    foreground: '#F7DEA2'
+    foreground: '#BBE98E'
 
 # MARKDOWN GFM
 
@@ -457,7 +489,7 @@ settings:
   scope: markup.italic markup.bold, markup.bold markup.italic, markup.italic.markdown markup.bold.markdown, markup.bold.markdown markup.italic.markdown, markup.bold.markdown markup.italic, markup.italic markup.bold.markdown, markup.bold markup.italic.markdown
   settings:
     foreground: '#f1f1f1'
-    fontStyle: 'bold, italic'
+    fontStyle: 'bold italic'
 
 - name: Markdown Link
   scope: meta.link.inline.markdown, meta.link.inet.markdown, meta.link.email.lt-gt.markdown
@@ -477,7 +509,7 @@ settings:
 - name: Markdown Link Reference
   scope: meta.link.reference.literal.markdown, meta.link.reference.markdown, meta.link.reference.def.markdown
   settings:
-    foreground: '$757575'
+    foreground: '#757575'
 
 - name: Markdown Link Description
   scope: string.other.link.description.markdown
@@ -492,12 +524,12 @@ settings:
 - name: Markdown Image
   scope: meta.image.inline.markdown
   settings:
-    foreground: '#F7DEA2'
+    foreground: '#E9BC8E'
 
 - name: Markdown Image Reference
   scope: constant.other.reference.link.markdown, meta.image.reference.markdown
   settings:
-    foreground: '$757575'
+    foreground: '#757575'
 
 - name: Markdown Keyboard
   scope: markup.kbd.markdown
@@ -552,12 +584,12 @@ settings:
 - name: Sublime Settings
   scope: keyword.other.name.sublime-settings
   settings:
-    foreground: '#A5B0F0'
+    foreground: '#BBE98E'
 
 - name: Sublime Settings
   scope: string.jsongenericarrayelements
   settings:
-    foreground: '#BBE98E'
+    foreground: '#ACDAE6'
 
 - name: Sublime Settings
   scope: constant.numeric.jsongenericarrayelements
@@ -579,9 +611,31 @@ settings:
 - name: YAML Properties
   scope: entity.name.tag.yaml
   settings:
-    foreground: '#C7ED98'
+    foreground: '#BBE98E'
 
 - name: YAML Operators
   scope: source.yaml keyword.operator.symbol
   settings:
-    foreground: '#A5B0F0'
+    foreground: '#BC8EE9'
+
+- name: YAML Punctuation
+  scope: punctuation.separator.key-value.yaml, punctuation.definition.string.end.yaml, punctuation.definition.string.begin.yaml
+  settings:
+    foreground: '#e0e0e0'
+
+# PYTHON
+
+- name: Python Function Arguments
+  scope: meta.function-call.arguments.python
+  settings:
+    foreground: '#ACDAE6'
+
+- name: Python Numeric Constants
+  scope: constant.numeric.float.python, constant.numeric.complex.python, constant.numeric.integer.octal.python, constant.numeric.integer.long.octal.python, constant.numeric.integer.hexadecimal.python, constant.numeric.integer.long.hexadecimal.python, constant.numeric.integer.long.decimal.python, constant.numeric.integer.decimal.python
+  settings:
+    foreground: '#E8AC6F'
+
+- name: Python Function Call
+  scope: meta.function-call.python
+  settings:
+    foreground: '#8EBBE9'
