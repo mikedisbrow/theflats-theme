@@ -47,13 +47,13 @@ settings:
   scope: keyword.operator, constant.other.color,
     keyword.other.template, keyword.other.substitution
   settings:
-    foreground: '#BC8EE9'
+    foreground: '#A5B0F0'
 
 - name: Punctuation
   scope: meta.tag,
     punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.section.embedded
   settings:
-    foreground: '#8EE9BC'
+    foreground: '#ACDAE6'
 
 - name: Tag
   scope: entity.name.tag, meta.tag.sgml
@@ -343,7 +343,7 @@ settings:
 # HTML
 
 - name: HTML Tags
-  scope: meta.tag.html, entity.name.tag.html, meta.tag.sgml.html
+  scope: meta.tag.html, entity.name.tag.html
   settings:
     foreground: '#A5B0F0'
 
@@ -377,12 +377,17 @@ settings:
 - name: CSS At Rule
   scope: source.css keyword.control.at-rule
   settings:
-    foreground: '#E88180'
+    foreground: '#E98F8E'
 
 - name: CSS Value
-  scope: support.constant.property-value.css, meta.value.css, source.css support.function
+  scope: support.constant.property-value.css
   settings:
     foreground: '#ACDAE6'
+
+- name: CSS Support
+  scope: source.css support.function
+  settings:
+    foreground: '#8EBBE9'
 
 - name: CSS Strings
   scope: string.quoted.single.css, string.quoted.double.css
@@ -407,20 +412,15 @@ settings:
 - name: CSS Pseudo Class
   scope: entity.other.attribute-name.pseudo-class.css
   settings:
-    foreground: '#E88180'
+    foreground: '#E98F8E'
 
 - name: CSS Vendor Prefix
   scope: support.type.vendor-prefix.css
   settings:
     foreground: '#ACDAE6'
 
-- name: CSS Punctuation White
-  scope: punctuation.terminator.rule.css, punctuation.section.property-list.css, punctuation.separator.key-value.css, meta.selector.css
-  settings:
-    foreground: '#e0e0e0'
-
 - name: CSS Punctuation
-  scope: punctuation.section.attribute.css, keyword.operator.selector-combinator.css, keyword.operator.attribute.css, source.css, punctuation.definition.string.begin.css, punctuation.definition.string.end.css, punctuation.definition.entity.css
+  scope: punctuation.section.attribute.css, keyword.operator.selector-combinator.css, keyword.operator.attribute.css, punctuation.definition.string.begin.css, punctuation.definition.string.end.css, punctuation.definition.entity.css, entity.name.tag.wildcard.css
   settings:
     foreground: '#8EE9BC'
 
@@ -594,17 +594,17 @@ settings:
 - name: Sublime Settings
   scope: constant.numeric.jsongenericarrayelements
   settings:
-    foreground: '#E8E88D'
+    foreground: '#E9E98E'
 
 - name: Sublime Settings
   scope: constant.language.boolean.jsongenericarrayelements
   settings:
-    foreground: '#E8E88D'
+    foreground: '#E9E98E'
 
 # YAML
 
 - name: YAML Strings
-  scope: string.quoted.double.yaml, string.quoted.single.yaml, string.unquoted.yaml
+  scope: string.quoted.double.yaml, string.quoted.single.yaml, string.unquoted.yaml, string.unquoted.plain.out.yaml
   settings:
     foreground: '#ACDAE6'
 
@@ -614,12 +614,12 @@ settings:
     foreground: '#BBE98E'
 
 - name: YAML Operators
-  scope: source.yaml keyword.operator.symbol
+  scope: punctuation.definition.block.sequence.item.yaml
   settings:
     foreground: '#BC8EE9'
 
 - name: YAML Punctuation
-  scope: punctuation.separator.key-value.yaml, punctuation.definition.string.end.yaml, punctuation.definition.string.begin.yaml
+  scope: punctuation.separator.key-value.yaml, punctuation.definition.string.end.yaml, punctuation.definition.string.begin.yaml, punctuation.separator.mapping.key-value.yaml
   settings:
     foreground: '#e0e0e0'
 
@@ -639,3 +639,10 @@ settings:
   scope: meta.function-call.python
   settings:
     foreground: '#8EBBE9'
+
+# LESS
+
+- name: LESS Variable Declaration
+  scope: variable.declaration.less
+  settings:
+    foreground: '#E98F8E'

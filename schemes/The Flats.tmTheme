@@ -95,7 +95,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#BC8EE9</string>
+				<string>#A5B0F0</string>
 			</dict>
 		</dict>
 		<dict>
@@ -106,7 +106,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#8EE9BC</string>
+				<string>#ACDAE6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -719,7 +719,7 @@
 			<key>name</key>
 			<string>HTML Tags</string>
 			<key>scope</key>
-			<string>meta.tag.html, entity.name.tag.html, meta.tag.sgml.html</string>
+			<string>meta.tag.html, entity.name.tag.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -789,18 +789,29 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E88180</string>
+				<string>#E98F8E</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>CSS Value</string>
 			<key>scope</key>
-			<string>support.constant.property-value.css, meta.value.css, source.css support.function</string>
+			<string>support.constant.property-value.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#ACDAE6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Support</string>
+			<key>scope</key>
+			<string>source.css support.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8EBBE9</string>
 			</dict>
 		</dict>
 		<dict>
@@ -855,7 +866,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E88180</string>
+				<string>#E98F8E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -871,20 +882,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS Punctuation White</string>
-			<key>scope</key>
-			<string>punctuation.terminator.rule.css, punctuation.section.property-list.css, punctuation.separator.key-value.css, meta.selector.css</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#e0e0e0</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>CSS Punctuation</string>
 			<key>scope</key>
-			<string>punctuation.section.attribute.css, keyword.operator.selector-combinator.css, keyword.operator.attribute.css, source.css, punctuation.definition.string.begin.css, punctuation.definition.string.end.css, punctuation.definition.entity.css</string>
+			<string>punctuation.section.attribute.css, keyword.operator.selector-combinator.css, keyword.operator.attribute.css, punctuation.definition.string.begin.css, punctuation.definition.string.end.css, punctuation.definition.entity.css, entity.name.tag.wildcard.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1252,7 +1252,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E8E88D</string>
+				<string>#E9E98E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1263,14 +1263,14 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E8E88D</string>
+				<string>#E9E98E</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>YAML Strings</string>
 			<key>scope</key>
-			<string>string.quoted.double.yaml, string.quoted.single.yaml, string.unquoted.yaml</string>
+			<string>string.quoted.double.yaml, string.quoted.single.yaml, string.unquoted.yaml, string.unquoted.plain.out.yaml</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1292,7 +1292,7 @@
 			<key>name</key>
 			<string>YAML Operators</string>
 			<key>scope</key>
-			<string>source.yaml keyword.operator.symbol</string>
+			<string>punctuation.definition.block.sequence.item.yaml</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1303,7 +1303,7 @@
 			<key>name</key>
 			<string>YAML Punctuation</string>
 			<key>scope</key>
-			<string>punctuation.separator.key-value.yaml, punctuation.definition.string.end.yaml, punctuation.definition.string.begin.yaml</string>
+			<string>punctuation.separator.key-value.yaml, punctuation.definition.string.end.yaml, punctuation.definition.string.begin.yaml, punctuation.separator.mapping.key-value.yaml</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1341,6 +1341,17 @@
 			<dict>
 				<key>foreground</key>
 				<string>#8EBBE9</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>LESS Variable Declaration</string>
+			<key>scope</key>
+			<string>variable.declaration.less</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E98F8E</string>
 			</dict>
 		</dict>
 	</array>
