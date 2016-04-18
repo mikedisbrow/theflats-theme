@@ -28,8 +28,8 @@ You can also install the theme manually:
 Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User` and place
 
 ```js
-"color_scheme": "Packages/TheFlats Theme/schemes/The Flats.tmTheme",
-"theme": "TheFlats.sublime-theme",
+  "color_scheme": "Packages/TheFlats Theme/schemes/The Flats.tmTheme",
+  "theme": "TheFlats.sublime-theme",
 ```
 
 ***
@@ -109,7 +109,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 ##### The Flats
 *A dark theme, takes a lot from Oceanic Next and Material Dark. Fully supports HTML, CSS, JS, Markdown, GFM Markdown, JSON, SCSS, LESS, YAML, with Bracket Highlighter, Sublime Linter, GitGutter, and WordHighlight all defined. Ruby, PHP, and Python are WIP but more than sufficient as-is.*
 
-I had thought about making a separate theme for Markdown & Markdown GFM, but instead just took the language from the [Markdown Editing](https://packagecontrol.io/packages/MarkdownEditing) package and defined everything in one `.tmTheme`.
+![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/flats%20highlighting.png)
 
 ##### Others
 *I've also included the following color schemes, with a couple of small changes to background color, caret, bracket highlighter, gitgutter, etc.*
@@ -136,14 +136,14 @@ I had thought about making a separate theme for Markdown & Markdown GFM, but ins
 ***
 
 ### Thanks
-*  **Themes & Color Schemes**	
+* **Themes & Color Schemes**	
     * [Spacegray Theme](https://github.com/kkga/spacegray) - Gadzhi Kharkharov
 	* [Material Theme](https://github.com/equinusocio/material-theme) - Mattia Astorino
 	* [PreDawn](https://github.com/jamiewilson/predawn) - Jamie Wilson
 	* [Oceanic Next](https://github.com/voronianski/oceanic-next-color-scheme) - Dmitri Voronianski
 	* [Monokai Neue](https://github.com/josh-kaplan/sublime-monokai-neue) - Josh Kaplan
 
-*	**Icons**
+* **Icons**
 	* [Subway Icons](https://github.com/mariuszostrowski/subway) - Mariusz Ostrowski
 	* [Ionicons](https://github.com/driftyco/ionicons/)
 	* [Octicons](https://octicons.github.com/)
@@ -151,7 +151,7 @@ I had thought about making a separate theme for Markdown & Markdown GFM, but ins
 	* [Google Material Design](https://design.google.com/icons/)
 	* [Iconic](https://github.com/iconic/open-iconic)
 
-*	 **Fonts**
+* **Fonts**
 	* [CodeFace](https://github.com/chrissimpkins/codeface) - Chris Simpkins
 	* [Hack](https://github.com/chrissimpkins/Hack) - Chris Simpkins
 	* [Fira Code](https://github.com/tonsky/FiraCode) - Nikita Prokopov
