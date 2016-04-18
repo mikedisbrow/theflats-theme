@@ -136,27 +136,27 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 ***
 
 ### Thanks
-* **Themes & Color Schemes**	
-    * [Spacegray Theme](https://github.com/kkga/spacegray) - Gadzhi Kharkharov
-	* [Material Theme](https://github.com/equinusocio/material-theme) - Mattia Astorino
-	* [PreDawn](https://github.com/jamiewilson/predawn) - Jamie Wilson
-	* [Oceanic Next](https://github.com/voronianski/oceanic-next-color-scheme) - Dmitri Voronianski
-	* [Monokai Neue](https://github.com/josh-kaplan/sublime-monokai-neue) - Josh Kaplan
+###### Themes & Color Schemes
+* [Spacegray Theme](https://github.com/kkga/spacegray) - Gadzhi Kharkharov
+* [Material Theme](https://github.com/equinusocio/material-theme) - Mattia Astorino
+* [PreDawn](https://github.com/jamiewilson/predawn) - Jamie Wilson
+* [Oceanic Next](https://github.com/voronianski/oceanic-next-color-scheme) - Dmitri Voronianski
+* [Monokai Neue](https://github.com/josh-kaplan/sublime-monokai-neue) - Josh Kaplan
 
-* **Icons**
-	* [Subway Icons](https://github.com/mariuszostrowski/subway) - Mariusz Ostrowski
-	* [Ionicons](https://github.com/driftyco/ionicons/)
-	* [Octicons](https://octicons.github.com/)
-	* [Font Awesome](https://fortawesome.github.io/Font-Awesome/icons/)
-	* [Google Material Design](https://design.google.com/icons/)
-	* [Iconic](https://github.com/iconic/open-iconic)
+###### Icons
+* [Subway Icons](https://github.com/mariuszostrowski/subway) - Mariusz Ostrowski
+* [Ionicons](https://github.com/driftyco/ionicons/)
+* [Octicons](https://octicons.github.com/)
+* [Font Awesome](https://fortawesome.github.io/Font-Awesome/icons/)
+* [Google Material Design](https://design.google.com/icons/)
+* [Iconic](https://github.com/iconic/open-iconic)
 
-* **Fonts**
-	* [CodeFace](https://github.com/chrissimpkins/codeface) - Chris Simpkins
-	* [Hack](https://github.com/chrissimpkins/Hack) - Chris Simpkins
-	* [Fira Code](https://github.com/tonsky/FiraCode) - Nikita Prokopov
-	* [Input Fonts](http://input.fontbureau.com) - The Font Bureau
-	* [Camingo Code](https://www.myfonts.com/fonts/jan-fromm/camingo-code/) - Jan Fromm
+###### Fonts
+* [CodeFace](https://github.com/chrissimpkins/codeface) - Chris Simpkins
+* [Hack](https://github.com/chrissimpkins/Hack) - Chris Simpkins
+* [Fira Code](https://github.com/tonsky/FiraCode) - Nikita Prokopov
+* [Input Fonts](http://input.fontbureau.com) - The Font Bureau
+* [Camingo Code](https://www.myfonts.com/fonts/jan-fromm/camingo-code/) - Jan Fromm
 
 ***
 
