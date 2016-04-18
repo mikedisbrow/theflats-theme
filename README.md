@@ -36,16 +36,20 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 
 ### Settings & Options
 ##### General Settings
+**Defaults**
 
-```json
-{
+* *Fonts*: 12pt  
+* *Sidebar*: 8px, 4px
+* *Tabs*: 34px
+
+```js
   "flats_folder_icons": true,
   "flats_hide_icons": true,
   "flats_hide_tab_scroll_icons": true,
-  "flats_sidebar_tree_small": true,
-  "flats_sidebar_tree_large": true,
-  "flats_tabs_small": true,
-  "flats_tabs_large": true,
+  "flats_sidebar_tree_small": true,			// 8px 2px
+  "flats_sidebar_tree_large": true,			// 8px 6px	
+  "flats_tabs_small": true,					// 26px
+  "flats_tabs_large": true,					// 42px
   "flats_tabs_auto_width": true,
   "flats_sidebar_font_10": true,
   "flats_sidebar_font_11": true,
@@ -53,8 +57,8 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
   "flats_tabs_font_10": true,
   "flats_tabs_font_11": true,
   "flats_tabs_font_14": true,
-}
 ```
+
 ##### UI Accent Colors
   * Seafoam - [Screenshot](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/Seafoam.png)
   * PreDawn - [Screenshot](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/Predawn.png)
@@ -63,13 +67,11 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
   * Monokai Flat - [Screenshot](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/Monokai Flat.png)
 
 ```json
-{
   "flats_ui_seafoam": true,
   "flats_ui_predawn": true,
   "flats_ui_oceanic": true,
   "flats_ui_monokai": true,
   "flats_ui_monokai_flat": true,
-}
 ```
 
 ##### Fonts
@@ -77,22 +79,21 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 - [Fira Code](https://github.com/tonsky/FiraCode "Fira Code - GitHub") @ GitHub
 - [Hack](https://github.com/chrissimpkins/Hack "Hack - GitHub") @ GitHub
 - The Font Bureau [Input](http://input.fontbureau.com "Font Bureau Input Fonts")
-- Hoefler & Co. [Operator ScreenSmart Pro](http://www.typography.com/fonts/operator/overview/ "Operator")
-- FSD [Pragmata Pro](http://www.fsd.it/shop/fonts/pragmatapro "Pragmata Pro") & [@ GitHub](https://github.com/fabrizioschiavi/pragmatapro "Pragmata Pro GitHub")
+- Hoefler & Co. [Operator ScreenSmart Pro & Operator Mono](http://www.typography.com/fonts/operator/overview/ "Operator")
+- FSD [Pragmata Pro](http://www.fsd.it/shop/fonts/pragmatapro "Pragmata Pro") & [GitHub](https://github.com/fabrizioschiavi/pragmatapro "Pragmata Pro GitHub")
 
-```json
-{
+```js
   "flats_font_camingocode": true,
   "flats_font_fira": true,
   "flats_font_hack": true,
   "flats_font_inputsans": true,
   "flats_font_inputsansnarrow": true,
   "flats_font_operator": true,
+  "flats_font_operator_mono": true,
   "flats_font_pragmata": true,
   "flats_font_menlo": true,
   "flats_font_monaco": true,
   "flats_font_sanfrancisco": true,
-}
 ```
 
 *The font used in the screenshots is [Input Sans Narrow](http://input.fontbureau.com).*
@@ -106,7 +107,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 ***
 ### Color Schemes
 ##### The Flats
-*A dark theme, takes a lot from Oceanic Next and Material Dark. Fully supports HTML, CSS, JS, Markdown, GFM Markdown, JSON, YAML, with Bracket Highlighter, Sublime Linter, GitGutter, and WordHighlight all defined. Ruby, PHP, and Python are WIP but more than sufficient as-is.*
+*A dark theme, takes a lot from Oceanic Next and Material Dark. Fully supports HTML, CSS, JS, Markdown, GFM Markdown, JSON, SCSS, LESS, YAML, with Bracket Highlighter, Sublime Linter, GitGutter, and WordHighlight all defined. Ruby, PHP, and Python are WIP but more than sufficient as-is.*
 
 I had thought about making a separate theme for Markdown & Markdown GFM, but instead just took the language from the [Markdown Editing](https://packagecontrol.io/packages/MarkdownEditing) package and defined everything in one `.tmTheme`.
 

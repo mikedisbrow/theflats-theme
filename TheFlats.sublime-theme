@@ -1269,7 +1269,7 @@
        "font.face": ".SF NS Text"
     },
   // ---------------------------
-  // Operator
+  // Operator SSm
   // ---------------------------
     {   
        "class": "sidebar_label",
@@ -1281,6 +1281,19 @@
        "settings": ["flats_font_operator"],
        "font.face": "Operator SSm"
     },
+    // ---------------------------
+  // Operator Mono
+  // ---------------------------
+    {   
+       "class": "sidebar_label",
+       "settings": ["flats_font_operator_mono"],
+       "font.face": "Operator Mono"
+    },
+    {
+       "class": "tab_label",
+       "settings": ["flats_font_operator_mono"],
+       "font.face": "Operator Mono"
+    },  
 
 // ---------------------------
 // ACCENT COLOR OPTIONS
