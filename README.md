@@ -8,7 +8,7 @@ I just wanted to make something I could be happy with staring at for long hours.
 ***
 
 ### How to Install
-#### Via Package Control
+##### Via Package Control
 The easiest way to install is using [Sublime Package Control](https://packagecontrol.io), where The Flats is listed as `TheFlats`.
 
 1. Open Command Palette using menu item `Tools -> Command Palette...` or the shortcut `Command + Shift + P` on Mac
@@ -16,8 +16,7 @@ The easiest way to install is using [Sublime Package Control](https://packagecon
 3. Choose `Package Control: Install Package`
 4. Search for `TheFlats` and hit `Enter`
 
-#### Manual
-
+##### Manual
 You can also install the theme manually:
 
 1. [Download the .zip](https://github.com/mikedisbrow/theflats-theme/archive/master.zip)
@@ -25,16 +24,19 @@ You can also install the theme manually:
 3. In the menu, go to `Sublime Text -> Preferences -> Browse Packages...` and copy the folder into the `Packages` directory. 
 4. In the `misc` folder, you will find replacement app icons for Sublime Text, as well as a `fold.png` colored to match each UI accent color.  To use that color matched `fold.png` icon, copy it to `Packages/Theme - Default` to replace the default code folding icon in ST3.
 
-***
+##### Activate
+Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User` and place
 
-### How to Activate
-
-Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User`.
+```js
+"color_scheme": "Packages/TheFlats Theme/schemes/The Flats.tmTheme",
+"theme": "TheFlats.sublime-theme",
+```
 
 ***
 
 ### Settings & Options
-#### General Settings
+##### General Settings
+
 ```json
 {
   "flats_folder_icons": true,
@@ -53,7 +55,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
   "flats_tabs_font_14": true,
 }
 ```
-#### UI Accent Colors
+##### UI Accent Colors
   * Seafoam - [Screenshot](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/Seafoam.png)
   * PreDawn - [Screenshot](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/Predawn.png)
   * Oceanic Next - [Screenshot](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/Oceanic.png)
@@ -70,7 +72,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 }
 ```
 
-#### Fonts
+##### Fonts
 - [Camingo Code](https://www.myfonts.com/fonts/jan-fromm/camingo-code/ "MyFonts - Camingo Code") @ MyFonts
 - [Fira Code](https://github.com/tonsky/FiraCode "Fira Code - GitHub") @ GitHub
 - [Hack](https://github.com/chrissimpkins/Hack "Hack - GitHub") @ GitHub
@@ -109,7 +111,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 I had thought about making a separate theme for Markdown & Markdown GFM, but instead just took the language from the [Markdown Editing](https://packagecontrol.io/packages/MarkdownEditing) package and defined everything in one `.tmTheme`.
 
 ##### Others
-*I've also included the following color schemes, with a couple of small changes to carets, bracket highlighter, gitgutter, etc.*
+*I've also included the following color schemes, with a couple of small changes to background color, caret, bracket highlighter, gitgutter, etc.*
 
 *  Predawn
 *  Predawn Markdown
@@ -117,7 +119,8 @@ I had thought about making a separate theme for Markdown & Markdown GFM, but ins
 *  Material Dark
 *  Oceanic Next
 *  Monokai Neue
-  *  *Modified the colors slightly because regular Monokai just burns my retinas.*
+*  Monokai Neue Flat
+  *  *I modified the colors slightly because regular Monokai just burns my retinas.*
 
 ***
 
@@ -127,7 +130,7 @@ I had thought about making a separate theme for Markdown & Markdown GFM, but ins
 
 ![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/app%20icons.png)
 
-**Download** [here](https://dl.dropboxusercontent.com/u/3312456/st3_flats_icons.zip)
+**Download** [here](https://dl.dropboxusercontent.com/u/3312456/app_icons.zip)
 
 ***
 
