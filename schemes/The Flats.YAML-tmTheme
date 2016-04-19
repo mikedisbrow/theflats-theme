@@ -581,22 +581,22 @@ settings:
 
 # SUBLIME SETTINGS
 
-- name: Sublime Settings
+- name: Sublime Settings - Setting
   scope: keyword.other.name.sublime-settings
+  settings:
+    foreground: '#A5B0F0'
+
+- name: Sublime Settings - String
+  scope: string.jsongenericarrayelements
   settings:
     foreground: '#BBE98E'
 
-- name: Sublime Settings
-  scope: string.jsongenericarrayelements
-  settings:
-    foreground: '#ACDAE6'
-
-- name: Sublime Settings
+- name: Sublime Settings - Numeric
   scope: constant.numeric.jsongenericarrayelements
   settings:
-    foreground: '#E9E98E'
+    foreground: '#E8AC6F'
 
-- name: Sublime Settings
+- name: Sublime Settings - Boolean
   scope: constant.language.boolean.jsongenericarrayelements
   settings:
     foreground: '#E9E98E'

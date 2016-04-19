@@ -1224,9 +1224,20 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Sublime Settings</string>
+			<string>Sublime Settings - Setting</string>
 			<key>scope</key>
 			<string>keyword.other.name.sublime-settings</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A5B0F0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Sublime Settings - String</string>
+			<key>scope</key>
+			<string>string.jsongenericarrayelements</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1235,29 +1246,18 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Sublime Settings</string>
-			<key>scope</key>
-			<string>string.jsongenericarrayelements</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#ACDAE6</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Sublime Settings</string>
+			<string>Sublime Settings - Numeric</string>
 			<key>scope</key>
 			<string>constant.numeric.jsongenericarrayelements</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E9E98E</string>
+				<string>#E8AC6F</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Sublime Settings</string>
+			<string>Sublime Settings - Boolean</string>
 			<key>scope</key>
 			<string>constant.language.boolean.jsongenericarrayelements</string>
 			<key>settings</key>
