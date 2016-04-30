@@ -206,15 +206,15 @@
   // Tab dropdown
     {
        "class": "show_tabs_dropdown_button",
-       "content_margin": [8, 8],
-       "layer0.texture": "TheFlats Theme/assets/common/hamburger.png",
+       "content_margin": [10, 8],
+       "layer0.texture": "TheFlats Theme/assets/common/hamburger-tabs.png",
        "layer0.opacity": 1,
        "layer0.tint": [117, 117, 117]
     },
     {
        "class": "show_tabs_dropdown_button",
        "attributes": ["hover"],
-       "layer0.texture": "TheFlats Theme/assets/common/hamburger.png",
+       "layer0.texture": "TheFlats Theme/assets/common/hamburger-tabs.png",
        "layer0.tint": [142, 233, 188],
        "layer0.opacity": 1
     },
@@ -814,11 +814,11 @@
     {
        "class": "dropdown_button_control",
        "content_margin": [8, 8],
-       "layer0.texture": "TheFlats Theme/assets/common/hamburger.png",
+       "layer0.texture": "TheFlats Theme/assets/common/elipsis.png",
        "layer0.tint": [117, 117, 117],
        "layer0.opacity": 1.0,
        "layer0.inner_margin": [0, 0],
-       "layer1.texture": "TheFlats Theme/assets/common/hamburger-hover.png",
+       "layer1.texture": "TheFlats Theme/assets/common/elipsis.png",
        "layer1.opacity": 0.0,
        "layer1.inner_margin": [0, 0],
     },

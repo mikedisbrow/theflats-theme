@@ -113,7 +113,6 @@ If you want to add support for fonts I have not included, go to your `Packages -
     },
 ]
 ```
-***
 
 ##### Folder Icons
 
@@ -126,17 +125,9 @@ If you want to add support for fonts I have not included, go to your `Packages -
 
 ![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/highlighting.png)
 
-##### Others
 *I've also included the following color schemes, with a couple of small changes to background color, caret, bracket highlighter, gitgutter, etc.*
 
-*  Predawn
-*  Predawn Markdown
-*  Predawn GF Markdown
-*  Material Dark
-*  Oceanic Next
-*  Monokai Neue
-*  Monokai Neue Flat
-  *  *I modified the colors slightly because regular Monokai just burns my retinas.*
+[Material Dark](https://github.com/equinusocio/material-theme), [Monokai Neue](https://github.com/josh-kaplan/sublime-monokai-neue), [Oceanic Next](https://github.com/voronianski/oceanic-next-color-scheme), and [PreDawn](https://github.com/jamiewilson/predawn)
 
 ***
 
@@ -144,7 +135,7 @@ If you want to add support for fonts I have not included, go to your `Packages -
 
 *Made a few replacement icons for Sublime Text to go with the theme. Typical OS X style, using a few different fonts*
 
-![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/appicons.png)
+![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/app icons.png)
 
 **Download** [here](https://dl.dropboxusercontent.com/u/3312456/app_icons.zip)
 
