@@ -2,14 +2,13 @@
 
 ![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/Seafoam.png)
 
-A dark, flat UI theme for Sublime Text 3. Uses Seafoam Green as the default accent color.  
-I just wanted to make something I could be happy with staring at for long hours.  Inspired by [Predawn](https://github.com/jamiewilson/predawn), [Material Dark](https://github.com/equinusocio/material-theme), and [Spacegray](https://github.com/kkga/spacegray).
+A dark, flat UI theme for Sublime Text 3. Uses Seafoam Green as the default accent color.  I just wanted a theme for myself that used aspects I liked in other themes, so I put them all together, made a bunch of changes, and this is the result.
 
 ***
 
 ### How to Install
 ##### Via Package Control
-The easiest way to install is using [Sublime Package Control](https://packagecontrol.io), where The Flats is listed as `TheFlats`.
+The easiest way to install is using [Sublime Package Control](https://packagecontrol.io), where The Flats is listed as `TheFlats Theme`.
 
 1. Open Command Palette using menu item `Tools -> Command Palette...` or the shortcut `Command + Shift + P` on Mac
 2. Type `Install`
@@ -48,8 +47,8 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
   "flats_hide_tab_scroll_icons": true,
   "flats_sidebar_tree_small": true,			// 8px 2px
   "flats_sidebar_tree_large": true,			// 8px 6px	
-  "flats_tabs_small": true,					// 26px
-  "flats_tabs_large": true,					// 42px
+  "flats_tabs_small": true,					    // 26px
+  "flats_tabs_large": true,					    // 42px
   "flats_tabs_auto_width": true,
   "flats_sidebar_font_10": true,
   "flats_sidebar_font_11": true,
@@ -76,41 +75,56 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 *I took Monokai Neue and softened some of the colors, because I can't look at that red forever. That's what* `monokai_flat` *is.*
 
 ##### Fonts
-- [Camingo Code](https://www.myfonts.com/fonts/jan-fromm/camingo-code/ "MyFonts - Camingo Code") @ MyFonts
-- [Fira Code](https://github.com/tonsky/FiraCode "Fira Code - GitHub") @ GitHub
-- [Hack](https://github.com/chrissimpkins/Hack "Hack - GitHub") @ GitHub
-- The Font Bureau [Input](http://input.fontbureau.com "Font Bureau Input Fonts")
-- Hoefler & Co. [Operator ScreenSmart Pro & Operator Mono](http://www.typography.com/fonts/operator/overview/ "Operator")
-- FSD [Pragmata Pro](http://www.fsd.it/shop/fonts/pragmatapro "Pragmata Pro") & [GitHub](https://github.com/fabrizioschiavi/pragmatapro "Pragmata Pro GitHub")
+*Menlo, Monaco, and San Francisco are all included with OS X 10.10 and later*
 
-```js
-  "flats_font_camingocode": true,
+- [Fira Code](https://github.com/tonsky/FiraCode "Fira Code - GitHub") @ GitHub (Free)
+- [Hack](https://github.com/chrissimpkins/Hack "Hack - GitHub") @ GitHub (Free)
+- The Font Bureau [Input](http://input.fontbureau.com "Font Bureau Input Fonts") (Free)
+- Hoefler & Co. [Operator Mono](http://www.typography.com/fonts/operator/overview/ "Operator") ($)
+- FSD [Pragmata Pro](http://www.fsd.it/shop/fonts/pragmatapro "Pragmata Pro") & [GitHub](https://github.com/fabrizioschiavi/pragmatapro "Pragmata Pro GitHub") ($)
+- Adobe [Source Code Pro](https://github.com/adobe-fonts/source-code-pro) (Free)
+
+```json
   "flats_font_fira": true,
   "flats_font_hack": true,
   "flats_font_inputsans": true,
   "flats_font_inputsansnarrow": true,
-  "flats_font_operator": true,
-  "flats_font_operator_mono": true,
-  "flats_font_pragmata": true,
   "flats_font_menlo": true,
   "flats_font_monaco": true,
+  "flats_font_operator_mono": true,
+  "flats_font_pragmata": true,
   "flats_font_sanfrancisco": true,
+  "flats_font_source_code_pro": true,
 ```
 
-*The font used in the screenshots is [Input Sans Narrow](http://input.fontbureau.com).*
+If you want to add support for fonts I have not included, go to your `Packages -> User` folder, create a folder `TheFlats Theme` and inside of it, create a file `TheFlats.sublime-theme` and paste in this code below and change the `X`s to the font family name you'd like to use. 
 
+```json
+[
+    {   
+       "class": "sidebar_label",
+       "settings": ["flats_font_X"],
+       "font.face": "X"
+    },
+    {
+       "class": "tab_label",
+       "settings": ["flats_font_X"],
+       "font.face": "X"
+    },
+]
+```
 ***
 
 ##### Folder Icons
 
-![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/Folders.png)
+![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/foldericons-rounded.png)
 
 ***
 ### Color Schemes
 ##### The Flats
 *A dark theme, takes a lot from Oceanic Next and Material Dark. Fully supports HTML, CSS, JS, Markdown, GFM Markdown, JSON, SCSS, LESS, YAML, with Bracket Highlighter, Sublime Linter, GitGutter, and WordHighlight all defined. Ruby, PHP, and Python are WIP but more than sufficient as-is.*
 
-![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/flats%20highlighting.png)
+![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/highlighting.png)
 
 ##### Others
 *I've also included the following color schemes, with a couple of small changes to background color, caret, bracket highlighter, gitgutter, etc.*
@@ -130,7 +144,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 
 *Made a few replacement icons for Sublime Text to go with the theme. Typical OS X style, using a few different fonts*
 
-![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/app%20icons.png)
+![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/appicons.png)
 
 **Download** [here](https://dl.dropboxusercontent.com/u/3312456/app_icons.zip)
 
@@ -138,29 +152,15 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 
 ### Thanks
 ##### Themes & Color Schemes
-* [Spacegray Theme](https://github.com/kkga/spacegray) - Gadzhi Kharkharov
-* [Material Theme](https://github.com/equinusocio/material-theme) - Mattia Astorino
-* [PreDawn](https://github.com/jamiewilson/predawn) - Jamie Wilson
-* [Oceanic Next](https://github.com/voronianski/oceanic-next-color-scheme) - Dmitri Voronianski
-* [Monokai Neue](https://github.com/josh-kaplan/sublime-monokai-neue) - Josh Kaplan
+[Spacegray](https://github.com/kkga/spacegray), [Material](https://github.com/equinusocio/material-theme), [PreDawn](https://github.com/jamiewilson/predawn), [Oceanic Next](https://github.com/voronianski/oceanic-next-color-scheme), [Monokai Neue](https://github.com/josh-kaplan/sublime-monokai-neue)
 
 ##### Icons
-* [Subway Icons](https://github.com/mariuszostrowski/subway) - Mariusz Ostrowski
-* [Ionicons](https://github.com/driftyco/ionicons/)
-* [Octicons](https://octicons.github.com/)
-* [Font Awesome](https://fortawesome.github.io/Font-Awesome/icons/)
-* [Google Material Design](https://design.google.com/icons/)
-* [Iconic](https://github.com/iconic/open-iconic)
+[Subway](https://github.com/mariuszostrowski/subway), [Iconic](https://github.com/iconic/open-iconic), [Ionicons](https://github.com/driftyco/ionicons/), [Octicons](https://octicons.github.com/), [Google Material Design](https://design.google.com/icons/)
 
 ##### Fonts
-* [CodeFace](https://github.com/chrissimpkins/codeface) - Chris Simpkins
-* [Hack](https://github.com/chrissimpkins/Hack) - Chris Simpkins
-* [Fira Code](https://github.com/tonsky/FiraCode) - Nikita Prokopov
-* [Input Fonts](http://input.fontbureau.com) - The Font Bureau
-* [Camingo Code](https://www.myfonts.com/fonts/jan-fromm/camingo-code/) - Jan Fromm
+[CodeFace](https://github.com/chrissimpkins/codeface), [Hack](https://github.com/chrissimpkins/Hack), [Fira Code](https://github.com/tonsky/FiraCode), [Input Fonts](http://input.fontbureau.com)
 
 ***
 
 ### Known Issues
-1. Camingo Code font does not play nice with tabs and sidebar always.  Due to the way the fonts built in line height is defined I believe.  
-2. Depending on font, and font size, you may see descenders of letters slightly cut off in tabs.
+1. Depending on font, and font size, you may see descenders of letters slightly cut off in tabs.

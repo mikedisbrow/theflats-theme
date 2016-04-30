@@ -1191,17 +1191,17 @@
        "font.face": "Monaco"
     },
   // ---------------------------
-  // CAMINGO CODE
+  // SOURCE CODE PRO
   // ---------------------------
     {
        "class": "sidebar_label",
-       "settings": ["flats_font_camingocode"],
-       "font.face": "CamingoCode"
+       "settings": ["flats_font_source_code_pro"],
+       "font.face": "Source Code Pro"
     },
     {
        "class": "tab_label",
-       "settings": ["flats_font_camingocode"],
-       "font.face": "CamingoCode"
+       "settings": ["flats_font_source_code_pro"],
+       "font.face": "Source Code Pro"
     },
   // ---------------------------
   // PRAGMATA PRO
@@ -1269,19 +1269,6 @@
        "font.face": ".SF NS Text"
     },
   // ---------------------------
-  // Operator SSm
-  // ---------------------------
-    {   
-       "class": "sidebar_label",
-       "settings": ["flats_font_operator"],
-       "font.face": "Operator SSm"
-    },
-    {
-       "class": "tab_label",
-       "settings": ["flats_font_operator"],
-       "font.face": "Operator SSm"
-    },
-    // ---------------------------
   // Operator Mono
   // ---------------------------
     {   
