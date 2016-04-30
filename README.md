@@ -135,7 +135,7 @@ If you want to add support for fonts I have not included, go to your `Packages -
 
 *Made a few replacement icons for Sublime Text to go with the theme. Typical OS X style, using a few different fonts*
 
-![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/app icons.png)
+![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/appicons.png)
 
 **Download** [here](https://dl.dropboxusercontent.com/u/3312456/app_icons.zip)
 
