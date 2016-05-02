@@ -1,6 +1,6 @@
 ## The Flats
 
-![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/Seafoam.png)
+![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/seafoam.png)
 
 A dark, flat UI theme for Sublime Text 3. Uses Seafoam Green as the default accent color.  I just wanted a theme for myself that used aspects I liked in other themes, so I put them all together, made a bunch of changes, and this is the result.
 
@@ -16,7 +16,6 @@ The easiest way to install is using [Sublime Package Control](https://packagecon
 4. Search for `TheFlats` and hit `Enter`
 
 ##### Manual
-You can also install the theme manually:
 
 1. [Download the .zip](https://github.com/mikedisbrow/theflats-theme/archive/master.zip)
 2. Unzip and rename the folder to `TheFlats Theme`
@@ -24,10 +23,10 @@ You can also install the theme manually:
 4. In the `misc` folder, you will find replacement app icons for Sublime Text, as well as a `fold.png` colored to match each UI accent color.  To use that color matched `fold.png` icon, copy it to `Packages/Theme - Default` to replace the default code folding icon in ST3.
 
 ##### Activate
-Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User` and place
+In your User Preferences file, found at `Sublime Text -> Preferences -> Settings - User`, place the following:
 
-```js
-  "color_scheme": "Packages/TheFlats Theme/schemes/The Flats.tmTheme",
+```json
+  "color_scheme": "Packages/TheFlats Theme/schemes/TheFlats.tmTheme",
   "theme": "TheFlats.sublime-theme",
 ```
 
@@ -59,20 +58,21 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 ```
 
 ##### UI Accent Colors
-  * Seafoam - [Screenshot](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/Seafoam.png)
-  * PreDawn - [Screenshot](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/Predawn.png)
-  * Oceanic Next - [Screenshot](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/Oceanic.png)
-  * Monokai - [Screenshot](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/Monokai.png)
-  * Monokai Flat - [Screenshot](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/Monokai Flat.png)
+  * Seafoam - [Screenshot](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/seafoam.png)
+  * PreDawn - [Screenshot](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/predawn.png)
+  * Oceanic Next - [Screenshot](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/oceanic.png)
+  * Monokai - [Screenshot](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/monokai.png)
+  * Monokai Flats - [Screenshot](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/monokai_flats.png)
 
 ```json
   "flats_ui_seafoam": true,
   "flats_ui_predawn": true,
   "flats_ui_oceanic": true,
   "flats_ui_monokai": true,
-  "flats_ui_monokai_flat": true,
+  "flats_ui_monokai_flats": true,
 ```
-*I took Monokai Neue and softened some of the colors, because I can't look at that red forever. That's what* `monokai_flat` *is.*
+
+*I took Monokai Neue and softened some of the colors, because I can't look at that red forever. That's what* `monokai_flats` *is.*
 
 ##### Fonts
 *Menlo, Monaco, and San Francisco are all included with OS X 10.10 and later*
@@ -80,20 +80,21 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 - [Fira Code](https://github.com/tonsky/FiraCode "Fira Code - GitHub") @ GitHub (Free)
 - [Hack](https://github.com/chrissimpkins/Hack "Hack - GitHub") @ GitHub (Free)
 - The Font Bureau [Input](http://input.fontbureau.com "Font Bureau Input Fonts") (Free)
+- Adobe [Source Code Pro](https://github.com/adobe-fonts/source-code-pro) (Free)
 - Hoefler & Co. [Operator Mono](http://www.typography.com/fonts/operator/overview/ "Operator") ($)
 - FSD [Pragmata Pro](http://www.fsd.it/shop/fonts/pragmatapro "Pragmata Pro") & [GitHub](https://github.com/fabrizioschiavi/pragmatapro "Pragmata Pro GitHub") ($)
-- Adobe [Source Code Pro](https://github.com/adobe-fonts/source-code-pro) (Free)
+
 
 ```json
-  "flats_font_fira": true,
+  "flats_font_fira_code": true,
   "flats_font_hack": true,
-  "flats_font_inputsans": true,
-  "flats_font_inputsansnarrow": true,
+  "flats_font_input_sans": true,
+  "flats_font_input_sans_narrow": true,
   "flats_font_menlo": true,
   "flats_font_monaco": true,
   "flats_font_operator_mono": true,
-  "flats_font_pragmata": true,
-  "flats_font_sanfrancisco": true,
+  "flats_font_pragmata_pro": true,
+  "flats_font_san_francisco": true,
   "flats_font_source_code_pro": true,
 ```
 
@@ -125,7 +126,7 @@ If you want to add support for fonts I have not included, go to your `Packages -
 
 ![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/highlighting.png)
 
-*I've also included the following color schemes, with a couple of small changes to background color, caret, bracket highlighter, gitgutter, etc.*
+*I've also included the following color schemes. Background color, caret, line highlight, selection, guides, comments, gutter, have all been changed to be consistent with the theme.  Syntax highlighting colors have not been modified at all.*
 
 [Material Dark](https://github.com/equinusocio/material-theme), [Monokai Neue](https://github.com/josh-kaplan/sublime-monokai-neue), [Oceanic Next](https://github.com/voronianski/oceanic-next-color-scheme), and [PreDawn](https://github.com/jamiewilson/predawn)
 
