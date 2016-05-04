@@ -16,11 +16,11 @@
 				<key>background</key>
 				<string>#282828</string>
 				<key>caret</key>
-				<string>#71EEB8</string>
+				<string>#8EE9BC</string>
 				<key>foreground</key>
 				<string>#E0E0E0</string>
 				<key>invisibles</key>
-				<string>#757575</string>
+				<string>#424242</string>
 				<key>selection</key>
 				<string>#61616140</string>
 			</dict>

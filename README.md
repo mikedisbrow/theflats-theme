@@ -1,6 +1,6 @@
 ## The Flats
 
-![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/seafoam.png)
+![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/Seafoam.png)
 
 A dark, flat UI theme for Sublime Text 3. Uses Seafoam Green as the default accent color.  I just wanted a theme for myself that used aspects I liked in other themes, so I put them all together, made a bunch of changes, and this is the result.
 
@@ -117,7 +117,7 @@ If you want to add support for fonts I have not included, go to your `Packages -
 
 ##### Folder Icons
 
-![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/foldericons-rounded.png)
+![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/folders.png)
 
 ***
 ### Color Schemes

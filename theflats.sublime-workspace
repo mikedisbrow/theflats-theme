@@ -57,8 +57,28 @@
 	],
 	"file_history":
 	[
-		"/Users/miked/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/icons/Prefs/icon_json.tmPreferences",
+		"/Users/miked/GitHub/Packages/LANGS/Packages-master/Rails/JavaScript (Rails).sublime-syntax",
+		"/Users/miked/GitHub/Packages/LANGS/Packages-master/Rails/HTML (Rails).sublime-syntax",
+		"/Users/miked/GitHub/Packages/LANGS/Packages-master/Rails/SQL (Rails).sublime-syntax",
+		"/Users/miked/GitHub/Packages/LANGS/Packages-master/Rails/Ruby on Rails.sublime-syntax",
+		"/Users/miked/GitHub/Packages/LANGS/Packages-master/Rails/Ruby Haml.sublime-syntax",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/icons/Prefs/icon_settings.tmPreferences",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/types/json.json",
+		"/Users/miked/GitHub/Packages/LANGS/Packages-master/XML/XML.sublime-syntax",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/icons/Prefs/icon_xml.tmPreferences",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/icons/TODO.md",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/icons/Prefs/icon_gulpfile.tmPreferences",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/icons/Prefs/icon_typescript.tmPreferences",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/icons/Prefs/icon_vue.tmPreferences",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/icons/Prefs/icon_js.tmPreferences",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/icons/Prefs/icon_svg.tmPreferences",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/icons/Prefs/icon_slim.tmPreferences",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/icons/Prefs/icon_swift.tmPreferences",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/icons/Prefs/icon_react.tmPreferences",
+		"/Users/miked/GitHub/sublime-theme/theflats-master/icons/Prefs/icon_rails.tmPreferences",
 		"/Users/miked/Library/Application Support/Sublime Text 3/Packages/User/Markdown.sublime-settings",
+		"/Users/miked/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/miked/.bashrc",
 		"/Users/miked/Library/Application Support/Sublime Text 3/Packages/User/Snippets/html-frame.sublime-snippet",
 		"/Users/miked/.bash_profile",
@@ -111,7 +131,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 43.0
 	},
 	"layout":
 	{
