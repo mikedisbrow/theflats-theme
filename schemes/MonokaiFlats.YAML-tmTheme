@@ -1,0 +1,534 @@
+# [PackageDev] target_format: plist, ext: tmTheme
+---
+name: Monokai Flats
+uuid: none
+author: Mike Disbrow (mikedisbrow.github.io)
+
+colorSpaceName: sRGB
+
+semanticClass: monokai.flats.dark
+settings:
+- settings:
+    background: '#282828'
+    caret: '#8EE9BC'
+    foreground: '#e0e0e0'
+    invisibles: '#424242'
+    lineHighlight: '#00000030'
+    selection: '#61616140'
+    # selectionBorder: '#222218'
+    findHighlight: '#FFE792'
+    # findHighlightForeground: '#000000'
+    activeGuide: '#9D550FB0'
+    stackGuide: '#42424280'
+    guide: '#42424260'
+    bracketsForeground: '#F8F8F2A5'
+    bracketsContentsForeground: '#F8F8F2A5'
+    bracketsOptions: 'underline'
+    bracketsContentsOptions: 'underline'
+    tagOptions: 'stippled_underline'
+
+- name: Comments
+  scope: comment, punctuation.definition.comment
+  settings:
+    foreground: '#757575'
+    fontStyle: 'italic'
+
+- name: Strings
+  scope: string
+  settings:
+    foreground: '#FAEC73'
+
+- name: Number
+  scope: constant.numeric
+  settings:
+    foreground: '#BA97FF'
+
+- name: Built-In Constant
+  scope: constant.language
+  settings:
+    foreground: '#BA97FF'
+
+- name: User-Defined Constant
+  scope: constant.character, constant.other
+  settings:
+    foreground: '#BA97FF'
+
+- name: Variable
+  scope: variable
+  settings:
+    foreground: ''
+
+- name: Keyword
+  scope: keyword - (source.c keyword.operator | source.c++ keyword.operator | source.objc keyword.operator | source.objc++ keyword.operator), keyword.operator.word
+  settings:
+    foreground: '#FA3E83'
+
+- name: JavaScript Dollar
+  scope: variable.other.dollar.only.js
+  settings:
+    foreground: '#FA3E83'
+
+- name: Storage
+  scope: storage
+  settings:
+    foreground: '#FA3E83'
+
+- name: Storage Type
+  scope: storage.type
+  settings:
+    foreground: '#4AD4F0'
+    fontStyle: 'italic'
+
+- name: Entity Name
+  scope: entity.name - (entity.name.filename | entity.name.section | entity.name.tag | entity.name.label)
+  settings:
+    foreground: '#BBED58'
+
+- name: Inherited Class
+  scope: entity.other.inherited-class
+  settings:
+    foreground: '#BBED58'
+    fontStyle: italic underline
+
+- name: Function Argument
+  scope: variable.parameter
+  settings:
+    foreground: '#FCB058'
+    fontStyle: 'italic'
+
+- name: Language variable
+  scope: variable.language
+  settings:
+    foreground: '#FCB058'
+    fontStyle: 'italic'
+
+- name: Tag name
+  scope: entity.name.tag
+  settings:
+    foreground: '#FA3E83'
+
+- name: Tag attribute
+  scope: entity.other.attribute-name
+  settings:
+    foreground: '#BBED58'
+
+- name: Function call
+  scope: variable.function
+  settings:
+    foreground: '#4AD4F0'
+
+- name: Library function
+  scope: support.function
+  settings:
+    foreground: '#4AD4F0'
+
+- name: Library constant
+  scope: support.constant
+  settings:
+    foreground: '#4AD4F0'
+
+- name: Library Class Type
+  scope: support.type, support.class
+  settings:
+    foreground: '#4AD4F0'
+    fontStyle: 'italic'
+
+- name: Library variable
+  scope: support.other.variable
+  settings:
+    foreground: ''
+
+# CSS
+
+- name: CSS Values
+  scope: support.constant.property-value.css
+  settings:
+    foreground: '#BA97FF'
+
+- name: CSS Support.Function
+  scope: source.css support.function
+  settings:
+    foreground: '#FCB058'
+
+- name: CSS Hash
+  scope: punctuation.definition.constant.css
+  settings:
+    foreground: '#FA3E83'
+
+# JSON
+
+- name: JSON LEVEL 10
+  scope: source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json<
+  settings:
+    foreground: '#BBED58'
+
+- name: JSON LEVEL 9
+  scope: source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json
+  settings:
+    foreground: '#FA3E83'
+
+- name: JSON LEVEL 8
+  scope: source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json
+  settings:
+    foreground: '#BA97FF'
+
+- name: JSON LEVEL 7
+  scope: source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json
+  settings:
+    foreground: '#4AD4F0'
+
+- name: JSON LEVEL 6
+  scope: source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json
+  settings:
+    foreground: '#FAEC73'
+
+- name: JSON LEVEL 5
+  scope: source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json
+  settings:
+    foreground: '#FCB058'
+
+- name: JSON LEVEL 4
+  scope: source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json
+  settings:
+    foreground: '#BBED58'
+
+- name: JSON LEVEL 3
+  scope: source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json
+  settings:
+    foreground: '#FA3E83'
+
+- name: JSON LEVEL 2
+  scope: source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json
+  settings:
+    foreground: '#BA97FF'
+
+- name: JSON LEVEL 1
+  scope: source.json meta.structure.dictionary.json string.quoted.double.json<
+  settings:
+    foreground: '#4AD4F0'
+
+# YAML
+
+- name: YAML String Unquoted
+  scope: string.unquoted.yaml, string.unquoted.plain.out.yaml
+  settings:
+    foreground: '#e0e0e0'
+
+- name: YAML String Quoted
+  scope: string.quoted.single.yaml, string.quoted.double.yaml
+  settings:
+    foreground: '#BA97FF'
+
+# MARKDOWN GFM
+
+- name: Markdown Code Block
+  scope: markup.raw.block.markdown
+  settings:
+    foreground: '#757575'
+
+- name: Markdown Inline Code
+  scope: markup.raw.inline.markdown
+  settings:
+    foreground: '#757575'
+
+- name: Markdown Inline Code Content
+  scope: markup.raw.inline.content.markdown
+  settings: 
+    foreground: '#9E9E9E'
+
+- name: Markdown Text
+  scope: text.html.markdown, text.html.markdown.gfm
+  settings:
+    foreground: '#e0e0e0'
+
+- name: Markdown Heading
+  scope: markup.heading, markup.heading.markdown, punctuation.definition.heading.markdown
+  settings:
+    foreground: '#FA3E83'
+    fontStyle: 'bold'
+
+- name: Markdown Bold
+  scope: markup.bold, markup.bold.markdown
+  settings:
+    foreground: '#f1f1f1'
+    fontStyle: 'bold'
+
+- name: Markdown Italic
+  scope: markup.italic, markup.italic.markdown
+  settings:
+    foreground: '#f1f1f1'
+    fontStyle: 'italic'
+
+- name: Markdown Strikethrough
+  scope: markup.strikethrough.markdown
+  settings: 
+    foreground: '#f1f1f1'
+    fontStyle: ''
+
+- name: Markdown Bold Italic
+  scope: markup.italic markup.bold, markup.bold markup.italic, markup.italic.markdown markup.bold.markdown, markup.bold.markdown markup.italic.markdown, markup.bold.markdown markup.italic, markup.italic markup.bold.markdown, markup.bold markup.italic.markdown
+  settings:
+    foreground: '#f1f1f1'
+    fontStyle: 'bold italic'
+
+- name: Markdown Link
+  scope: meta.link.inline.markdown, meta.link.inet.markdown, meta.link.email.lt-gt.markdown
+  settings:
+    foreground: '#4AD4F0'
+
+- name: Markdown Block Quote Text
+  scope: markup.quote.markdown, text.html.markdown markup.quote.markdown markup.bold, text.html.markdown markup.quote.markdown markup.bold.markdown, text.html.markdown markup.quote.markdown markup.italic, text.html.markdown markup.quote.markdown markup.italic.markdown, text.html.markdown markup.quote.markdown text.html.markdown, text.html.markdown markup.quote.markdown text.markdown, text.html.markdown markup.quote.markdown string.other.link.title.markdown
+  settings:
+    foreground: '#9E9E9E'
+
+- name: Markdown Link Title
+  scope: string.other.link.title.markdown
+  settings:
+    foreground: '#BA97FF'
+
+- name: Markdown Link Reference
+  scope: meta.link.reference.literal.markdown, meta.link.reference.markdown, meta.link.reference.def.markdown
+  settings:
+    foreground: '#757575'
+
+- name: Markdown Link Description
+  scope: string.other.link.description.markdown
+  settings:
+    foreground: '#4AD4F0'
+
+- name: Markdown Link Description Title
+  scope: string.other.link.description.title.markdown
+  settings:
+    foreground: '#9e9e9e'
+
+- name: Markdown Image
+  scope: meta.image.inline.markdown
+  settings:
+    foreground: '#FCB058'
+
+- name: Markdown Image Reference
+  scope: constant.other.reference.link.markdown, meta.image.reference.markdown
+  settings:
+    foreground: '#757575'
+
+- name: Markdown Keyboard
+  scope: markup.kbd.markdown
+  settings:
+    foreground: '#757575'
+
+- name: Markdown Keyboard Content
+  scope: markup.kbd.content.markdown
+  settings:
+    foreground: '#9E9E9E'
+
+- name: Markdown Punctuation
+  scope: punctuation.definition.metadata.markdown, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.string.markdown, punctuation.definition.constant.markdown, punctuation.separator.key-value.markdown, punctuation.definition.constant.begin.markdown, punctuation.definition.constant.end.markdown, punctuation.definition.bold.markdown, punctuation.definition.italic.markdown, punctuation.definition.strikethrough.markdown, punctuation.definition.blockquote.markdown, punctuation.definition.link.markdown, punctuation.definition.raw.markdown
+  settings:
+    foreground: '#757575'
+
+- name: Markdown Underline Links, Images
+  scope: markup.underline, markup.underline.link.markdown, markup.underline.link.image.markdown
+  settings:
+    foreground: '#757575'
+
+- name: Markdown List Item
+  scope: punctuation.definition.list_item.markdown
+  settings:
+    foreground: '#BBED58'
+
+- name: Markdown Lists
+  scope: markup.list.unnumbered.markdown, markup.list.numbered.markdown, meta.paragraph.list.markdown
+  settings:
+    foreground: '#E0E0E0'
+
+- name: Markdown Fenced Code Blocks
+  scope: markup.raw.block.markdown markup.raw.block.fenced.markdown
+  settings:
+    foreground: '#757575'
+
+- name: Markdown Separator
+  scope: meta.separator.markdown
+  settings:
+    foreground: '#757575'
+
+# DIFF
+
+- name: diff.header
+  scope: meta.diff, meta.diff.header
+  settings:
+    foreground: '#757575'
+
+- name: diff.deleted
+  scope: markup.deleted
+  settings:
+    foreground: '#FA3E83'
+
+- name: diff.inserted
+  scope: markup.inserted
+  settings:
+    foreground: '#BBED58'
+
+- name: diff.changed
+  scope: markup.changed
+  settings:
+    foreground: '#FAEC73'
+
+# FIND IN FILES
+
+- name: Find In Files Line
+  scope: constant.numeric.line-number.find-in-files - match
+  settings:
+    foreground: '#BA97FF'
+
+- name: File Name
+  scope: entity.name.filename
+  settings:
+    foreground: '#FAEC73'
+
+- name: Error Message
+  scope: message.error
+  settings:
+    foreground: '#F83333'
+
+# INVALID ILLEGAL DEPRICATED
+
+- name: Invalid
+  scope: invalid
+  settings:
+    foreground: '#282828'
+    background: '#E86F6E'
+
+- name: Illegal
+  scope: invalid.illegal
+  settings:
+    foreground: '#282828'
+    background: '#E86F6E'
+
+- name: Depricated
+  scope: invalid.deprecated
+  settings:
+    foreground: '#282828'
+    background: '#E86F6E'
+
+# GIT GUTTER
+
+- name: Git Gutter - Changed
+  scope: markup.changed.git_gutter
+  settings:
+    foreground: '#FFCB6B'
+
+- name: Git Gutter - Inserted
+  scope: markup.inserted.git_gutter
+  settings:
+    foreground: '#79C26B'
+
+- name: Git Gutter - Deleted
+  scope: markup.deleted.git_gutter
+  settings:
+    foreground: '#E86F6E'
+
+- name: Git Gutter - Ignored
+  scope: markup.ignored.git_gutter
+  settings:
+    foreground: '#424242'
+
+- name: Git Gutter - Untracked
+  scope: markup.untracked.git_gutter
+  settings:
+    foreground: '#616161'
+
+# SUBLIME LINTER
+
+- name: SublimeLinter - Annotations
+  scope: sublimelinter.annotations
+  settings:
+    foreground: '#E0E0E0'
+
+- name: SublimeLinter - Outline Illegal
+  scope: sublimelinter.outline.illegal
+  settings:
+    foreground: '#E86F6E'
+
+- name: SublimeLinter - Underline Illegal
+  scope: sublimelinter.underline.illegal
+  settings:
+    foreground: '#E86F6E'
+
+- name: SublimeLinter - Outline Warning
+  scope: sublimelinter.outline.warning
+  settings:
+    foreground: '#FFCB6B'
+
+- name: SublimeLinter - Underline Warning
+  scope: sublimelinter.underline.warning
+  settings:
+    foreground: '#FFCB6B'
+
+- name: SublimeLinter - Outline Violation
+  scope: sublimelinter.outline.violation
+  settings:
+    foreground: '#E86F6E'
+
+- name: SublimeLinter - Underline Violation
+  scope: sublimelinter.underline.violation
+  settings:
+    foreground: '#E86F6E'
+
+- name: SublimeLinter - Mark Error
+  scope: sublimelinter.mark.error
+  settings:
+    foreground: '#E86F6E'
+
+- name: SublimeLinter - Mark Warning
+  scope: sublimelinter.mark.warning
+  settings:
+    foreground: '#E86F6E'
+
+- name: SublimeLinter - Gutter Mark
+  scope: sublimelinter.gutter-mark
+  settings:
+    foreground: '#E0E0E0'
+
+# BRACKET HIGHLIGHTER
+
+- name: Bracket Highlighter - Default
+  scope: brackethighlighter.default
+  settings:
+    foreground: '#8EE9BC'
+
+- name: Bracket Highlighter - Tag
+  scope: brackethighlighter.tag
+  settings:
+    foreground: '#8EE9BC'
+
+- name: Bracket Highlighter - Curly
+  scope: brackethighlighter.curly
+  settings:
+    foreground: '#8EE9BC'
+
+- name: Bracket Highlighter - Round
+  scope: brackethighlighter.round
+  settings:
+    foreground: '#8EE9BC'
+
+- name: Bracket Highlighter - Square
+  scope: brackethighlighter.square
+  settings:
+    foreground: '#8EE9BC'
+
+- name: Bracket Highlighter - Angle
+  scope: brackethighlighter.angle
+  settings:
+    foreground: '#8EE9BC'
+
+- name: Bracket Highlighter - Quote
+  scope: brackethighlighter.quote
+  settings:
+    foreground: '#8EE9BC'
+
+- name: Bracket Highlighter - Unmatched
+  scope: brackethighlighter.unmatched
+  settings:
+    foreground: '#E86F6E'
+
+

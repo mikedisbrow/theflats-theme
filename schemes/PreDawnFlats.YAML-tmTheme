@@ -1,0 +1,568 @@
+# [PackageDev] target_format: plist, ext: tmTheme
+---
+name: PreDawn Flats
+uuid: none
+author: Mike Disbrow (mikedisbrow.github.io)
+
+colorSpaceName: sRGB
+
+semanticClass: predawn.flats.dark
+settings:
+- settings:
+    background: '#282828'
+    caret: '#F18260'
+    foreground: '#F1F1F1'
+    invisibles: '#F18260'
+    lineHighlight: '#232323'
+    selection: '#4C4C4C'
+    inactiveSelection: '#3C3C3C'
+    findHighlight: '#F18260'
+    gutterForeground: '#4C4C4C'
+    guide: '#F1826025'
+    activeGuide: '#F1826050'
+    minimapBorder: '#F1826025'
+
+- name: Comments
+  scope: comment
+  settings:
+    foreground: '#777777'
+
+- name: Python Docstring
+  scope: string.quoted.double.block.python, text.html.django storage.type.templatetag.django storage.type.attr.django, text.html.jekyll punctuation.tag.jekyll string.quoted.single.jekyll, text.html.swig meta.function.block.start.swig string.quoted.single.html
+  settings: 
+    foreground: '#777777'
+
+- name: Constant
+  scope: constant
+  settings: 
+    foreground: '#EDE480'
+
+- name: Entity
+  scope: entity
+  settings: 
+    foreground: '#92BFBF'
+
+- name: Javascript - White
+  scope: source.js, variable.other.class.js, variable.other.property.static.js, entity.name.function.js, keyword.operator.accessor.js, variable.other.readwrite.js, variable.other.object.js, variable.parameter.function.js, keyword.operator.assignment.js, punctuation.separator.key-value.js, string.unquoted.label.js
+  settings: 
+    foreground: '#f1f1f1'
+
+- name: Javascript - Yellow
+  scope: keyword.control.flow.js, variable.language.this.js, keyword.control.conditional.js
+  settings: 
+    foreground: '#EDE480'
+
+- name: Javascript - Light Blue
+  scope: string.quoted.single.js, string.quoted.single.js entity.name.function.js, variable.parameter.function.js
+  settings: 
+    foreground: '#BDDCDC'
+
+- name: Javascript - Blue
+  scope: meta.group.braces.curly meta.property.class.js variable.other.class.js, source.js meta.group.braces.round meta.function-call.with-arguments.js variable.function.js
+  settings: 
+    foreground: '#92BFBF'
+
+- name: Javascript - Green
+  scope: constant.language.boolean.true.js, constant.language.boolean.false.js
+  settings: 
+    foreground: '#B4D388'
+
+- name: Javascript - Orange
+  scope: meta.group.braces.curly meta.property.class.js variable.other.property.static.js, constant.language.boolean.false.js, source.js meta.group.braces.round meta.function-call.method.with-arguments.js variable.function.js
+  settings: 
+    foreground: '#F49D62'
+
+- name: Handlebars Text
+  scope: text.html.handlebars
+  settings: 
+    foreground: '#f1f1f1'
+
+- name: Handlebars Text
+  scope: text.html.handlebars meta.function.inline.other.handlebars variable.parameter.handlebars, text.html.django storage.type.variable.django string.unquoted.tag-string.django
+  settings: 
+    foreground: '#F49D62'
+
+- name: Handlebars Braces
+  scope: text.html.handlebars meta.function.inline.other.handlebars support.constant.handlebars, meta.function.block.start.swig, support.constant.swig, support.constant.handlebars, entity.tag.tagbraces.django
+  settings: 
+    foreground: '#f1f1f1'
+
+- name: Handlebars Loops
+  scope: text.html.handlebars meta.function.block.start.handlebars support.constant.handlebars, string.unquoted.tag-string.django, keyword.control.filter.django
+  settings: 
+    foreground: '#92BFBF'
+
+- name: Keyword
+  scope: keyword
+  settings: 
+    foreground: '#F49D62'
+
+- name: Storage
+  scope: storage
+  settings: 
+    foreground: '#EDE480'
+
+- name: String
+  scope: string
+  settings: 
+    foreground: '#BDDCDC'
+
+- name: Support
+  scope: support
+  settings: 
+    foreground: '#92BFBF'
+
+- name: Variable
+  scope: variable
+  settings: 
+    foreground: '#F49D62'
+
+- name: Red
+  scope: invalid, keyword.other.important.scss
+  settings: 
+    foreground: '#CF5340'
+
+- name: Embedded Source (Bright)
+  scope: text.html.ruby source
+  settings: 
+    foreground: '#151515'
+
+- name: Entity inherited-class
+  scope: entity.other.inherited-class
+  settings: 
+    foreground: '#B4D388'
+
+- name: String embedded-source
+  scope: string.quoted source
+  settings: 
+    foreground: '#B4D388'
+
+- name: String constant
+  scope: string constant
+  settings: 
+    foreground: '#B4D388'
+
+- name: String.regexp
+  scope: string.regexp
+  settings: 
+    foreground: '#F49D62'
+
+- name: String variable
+  scope: string variable
+  settings: 
+    foreground: '#EDE480'
+
+- name: Support.function
+  scope: support.function
+  settings: 
+    foreground: '#F49D62'
+
+- name: Support.constant
+  scope: support.constant
+  settings: 
+    foreground: '#B4D388'
+
+- name: C&#x2f;C++ Preprocessor Line
+  scope: other.preprocessor.c
+  settings: 
+    foreground: '#92BFBF'
+
+- name: C&#x2f;C++ Preprocessor Directive
+  scope: other.preprocessor.c entity
+  settings: 
+    foreground: '#92BFBF'
+
+- name: Meta.tag.A
+  scope: declaration.tag, declaration.tag entity, meta.tag, meta.tag entity
+  settings: 
+    foreground: '#B4D388'
+
+- name: css tag-name
+  scope: meta.selector.css entity.name.tag, entity.name.tag.scss, source.scss entity.other.attribute-name.pseudo-class.scss, keyword.control.at-rule.include.scss, entity.name.tag.wildcard.scss
+  settings: 
+    foreground: '#EDE480'
+
+- name: css id
+  scope: meta.selector.css entity.other.attribute-name.id, meta.selector.scss entity.other.attribute-name.id, entity.name.tag.reference.scss
+  settings: 
+    foreground: '#F49D62'
+
+- name: css class
+  scope: meta.selector.css entity.other.attribute-name.class, source.scss entity.other.attribute-name.class.css, keyword.other.default.scss
+  settings: 
+    foreground: '#B4D388'
+
+- name: css property-name psuedos and attibutes
+  scope: support.type.property-name.css, invalid.illegal, support.type.property-name.scss, entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.attribute.css, variable.scss, meta.property-name.scss, source.css meta.property-list.css meta.property-name.css
+  settings: 
+    foreground: '#92BFBF'
+
+- name: css property-value
+  scope: meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css, meta.property-group support.constant.property-value.scss, meta.property-value support.constant.property-value.scss, meta.property-list meta.property-value.scss
+  settings: 
+    foreground: '#EDE480'
+
+- name: css @at-rule
+  scope: meta.preprocessor.at-rule keyword.control.at-rule, entity.name.tag.jekyll
+  settings: 
+    foreground: '#F49D62'
+
+- name: css additional-constants
+  scope: meta.property-value support.constant.named-color.css, meta.property-value constant
+  settings: 
+    foreground: '#EDE480'
+
+- name: string quoted single
+  scope: string.quoted.single, storage.type.attr.django, support.variable.jekyll
+  settings: 
+    foreground: '#bddcdc'
+
+- name: css strings and urls
+  scope: source.scss string.quoted.single, source.css string.quoted.double, source.scss string.quoted.double, source.css variable.parameter, variable.parameter.url.scss, string.unquoted.attribute-value.scss, string.unquoted.attribute-value.css
+  settings: 
+    foreground: '#777777'
+
+- name: css constructor.argument
+  scope: meta.constructor.argument.css
+  settings: 
+    foreground: '#F18260'
+
+- name: html id
+  scope: entity.other.attribute-name.id.html
+  settings: 
+    foreground: '#F49D62'
+
+- name: html class
+  scope: entity.other.attribute-name.html
+  settings: 
+    foreground: '#EDE480'
+
+- name: html punctuations tags
+  scope: punctuation.definition.tag.end, punctuation.definition.tag.begin, punctuation.definition.tag
+  settings: 
+    foreground: '#92BFBF'
+
+- name: scss terminators
+  scope: punctuation.section.function.scss, punctuation.terminator.rule.scss, punctuation.separator.key-value.scss
+  settings: 
+    foreground: '#F1F1F1'
+
+- name: css @-rules
+  scope: keyword.control.at-rule.import.css, keyword.control.at-rule.import.scss, keyword.control.at-rule.keyframes.css, keyword.control.at-rule.keyframes.scss
+  settings: 
+    foreground: '#EDE480'
+
+- name: css @media
+  scope: meta.at-rule.media.css, meta.at-rule.media.scss, source.scss meta.property-list.scss meta.property-value.scss variable.scss variable.scss
+  settings: 
+    foreground: '#f49d62'
+
+- name: LESS variables
+  scope: variable.other.less
+  settings: 
+    foreground: '#B4D388'
+
+- name: LESS mixins
+  scope: entity.other.less.mixin
+  settings: 
+    foreground: '#B4D388'
+
+- name: LESS units
+  scope: source.css.less keyword.unit.css
+  settings: 
+    foreground: '#F18260'
+
+- name: Angular
+  scope: entity.other.attribute-name.angular.html, source.angular.embedded.html
+  settings: 
+    foreground: '#F18260'
+
+- name: HTML Entities
+  scope: constant.character.entity.html
+  settings: 
+    foreground: '#F18260'
+
+- name: coffee instance var
+  scope: variable.other.readwrite.instance.coffee
+  settings: 
+    foreground: '#B4D388'
+
+- name: coffee brace
+  scope: meta.brace.round.coffee,meta.brace.square.coffee
+  settings: 
+    foreground: '#EDE480'
+
+- name: coffee embeded
+  scope: punctuation.section.embedded.coffee
+  settings: 
+    foreground: '#B4D388'
+
+- name: Coffee vars
+  scope: variable.assignment.coffee variable.assignment.coffee
+  settings: 
+    foreground: '#DDDDDD'
+
+- name: Coffee dots
+  scope: meta.delimiter.method.period.coffee
+  settings: 
+    foreground: '#F49D62'
+
+- name: Coffee curleys
+  scope: meta.brace.curly.coffee
+  settings: 
+    foreground: '#B4D388'
+
+- name: Doctype&#x2f;XML Processing
+  scope: meta.tag.sgml.doctype.xml, declaration.sgml.html declaration.doctype, declaration.sgml.html declaration.doctype entity, declaration.sgml.html declaration.doctype string, declaration.xml-processing, declaration.xml-processing entity, declaration.xml-processing string, doctype
+  settings: 
+    foreground: '#777777'
+
+- name: Bracket Default
+  scope: brackethighlighter.default
+  settings: 
+    foreground: '#92BFBF'
+
+- name: WordHighlight
+  scope: wordhighlight
+  settings:
+    foreground: '#f49d62'
+    background: '#f49d62'
+
+- name: PHP Keyword
+  scope: keyword.control.php
+  settings: 
+    foreground: '#B4D388'
+
+- name: PHP Keyword Operator
+  scope: keyword.operator.logical.php, keyword.operator.assignment.php, keyword.operator.class.php
+  settings: 
+    foreground: '#999999'
+
+- name: PHP Variable
+  scope: variable.other.property.php
+  settings: 
+    foreground: '#EDE480'
+
+- name: PHP Strings
+  scope: string.regexp.single-quoted.php
+  settings: 
+    foreground: '#BDDCDC'
+
+# DIFF
+
+- name: diff.header
+  scope: meta.diff, meta.diff.header
+  settings: 
+    foreground: '#DDDDDD'
+    background: '#151515'
+
+- name: diff.deleted
+  scope: markup.deleted
+  settings: 
+    foreground: '#CF5340'
+    background: '#151515'
+
+- name: diff.changed
+  scope: markup.changed
+  settings: 
+    foreground: '#92BFBF'
+    background: '#B4D388'
+
+- name: diff.inserted
+  scope: markup.inserted
+  settings: 
+    foreground: '#B4D388'
+    background: '#151515'
+
+# MARKDOWN
+
+- name: Markdown Text
+  scope: text.html.markdown
+  settings:
+    foreground: '#dddddd'
+
+- name: Markdown Heading
+  scope: markup.heading, punctuation.definition.heading.markdown
+  settings:
+    foreground: '#F18260'
+    fontStyle: 'bold'
+
+- name: Bold (Strong)
+  scope: markup.bold, markup.bold.markdown
+  settings:
+    foreground: '#f1f1f1'
+    fontStyle: 'bold'
+
+- name: Italics (Emphasis)
+  scope: markup.italic, markup.italic.markdown
+  settings:
+    foreground: '#f1f1f1'
+    fontStyle: 'italic'
+
+- name: Bold Italics (Strong + Emphasis)
+  scope: markup.italic markup.bold, markup.bold markup.italic,markup.italic.markdown markup.bold.markdown,markup.bold.markdown markup.italic.markdown,markup.bold.markdown markup.italic,markup.italic markup.bold.markdown, markup.bold markup.italic.markdown,
+  settings:
+    foreground: '#f1f1f1'
+    fontStyle: 'bold italic'
+
+- name: Blockquote Links
+  scope: text.html.markdown markup.quote.markdown entity.name.tag, text.html.markdown markup.quote.markdown meta.tag, text.html.markdown markup.quote.markdown meta.tag punctuation.definition.tag, text.html.markdown markup.quote.markdown meta.tag string.quoted meta.string-contents, text.html.markdown markup.quote.markdown meta.tag string.quoted punctuation.definition.string, text.html.markdown markup.quote.markdown meta.tag entity.other.attribute-name, text.html.markdown markup.quote.markdown markup.kbd.content.markdown, text.html.markdown markup.quote.markdown meta.link.inline.markdown
+  settings:
+    foreground: '#4c4c4c'
+
+- name: Blockquote Text
+  scope: markup.quote.markdown, text.html.markdown markup.quote.markdown markup.bold, text.html.markdown markup.quote.markdown markup.bold.markdown, text.html.markdown markup.quote.markdown markup.italic, text.html.markdown markup.quote.markdown markup.italic.markdown, text.html.markdown markup.quote.markdown text.html.markdown, text.html.markdown markup.quote.markdown text.markdown, text.html.markdown markup.quote.markdown string.other.link.title.markdown
+  settings:
+    foreground: '#777777'
+
+- name: Blockquote Markings
+  scope: punctuation.definition.blockquote.markdown
+  settings:
+    foreground: '#4c4c4c'
+    background: '#4c4c4c'
+
+- name: Image
+  scope: meta.link.inline.markdown
+  settings:
+    foreground: '#4c4c4c'
+
+- name: Link Text
+  scope: string.other.link.title.markdown
+  settings:
+    foreground: '#bddcdc'
+
+- name: Image
+  scope: meta.image.inline.markdown
+  settings:
+    foreground: '#ecec89'
+    fontStyle: 'bold'
+
+- name: Strings
+  scope: constant.character, string, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown
+  settings: 
+    foreground: '#92bfbf'
+    fontStyle: 'normal'
+
+- name: Markdown Meta
+  scope: meta.header.multimarkdown,keyword.other.multimarkdown,string.unquoted.multimarkdown,punctuation.separator.key-value.multimarkdown
+  settings:
+    foreground: '#444444'
+    background: '#222222'
+
+- name: Inline code
+  scope: source.smarty.embedded.html, text.html.markdown meta.disable-markdown entity.name.tag, text.html.markdown meta.disable-markdown meta.tag, text.html.markdown meta.disable-markdown meta.tag punctuation.definition.tag, text.html.markdown meta.disable-markdown meta.tag string.quoted meta.string-contents, text.html.markdown meta.disable-markdown meta.tag string.quoted punctuation.definition.string, text.html.markdown meta.disable-markdown meta.tag entity.other.attribute-name, text.html.markdown meta.paragraph.markdown entity.name.tag, text.html.markdown meta.paragraph.markdown meta.tag, text.html.markdown meta.paragraph.markdown meta.tag punctuation.definition.tag, text.html.markdown meta.paragraph.markdown meta.tag string.quoted meta.string-contents, text.html.markdown meta.paragraph.markdown meta.tag string.quoted punctuation.definition.string, text.html.markdown meta.paragraph.markdown meta.tag entity.other.attribute-name, text.html.markdown markup.list entity.name.tag, text.html.markdown markup.list meta.tag, text.html.markdown markup.list meta.tag punctuation.definition.tag, text.html.markdown markup.list meta.tag string.quoted meta.string-contents, text.html.markdown markup.list meta.tag string.quoted punctuation.definition.string, text.html.markdown markup.list meta.tag entity.other.attribute-name, markup.underline, markup.underline.link.markdown, constant.other.reference.link.markdown, meta.image.reference.markdown,
+  settings:
+    foreground: '#4c4c4c'
+
+- name: Keyboard
+  scope: markup.kbd.content.markdown
+  settings:
+    foreground: '#151515'
+    background: '#999999'
+
+- name: Markdown Punctuation
+  scope: punctuation.definition.metadata.markdown, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.constant.markdown, punctuation.separator.key-value.markdown, punctuation.definition.constant.begin.markdown, punctuation.definition.constant.end.markdown, punctuation.definition.bold.markdown, punctuation.definition.italic.markdown, punctuation.definition.strikethrough.markdown
+  settings:
+    foreground: '#4c4c4c'
+
+- name: HTML Tags
+  scope: constant
+  settings:
+    foreground: '#4c4c4c'
+
+- name: Markdown Punctuation
+  scope: 
+  settings:
+    foreground: '#f49d62'
+
+- name: Block code
+  scope: markup.raw.block.markdown
+  settings:
+    foreground: '#999999'
+    # background: '#303030'
+
+- name: Inline code
+  scope: markup.raw.inline.markdown
+  settings:
+    foreground: '#999999'
+    # background: '#303030'
+
+# GIT GUTTER
+
+- name: GitGutter deleted
+  scope: markup.deleted.git_gutter
+  settings:
+    foreground: '#CF5340'
+
+- name: GitGutter changed
+  scope: markup.changed.git_gutter
+  settings: 
+    foreground: '#92BFBF'
+
+- name: GitGutter inserted
+  scope: markup.inserted.git_gutter
+  settings: 
+    foreground: '#B4D388'
+
+- name: GitGutter ignored
+  scope: markup.ignored.git_gutter
+  settings: 
+    foreground: '#777777'
+
+- name: GitGutter untracked
+  scope: markup.untracked.git_gutter
+  settings: 
+    foreground: '#777777'
+
+# SUBLIME LINTER
+
+- name: SublimeLinter Annotations
+  scope: sublimelinter.outline.notes
+  settings: 
+    background: '#EDE480'
+
+- name: SublimeLinter Outline
+  scope: sublimelinter.outline.illegal
+  settings: 
+   background: '#F18260'
+
+- name: SublimeLinter Underline
+  scope: sublimelinter.underline.illegal
+  settings: 
+    background: '#CF5340'
+
+- name: SublimeLinter Warning Outline
+  scope: sublimelinter.outline.warning
+  settings: 
+    background: '#F49D62'
+
+- name: SublimeLinter Warning Underline
+  scope: sublimelinter.underline.warning
+  settings: 
+    background: '#CF5340'
+
+- name: SublimeLinter Violation Outline
+  scope: sublimelinter.outline.violation
+  settings: 
+    background: '#777777'
+
+- name: SublimeLinter Violation Underline
+  scope: sublimelinter.underline.violation
+  settings: 
+    background: '#FF000050'
+
+- name: SublimeLinter Error
+  scope: sublimelinter.mark.error
+  settings: 
+    foreground: '#CF5340'
+
+- name: SublimeLinter Warning
+  scope: sublimelinter.mark.warning
+  settings: 
+    foreground: '#EDE480'
+
+- name: SublimeLinter Gutter Mark
+  scope: sublimelinter.gutter-mark
+  settings: 
+    foreground: '#F1F1F1'
+
