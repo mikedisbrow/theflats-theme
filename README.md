@@ -61,14 +61,12 @@ In your User Preferences file, found at `Sublime Text -> Preferences -> Settings
   * Seafoam - [Screenshot](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/seafoam.png)
   * PreDawn - [Screenshot](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/predawn.png)
   * Oceanic Next - [Screenshot](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/oceanic.png)
-  * Monokai - [Screenshot](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/monokai.png)
   * Monokai Flats - [Screenshot](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/monokai_flats.png)
 
 ```json
   "flats_ui_seafoam": true,
   "flats_ui_predawn": true,
   "flats_ui_oceanic": true,
-  "flats_ui_monokai": true,
   "flats_ui_monokai_flats": true,
 ```
 
@@ -98,7 +96,7 @@ In your User Preferences file, found at `Sublime Text -> Preferences -> Settings
   "flats_font_source_code_pro": true,
 ```
 
-If you want to add support for fonts I have not included, go to your `Packages -> User` folder, create a folder `TheFlats Theme` and inside of it, create a file `TheFlats.sublime-theme` and paste in this code below and change the `X`s to the font family name you'd like to use. 
+If you want to add support for fonts I have not included, go to your `Packages -> User` folder, create a folder `TheFlats Theme` and inside of it, create a file `TheFlats.sublime-theme`.  Paste in the `JSON` code below and change the `X's` to the font family name you'd like to use. 
 
 ```json
 [
@@ -109,6 +107,22 @@ If you want to add support for fonts I have not included, go to your `Packages -
     },
     {
        "class": "tab_label",
+       "settings": ["flats_font_X"],
+       "font.face": "X"
+    },
+    {
+       "class": "tool_tip_label_control",
+       "settings": ["flats_font_X"],
+       "font.face": "X"
+    },
+    {
+       "class": "label_control",
+       "parents": [{"class": "status_bar"}],
+       "settings": ["flats_font_X"],
+       "font.face": "X"
+    },
+    {
+       "class": "sidebar_heading",
        "settings": ["flats_font_X"],
        "font.face": "X"
     },
@@ -156,3 +170,4 @@ If you want to add support for fonts I have not included, go to your `Packages -
 
 ### Known Issues
 1. Depending on font, and font size, you may see descenders of letters slightly cut off in tabs.
+2. Sidebar font options - When changing font size once, and changing it again, it can mess with the line spacing in the sidebar.  **Restarting Sublime will fix it**.  

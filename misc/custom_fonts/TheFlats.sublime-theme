@@ -1,0 +1,85 @@
+[
+    {   
+       "class": "sidebar_label",
+       "settings": ["flats_font_operator"],
+       "font.face": "Operator SSm"
+    },
+    {
+       "class": "tab_label",
+       "settings": ["flats_font_operator"],
+       "font.face": "Operator SSm"
+    },
+    {
+       "class": "tool_tip_label_control",
+       "settings": ["flats_font_operator"],
+       "font.face": "Operator SSm"
+    },
+    // {
+    //    "class": "label_control",
+    //    "parents": [{"class": "status_bar"}],
+    //    "settings": ["flats_font_operator"],
+    //    "font.face": "Operator SSm"
+    // },
+    {
+       "class": "sidebar_heading",
+       "settings": ["flats_font_operator"],
+       "font.face": "Operator SSm"
+    },
+    {
+       "class": "label_control",
+       "settings": ["flats_font_operator"],
+       "font.face": "Operator SSm"
+    },
+    // {
+    //    "class": "label_control",
+    //    "parents": [{"class": "button_control"}],
+    //    "settings": ["flats_font_operator"],
+    //    "font.face": "Operator SSm"
+    // },
+    // {
+    //    "class": "label_control",
+    //    "parents": [{"class": "panel_control"}],
+    //    "settings": ["flats_font_operator"],
+    //    "font.face": "Operator SSm"
+    // },
+    // {
+    //    "class": "quick_panel",
+    //    "settings": ["flats_font_operator"],
+    //    "font.face": "Operator SSm"
+    // },
+    // {
+    //    "class": "quick_panel_row",
+    //    "settings": ["flats_font_operator"],
+    //    "font.face": "Operator SSm"
+    // },
+    // {
+    //    "class": "quick_panel_label",
+    //    "settings": ["flats_font_operator"],
+    //    "font.face": "Operator SSm"
+    // },
+    // {
+    //    "class": "quick_panel_path_label",
+    //    "settings": ["flats_font_operator"],
+    //    "font.face": "Operator SSm"
+    // },
+    // {
+    //    "class": "quick_panel_score_label",
+    //    "settings": ["flats_font_operator"],
+    //    "font.face": "Operator SSm"
+    // },
+    // {
+    //    "class": "mini_quick_panel_row",
+    //    "settings": ["flats_font_operator"],
+    //    "font.face": "Operator SSm"
+    // },
+    // {
+    //    "class": "panel_control",
+    //    "settings": ["flats_font_operator"],
+    //    "font.face": "Operator SSm"
+    // }
+    // {
+    //    "class": "overlay_control",
+    //    "settings": ["flats_font_operator"],
+    //    "font.face": "Operator SSm"
+    // }
+]

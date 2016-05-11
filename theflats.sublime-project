@@ -3,6 +3,9 @@
 	[
 		{
 			"path": "."
+		},
+		{
+			"path": "/Users/miked/Downloads/otto-master"
 		}
 	]
 }
