@@ -117,7 +117,6 @@ If you want to add support for fonts I have not included, go to your `Packages -
     },
     {
        "class": "label_control",
-       "parents": [{"class": "status_bar"}],
        "settings": ["flats_font_X"],
        "font.face": "X"
     },
