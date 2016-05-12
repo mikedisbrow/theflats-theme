@@ -261,6 +261,8 @@ settings:
     foreground: '#ffffff'
     background: '#8BD649'
 
+# SUBLIME LINTER
+
 - name: SublimeLinter Annotations
   scope: sublimelinter.annotations
   settings: 
@@ -314,6 +316,8 @@ settings:
   scope: sublimelinter.gutter-mark
   settings: 
     foreground: '#ffffff'
+
+# GIT GUTTER
 
 - name: GitGutter deleted
   scope: markup.deleted.git_gutter
@@ -623,3 +627,45 @@ settings:
   scope: string.unquoted.plain.out.yaml
   settings: 
     foreground: '#CDD3DE'
+
+# BRACKET HIGHLIGHTER
+
+- name: Bracket Highlighter - Default
+  scope: brackethighlighter.default
+  settings:
+    foreground: '#8EE9BC'
+
+- name: Bracket Highlighter - Tag
+  scope: brackethighlighter.tag
+  settings:
+    foreground: '#8EE9BC'
+
+- name: Bracket Highlighter - Curly
+  scope: brackethighlighter.curly
+  settings:
+    foreground: '#8EE9BC'
+
+- name: Bracket Highlighter - Round
+  scope: brackethighlighter.round
+  settings:
+    foreground: '#8EE9BC'
+
+- name: Bracket Highlighter - Square
+  scope: brackethighlighter.square
+  settings:
+    foreground: '#8EE9BC'
+
+- name: Bracket Highlighter - Angle
+  scope: brackethighlighter.angle
+  settings:
+    foreground: '#8EE9BC'
+
+- name: Bracket Highlighter - Quote
+  scope: brackethighlighter.quote
+  settings:
+    foreground: '#8EE9BC'
+
+- name: Bracket Highlighter - Unmatched
+  scope: brackethighlighter.unmatched
+  settings:
+    foreground: '#E86F6E'

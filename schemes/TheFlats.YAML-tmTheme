@@ -13,7 +13,7 @@ settings:
     caret: '#8EE9BC'
     foreground: '#e0e0e0'
     invisibles: '#424242'
-    lineHighlight: '#00000030'
+    lineHighlight: '#232323'
     selection: '#61616140'
     guide: '#42424261'
     activeGuide: '#424242'
@@ -22,6 +22,8 @@ settings:
     findHighlight: '#8EE9BC'
     shadow: '#00000010'
     tagOptions: 'underline'
+    # minimapBorder: '#8EE9BC25'
+    #inactiveSelection: '#61616120'
 
 - name: Comments
   scope: comment, punctuation.definition.comment

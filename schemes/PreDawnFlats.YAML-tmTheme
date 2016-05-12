@@ -1,7 +1,7 @@
 # [PackageDev] target_format: plist, ext: tmTheme
 ---
 name: PreDawn Flats
-uuid: none
+uuid:
 author: Mike Disbrow (mikedisbrow.github.io)
 
 colorSpaceName: sRGB
@@ -14,13 +14,16 @@ settings:
     foreground: '#F1F1F1'
     invisibles: '#F18260'
     lineHighlight: '#232323'
-    selection: '#4C4C4C'
-    inactiveSelection: '#3C3C3C'
+    selection: '#61616140'
+    #inactiveSelection: '#3C3C3C'
     findHighlight: '#F18260'
-    gutterForeground: '#4C4C4C'
-    guide: '#F1826025'
+    gutterForeground: '#757575'
+    guide: '#42424260'
+    stackGuide: '#42424280'
     activeGuide: '#F1826050'
     minimapBorder: '#F1826025'
+    shadow: '#00000010'
+    tagOptions: 'underline'
 
 - name: Comments
   scope: comment
@@ -142,7 +145,7 @@ settings:
   settings: 
     foreground: '#B4D388'
 
-- name: String.regexp
+- name: Regexp
   scope: string.regexp
   settings: 
     foreground: '#F49D62'
@@ -152,22 +155,22 @@ settings:
   settings: 
     foreground: '#EDE480'
 
-- name: Support.function
+- name: Support function
   scope: support.function
   settings: 
     foreground: '#F49D62'
 
-- name: Support.constant
+- name: Support constant
   scope: support.constant
   settings: 
     foreground: '#B4D388'
 
-- name: C&#x2f;C++ Preprocessor Line
+- name: C and C++ Preprocessor Line
   scope: other.preprocessor.c
   settings: 
     foreground: '#92BFBF'
 
-- name: C&#x2f;C++ Preprocessor Directive
+- name: C and C++ Preprocessor Directive
   scope: other.preprocessor.c entity
   settings: 
     foreground: '#92BFBF'
@@ -202,7 +205,7 @@ settings:
   settings: 
     foreground: '#EDE480'
 
-- name: css @at-rule
+- name: css at-rule
   scope: meta.preprocessor.at-rule keyword.control.at-rule, entity.name.tag.jekyll
   settings: 
     foreground: '#F49D62'
@@ -222,7 +225,7 @@ settings:
   settings: 
     foreground: '#777777'
 
-- name: css constructor.argument
+- name: css constructor argument
   scope: meta.constructor.argument.css
   settings: 
     foreground: '#F18260'
@@ -247,12 +250,12 @@ settings:
   settings: 
     foreground: '#F1F1F1'
 
-- name: css @-rules
+- name: css at rules
   scope: keyword.control.at-rule.import.css, keyword.control.at-rule.import.scss, keyword.control.at-rule.keyframes.css, keyword.control.at-rule.keyframes.scss
   settings: 
     foreground: '#EDE480'
 
-- name: css @media
+- name: css media
   scope: meta.at-rule.media.css, meta.at-rule.media.scss, source.scss meta.property-list.scss meta.property-value.scss variable.scss variable.scss
   settings: 
     foreground: '#f49d62'
@@ -312,21 +315,10 @@ settings:
   settings: 
     foreground: '#B4D388'
 
-- name: Doctype&#x2f;XML Processing
+- name: Doctype and XML Processing
   scope: meta.tag.sgml.doctype.xml, declaration.sgml.html declaration.doctype, declaration.sgml.html declaration.doctype entity, declaration.sgml.html declaration.doctype string, declaration.xml-processing, declaration.xml-processing entity, declaration.xml-processing string, doctype
   settings: 
     foreground: '#777777'
-
-- name: Bracket Default
-  scope: brackethighlighter.default
-  settings: 
-    foreground: '#92BFBF'
-
-- name: WordHighlight
-  scope: wordhighlight
-  settings:
-    foreground: '#f49d62'
-    background: '#f49d62'
 
 - name: PHP Keyword
   scope: keyword.control.php
@@ -347,6 +339,19 @@ settings:
   scope: string.regexp.single-quoted.php
   settings: 
     foreground: '#BDDCDC'
+
+# HIGHLIGHTER
+
+- name: Bracket Default
+  scope: brackethighlighter.default
+  settings: 
+    foreground: '#92BFBF'
+
+- name: WordHighlight
+  scope: wordhighlight
+  settings:
+    foreground: '#f49d62'
+    background: '#f49d62'
 
 # DIFF
 
@@ -373,119 +378,6 @@ settings:
   settings: 
     foreground: '#B4D388'
     background: '#151515'
-
-# MARKDOWN
-
-- name: Markdown Text
-  scope: text.html.markdown
-  settings:
-    foreground: '#dddddd'
-
-- name: Markdown Heading
-  scope: markup.heading, punctuation.definition.heading.markdown
-  settings:
-    foreground: '#F18260'
-    fontStyle: 'bold'
-
-- name: Bold (Strong)
-  scope: markup.bold, markup.bold.markdown
-  settings:
-    foreground: '#f1f1f1'
-    fontStyle: 'bold'
-
-- name: Italics (Emphasis)
-  scope: markup.italic, markup.italic.markdown
-  settings:
-    foreground: '#f1f1f1'
-    fontStyle: 'italic'
-
-- name: Bold Italics (Strong + Emphasis)
-  scope: markup.italic markup.bold, markup.bold markup.italic,markup.italic.markdown markup.bold.markdown,markup.bold.markdown markup.italic.markdown,markup.bold.markdown markup.italic,markup.italic markup.bold.markdown, markup.bold markup.italic.markdown,
-  settings:
-    foreground: '#f1f1f1'
-    fontStyle: 'bold italic'
-
-- name: Blockquote Links
-  scope: text.html.markdown markup.quote.markdown entity.name.tag, text.html.markdown markup.quote.markdown meta.tag, text.html.markdown markup.quote.markdown meta.tag punctuation.definition.tag, text.html.markdown markup.quote.markdown meta.tag string.quoted meta.string-contents, text.html.markdown markup.quote.markdown meta.tag string.quoted punctuation.definition.string, text.html.markdown markup.quote.markdown meta.tag entity.other.attribute-name, text.html.markdown markup.quote.markdown markup.kbd.content.markdown, text.html.markdown markup.quote.markdown meta.link.inline.markdown
-  settings:
-    foreground: '#4c4c4c'
-
-- name: Blockquote Text
-  scope: markup.quote.markdown, text.html.markdown markup.quote.markdown markup.bold, text.html.markdown markup.quote.markdown markup.bold.markdown, text.html.markdown markup.quote.markdown markup.italic, text.html.markdown markup.quote.markdown markup.italic.markdown, text.html.markdown markup.quote.markdown text.html.markdown, text.html.markdown markup.quote.markdown text.markdown, text.html.markdown markup.quote.markdown string.other.link.title.markdown
-  settings:
-    foreground: '#777777'
-
-- name: Blockquote Markings
-  scope: punctuation.definition.blockquote.markdown
-  settings:
-    foreground: '#4c4c4c'
-    background: '#4c4c4c'
-
-- name: Image
-  scope: meta.link.inline.markdown
-  settings:
-    foreground: '#4c4c4c'
-
-- name: Link Text
-  scope: string.other.link.title.markdown
-  settings:
-    foreground: '#bddcdc'
-
-- name: Image
-  scope: meta.image.inline.markdown
-  settings:
-    foreground: '#ecec89'
-    fontStyle: 'bold'
-
-- name: Strings
-  scope: constant.character, string, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown
-  settings: 
-    foreground: '#92bfbf'
-    fontStyle: 'normal'
-
-- name: Markdown Meta
-  scope: meta.header.multimarkdown,keyword.other.multimarkdown,string.unquoted.multimarkdown,punctuation.separator.key-value.multimarkdown
-  settings:
-    foreground: '#444444'
-    background: '#222222'
-
-- name: Inline code
-  scope: source.smarty.embedded.html, text.html.markdown meta.disable-markdown entity.name.tag, text.html.markdown meta.disable-markdown meta.tag, text.html.markdown meta.disable-markdown meta.tag punctuation.definition.tag, text.html.markdown meta.disable-markdown meta.tag string.quoted meta.string-contents, text.html.markdown meta.disable-markdown meta.tag string.quoted punctuation.definition.string, text.html.markdown meta.disable-markdown meta.tag entity.other.attribute-name, text.html.markdown meta.paragraph.markdown entity.name.tag, text.html.markdown meta.paragraph.markdown meta.tag, text.html.markdown meta.paragraph.markdown meta.tag punctuation.definition.tag, text.html.markdown meta.paragraph.markdown meta.tag string.quoted meta.string-contents, text.html.markdown meta.paragraph.markdown meta.tag string.quoted punctuation.definition.string, text.html.markdown meta.paragraph.markdown meta.tag entity.other.attribute-name, text.html.markdown markup.list entity.name.tag, text.html.markdown markup.list meta.tag, text.html.markdown markup.list meta.tag punctuation.definition.tag, text.html.markdown markup.list meta.tag string.quoted meta.string-contents, text.html.markdown markup.list meta.tag string.quoted punctuation.definition.string, text.html.markdown markup.list meta.tag entity.other.attribute-name, markup.underline, markup.underline.link.markdown, constant.other.reference.link.markdown, meta.image.reference.markdown,
-  settings:
-    foreground: '#4c4c4c'
-
-- name: Keyboard
-  scope: markup.kbd.content.markdown
-  settings:
-    foreground: '#151515'
-    background: '#999999'
-
-- name: Markdown Punctuation
-  scope: punctuation.definition.metadata.markdown, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.constant.markdown, punctuation.separator.key-value.markdown, punctuation.definition.constant.begin.markdown, punctuation.definition.constant.end.markdown, punctuation.definition.bold.markdown, punctuation.definition.italic.markdown, punctuation.definition.strikethrough.markdown
-  settings:
-    foreground: '#4c4c4c'
-
-- name: HTML Tags
-  scope: constant
-  settings:
-    foreground: '#4c4c4c'
-
-- name: Markdown Punctuation
-  scope: 
-  settings:
-    foreground: '#f49d62'
-
-- name: Block code
-  scope: markup.raw.block.markdown
-  settings:
-    foreground: '#999999'
-    # background: '#303030'
-
-- name: Inline code
-  scope: markup.raw.inline.markdown
-  settings:
-    foreground: '#999999'
-    # background: '#303030'
 
 # GIT GUTTER
 
@@ -566,3 +458,212 @@ settings:
   settings: 
     foreground: '#F1F1F1'
 
+# YAML
+
+- name: YAML Tag
+  scope: entity.name.tag.yaml
+  settings:
+    foreground: '#B4D388'
+
+- name: YAML String Unquoted
+  scope: string.unquoted.plain.out.yaml
+  settings:
+    foreground: '#e0e0e0'
+
+- name: YAML String quoted
+  scope: string.quoted.single.yaml, string.quoted.double.yaml
+  settings:
+    foreground: '#BDDCDC'
+
+- name: YAML Operators
+  scope: punctuation.definition.block.sequence.item.yaml
+  settings:
+    foreground: '#EDE480'
+
+- name: YAML Punctuation
+  scope: punctuation.separator.key-value.yaml, punctuation.definition.string.end.yaml, punctuation.definition.string.begin.yaml, punctuation.separator.mapping.key-value.yaml
+  settings:
+    foreground: '#e0e0e0'
+
+# JSON
+
+- name: JSON key - Level 8
+  scope: source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  settings:
+    foreground: '#EDE480'
+
+- name: JSON key - Level 7
+  scope: source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  settings:
+    foreground: '#BDDCDC'
+
+- name: JSON key - Level 6
+  scope: source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  settings:
+    foreground: '#B4D388'
+
+- name: JSON key - Level 5
+  scope: source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  settings:
+    foreground: '#92BFBF'
+
+- name: JSON key - Level 4
+  scope: source.json meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  settings:
+    foreground: '#F49D62'
+
+- name: JSON key - Level 3
+  scope: source.json meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  settings:
+    foreground: '#EDE480'
+
+- name: JSON key - Level 2
+  scope: source.json meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  settings:
+    foreground: '#BDDCDC'
+
+- name: JSON key - Level 1
+  scope: source.json meta meta.structure.dictionary.json string.quoted.double.json - meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta.structure.dictionary.json punctuation.definition.string - meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  settings:
+    foreground: '#B4D388'
+
+- name: JSON key - Level 0
+  scope: source.json meta.structure.dictionary.json string.quoted.double.json - meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta.structure.dictionary.json punctuation.definition.string - meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  settings:
+    foreground: '#92BFBF'
+    
+# MARKDOWN GFM
+
+# MARKDOWN GFM
+
+- name: Markdown Code Block
+  scope: markup.raw.block.markdown
+  settings:
+    foreground: '#999999'
+
+- name: Markdown Inline Code
+  scope: markup.raw.inline.markdown
+  settings:
+    foreground: '#999999'
+
+- name: Markdown Inline Code Content
+  scope: markup.raw.inline.content.markdown
+  settings: 
+    foreground: '#999999'
+
+- name: Markdown Text
+  scope: text.html.markdown, text.html.markdown.gfm
+  settings:
+    foreground: '#dddddd'
+
+- name: Markdown Heading
+  scope: markup.heading, markup.heading.markdown, entity.name.section.markdown, punctuation.definition.heading.markdown
+  settings:
+    foreground: '#F18260'
+    fontStyle: 'bold'
+
+- name: Markdown Bold
+  scope: markup.bold, markup.bold.markdown
+  settings:
+    foreground: '#f1f1f1'
+    fontStyle: 'bold'
+
+- name: Markdown Italic
+  scope: markup.italic, markup.italic.markdown
+  settings:
+    foreground: '#f1f1f1'
+    fontStyle: 'italic'
+
+- name: Markdown Strikethrough
+  scope: markup.strikethrough.markdown
+  settings: 
+    foreground: '#f1f1f1'
+    fontStyle: ''
+
+- name: Markdown Bold Italic
+  scope: markup.italic markup.bold, markup.bold markup.italic, markup.italic.markdown markup.bold.markdown, markup.bold.markdown markup.italic.markdown, markup.bold.markdown markup.italic, markup.italic markup.bold.markdown, markup.bold markup.italic.markdown
+  settings:
+    foreground: '#f1f1f1'
+    fontStyle: 'bold italic'
+
+- name: Markdown Link
+  scope: meta.link.inline.markdown, meta.link.inet.markdown, meta.link.email.lt-gt.markdown
+  settings:
+    foreground: '#4c4c4c'
+
+- name: Markdown Block Quote Text
+  scope: markup.quote.markdown, text.html.markdown markup.quote.markdown markup.bold, text.html.markdown markup.quote.markdown markup.bold.markdown, text.html.markdown markup.quote.markdown markup.italic, text.html.markdown markup.quote.markdown markup.italic.markdown, text.html.markdown markup.quote.markdown text.html.markdown, text.html.markdown markup.quote.markdown text.markdown, text.html.markdown markup.quote.markdown string.other.link.title.markdown
+  settings:
+    foreground: '#4c4c4c'
+
+- name: Markdown Link Title
+  scope: string.other.link.title.markdown
+  settings:
+    foreground: '#bddcdc'
+
+- name: Markdown Link Reference
+  scope: meta.link.reference.literal.markdown, meta.link.reference.markdown, meta.link.reference.def.markdown
+  settings:
+    foreground: '#4c4c4c'
+
+- name: Markdown Link Description
+  scope: string.other.link.description.markdown
+  settings:
+    foreground: '#777777'
+
+- name: Markdown Link Description Title
+  scope: string.other.link.description.title.markdown
+  settings:
+    foreground: '#777777'
+
+- name: Markdown Image
+  scope: meta.image.inline.markdown
+  settings:
+    foreground: '#ecec89'
+    fontStyle: 'bold'
+
+- name: Markdown Image Reference
+  scope: constant.other.reference.link.markdown, meta.image.reference.markdown
+  settings:
+    foreground: '#4c4c4c'
+
+- name: Markdown Keyboard
+  scope: markup.kbd.markdown
+  settings:
+    foreground: '#4c4c4c'
+
+- name: Markdown Keyboard Content
+  scope: markup.kbd.content.markdown
+  settings:
+    foreground: '#151515'
+    background: '#999999'
+
+- name: Markdown Punctuation
+  scope: punctuation.definition.metadata.markdown, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.string.markdown, punctuation.definition.constant.markdown, punctuation.separator.key-value.markdown, punctuation.definition.constant.begin.markdown, punctuation.definition.constant.end.markdown, punctuation.definition.bold.markdown, punctuation.definition.italic.markdown, punctuation.definition.strikethrough.markdown, punctuation.definition.blockquote.markdown, punctuation.definition.link.markdown, punctuation.definition.raw.markdown
+  settings:
+    foreground: '#4c4c4c'
+
+- name: Markdown Underline Links, Images
+  scope: markup.underline, markup.underline.link.markdown, markup.underline.link.image.markdown
+  settings:
+    foreground: '#777777'
+
+- name: Markdown List Item
+  scope: punctuation.definition.list_item.markdown
+  settings:
+    foreground: '#B4D388'
+
+- name: Markdown Lists
+  scope: markup.list.unnumbered.markdown, markup.list.numbered.markdown, meta.paragraph.list.markdown
+  settings:
+    foreground: '#dddddd'
+
+- name: Markdown Fenced Code Blocks
+  scope: markup.raw.block.markdown markup.raw.block.fenced.markdown
+  settings:
+    foreground: '#777777'
+
+- name: Markdown Separator
+  scope: meta.separator.markdown
+  settings:
+    foreground: '#4c4c4c'
