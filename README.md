@@ -68,9 +68,8 @@ In your User Preferences file, found at `Sublime Text -> Preferences -> Settings
   "flats_ui_predawn": true,
   "flats_ui_oceanic": true,
   "flats_ui_monokai_flats": true,
+  "flats_ui_no_color": true,
 ```
-
-*I took Monokai Neue and softened some of the colors, because I can't look at that red forever. That's what* `monokai_flats` *is.*
 
 ##### Fonts
 *Menlo, Monaco, and San Francisco are all included with OS X 10.10 and later*
