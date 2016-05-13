@@ -1,5 +1,5 @@
 
-![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/seafoam.png)
+![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/Seafoam.png)
 
 A dark, flat UI theme for Sublime Text 3. Uses Seafoam Green as the default accent color.  I just wanted a theme for myself that used aspects I liked in other themes, so I put them all together, made a bunch of changes, and this is the result.
 
@@ -133,16 +133,16 @@ Check out [CodeFace](https://github.com/chrissimpkins/codeface) for a ton of ope
 ##### The Flats
 *A dark theme, takes a lot from Oceanic Next and Material Dark. Fully supports HTML, CSS, JS, Markdown, GFM Markdown, JSON, SCSS, LESS, YAML, with Bracket Highlighter, Sublime Linter, GitGutter, and WordHighlight all defined. Ruby, PHP, and Python are WIP but more than sufficient as-is.*
 
-![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/highlighting.png)
+![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/flats.png)
 
 ##### Monokai Flats
 *A less loud version of Monokai*
 
-![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/highlighting.png)
+![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/monokaiflats.png)
 
 *I've also included the following color schemes, where I changed the background color, selection, line highlight, guides, gutter foreground, etc. to go with the theme.*
 
-[Material Dark](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/material_syntax.png), [Oceanic Next](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/oceanic_next_syntax.png), and [PreDawn](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/predawn_syntax.png)
+[Material](https://github.com/equinusocio/material-theme), [PreDawn](https://github.com/jamiewilson/predawn), and [Oceanic Next](https://github.com/voronianski/oceanic-next-color-scheme)
 
 ***
 
