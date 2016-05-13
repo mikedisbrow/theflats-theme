@@ -407,7 +407,7 @@
     {
        "class": "grid_layout_control",
        "border_size": 1,
-       "border_color": [32, 32, 32]
+       "border_color": [48,48,48]
     },
 
 // ---------------------------
@@ -556,7 +556,7 @@
   // Sidebar heading
     {
        "class": "sidebar_heading",
-       "color": [224, 224, 224],
+       "color": [189, 189, 189],
        "font.bold": true,
        "font.size": 12,
     },
@@ -589,6 +589,11 @@
        "class": "sidebar_label",
        "parents": [{"class": "tree_row","attributes": ["hover"]}],
        "color": [189, 189, 189]
+    },
+    {
+       "class": "sidebar_label",
+       "parents": [{"class": "tree_row", "attributes": ["expanded", "hover"]}],
+       "color": [142, 233, 188]
     },
     {
        "class": "sidebar_label",
@@ -812,13 +817,13 @@
     {
        "class": "button_control",
        "attributes": ["hover"],
-       "layer0.tint": [50, 50, 50]
+       "layer0.tint": [48, 48, 48]
     },
   // Pressed button state
     {
        "class": "button_control",
        "attributes": ["pressed"],
-       "layer0.tint": [32, 32, 32]
+       "layer0.tint": [35, 35, 35]
     },
 
 // ---------------------------
@@ -876,7 +881,7 @@
   // Quick panel background
     {
        "class": "overlay_control",
-       "layer0.texture": "TheFlats Theme/assets/common/overlay_background.png",
+       "layer0.texture": "TheFlats Theme/assets/less_flat/overlay_background.png",
        "layer0.inner_margin": [16, 4, 16, 33],
        "layer0.opacity": 1.0,
        "layer1.texture": "TheFlats Theme/assets/common/quick_panel_background.png",
