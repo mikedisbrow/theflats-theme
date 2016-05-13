@@ -52,6 +52,9 @@ In your User Preferences file, found at `Sublime Text -> Preferences -> Settings
   "flats_sidebar_font_10": true,
   "flats_sidebar_font_11": true,
   "flats_sidebar_font_14": true,
+  "flats_status_bar_font_10": true,
+  "flats_status_bar_font_11": true,
+  "flats_status_bar_font_14": true,
   "flats_tabs_font_10": true,
   "flats_tabs_font_11": true,
   "flats_tabs_font_14": true,
@@ -126,6 +129,7 @@ If you want to add support for fonts I have not included, go to your `Packages -
     },
 ]
 ```
+
 
 ##### Folder Icons
 

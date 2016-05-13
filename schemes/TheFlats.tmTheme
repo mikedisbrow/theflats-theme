@@ -26,13 +26,13 @@
 				<key>foreground</key>
 				<string>#e0e0e0</string>
 				<key>guide</key>
-				<string>#42424261</string>
+				<string>#42424260</string>
 				<key>gutterForeground</key>
 				<string>#757575</string>
 				<key>invisibles</key>
 				<string>#424242</string>
 				<key>lineHighlight</key>
-				<string>#00000030</string>
+				<string>#232323</string>
 				<key>selection</key>
 				<string>#61616140</string>
 				<key>shadow</key>

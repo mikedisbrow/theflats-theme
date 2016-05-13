@@ -204,6 +204,12 @@
       "settings": ["flats_tabs_bold"],
       "font.bold": true
     },
+    {
+      "class": "tab_label",
+      "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+      "settings": ["flats_tabs_bold_selected"],
+      "font.bold": true
+    },
 
 // ---------------------------
 // TAB SCROLLING
@@ -254,12 +260,7 @@
        "layer0.opacity": 1
     },
   // options
-    {
-       "class": "show_tabs_dropdown_button",
-       "settings": ["flats_hide_tab_scroll_icons"],
-       "content_margin": 0,
-       "layer0.inner_margin": 0
-    },
+    
     {
        "class": "scroll_tabs_right_button",
        "settings": ["flats_hide_tab_scroll_icons"],
@@ -510,13 +511,36 @@
     {
        "class": "label_control",
        "parents": [{"class": "status_bar"}],
-       "color": [117, 117, 117]
-       // "font.size": 10
+       "color": [117, 117, 117],
+       "font.size": 12
     },
     {
        "class": "status_container",
        "content_margin": [8, 2, 8, 2],
-    },  
+    },
+
+// ---------------------------
+// STATUS BAR OPTIONS
+// ---------------------------
+
+    {
+       "class": "label_control",
+       "parents": [{"class": "status_bar"}],
+       "settings": ["flats_status_bar_font_10"],
+       "font.size": 10
+    },
+    {
+       "class": "label_control",
+       "parents": [{"class": "status_bar"}],
+       "settings": ["flats_status_bar_font_11"],
+       "font.size": 11
+    },
+    {
+       "class": "label_control",
+       "parents": [{"class": "status_bar"}],
+       "settings": ["flats_status_bar_font_14"],
+       "font.size": 14
+    },
 
 // ---------------------------
 // SIDEBAR
@@ -881,7 +905,7 @@
   // Quick panel background
     {
        "class": "overlay_control",
-       "layer0.texture": "TheFlats Theme/assets/less_flat/overlay_background.png",
+       "layer0.texture": "TheFlats Theme/assets/common/overlay_background.png",
        "layer0.inner_margin": [16, 4, 16, 33],
        "layer0.opacity": 1.0,
        "layer1.texture": "TheFlats Theme/assets/common/quick_panel_background.png",
@@ -1598,6 +1622,12 @@
          "color": [142, 233, 188]
       },
       {
+         "class": "sidebar_label",
+         "settings": ["flats_ui_seafoam"],
+         "parents": [{"class": "tree_row", "attributes": ["expanded", "hover"]}],
+         "color": [142, 233, 188]
+      },
+      {
          "class": "close_button",
          "settings": ["flats_ui_seafoam"],
          "attributes": ["hover"],
@@ -1871,6 +1901,12 @@
          "color": [241, 130, 96]
       },
       {
+         "class": "sidebar_label",
+         "settings": ["flats_ui_predawn"],
+         "parents": [{"class": "tree_row", "attributes": ["expanded", "hover"]}],
+         "color": [241, 130, 96]
+      },
+      {
          "class": "close_button",
          "settings": ["flats_ui_predawn"],
          "attributes": ["hover"],
@@ -2138,6 +2174,12 @@
          "color": [250, 200, 99]
       },
       {
+         "class": "sidebar_label",
+         "settings": ["flats_ui_oceanic"],
+         "parents": [{"class": "tree_row", "attributes": ["expanded", "hover"]}],
+         "color": [250, 200, 99]
+      },
+      {
          "class": "close_button",
          "settings": ["flats_ui_oceanic"],
          "attributes": ["hover"],
@@ -2399,6 +2441,12 @@
          "class": "sidebar_label",
          "settings": ["flats_ui_monokai_flats"],
          "parents": [{"class": "tree_row","attributes": ["expanded"]}],
+         "color": [250, 62, 131]
+      },
+      {
+         "class": "sidebar_label",
+         "settings": ["flats_ui_monokai_flats"],
+         "parents": [{"class": "tree_row", "attributes": ["expanded", "hover"]}],
          "color": [250, 62, 131]
       },
       {
@@ -2667,6 +2715,12 @@
          "class": "sidebar_label",
          "settings": ["flats_ui_no_color"],
          "parents": [{"class": "tree_row","attributes": ["expanded"]}],
+         "color": [189, 189, 189]
+      },
+      {
+         "class": "sidebar_label",
+         "settings": ["flats_ui_no_color"],
+         "parents": [{"class": "tree_row", "attributes": ["expanded", "hover"]}],
          "color": [189, 189, 189]
       },
       {

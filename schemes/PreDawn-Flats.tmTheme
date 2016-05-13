@@ -24,7 +24,7 @@
 				<key>findHighlight</key>
 				<string>#F18260</string>
 				<key>foreground</key>
-				<string>#F1F1F1</string>
+				<string>#e0e0e0</string>
 				<key>guide</key>
 				<string>#42424260</string>
 				<key>gutterForeground</key>
@@ -53,7 +53,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#777777</string>
+				<string>#757575</string>
 			</dict>
 		</dict>
 		<dict>
@@ -64,7 +64,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#777777</string>
+				<string>#757575</string>
 			</dict>
 		</dict>
 		<dict>
@@ -482,7 +482,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#777777</string>
+				<string>#757575</string>
 			</dict>
 		</dict>
 		<dict>
@@ -691,7 +691,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#777777</string>
+				<string>#757575</string>
 			</dict>
 		</dict>
 		<dict>
@@ -855,7 +855,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#777777</string>
+				<string>#757575</string>
 			</dict>
 		</dict>
 		<dict>
@@ -866,7 +866,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#777777</string>
+				<string>#757575</string>
 			</dict>
 		</dict>
 		<dict>
@@ -932,7 +932,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#777777</string>
+				<string>#757575</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1294,7 +1294,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#777777</string>
+				<string>#757575</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1305,7 +1305,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#777777</string>
+				<string>#757575</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1375,7 +1375,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#777777</string>
+				<string>#757575</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1408,7 +1408,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#777777</string>
+				<string>#757575</string>
 			</dict>
 		</dict>
 		<dict>

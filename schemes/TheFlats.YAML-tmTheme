@@ -15,7 +15,7 @@ settings:
     invisibles: '#424242'
     lineHighlight: '#232323'
     selection: '#61616140'
-    guide: '#42424261'
+    guide: '#42424260'
     activeGuide: '#424242'
     stackGuide: '#42424280'
     gutterForeground: '#757575'

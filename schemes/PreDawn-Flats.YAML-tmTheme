@@ -11,7 +11,7 @@ settings:
 - settings:
     background: '#282828'
     caret: '#F18260'
-    foreground: '#F1F1F1'
+    foreground: '#e0e0e0'
     invisibles: '#F18260'
     lineHighlight: '#232323'
     selection: '#61616140'
@@ -28,12 +28,12 @@ settings:
 - name: Comments
   scope: comment
   settings:
-    foreground: '#777777'
+    foreground: '#757575'
 
 - name: Python Docstring
   scope: string.quoted.double.block.python, text.html.django storage.type.templatetag.django storage.type.attr.django, text.html.jekyll punctuation.tag.jekyll string.quoted.single.jekyll, text.html.swig meta.function.block.start.swig string.quoted.single.html
   settings: 
-    foreground: '#777777'
+    foreground: '#757575'
 
 - name: Constant
   scope: constant
@@ -223,7 +223,7 @@ settings:
 - name: css strings and urls
   scope: source.scss string.quoted.single, source.css string.quoted.double, source.scss string.quoted.double, source.css variable.parameter, variable.parameter.url.scss, string.unquoted.attribute-value.scss, string.unquoted.attribute-value.css
   settings: 
-    foreground: '#777777'
+    foreground: '#757575'
 
 - name: css constructor argument
   scope: meta.constructor.argument.css
@@ -318,7 +318,7 @@ settings:
 - name: Doctype and XML Processing
   scope: meta.tag.sgml.doctype.xml, declaration.sgml.html declaration.doctype, declaration.sgml.html declaration.doctype entity, declaration.sgml.html declaration.doctype string, declaration.xml-processing, declaration.xml-processing entity, declaration.xml-processing string, doctype
   settings: 
-    foreground: '#777777'
+    foreground: '#757575'
 
 - name: PHP Keyword
   scope: keyword.control.php
@@ -399,12 +399,12 @@ settings:
 - name: GitGutter ignored
   scope: markup.ignored.git_gutter
   settings: 
-    foreground: '#777777'
+    foreground: '#757575'
 
 - name: GitGutter untracked
   scope: markup.untracked.git_gutter
   settings: 
-    foreground: '#777777'
+    foreground: '#757575'
 
 # SUBLIME LINTER
 
@@ -436,7 +436,7 @@ settings:
 - name: SublimeLinter Violation Outline
   scope: sublimelinter.outline.violation
   settings: 
-    background: '#777777'
+    background: '#757575'
 
 - name: SublimeLinter Violation Underline
   scope: sublimelinter.underline.violation
@@ -609,12 +609,12 @@ settings:
 - name: Markdown Link Description
   scope: string.other.link.description.markdown
   settings:
-    foreground: '#777777'
+    foreground: '#757575'
 
 - name: Markdown Link Description Title
   scope: string.other.link.description.title.markdown
   settings:
-    foreground: '#777777'
+    foreground: '#757575'
 
 - name: Markdown Image
   scope: meta.image.inline.markdown
@@ -646,7 +646,7 @@ settings:
 - name: Markdown Underline Links, Images
   scope: markup.underline, markup.underline.link.markdown, markup.underline.link.image.markdown
   settings:
-    foreground: '#777777'
+    foreground: '#757575'
 
 - name: Markdown List Item
   scope: punctuation.definition.list_item.markdown
@@ -661,7 +661,7 @@ settings:
 - name: Markdown Fenced Code Blocks
   scope: markup.raw.block.markdown markup.raw.block.fenced.markdown
   settings:
-    foreground: '#777777'
+    foreground: '#757575'
 
 - name: Markdown Separator
   scope: meta.separator.markdown

@@ -1,19 +1,19 @@
 # [PackageDev] target_format: plist, ext: tmTheme
 ---
-name: Material-Darker
+name: Material Darker Flats
 uuid: 
 author: Mike Disbrow (mikedisbrow.github.io)
 
 colorSpaceName: sRGB
 
-semanticClass: Material-Darker.dark
+semanticClass: material.darker.flats.dark
 settings:
 - settings:
     background: '#282828'
     caret: '#FFCC00'
     foreground: '#e0e0e0'
     invisibles: '#424242'
-    lineHighlight: '#00000030'
+    lineHighlight: '#232323'
     selection: '#61616140'
     guide: '#42424260'
     activeGuide: '#6E6E6E'
