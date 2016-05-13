@@ -1,6 +1,5 @@
-## The Flats
 
-![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/window.png)
+![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/seafoam.png)
 
 A dark, flat UI theme for Sublime Text 3. Uses Seafoam Green as the default accent color.  I just wanted a theme for myself that used aspects I liked in other themes, so I put them all together, made a bunch of changes, and this is the result.
 
@@ -34,20 +33,15 @@ In your User Preferences file, found at `Sublime Text -> Preferences -> Settings
 
 ### Settings & Options
 ##### General Settings
-**Defaults**
-
-* *Fonts*: 12pt  
-* *Sidebar*: 8px, 4px
-* *Tabs*: 34px
 
 ```js
   "flats_folder_icons": true,
   "flats_hide_icons": true,
   "flats_hide_tab_scroll_icons": true,
-  "flats_sidebar_tree_small": true,			// 8px 2px
-  "flats_sidebar_tree_large": true,			// 8px 6px	
-  "flats_tabs_small": true,					    // 26px
-  "flats_tabs_large": true,					    // 42px
+  "flats_sidebar_tree_small": true,
+  "flats_sidebar_tree_large": true,
+  "flats_tabs_small": true,
+  "flats_tabs_large": true,
   "flats_tabs_auto_width": true,
   "flats_sidebar_font_10": true,
   "flats_sidebar_font_11": true,
@@ -61,16 +55,17 @@ In your User Preferences file, found at `Sublime Text -> Preferences -> Settings
 ```
 
 ##### UI Accent Colors
-  * Seafoam - [Screenshot](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/seafoam.png)
-  * PreDawn - [Screenshot](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/predawn.png)
-  * Oceanic Next - [Screenshot](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/oceanic.png)
-  * Monokai Flats - [Screenshot](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/monokai_flats.png)
-
+  * [Seafoam](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/seafoam.png)
+  * [Monokai Flats](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/monokai_flats.png)
+  * [Oceanic Next](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/oceanic_next.png)
+  * [PreDawn](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/predawn.png)
+  * [No Color](http://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/no_color.png)
+  
 ```json
   "flats_ui_seafoam": true,
-  "flats_ui_predawn": true,
-  "flats_ui_oceanic": true,
   "flats_ui_monokai_flats": true,
+  "flats_ui_oceanic": true,
+  "flats_ui_predawn": true,
   "flats_ui_no_color": true,
 ```
 
@@ -99,6 +94,8 @@ In your User Preferences file, found at `Sublime Text -> Preferences -> Settings
 ```
 
 If you want to add support for fonts I have not included, go to your `Packages -> User` folder, create a folder `TheFlats Theme` and inside of it, create a file `TheFlats.sublime-theme`.  Paste in the `JSON` code below and change the `X's` to the font family name you'd like to use. 
+
+Check out [CodeFace](https://github.com/chrissimpkins/codeface) for a ton of open source fonts for coding.
 
 ```json
 [
@@ -130,21 +127,28 @@ If you want to add support for fonts I have not included, go to your `Packages -
 ]
 ```
 
-
-##### Folder Icons
-
-![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/folders.png)
-
 ***
+
 ### Color Schemes
 ##### The Flats
 *A dark theme, takes a lot from Oceanic Next and Material Dark. Fully supports HTML, CSS, JS, Markdown, GFM Markdown, JSON, SCSS, LESS, YAML, with Bracket Highlighter, Sublime Linter, GitGutter, and WordHighlight all defined. Ruby, PHP, and Python are WIP but more than sufficient as-is.*
 
 ![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/highlighting.png)
 
-*I've also included the following color schemes. Background color, caret, line highlight, selection, guides, comments, gutter, have all been changed to be consistent with the theme.  Syntax highlighting colors have not been modified at all.*
+##### Monokai Flats
+*A less loud version of Monokai*
 
-[Material Dark](https://github.com/equinusocio/material-theme), [Monokai Neue](https://github.com/josh-kaplan/sublime-monokai-neue), [Oceanic Next](https://github.com/voronianski/oceanic-next-color-scheme), and [PreDawn](https://github.com/jamiewilson/predawn)
+![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/highlighting.png)
+
+*I've also included the following color schemes, where I changed the background color, selection, line highlight, guides, gutter foreground, etc. to go with the theme.*
+
+[Material Dark](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/material_syntax.png), [Oceanic Next](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/oceanic_next_syntax.png), and [PreDawn](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/predawn_syntax.png)
+
+***
+
+##### Folder Icons
+
+![image](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/folders.png)
 
 ***
 
@@ -160,7 +164,7 @@ If you want to add support for fonts I have not included, go to your `Packages -
 
 ### Thanks
 ##### Themes & Color Schemes
-[Spacegray](https://github.com/kkga/spacegray), [Material](https://github.com/equinusocio/material-theme), [PreDawn](https://github.com/jamiewilson/predawn), [Oceanic Next](https://github.com/voronianski/oceanic-next-color-scheme), [Monokai Neue](https://github.com/josh-kaplan/sublime-monokai-neue)
+[Spacegray](https://github.com/kkga/spacegray), [Material](https://github.com/equinusocio/material-theme), [PreDawn](https://github.com/jamiewilson/predawn), [Oceanic Next](https://github.com/voronianski/oceanic-next-color-scheme)
 
 ##### Icons
 [Subway](https://github.com/mariuszostrowski/subway), [Iconic](https://github.com/iconic/open-iconic), [Ionicons](https://github.com/driftyco/ionicons/), [Octicons](https://octicons.github.com/), [Google Material Design](https://design.google.com/icons/)
