@@ -55,10 +55,10 @@ In your User Preferences file, found at `Sublime Text -> Preferences -> Settings
 ```
 
 ##### UI Accent Colors
-  * [Seafoam](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/seafoam.png)
+  * [Seafoam](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/Seafoam.png)
   * [Monokai Flats](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/monokai_flats.png)
   * [Oceanic Next](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/oceanic_next.png)
-  * [PreDawn](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/predawn.png)
+  * [PreDawn](https://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/Predawn.png)
   * [No Color](http://raw.githubusercontent.com/mikedisbrow/theflats-theme/master/misc/screenshots/no_color.png)
   
 ```json
