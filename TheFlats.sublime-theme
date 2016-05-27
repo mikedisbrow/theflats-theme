@@ -2153,8 +2153,8 @@
     // ---------------------------
       {
          "class": "progress_gauge_control",
-         "settings": ["flats_ui_seafoam"],
-         "layer0.tint": [142, 233, 188]
+         "settings": ["flats_ui_oceanic"],
+         "layer0.tint": [250, 200, 99]
       },
     // ---------------------------
     // Button labels
