@@ -36,22 +36,22 @@ settings:
 - name: Strings
   scope: string
   settings:
-    foreground: '#FAEC73'
+    foreground: '#E0DA8B'
 
 - name: Number
   scope: constant.numeric
   settings:
-    foreground: '#BA97FF'
+    foreground: '#C5A8F0'
 
 - name: Built-In Constant
   scope: constant.language
   settings:
-    foreground: '#BA97FF'
+    foreground: '#C5A8F0'
 
 - name: User-Defined Constant
   scope: constant.character, constant.other
   settings:
-    foreground: '#BA97FF'
+    foreground: '#C5A8F0'
 
 - name: Variable
   scope: variable
@@ -61,76 +61,76 @@ settings:
 - name: Keyword
   scope: keyword - (source.c keyword.operator | source.c++ keyword.operator | source.objc keyword.operator | source.objc++ keyword.operator), keyword.operator.word
   settings:
-    foreground: '#FA3E83'
+    foreground: '#F0548D'
 
 - name: JavaScript Dollar
   scope: variable.other.dollar.only.js
   settings:
-    foreground: '#FA3E83'
+    foreground: '#F0548D'
 
 - name: Storage
   scope: storage
   settings:
-    foreground: '#FA3E83'
+    foreground: '#F0548D'
 
 - name: Storage Type
   scope: storage.type
   settings:
-    foreground: '#4AD4F0'
+    foreground: '#90E1F0'
     fontStyle: 'italic'
 
 - name: Entity Name
   scope: entity.name - (entity.name.filename | entity.name.section | entity.name.tag | entity.name.label)
   settings:
-    foreground: '#BBED58'
+    foreground: '#B1E069'
 
 - name: Inherited Class
   scope: entity.other.inherited-class
   settings:
-    foreground: '#BBED58'
+    foreground: '#B1E069'
     fontStyle: italic underline
 
 - name: Function Argument
   scope: variable.parameter
   settings:
-    foreground: '#FCB058'
+    foreground: '#F0AE78'
     fontStyle: 'italic'
 
 - name: Language variable
   scope: variable.language
   settings:
-    foreground: '#FCB058'
+    foreground: '#F0AE78'
     fontStyle: 'italic'
 
 - name: Tag name
   scope: entity.name.tag
   settings:
-    foreground: '#FA3E83'
+    foreground: '#F0548D'
 
 - name: Tag attribute
   scope: entity.other.attribute-name
   settings:
-    foreground: '#BBED58'
+    foreground: '#B1E069'
 
 - name: Function call
   scope: variable.function
   settings:
-    foreground: '#4AD4F0'
+    foreground: '#90E1F0'
 
 - name: Library function
   scope: support.function
   settings:
-    foreground: '#4AD4F0'
+    foreground: '#90E1F0'
 
 - name: Library constant
   scope: support.constant
   settings:
-    foreground: '#4AD4F0'
+    foreground: '#78BAF0'
 
 - name: Library Class Type
   scope: support.type, support.class
   settings:
-    foreground: '#4AD4F0'
+    foreground: '#78BAF0'
     fontStyle: 'italic'
 
 - name: Library variable
@@ -143,64 +143,70 @@ settings:
 - name: CSS Values
   scope: support.constant.property-value.css
   settings:
-    foreground: '#BA97FF'
+    foreground: '#C5A8F0'
+
+- name: CSS Property Name
+  scope: support.type.property-name.css
+  settings:
+    foreground: '#90E1F0'
+    fontStyle: 'italic'
 
 - name: CSS Support.Function
   scope: source.css support.function
   settings:
-    foreground: '#FCB058'
+    foreground: '#78BAF0'
 
 - name: CSS Hash
   scope: punctuation.definition.constant.css
   settings:
-    foreground: '#FA3E83'
+    foreground: '#F0548D'
 
 # JSON
 
 - name: JSON LEVEL 8
   scope: source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
-    foreground: '#FA3E83'
+    foreground: '#F0548D'
 
 - name: JSON LEVEL 7
   scope: source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
-    foreground: '#FCB058'
+    foreground: '#F0AE78'
 
 - name: JSON LEVEL 6
   scope: source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
-    foreground: '#BBED58'
+    foreground: '#B1E069'
 
 - name: JSON LEVEL 5
   scope: source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
-    foreground: '#4AD4F0'
+    foreground: '#90E1F0'
 
 - name: JSON LEVEL 4
   scope: source.json meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
-    foreground: '#FA3E83'
+    foreground: '#F0548D'
 
 - name: JSON LEVEL 3
   scope: source.json meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
-    foreground: '#FCB058'
+    foreground: '#F0AE78'
 
 - name: JSON LEVEL 2
   scope: source.json meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
-    foreground: '#BBED58'
+    foreground: '#B1E069'
 
 - name: JSON LEVEL 1
   scope: source.json meta meta.structure.dictionary.json string.quoted.double.json - meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta.structure.dictionary.json punctuation.definition.string - meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
-    foreground: '#4AD4F0'
+    foreground: '#90E1F0'
 
 - name: JSON LEVEL 0
   scope: source.json meta.structure.dictionary.json string.quoted.double.json - meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta.structure.dictionary.json punctuation.definition.string - meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
-    foreground: '#FA3E83'
+    foreground: '#F0548D'
 # YAML
 
 - name: YAML String Unquoted
@@ -211,7 +217,7 @@ settings:
 - name: YAML String Quoted
   scope: string.quoted.single.yaml, string.quoted.double.yaml
   settings:
-    foreground: '#FAEC73'
+    foreground: '#E0DA8B'
 
 # MARKDOWN GFM
 
@@ -238,7 +244,7 @@ settings:
 - name: Markdown Heading
   scope: markup.heading, markup.heading.markdown, punctuation.definition.heading.markdown
   settings:
-    foreground: '#FA3E83'
+    foreground: '#F0548D'
     fontStyle: 'bold'
 
 - name: Markdown Bold
@@ -268,7 +274,7 @@ settings:
 - name: Markdown Link
   scope: meta.link.inline.markdown, meta.link.inet.markdown, meta.link.email.lt-gt.markdown
   settings:
-    foreground: '#4AD4F0'
+    foreground: '#90E1F0'
 
 - name: Markdown Block Quote Text
   scope: markup.quote.markdown, text.html.markdown markup.quote.markdown markup.bold, text.html.markdown markup.quote.markdown markup.bold.markdown, text.html.markdown markup.quote.markdown markup.italic, text.html.markdown markup.quote.markdown markup.italic.markdown, text.html.markdown markup.quote.markdown text.html.markdown, text.html.markdown markup.quote.markdown text.markdown, text.html.markdown markup.quote.markdown string.other.link.title.markdown
@@ -278,7 +284,7 @@ settings:
 - name: Markdown Link Title
   scope: string.other.link.title.markdown
   settings:
-    foreground: '#BA97FF'
+    foreground: '#C5A8F0'
 
 - name: Markdown Link Reference
   scope: meta.link.reference.literal.markdown, meta.link.reference.markdown, meta.link.reference.def.markdown
@@ -288,7 +294,7 @@ settings:
 - name: Markdown Link Description
   scope: string.other.link.description.markdown
   settings:
-    foreground: '#4AD4F0'
+    foreground: '#90E1F0'
 
 - name: Markdown Link Description Title
   scope: string.other.link.description.title.markdown
@@ -298,7 +304,7 @@ settings:
 - name: Markdown Image
   scope: meta.image.inline.markdown
   settings:
-    foreground: '#FCB058'
+    foreground: '#F0AE78'
 
 - name: Markdown Image Reference
   scope: constant.other.reference.link.markdown, meta.image.reference.markdown
@@ -328,7 +334,7 @@ settings:
 - name: Markdown List Item
   scope: punctuation.definition.list_item.markdown
   settings:
-    foreground: '#BBED58'
+    foreground: '#B1E069'
 
 - name: Markdown Lists
   scope: markup.list.unnumbered.markdown, markup.list.numbered.markdown, meta.paragraph.list.markdown
@@ -355,29 +361,29 @@ settings:
 - name: diff.deleted
   scope: markup.deleted
   settings:
-    foreground: '#FA3E83'
+    foreground: '#F0548D'
 
 - name: diff.inserted
   scope: markup.inserted
   settings:
-    foreground: '#BBED58'
+    foreground: '#B1E069'
 
 - name: diff.changed
   scope: markup.changed
   settings:
-    foreground: '#FAEC73'
+    foreground: '#E0DA8B'
 
 # FIND IN FILES
 
 - name: Find In Files Line
   scope: constant.numeric.line-number.find-in-files - match
   settings:
-    foreground: '#BA97FF'
+    foreground: '#C5A8F0'
 
 - name: File Name
   scope: entity.name.filename
   settings:
-    foreground: '#FAEC73'
+    foreground: '#E0DA8B'
 
 - name: Error Message
   scope: message.error
@@ -389,19 +395,19 @@ settings:
 - name: Invalid
   scope: invalid
   settings:
-    foreground: '#282828'
+    foreground: '#f1f1f1'
     background: '#E86F6E'
 
 - name: Illegal
   scope: invalid.illegal
   settings:
-    foreground: '#282828'
+    foreground: '#f1f1f1'
     background: '#E86F6E'
 
 - name: Depricated
   scope: invalid.deprecated
   settings:
-    foreground: '#282828'
+    foreground: '#f1f1f1'
     background: '#E86F6E'
 
 # GIT GUTTER
