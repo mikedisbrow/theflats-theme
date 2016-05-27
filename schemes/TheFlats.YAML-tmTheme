@@ -285,19 +285,19 @@ settings:
 - name: Invalid
   scope: invalid
   settings:
-    foreground: '#282828'
+    foreground: '#f1f1f1'
     background: '#E86F6E'
 
 - name: Illegal
   scope: invalid.illegal
   settings:
-    foreground: '#282828'
+    foreground: '#f1f1f1'
     background: '#E86F6E'
 
 - name: Depricated
   scope: invalid.deprecated
   settings:
-    foreground: '#282828'
+    foreground: '#f1f1f1'
     background: '#E86F6E'
 
 # BRACKET HIGHLIGHTER

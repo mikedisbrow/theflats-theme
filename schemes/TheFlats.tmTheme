@@ -598,7 +598,7 @@
 				<key>background</key>
 				<string>#E86F6E</string>
 				<key>foreground</key>
-				<string>#282828</string>
+				<string>#f1f1f1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -611,7 +611,7 @@
 				<key>background</key>
 				<string>#E86F6E</string>
 				<key>foreground</key>
-				<string>#282828</string>
+				<string>#f1f1f1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -624,7 +624,7 @@
 				<key>background</key>
 				<string>#E86F6E</string>
 				<key>foreground</key>
-				<string>#282828</string>
+				<string>#f1f1f1</string>
 			</dict>
 		</dict>
 		<dict>
