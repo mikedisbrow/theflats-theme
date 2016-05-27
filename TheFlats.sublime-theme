@@ -842,13 +842,13 @@
     {
        "class": "button_control",
        "attributes": ["hover"],
-       "layer0.tint": [40, 40, 40]
+       "layer0.tint": [45, 45, 45]
     },
   // Pressed button state
     {
        "class": "button_control",
        "attributes": ["pressed"],
-       "layer0.tint": [35, 35, 35]
+       "layer0.tint": [40, 40, 40]
     },
 
 // ---------------------------
