@@ -4,4 +4,4 @@ site
 .Spotlight-V100
 thumbs.db
 .sublime-project
-.sublime-workspace
+*.sublime-workspace
