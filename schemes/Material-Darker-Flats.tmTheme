@@ -33,6 +33,8 @@
 				<string>#424242</string>
 				<key>lineHighlight</key>
 				<string>#232323</string>
+				<key>popupCSS</key>
+				<string> html { background-color: #2d2d2d; color: #e0e0e0; } a { color: #89DDFF; } .error, .deleted { color: #ff5370; } .success, .inserted { color: #F1E655; } .warning, .modified { color: #c792ea; }</string>
 				<key>selection</key>
 				<string>#61616140</string>
 				<key>shadow</key>

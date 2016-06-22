@@ -1,0 +1,408 @@
+# [PackageDev] target_format: plist, ext: tmTheme
+---
+name: Dracula-Flats
+uuid: 
+author: Mike Disbrow (mikedisbrow.github.io)
+
+colorSpaceName: sRGB
+
+semanticClass: theme.dracula.flats
+settings:
+- settings:
+    background: '#282828'
+    caret: '#8EE9BC'
+    foreground: '#f8f8f2'
+    invisibles: '#3B3A32'
+    lineHighlight: '#232323'
+    selection: '#61616140'
+    findHighlight: '#effb7b'
+    findHighlightForeground: '#000000'
+    selectionBorder: '#222218'
+    activeGuide: '#9D550FB0'
+    stackGuide: '#42424280'
+    guide: '#42424260'
+    bracketsForeground: '#F8F8F2A5'
+    bracketsOptions: 'underline'
+    backetContentsForeground: '#F8F8F2A5'
+    bracketContentsOptions: 'underline'
+    tagOptions: 'stippled_underline'
+    popupCSS: '
+          html {
+            background-color: #2d2d2d;
+            color: #e0e0e0;
+          }
+          a {
+            color: #8be9fd;
+          }
+          .error, .deleted {
+            color: #ff79c6;
+          }
+          .success, .inserted {
+            color: #50fa7b;
+          }
+          .warning, .modified {
+            color: #E6DB74;
+          }'
+
+- name: Comments
+  scope: comment
+  settings:
+    foreground: '#6272a4'
+
+- name: String
+  scope: string
+  settings:
+    foreground: '#f1fa8c'
+
+- name: Number
+  scope: constant.numeric
+  settings:
+    foreground: '#bd93f9'
+
+- name: Built-in Constant
+  scope: constant.language
+  settings:
+    foreground: '#bd93f9'
+
+- name: User-Defined Constant
+  scope: constant.character, constant.other
+  settings:
+    foreground: '#bd93f9'
+
+- name: Variable
+  scope: variable
+  settings:
+    foreground: ''
+
+- name: Ruby's @variable
+  scope: variable.other.readwrite.instance
+  settings:
+    foreground: '#ffb86c'
+
+- name: String Interpolation
+  scope: constant.character.escaped, constant.character.escape, string source, string source.ruby
+  settings:
+    foreground: '#ff79c6'
+
+- name: Keyword
+  scope: keyword
+  settings:
+    foreground: '#ff79c6'
+
+- name: Storage
+  scope: storage
+  settings:
+    foreground: '#ff79c6'
+
+- name: Storage Type
+  scope: storage.type
+  settings:
+    foreground: '#8be9fd'
+    fontStyle: 'italic'
+
+- name: Class Name
+  scope: entity.name.class
+  settings:
+    foreground: '#50fa7b'
+    fontStyle: 'underline'
+
+- name: Inherited Class
+  scope: entity.other.inherited-class
+  settings:
+    foreground: '#50fa7b'
+    fontStyle: 'italic underline'
+
+- name: Function Name
+  scope: entity.name.function
+  settings:
+    foreground: '#50fa7b'
+
+- name: Function Argument
+  scope: variable.parameter
+  settings:
+    foreground: '#ffb86c'
+    fontStyle: 'italic'
+
+- name: Tag Name
+  scope: entity.name.tag
+  settings:
+    foreground: '#ff79c6'
+
+- name: Tag Attribute
+  scope: entity.other.attribute-name
+  settings:
+    foreground: '#50fa7b'
+
+- name: Library Function
+  scope: support.function
+  settings:
+    foreground: '#8be9fd'
+
+- name: Library Constant
+  scope: support.constant
+  settings:
+    foreground: '#6be5fd'
+
+- name: Library Class Type
+  scope: support.type, support.class
+  settings:
+    foreground: '#66d9ef'
+    fontStyle: 'italic'
+
+- name: Library Variable
+  scope: support.other.variable
+  settings:
+    foreground: ''
+
+- name: Invalid
+  scope: invalid
+  settings:
+    foreground: '#F8F8F0'
+    background: '#ff79c6'
+
+- name: Invalid Deprecated
+  scope: invalid.deprecated
+  settings:
+    foreground: '#F8F8F0'
+    background: '#bd93f9'
+
+- name: JSON String
+  scope: meta.structure.dictionary.json string.quoted.double.json
+  settings:
+    foreground: '#CFCFC2'
+
+- name: Diff Header
+  scope: meta.diff, meta.diff.header
+  settings:
+    foreground: '#6272a4'
+
+- name: Diff Deleted
+  scope: markup.deleted
+  settings:
+    foreground: '#ff79c6'
+
+- name: Diff Inserted
+  scope: markup.inserted
+  settings:
+    foreground: '#50fa7b'
+
+- name: Diff Changed
+  scope: markup.changed
+  settings:
+    foreground: '#E6DB74'
+
+- name: Find in Files Match
+  scope: constant.numeric.line-number.find-in-files - match
+  settings:
+    foreground: '#bd93f9'
+
+- name: File Name
+  scope: entity.name.filename
+  settings:
+    foreground: '#E6DB74'
+
+- name: Error
+  scope: message.error
+  settings:
+    foreground: '#F83333'
+
+- name: JSON Punctuation
+  scope: punctuation.definition.string.begin.json - meta.structure.dictionary.value.json, punctuation.definition.string.end.json - meta.structure.dictionary.value.json
+  settings:
+    foreground: '#EEEEEE'
+
+- name: JSON Structure
+  scope: meta.structure.dictionary.json string.quoted.double.json
+  settings:
+    foreground: '#8be9fd'
+
+- name: JSON String
+  scope: meta.structure.dictionary.value.json string.quoted.double.json
+  settings:
+    foreground: '#f1fa8c'
+
+- name: JSON 6 Deep
+  scope: meta meta meta meta meta meta meta.structure.dictionary.value string
+  settings:
+    foreground: '#50fa7b'
+
+- name: JSON 5 Deep
+  scope: meta meta meta meta meta meta.structure.dictionary.value string
+  settings:
+    foreground: '#ffb86c'
+
+- name: JSON 4 Deep
+  scope: meta meta meta meta meta.structure.dictionary.value string
+  settings:
+    foreground: '#ff79c6'
+
+- name: JSON 3 Deep
+  scope: meta meta meta meta.structure.dictionary.value string
+  settings:
+    foreground: '#bd93f9'
+
+- name: JSON 2 Deep
+  scope: meta meta meta.structure.dictionary.value string
+  settings:
+    foreground: '#50fa7b'
+
+- name: JSON 1 Deep
+  scope: meta meta.structure.dictionary.value string
+  settings:
+    foreground: '#ffb86c'
+
+
+# MISC
+
+- name: Error Message
+  scope: message.error
+  settings:
+    foreground: '#E86F6E'
+
+# INVALID ILLEGAL DEPRICATED
+
+- name: Invalid
+  scope: invalid
+  settings:
+    foreground: '#f1f1f1'
+    background: '#E86F6E'
+
+- name: Illegal
+  scope: invalid.illegal
+  settings:
+    foreground: '#f1f1f1'
+    background: '#E86F6E'
+
+- name: Depricated
+  scope: invalid.deprecated
+  settings:
+    foreground: '#f1f1f1'
+    background: '#E86F6E'
+
+# GIT GUTTER
+
+- name: Git Gutter - Changed
+  scope: markup.changed.git_gutter
+  settings:
+    foreground: '#FFCB6B'
+
+- name: Git Gutter - Inserted
+  scope: markup.inserted.git_gutter
+  settings:
+    foreground: '#79C26B'
+
+- name: Git Gutter - Deleted
+  scope: markup.deleted.git_gutter
+  settings:
+    foreground: '#E86F6E'
+
+- name: Git Gutter - Ignored
+  scope: markup.ignored.git_gutter
+  settings:
+    foreground: '#424242'
+
+- name: Git Gutter - Untracked
+  scope: markup.untracked.git_gutter
+  settings:
+    foreground: '#616161'
+
+# SUBLIME LINTER
+
+- name: SublimeLinter - Annotations
+  scope: sublimelinter.annotations
+  settings:
+    foreground: '#E0E0E0'
+
+- name: SublimeLinter - Outline Illegal
+  scope: sublimelinter.outline.illegal
+  settings:
+    foreground: '#E86F6E'
+
+- name: SublimeLinter - Underline Illegal
+  scope: sublimelinter.underline.illegal
+  settings:
+    foreground: '#E86F6E'
+
+- name: SublimeLinter - Outline Warning
+  scope: sublimelinter.outline.warning
+  settings:
+    foreground: '#FFCB6B'
+
+- name: SublimeLinter - Underline Warning
+  scope: sublimelinter.underline.warning
+  settings:
+    foreground: '#FFCB6B'
+
+- name: SublimeLinter - Outline Violation
+  scope: sublimelinter.outline.violation
+  settings:
+    foreground: '#E86F6E'
+
+- name: SublimeLinter - Underline Violation
+  scope: sublimelinter.underline.violation
+  settings:
+    foreground: '#E86F6E'
+
+- name: SublimeLinter - Mark Error
+  scope: sublimelinter.mark.error
+  settings:
+    foreground: '#E86F6E'
+
+- name: SublimeLinter - Mark Warning
+  scope: sublimelinter.mark.warning
+  settings:
+    foreground: '#E86F6E'
+
+- name: SublimeLinter - Gutter Mark
+  scope: sublimelinter.gutter-mark
+  settings:
+    foreground: '#E0E0E0'
+
+# BRACKET HIGHLIGHTER
+
+- name: Bracket Highlighter - Default
+  scope: brackethighlighter.default
+  settings:
+    foreground: '#8EE9BC'
+
+- name: Bracket Highlighter - Tag
+  scope: brackethighlighter.tag
+  settings:
+    foreground: '#8EE9BC'
+
+- name: Bracket Highlighter - Curly
+  scope: brackethighlighter.curly
+  settings:
+    foreground: '#8EE9BC'
+
+- name: Bracket Highlighter - Round
+  scope: brackethighlighter.round
+  settings:
+    foreground: '#8EE9BC'
+
+- name: Bracket Highlighter - Square
+  scope: brackethighlighter.square
+  settings:
+    foreground: '#8EE9BC'
+
+- name: Bracket Highlighter - Angle
+  scope: brackethighlighter.angle
+  settings:
+    foreground: '#8EE9BC'
+
+- name: Bracket Highlighter - Quote
+  scope: brackethighlighter.quote
+  settings:
+    foreground: '#8EE9BC'
+
+- name: Bracket Highlighter - Unmatched
+  scope: brackethighlighter.unmatched
+  settings:
+    foreground: '#E86F6E'
+
+# MISC
+
+- name: URL
+  scope: '*url*, *link*, *uri*'
+  settings:
+    fontStyle: underline

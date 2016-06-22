@@ -24,6 +24,23 @@ settings:
     minimapBorder: '#F1826025'
     shadow: '#00000010'
     tagOptions: 'underline'
+    popupCSS: '
+          html {
+            background-color: #2d2d2d;
+            color: #e0e0e0;
+          }
+          a {
+            color: #bddcdc;
+          }
+          .error, .deleted {
+            color: #CF5340;
+          }
+          .success, .inserted {
+            color: #B4D388;
+          }
+          .warning, .modified {
+            color: #92BFBF;
+          }'
 
 - name: Comments
   scope: comment

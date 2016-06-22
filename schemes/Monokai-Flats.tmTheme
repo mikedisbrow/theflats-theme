@@ -31,6 +31,8 @@
 				<string>#8EE9BC</string>
 				<key>findHighlight</key>
 				<string>#FFE792</string>
+				<key>findHighlightForeground</key>
+				<string>#000000</string>
 				<key>foreground</key>
 				<string>#e0e0e0</string>
 				<key>guide</key>
@@ -39,8 +41,12 @@
 				<string>#424242</string>
 				<key>lineHighlight</key>
 				<string>#232323</string>
+				<key>popupCSS</key>
+				<string> html { background-color: #2d2d2d; color: #e0e0e0; } a { color: #90E1F0; } .error, .deleted { color: #F0548D; } .success, .inserted { color: #B1E069; } .warning, .modified { color: #E0DA8B; }</string>
 				<key>selection</key>
 				<string>#61616140</string>
+				<key>selectionBorder</key>
+				<string>#222218</string>
 				<key>stackGuide</key>
 				<string>#42424280</string>
 				<key>tagOptions</key>

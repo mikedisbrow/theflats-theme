@@ -35,6 +35,8 @@
 				<string>#232323</string>
 				<key>minimapBorder</key>
 				<string>#F1826025</string>
+				<key>popupCSS</key>
+				<string> html { background-color: #2d2d2d; color: #e0e0e0; } a { color: #bddcdc; } .error, .deleted { color: #CF5340; } .success, .inserted { color: #B4D388; } .warning, .modified { color: #92BFBF; }</string>
 				<key>selection</key>
 				<string>#61616140</string>
 				<key>shadow</key>

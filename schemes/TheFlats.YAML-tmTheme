@@ -24,6 +24,23 @@ settings:
     tagOptions: 'underline'
     # minimapBorder: '#8EE9BC25'
     #inactiveSelection: '#61616120'
+    popupCSS: '
+          html {
+            background-color: #2d2d2d;
+            color: #e0e0e0;
+          }
+          a {
+            color: #ACDAE6;
+          }
+          .error, .deleted {
+            color: #E86F6E;
+          }
+          .success, .inserted {
+            color: #79C26B;
+          }
+          .warning, .modified {
+            color: #FFCB6B;
+          }'
 
 - name: Comments
   scope: comment, punctuation.definition.comment

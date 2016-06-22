@@ -15,9 +15,9 @@ settings:
     invisibles: '#424242'
     lineHighlight: '#232323'
     selection: '#61616140'
-    # selectionBorder: '#222218'
+    selectionBorder: '#222218'
     findHighlight: '#FFE792'
-    # findHighlightForeground: '#000000'
+    findHighlightForeground: '#000000'
     activeGuide: '#9D550FB0'
     stackGuide: '#42424280'
     guide: '#42424260'
@@ -26,6 +26,23 @@ settings:
     bracketsOptions: 'underline'
     bracketsContentsOptions: 'underline'
     tagOptions: 'stippled_underline'
+    popupCSS: '
+          html {
+            background-color: #2d2d2d;
+            color: #e0e0e0;
+          }
+          a {
+            color: #90E1F0;
+          }
+          .error, .deleted {
+            color: #F0548D;
+          }
+          .success, .inserted {
+            color: #B1E069;
+          }
+          .warning, .modified {
+            color: #E0DA8B;
+          }'
 
 - name: Comments
   scope: comment, punctuation.definition.comment
