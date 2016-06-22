@@ -512,7 +512,7 @@
     {
        "class": "label_control",
        "parents": [{"class": "status_bar"}],
-       "color": [117, 117, 117],
+       "color": [158, 158, 158],
        "font.size": 12
     },
     {
@@ -1200,7 +1200,7 @@
       "class": "panel_button_control",
       "content_margin": [8, 8],
       "layer0.texture": "TheFlats Theme/assets/common/hamburger.png",
-      "layer0.tint": [117, 117, 117],
+      "layer0.tint": [158, 158, 158],
       "layer0.opacity": 1
     },
     {
