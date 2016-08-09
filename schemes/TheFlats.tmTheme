@@ -34,7 +34,7 @@
 				<key>lineHighlight</key>
 				<string>#232323</string>
 				<key>popupCSS</key>
-				<string> html { background-color: #2d2d2d; color: #e0e0e0; } a { color: #ACDAE6; } .error, .deleted { color: #E86F6E; } .success, .inserted { color: #79C26B; } .warning, .modified { color: #FFCB6B; }</string>
+				<string>html { background-color: #2d2d2d; color: #e0e0e0; } a { color: #ACDAE6; } .error, .deleted { color: #E86F6E; } .success, .inserted { color: #79C26B; } .warning, .modified { color: #FFCB6B; }</string>
 				<key>selection</key>
 				<string>#61616140</string>
 				<key>shadow</key>
@@ -126,7 +126,7 @@
 			<key>name</key>
 			<string>Function, Special Method, Block Level</string>
 			<key>scope</key>
-			<string>entity.name.function, meta.function-call, variable.function, support.function, keyword.other.special-method</string>
+			<string>entity.name.function, variable.function, support.function, keyword.other.special-method</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

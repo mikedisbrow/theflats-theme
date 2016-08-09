@@ -24,8 +24,7 @@ settings:
     tagOptions: 'underline'
     # minimapBorder: '#8EE9BC25'
     #inactiveSelection: '#61616120'
-    popupCSS: '
-          html {
+    popupCSS: 'html {
             background-color: #2d2d2d;
             color: #e0e0e0;
           }
@@ -80,7 +79,7 @@ settings:
     foreground: '#A5B0F0'
 
 - name: Function, Special Method, Block Level
-  scope: entity.name.function, meta.function-call, variable.function, support.function, keyword.other.special-method
+  scope: entity.name.function, variable.function, support.function, keyword.other.special-method
   settings:
     foreground: '#8EBBE9'
 

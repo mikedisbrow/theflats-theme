@@ -24,8 +24,7 @@ settings:
     minimapBorder: '#F1826025'
     shadow: '#00000010'
     tagOptions: 'underline'
-    popupCSS: '
-          html {
+    popupCSS: 'html {
             background-color: #2d2d2d;
             color: #e0e0e0;
           }

@@ -1,5 +1,5 @@
-<key>popupCss</key>
-<string><![CDATA[
+phantomCSS
+popupCss
 	html {
 		background-color: #404238;
 		color: #F8F8F2;
@@ -16,4 +16,3 @@
 	.warning, .modified {
 		color: #FD971F;
 	}
-]]></string>

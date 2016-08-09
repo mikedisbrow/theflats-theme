@@ -6,7 +6,7 @@ Thanks for installing The Flats!
 
 Activate the UI theme and color scheme by modifying your user 
 preferences file, which you can find using the menu item 
-`Sublime Text -> Preferences -> Settings - User` (⌘+, on Mac).
+`Sublime Text -> Preferences -> Settings - User` ("⌘ ," on Mac).
 
 *Note: Don't forget to restart Sublime Text after activating the theme.*
 

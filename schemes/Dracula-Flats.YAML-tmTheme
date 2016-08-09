@@ -26,23 +26,22 @@ settings:
     backetContentsForeground: '#F8F8F2A5'
     bracketContentsOptions: 'underline'
     tagOptions: 'stippled_underline'
-    popupCSS: '
-          html {
-            background-color: #2d2d2d;
-            color: #e0e0e0;
-          }
-          a {
-            color: #8be9fd;
-          }
-          .error, .deleted {
-            color: #ff79c6;
-          }
-          .success, .inserted {
-            color: #50fa7b;
-          }
-          .warning, .modified {
-            color: #E6DB74;
-          }'
+    popupCSS: 'html {
+    background-color: #2d2d2d;
+    color: #e0e0e0;
+    }
+    a {
+    color: #8be9fd;
+    }
+    .error, .deleted {
+    color: #ff79c6;
+    }
+    .success, .inserted {
+    color: #50fa7b;
+    }
+    .warning, .modified {
+    color: #E6DB74;
+    }'
 
 - name: Comments
   scope: comment

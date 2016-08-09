@@ -26,8 +26,7 @@ settings:
     bracketsOptions: 'underline'
     bracketsContentsOptions: 'underline'
     tagOptions: 'stippled_underline'
-    popupCSS: '
-          html {
+    popupCSS: 'html {
             background-color: #2d2d2d;
             color: #e0e0e0;
           }
