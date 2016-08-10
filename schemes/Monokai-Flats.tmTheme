@@ -42,7 +42,7 @@
 				<key>lineHighlight</key>
 				<string>#232323</string>
 				<key>popupCSS</key>
-				<string> html { background-color: #2d2d2d; color: #e0e0e0; } a { color: #90E1F0; } .error, .deleted { color: #F0548D; } .success, .inserted { color: #B1E069; } .warning, .modified { color: #E0DA8B; }</string>
+				<string>html { background-color: #2d2d2d; color: #e0e0e0; } a { color: #90E1F0; text-decoration: none; } a:hover { text-decoration: underline; } .error, .deleted { color: #F0548D; } .success, .inserted { color: #B1E069; } .warning, .modified { color: #E0DA8B; }</string>
 				<key>selection</key>
 				<string>#61616140</string>
 				<key>selectionBorder</key>
@@ -118,7 +118,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string></string>
+				<string>#f1f1f1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -269,7 +269,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#78BAF0</string>
+				<string>#C5A8F0</string>
 			</dict>
 		</dict>
 		<dict>
@@ -282,7 +282,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#78BAF0</string>
+				<string>#90E1F0</string>
 			</dict>
 		</dict>
 		<dict>
@@ -293,7 +293,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string></string>
+				<string>#f1f1f1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -322,17 +322,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS Support.Function</string>
-			<key>scope</key>
-			<string>source.css support.function</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#78BAF0</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>CSS Hash</string>
 			<key>scope</key>
 			<string>punctuation.definition.constant.css</string>
@@ -340,6 +329,41 @@
 			<dict>
 				<key>foreground</key>
 				<string>#F0548D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SCSS Values</string>
+			<key>scope</key>
+			<string>meta.property-value.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C5A8F0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SCSS Property Name</string>
+			<key>scope</key>
+			<string>meta.property-name.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#90E1F0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SCSS Punctuation</string>
+			<key>scope</key>
+			<string>punctuation.section.function.scss, punctuation.separator.key-value.scss, punctuation.terminator.rule.scss, meta.property-value.scss punctuation.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e0e0e0</string>
 			</dict>
 		</dict>
 		<dict>

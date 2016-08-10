@@ -32,6 +32,10 @@ settings:
           }
           a {
             color: #90E1F0;
+            text-decoration: none;
+          }
+          a:hover {
+            text-decoration: underline; 
           }
           .error, .deleted {
             color: #F0548D;
@@ -72,7 +76,7 @@ settings:
 - name: Variable
   scope: variable
   settings:
-    foreground: ''
+    foreground: '#f1f1f1'
 
 - name: Keyword
   scope: keyword - (source.c keyword.operator | source.c++ keyword.operator | source.objc keyword.operator | source.objc++ keyword.operator), keyword.operator.word
@@ -141,18 +145,18 @@ settings:
 - name: Library constant
   scope: support.constant
   settings:
-    foreground: '#78BAF0'
+    foreground: '#C5A8F0'
 
 - name: Library Class Type
   scope: support.type, support.class
   settings:
-    foreground: '#78BAF0'
+    foreground: '#90E1F0'
     fontStyle: 'italic'
 
 - name: Library variable
   scope: support.other.variable
   settings:
-    foreground: ''
+    foreground: '#f1f1f1'
 
 # CSS
 
@@ -167,16 +171,29 @@ settings:
     foreground: '#90E1F0'
     fontStyle: 'italic'
 
-- name: CSS Support.Function
-  scope: source.css support.function
-  settings:
-    foreground: '#78BAF0'
-
 - name: CSS Hash
   scope: punctuation.definition.constant.css
   settings:
     foreground: '#F0548D'
 
+# SCSS
+
+- name: SCSS Values
+  scope: meta.property-value.scss
+  settings:
+    foreground: '#C5A8F0'
+
+- name: SCSS Property Name
+  scope: meta.property-name.scss
+  settings:
+    foreground: '#90E1F0'
+    fontStyle: 'italic'
+
+- name: SCSS Punctuation
+  scope: punctuation.section.function.scss, punctuation.separator.key-value.scss, punctuation.terminator.rule.scss, meta.property-value.scss punctuation.scss
+  settings: 
+    foreground: '#e0e0e0'
+    
 # JSON
 
 - name: JSON LEVEL 8
@@ -223,6 +240,7 @@ settings:
   scope: source.json meta.structure.dictionary.json string.quoted.double.json - meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta.structure.dictionary.json punctuation.definition.string - meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
     foreground: '#F0548D'
+
 # YAML
 
 - name: YAML String Unquoted
