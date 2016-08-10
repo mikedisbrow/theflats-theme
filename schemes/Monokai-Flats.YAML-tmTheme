@@ -10,7 +10,7 @@ semanticClass: monokai.flats.dark
 settings:
 - settings:
     background: '#282828'
-    caret: '#8EE9BC'
+    caret: '#F8F8F0'
     foreground: '#e0e0e0'
     invisibles: '#424242'
     lineHighlight: '#232323'
