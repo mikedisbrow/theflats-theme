@@ -26,16 +26,15 @@ settings:
     bracketsOptions: 'underline'
     bracketsContentsOptions: 'underline'
     tagOptions: 'stippled_underline'
-    popupCSS: 'html {
+    popupCSS: '<![CDATA[
+          html {
             background-color: #2d2d2d;
             color: #e0e0e0;
+            padding: 16px;
           }
           a {
             color: #90E1F0;
             text-decoration: none;
-          }
-          a:hover {
-            text-decoration: underline; 
           }
           .error, .deleted {
             color: #F0548D;
@@ -45,7 +44,8 @@ settings:
           }
           .warning, .modified {
             color: #E0DA8B;
-          }'
+          }
+          ]]>'
 
 - name: Comments
   scope: comment, punctuation.definition.comment

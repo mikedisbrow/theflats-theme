@@ -28,7 +28,7 @@
 				<key>bracketsOptions</key>
 				<string>underline</string>
 				<key>caret</key>
-				<string>#8EE9BC</string>
+				<string>#F8F8F0</string>
 				<key>findHighlight</key>
 				<string>#FFE792</string>
 				<key>findHighlightForeground</key>
@@ -42,7 +42,7 @@
 				<key>lineHighlight</key>
 				<string>#232323</string>
 				<key>popupCSS</key>
-				<string>html { background-color: #2d2d2d; color: #e0e0e0; } a { color: #90E1F0; text-decoration: none; } a:hover { text-decoration: underline; } .error, .deleted { color: #F0548D; } .success, .inserted { color: #B1E069; } .warning, .modified { color: #E0DA8B; }</string>
+				<string>&lt;![CDATA[ html { background-color: #2d2d2d; color: #e0e0e0; padding: 16px; } a { color: #90E1F0; text-decoration: none; } .error, .deleted { color: #F0548D; } .success, .inserted { color: #B1E069; } .warning, .modified { color: #E0DA8B; } ]]&gt;</string>
 				<key>selection</key>
 				<string>#61616140</string>
 				<key>selectionBorder</key>

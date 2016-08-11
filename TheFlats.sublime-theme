@@ -576,7 +576,9 @@
     {
        "class": "tree_row",
        "attributes": ["selected"],
-       "layer0.opacity": 1
+       "layer0.opacity": 1.0,
+       "layer0.tint": [255, 255, 255, 255],
+       "layer0.texture": "TheFlats Theme/assets/seafoam/row_highlight.png"
     },
   // Sidebar heading
     {
@@ -608,7 +610,7 @@
     {
        "class": "sidebar_label",
        "parents": [{"class": "tree_row","attributes": ["expanded"]}],
-       "color": [142, 233, 188]
+       "color": [189, 189, 189]
     },
     {
        "class": "sidebar_label",
@@ -618,7 +620,7 @@
     {
        "class": "sidebar_label",
        "parents": [{"class": "tree_row", "attributes": ["expanded", "hover"]}],
-       "color": [142, 233, 188]
+       "color": [224, 224, 224]
     },
     {
        "class": "sidebar_label",
@@ -1620,13 +1622,13 @@
          "class": "sidebar_label",
          "settings": ["flats_ui_seafoam"],
          "parents": [{"class": "tree_row","attributes": ["expanded"]}],
-         "color": [142, 233, 188]
+         "color": [189, 189, 189]
       },
       {
          "class": "sidebar_label",
          "settings": ["flats_ui_seafoam"],
          "parents": [{"class": "tree_row", "attributes": ["expanded", "hover"]}],
-         "color": [142, 233, 188]
+         "color": [224, 224, 224]
       },
       {
          "class": "close_button",
@@ -1651,6 +1653,15 @@
          "settings": ["flats_folder_icons", "flats_ui_seafoam"],
          "attributes": ["expanded"],
          "layer0.tint": [142, 233, 188]
+      },
+      // Sidebar row selected
+      {
+         "class": "tree_row",
+         "settings": ["flats_ui_seafoam"],
+         "attributes": ["selected"],
+         "layer0.opacity": 1.0,
+         "layer0.tint": [255, 255, 255, 255],
+         "layer0.texture": "TheFlats Theme/assets/seafoam/row_highlight.png"
       },
     // ---------------------------
     // Quick Panel
@@ -1899,13 +1910,13 @@
          "class": "sidebar_label",
          "settings": ["flats_ui_predawn"],
          "parents": [{"class": "tree_row","attributes": ["expanded"]}],
-         "color": [241, 130, 96]
+         "color": [189, 189, 189]
       },
       {
          "class": "sidebar_label",
          "settings": ["flats_ui_predawn"],
          "parents": [{"class": "tree_row", "attributes": ["expanded", "hover"]}],
-         "color": [241, 130, 96]
+         "color": [224, 224, 224]
       },
       {
          "class": "close_button",
@@ -1924,6 +1935,15 @@
          "settings": ["flats_folder_icons", "flats_ui_predawn"],
          "attributes": ["expanded"],
          "layer0.tint": [241, 130, 96]
+      },
+      // Sidebar row selected
+      {
+         "class": "tree_row",
+         "settings": ["flats_ui_predawn"],
+         "attributes": ["selected"],
+         "layer0.opacity": 1.0,
+         "layer0.tint": [255, 255, 255, 255],
+         "layer0.texture": "TheFlats Theme/assets/predawn/row_highlight.png"
       },
     // ---------------------------
     // Quick Panel
@@ -2172,13 +2192,13 @@
          "class": "sidebar_label",
          "settings": ["flats_ui_oceanic"],
          "parents": [{"class": "tree_row","attributes": ["expanded"]}],
-         "color": [250, 200, 99]
+         "color": [189, 189, 189]
       },
       {
          "class": "sidebar_label",
          "settings": ["flats_ui_oceanic"],
          "parents": [{"class": "tree_row", "attributes": ["expanded", "hover"]}],
-         "color": [250, 200, 99]
+         "color": [224, 224, 224]
       },
       {
          "class": "close_button",
@@ -2197,6 +2217,15 @@
          "settings": ["flats_folder_icons", "flats_ui_oceanic"],
          "attributes": ["expanded"],
          "layer0.tint": [250, 200, 99]
+      },
+      // Sidebar row selected
+      {
+         "class": "tree_row",
+         "settings": ["flats_ui_oceanic"],
+         "attributes": ["selected"],
+         "layer0.opacity": 1.0,
+         "layer0.tint": [255, 255, 255, 255],
+         "layer0.texture": "TheFlats Theme/assets/oceanic/row_highlight.png"
       },
     // ---------------------------
     // Quick Panel
@@ -2442,13 +2471,13 @@
          "class": "sidebar_label",
          "settings": ["flats_ui_monokai_flats"],
          "parents": [{"class": "tree_row","attributes": ["expanded"]}],
-         "color": [240, 84, 141]
+         "color": [189, 189, 189]
       },
       {
          "class": "sidebar_label",
          "settings": ["flats_ui_monokai_flats"],
          "parents": [{"class": "tree_row", "attributes": ["expanded", "hover"]}],
-         "color": [240, 84, 141]
+         "color": [224, 224, 224]
       },
       {
          "class": "close_button",
@@ -2467,6 +2496,15 @@
          "settings": ["flats_folder_icons", "flats_ui_monokai_flats"],
          "attributes": ["expanded"],
          "layer0.tint": [240, 84, 141]
+      },
+      // Sidebar row selected
+      {
+         "class": "tree_row",
+         "settings": ["flats_ui_monokai_flats"],
+         "attributes": ["selected"],
+         "layer0.opacity": 1.0,
+         "layer0.tint": [255, 255, 255, 255],
+         "layer0.texture": "TheFlats Theme/assets/monokai_flats/row_highlight.png"
       },
     // ---------------------------
     // Quick Panel
