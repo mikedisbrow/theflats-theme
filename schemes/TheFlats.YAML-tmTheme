@@ -12,9 +12,9 @@ settings:
     background: '#282828'
     caret: '#8EE9BC'
     foreground: '#e0e0e0'
-    invisibles: '#424242'
-    lineHighlight: '#232323'
-    selection: '#61616140'
+    invisibles: '#4E4E4E'
+    lineHighlight: '#42424240'
+    selection: '#42424240'
     guide: '#42424260'
     activeGuide: '#424242'
     stackGuide: '#42424280'
@@ -25,7 +25,7 @@ settings:
     # minimapBorder: '#8EE9BC25'
     #inactiveSelection: '#61616120'
     popupCSS: 'html {
-            background-color: #2d2d2d;
+            background-color: #282828;
             color: #e0e0e0;
           }
           a {
@@ -40,16 +40,17 @@ settings:
           .warning, .modified {
             color: #FFCB6B;
           }'
-
+    
 - name: Comments
   scope: comment, punctuation.definition.comment
   settings:
     foreground: '#757575'
+    fontStyle: 'italic'
 
 - name: Variable
   scope: variable
   settings:
-    foreground: '#ACDAE6'
+    foreground: ''
 
 - name: Keyword
   scope: keyword 
@@ -118,12 +119,12 @@ settings:
 - name: entity.name.method.js
   scope: entity.name.method.js
   settings:
-    foreground: '#e0e0e0'
+    foreground: ''
 
 - name: meta.method.js
   scope: meta.class-method.js entity.name.function.js, variable.function.constructor
   settings:
-    foreground: '#e0e0e0'
+    foreground: ''
 
 - name: Attributes
   scope: entity.other.attribute-name

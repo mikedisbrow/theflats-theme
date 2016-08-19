@@ -30,13 +30,13 @@
 				<key>gutterForeground</key>
 				<string>#757575</string>
 				<key>invisibles</key>
-				<string>#424242</string>
+				<string>#4E4E4E</string>
 				<key>lineHighlight</key>
-				<string>#232323</string>
+				<string>#42424240</string>
 				<key>popupCSS</key>
-				<string>html { background-color: #2d2d2d; color: #e0e0e0; } a { color: #ACDAE6; } .error, .deleted { color: #E86F6E; } .success, .inserted { color: #79C26B; } .warning, .modified { color: #FFCB6B; }</string>
+				<string>html { background-color: #282828; color: #e0e0e0; } a { color: #ACDAE6; } .error, .deleted { color: #E86F6E; } .success, .inserted { color: #79C26B; } .warning, .modified { color: #FFCB6B; }</string>
 				<key>selection</key>
-				<string>#61616140</string>
+				<string>#42424240</string>
 				<key>shadow</key>
 				<string>#00000010</string>
 				<key>stackGuide</key>
@@ -52,6 +52,8 @@
 			<string>comment, punctuation.definition.comment</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
 				<key>foreground</key>
 				<string>#757575</string>
 			</dict>
@@ -64,7 +66,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ACDAE6</string>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -126,7 +128,7 @@
 			<key>name</key>
 			<string>Function, Special Method, Block Level</string>
 			<key>scope</key>
-			<string>entity.name.function, variable.function, support.function, keyword.other.special-method</string>
+			<string>entity.name.function, meta.function-call, variable.function, support.function, keyword.other.special-method</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -209,7 +211,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#e0e0e0</string>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -220,7 +222,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#e0e0e0</string>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>

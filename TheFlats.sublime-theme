@@ -431,7 +431,7 @@
      "class": "minimap_control",
      "attributes": ["hover"],
      "settings": ["!always_show_minimap_viewport"],
-     "viewport_opacity": { "target": 0.4, "speed": 20.0, "interpolation": "smoothstep" }
+     "viewport_opacity": { "target": 0.4, "speed": 4.0, "interpolation": "smoothstep" }
   },
 
 // ---------------------------
@@ -549,7 +549,7 @@
   // Sidebar container
     {
        "class": "sidebar_container",
-       "layer0.opacity": 1,
+       "layer0.opacity": 1, 
        "layer0.tint": [40, 40, 40],
        "layer0.inner_margin": [1,5,2,1],
        "content_margin": [0,4,0,0]
@@ -587,7 +587,6 @@
        "font.bold": true,
        "font.size": 12,
     },
-    
   // Sidebar heading selected
     {
        "class": "sidebar_heading",
@@ -600,7 +599,6 @@
        "color": [117, 117, 117],
        "font.size": 12 
     },
-    
   // Sidebar folder entry
     {
        "class": "sidebar_label",
