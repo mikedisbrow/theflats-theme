@@ -25,7 +25,7 @@ settings:
     # minimapBorder: '#8EE9BC25'
     #inactiveSelection: '#61616120'
     popupCSS: 'html {
-            background-color: #282828;
+            background-color: #353535;
             color: #e0e0e0;
           }
           a {
